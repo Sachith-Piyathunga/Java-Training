@@ -1,18 +1,8 @@
 // Java Identifiers
 public class Training{
     public static void main(String[] args){
-        // Create integer variables
-        int length = 4;
-        int width = 6;
-        int area;
-
-        // Calculate the area of a rectangle
-        area  = length *width;
-
-        // Print variables
-        System.out.println("length is: " + length);
-        System.out.println("width is: " + width);
-        System.out.println("Area of the rectangle is: " + area);
+        byte myNum = 100;
+        System.out.println(myNum);
 
 
     }
@@ -36,4 +26,20 @@ public class Training{
         System.out.println(studentMarks);
         System.out.println(studentgrade);
 
+        // Create integer variables
+        int length = 4;
+        int width = 6;
+        int area;
+
+        // Calculate the area of a rectangle
+        area  = length *width;
+
+        // Print variables
+        System.out.println("length is: " + length);
+        System.out.println("width is: " + width);
+        System.out.println("Area of the rectangle is: " + area);
+
+        there are 2 data types 
+        Primitive data types - includes byte, short, int, long, float, double, boolean and char
+        Non-primitive data types - such as String, Arrays and Classes
         */
