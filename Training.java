@@ -1,6 +1,18 @@
 // Java Identifiers
-public class Training{
-    public static void main(String[] args){
+public class Training {
+    public static void main(String[] args) {
+        String myName = "Sachitha Chamod Piyathunga";
+        
+        System.out.println("The length of my name is: " + myName.length());
+
+    }
+}
+
+/*
+        int minutesPerhour = 60; //"minutesPerhour" good java Identifier for variable
+        String check = "commits are working properly";
+        
+        
         //Widening Casting
         int myInt = 5;
         double  myDouble = myInt; // Automatic casting: int to double
@@ -23,13 +35,6 @@ public class Training{
 
         System.out.println("User's percentage is: " + percentage);
 
-    }
-}
-
-/*
-        int minutesPerhour = 60; //"minutesPerhour" good java Identifier for variable
-        String check = "commits are working properly";
-        
         int  item = 30;
         float costPerItem = 6.5f;
         float totalCost = item * costPerItem;
