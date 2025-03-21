@@ -1,15 +1,35 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
-        String fName = "Sachintha ";
-        String lName = "Chamod";
+        //test java string special caracters
+        String txt = "I\'m Sachintha";
+        String txt1 = "Mya name is \"Sachintha\"";
+        String txt2 = "The caracter \\ is called backslash";
 
-        System.out.println(fName.concat(lName));// concatenate 2 String
+        System.out.println(txt);
+        System.out.println(txt1);
+        System.out.println(txt2);
+
+        String txt3 = "Hello\rWorld!";// Carriage Return
+        System.out.println(txt3);
+
+        String txt4 = "Hello\tWorld!";// Tab
+        System.out.println(txt4);
+
+        String txt5 = "Hello\nWorld!";//next line
+        System.out.println(txt5);
         
     }
 }
 
 /*
+       
+        
+        String fName = "Sachintha ";
+        String lName = "Chamod";
+
+        System.out.println(fName.concat(lName));// concatenate 2 String
+
         int minutesPerhour = 60; //"minutesPerhour" good java Identifier for variable
         String check = "commits are working properly";
         
