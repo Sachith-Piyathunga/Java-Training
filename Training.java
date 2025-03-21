@@ -1,13 +1,27 @@
 // Java Identifiers
 public class Training{
     public static void main(String[] args){
-        char myGrade = 'A';
-        char myVar = 22, myVar1 = 20;
+        //Widening Casting
+        int myInt = 5;
+        double  myDouble = myInt; // Automatic casting: int to double
 
-        System.out.println(myGrade);
-        System.out.println(myVar);
-        System.out.println(myVar1);
+        System.out.println(myInt);
+        System.out.println(myDouble);
 
+        double  myDouble1 = 5.6d;
+        int myInt1 = (int)  myDouble1;// Manual casting: double to int
+
+        System.out.println(myDouble1);
+        System.out.println(myInt1);
+
+        // Example
+        int maxScore = 400;// max score of the game
+        int  userScore = 350; // the score of the user
+        
+        //To calculatethe presentage of this
+        float percentage = (float) userScore / maxScore * 100.0f;
+
+        System.out.println("User's percentage is: " + percentage);
 
     }
 }
@@ -15,6 +29,23 @@ public class Training{
 /*
         int minutesPerhour = 60; //"minutesPerhour" good java Identifier for variable
         String check = "commits are working properly";
+        
+        int  item = 30;
+        float costPerItem = 6.5f;
+        float totalCost = item * costPerItem;
+        char currency = '$';
+
+        System.out.println("Number of items: " + item);
+        System.out.println("Cost per item: " + currency + costPerItem);
+        System.out.println("Total cost: " + currency + totalCost);
+        
+        char myGrade = 'A';
+        char myVar = 22, myVar1 = 20;
+
+        System.out.println(myGrade);
+        System.out.println(myVar);
+        System.out.println(myVar1);
+
 
         System.out.println(minutesPerhour);
         System.out.println(check); 
