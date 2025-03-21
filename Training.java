@@ -1,6 +1,18 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
+        String fName = "Sachintha ";
+        String lName = "Chamod";
+
+        System.out.println(fName.concat(lName));// concatenate 2 String
+        
+    }
+}
+
+/*
+        int minutesPerhour = 60; //"minutesPerhour" good java Identifier for variable
+        String check = "commits are working properly";
+        
         String myName = "Sachitha Chamod Piyathunga";
         
         System.out.println("The length of my name is: " + myName.length());
@@ -9,16 +21,9 @@ public class Training {
 
         String txt = "My name is Sachintha. Isthat true??";
 
-        System.out.println(txt.indexOf("Sachintha"));
+        System.out.println(txt.indexOf("Sachintha"));// finding where the caracters are located
 
-    }
-}
 
-/*
-        int minutesPerhour = 60; //"minutesPerhour" good java Identifier for variable
-        String check = "commits are working properly";
-        
-        
         //Widening Casting
         int myInt = 5;
         double  myDouble = myInt; // Automatic casting: int to double
