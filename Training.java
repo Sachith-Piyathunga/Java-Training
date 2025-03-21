@@ -1,8 +1,11 @@
 // Java Identifiers
 public class Training{
     public static void main(String[] args){
-        byte myNum = 100;
-        System.out.println(myNum);
+        boolean isJavaFun  = true;
+        boolean isJavaBad = false;
+
+        System.out.println(isJavaFun);
+        System.out.println(isJavaBad);
 
 
     }
