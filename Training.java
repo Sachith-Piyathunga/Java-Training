@@ -1,8 +1,38 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
-    
-            System.out.println(Math.max(26, 50));// find max value
+        int myAge = 25; // simple if else condition
+        int johnAge  = 30;
+
+        if(myAge >= johnAge) {
+            System.out.println("I\'m older than John");
+        } else {
+            System.out.println("I\'m still younge than John");
+        }
+
+        // Simple if condition
+        if (500 > 400) {
+            System.out.println("500 is grater than 400");
+        }
+
+        //bsic else if condition
+        int time = 23;
+        
+        if (time < 11) {
+            System.out.println("Good mornning");
+        } else if (time <18) {
+            System.out.println("Good day");
+        } else {
+            System.out.println("Good evening");
+        }
+
+        
+
+    }
+}
+
+/*
+        System.out.println(Math.max(26, 50));// find max value
             System.out.println(Math.min(5, 10));//Find minimum value
             System.out.println(Math.sqrt(81));//Find squreroot of the nuumber
             System.out.println(Math.abs(-4.5));//Return positive value
@@ -10,14 +40,6 @@ public class Training {
             
             int randomNumber = (int)(Math.random() * 50);//0 to 50 any number
             System.out.println(randomNumber);
-
-
-        
-    }
-}
-
-/*
-
 
        //test java string special caracters
         String txt = "I\'m Sachintha";
