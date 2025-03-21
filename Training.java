@@ -1,7 +1,25 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
-        //test java string special caracters
+    
+            System.out.println(Math.max(26, 50));// find max value
+            System.out.println(Math.min(5, 10));//Find minimum value
+            System.out.println(Math.sqrt(81));//Find squreroot of the nuumber
+            System.out.println(Math.abs(-4.5));//Return positive value
+            System.out.println(Math.random());//Returns a random number between 0.0 (inclusive), and 1.0
+            
+            int randomNumber = (int)(Math.random() * 50);//0 to 50 any number
+            System.out.println(randomNumber);
+
+
+        
+    }
+}
+
+/*
+
+
+       //test java string special caracters
         String txt = "I\'m Sachintha";
         String txt1 = "Mya name is \"Sachintha\"";
         String txt2 = "The caracter \\ is called backslash";
@@ -18,12 +36,6 @@ public class Training {
 
         String txt5 = "Hello\nWorld!";//next line
         System.out.println(txt5);
-        
-    }
-}
-
-/*
-       
         
         String fName = "Sachintha ";
         String lName = "Chamod";
