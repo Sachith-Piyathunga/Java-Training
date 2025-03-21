@@ -1,11 +1,12 @@
 // Java Identifiers
 public class Training{
     public static void main(String[] args){
-        boolean isJavaFun  = true;
-        boolean isJavaBad = false;
+        char myGrade = 'A';
+        char myVar = 22, myVar1 = 20;
 
-        System.out.println(isJavaFun);
-        System.out.println(isJavaBad);
+        System.out.println(myGrade);
+        System.out.println(myVar);
+        System.out.println(myVar1);
 
 
     }
