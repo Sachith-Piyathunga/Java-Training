@@ -4,6 +4,12 @@ public class Training {
         String myName = "Sachitha Chamod Piyathunga";
         
         System.out.println("The length of my name is: " + myName.length());
+        System.out.println(myName.toUpperCase());
+        System.out.println(myName.toLowerCase());
+
+        String txt = "My name is Sachintha. Isthat true??";
+
+        System.out.println(txt.indexOf("Sachintha"));
 
     }
 }
