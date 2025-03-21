@@ -1,6 +1,19 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
+        // basic Java short hand if...else
+        // this is simplae and efective way
+        int time = 18;
+
+        String result = (time < 14) ? "Good day" : "Good evening";
+        System.out.println(result);
+
+        
+
+    }
+}
+
+/*      
         int myAge = 25; // simple if else condition
         int johnAge  = 30;
 
@@ -26,12 +39,6 @@ public class Training {
             System.out.println("Good evening");
         }
 
-        
-
-    }
-}
-
-/*
         System.out.println(Math.max(26, 50));// find max value
             System.out.println(Math.min(5, 10));//Find minimum value
             System.out.println(Math.sqrt(81));//Find squreroot of the nuumber
