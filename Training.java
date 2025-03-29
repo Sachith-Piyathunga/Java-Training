@@ -1,6 +1,49 @@
+import java.util.Scanner;
+
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
+        //Scanner scn = new Scanner(System.in);  //Add Scanner to yser input
+
+        //System.out.println("Enter 1 to 7 weekdays: ");
+        //int num = scn.nextInt();
+
+        //Java switch statements
+        switch (scn) {
+            case 1:
+                System.out.println("Monday");
+                break;
+        
+            case 2:
+                System.out.println("Tuesday");
+                break;
+
+            case 3:
+                System.out.println("Wednesday");
+                break;
+
+            case 4:
+                System.out.println("Thurseday");
+                break;
+            
+            case 5:
+                System.out.println("Friday");
+                break;
+
+            case 6:
+                System.out.println("Saturday");
+                break;
+
+            case 7:
+                System.out.println("Sunday");
+                break;
+        }
+
+
+    }
+}
+
+/*      
         //  My6 intervive queaction
         int num = 5;
 
@@ -10,12 +53,6 @@ public class Training {
             System.out.println(num + " is odd number");
         }
 
-        
-
-    }
-}
-
-/*      
         // basic Java short hand if...else
         // this is simplae and efective way
         int time = 18;
