@@ -9,7 +9,9 @@ public class Training {
         //int num = scn.nextInt();
 
         //Java switch statements
-        switch (scn) {
+        int day = 5;
+
+        switch (day) {
             case 1:
                 System.out.println("Monday");
                 break;
