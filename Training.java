@@ -4,17 +4,16 @@
 public class Training {
     public static void main(String[] args) {
           /**
-           * Java nested loop
-           * it means loop inside anothe loop  = inner loop
-           */
-          for(int i = 1; i < 2; i++){
-            System.out.println("Outter loop: " + i);
-            
-            for(int j = 1; j < 3; j++){
-                System.out.println("Inner loop: " + j);
+           * for-each loop
+           * for (type variableName : arrayName) {
+                // code block to be executed
             }
-          }
-
+                used with arrys
+           */
+            String [] cars = {"BMW", "Benz", "VOLVO", "HONDA", "TOYOTA"};
+            for (String i : cars) {
+                System.out.println(i);
+            }
 
         }
     }
@@ -25,6 +24,18 @@ public class Training {
 
 
 /*  
+    /**
+           * Java nested loop
+           * it means loop inside anothe loop  = inner loop
+           
+          for(int i = 1; i < 2; i++){
+            System.out.println("Outter loop: " + i);
+            
+            for(int j = 1; j < 3; j++){
+                System.out.println("Inner loop: " + j);
+            }
+          }
+
     /**
            * Java for loop
            * when we know how many times we need to loop the condion use for loop insted of while loop
