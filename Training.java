@@ -1,8 +1,25 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
+        /**
+         * Try java while loop
+         * while loop only run when tthe set conndition is  ture
+         * while (condition){
+         *   //code is here
+         * }
+         */
+        //  Basic while loop
+        int i = 0;
+        while(i<5){
+            System.out.println(i);
+            i++;
+        }
+    }
+}
+
+/*      
         //Set a defult keyword to switch case
         int day = 4;
 
@@ -16,14 +33,10 @@ public class Training {
         
             default:
             System.out.println("Looking forward to the weekrnd");
-                break;
+                break;  // Is there not any casses match to  the set args it pass the value to defult keyword 
         }
 
 
-    }
-}
-
-/*      
         //Scanner scn = new Scanner(System.in);  //Add Scanner to yser input
 
         //System.out.println("Enter 1 to 7 weekdays: ");
