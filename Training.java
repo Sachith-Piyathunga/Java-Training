@@ -3,17 +3,20 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
-          /**
-           * for-each loop
-           * for (type variableName : arrayName) {
-                // code block to be executed
-            }
-                used with arrys
-           */
-            String [] cars = {"BMW", "Benz", "VOLVO", "HONDA", "TOYOTA"};
-            for (String i : cars) {
-                System.out.println(i);
-            }
+        // try real life examples
+          for(int i = 0; i <= 100; i +=10){
+            System.out.println(i);
+          }
+           for(int j = 0; j <= 10; j +=2){
+            System.out.println(j);
+           }
+
+           int num = 2;
+
+           // print multification table for the number 2
+           for(int k = 0; k<=10; k++){
+            System.out.println(num + " x " + k + " = " + (num * k));
+           }
 
         }
     }
@@ -24,6 +27,18 @@ public class Training {
 
 
 /*  
+    /**
+           * for-each loop
+           * for (type variableName : arrayName) {
+                // code block to be executed
+            }
+                used with arrys
+           
+          String [] cars = {"BMW", "Benz", "VOLVO", "HONDA", "TOYOTA"};
+          for (String i : cars) {
+              System.out.println(i);
+          }
+
     /**
            * Java nested loop
            * it means loop inside anothe loop  = inner loop
