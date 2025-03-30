@@ -3,18 +3,45 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
-        //  Ty do while loop
+        // real life example
+        int countdown = 3;
+
+        while ((countdown>0)) {
+            System.out.println(countdown);
+            countdown--;
+        }
+
+        System.out.println("Happy New Year...!!");
+
+        //   While loop with if,else
+        int dice = 1;
+
+        while (dice<=6) {
+            if (dice<6) {
+                System.out.println("You lose");
+            }else{
+                System.out.println("You win");
+            }
+            dice++; // dice = dice + 1;
+            
+        }
+    }
+}
+
+
+
+
+
+/*      
+    //  Ty do while loop
         // do while loop always check the last condtion, if last condition is fales code be stop
         int num = 0;
         do {
             System.out.println(num);
             num++;
         }
-        while(num<8);
-    }
-}
+        while(num<8);    
 
-/*      
         /**
          * Try java while loop
          * while loop only run when tthe set conndition is  ture
