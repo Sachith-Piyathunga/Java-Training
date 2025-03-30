@@ -3,6 +3,27 @@ import java.util.Scanner;
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
+        //Set a defult keyword to switch case
+        int day = 4;
+
+        switch (day) {
+            case 6:
+                System.out.println("It\'s Saturday");
+                break;
+            case 7:
+                System.out.println("It\'s Sunday");
+                break;
+        
+            default:
+            System.out.println("Looking forward to the weekrnd");
+                break;
+        }
+
+
+    }
+}
+
+/*      
         //Scanner scn = new Scanner(System.in);  //Add Scanner to yser input
 
         //System.out.println("Enter 1 to 7 weekdays: ");
@@ -41,11 +62,6 @@ public class Training {
                 break;
         }
 
-
-    }
-}
-
-/*      
         //  My6 intervive queaction
         int num = 5;
 
