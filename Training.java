@@ -4,21 +4,17 @@
 public class Training {
     public static void main(String[] args) {
           /**
-           * Java for loop
-           * when we know how many times we need to loop the condion use for loop insted of while loop
-           * for(stetment1; s2;s3){
-           *     code
-           * }
+           * Java nested loop
+           * it means loop inside anothe loop  = inner loop
            */
-          //example 1
-          for (int num = 1; num < 6; num++){
-            System.out.println(num);
+          for(int i = 1; i < 2; i++){
+            System.out.println("Outter loop: " + i);
+            
+            for(int j = 1; j < 3; j++){
+                System.out.println("Inner loop: " + j);
+            }
           }
 
-          //example 1
-          for (int i = 2; i <= 10; i++){
-            System.out.println(i);
-          }
 
         }
     }
@@ -29,7 +25,22 @@ public class Training {
 
 
 /*  
+    /**
+           * Java for loop
+           * when we know how many times we need to loop the condion use for loop insted of while loop
+           * for(stetment1; s2;s3){
+           *     code
+           * }
+           
+          //example 1
+          for (int num = 1; num < 6; num++){
+            System.out.println(num);
+          }
 
+          //example 1
+          for (int i = 2; i <= 10; i = i + 2){
+            System.out.println(i);
+          }
 
     // real life example
         int countdown = 3;
