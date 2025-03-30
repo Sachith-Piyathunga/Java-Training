@@ -3,7 +3,35 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
-        // real life example
+          /**
+           * Java for loop
+           * when we know how many times we need to loop the condion use for loop insted of while loop
+           * for(stetment1; s2;s3){
+           *     code
+           * }
+           */
+          //example 1
+          for (int num = 1; num < 6; num++){
+            System.out.println(num);
+          }
+
+          //example 1
+          for (int i = 2; i <= 10; i++){
+            System.out.println(i);
+          }
+
+        }
+    }
+
+
+
+
+
+
+/*  
+
+
+    // real life example
         int countdown = 3;
 
         while ((countdown>0)) {
@@ -23,16 +51,8 @@ public class Training {
                 System.out.println("You win");
             }
             dice++; // dice = dice + 1;
-            
-        }
-    }
-}
+          
 
-
-
-
-
-/*      
     //  Ty do while loop
         // do while loop always check the last condtion, if last condition is fales code be stop
         int num = 0;
