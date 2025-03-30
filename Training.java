@@ -3,6 +3,18 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
+        //  Ty do while loop
+        // do while loop always check the last condtion, if last condition is fales code be stop
+        int num = 0;
+        do {
+            System.out.println(num);
+            num++;
+        }
+        while(num<8);
+    }
+}
+
+/*      
         /**
          * Try java while loop
          * while loop only run when tthe set conndition is  ture
@@ -11,15 +23,12 @@ public class Training {
          * }
          */
         //  Basic while loop
-        int i = 0;
+        /*int i = 0;
         while(i<5){
             System.out.println(i);
             i++;
         }
-    }
-}
 
-/*      
         //Set a defult keyword to switch case
         int day = 4;
 
