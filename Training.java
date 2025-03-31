@@ -3,8 +3,37 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
+        // Arrays real life examples
+        //An array storing different numbers
+        // An array storing different ages
+        int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
 
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        float avg, sum = 0;
+
+        // Get the length of the array
+        int length = ages.length;
+
+        // Loop through the elements of the array
+        for (int age : ages) {
+            sum += age;
+        }
+
+        // Calculate the average by dividing the sum by the length
+        avg = sum / length;
+
+        // Print the average
+        System.out.println("The average age is: " + avg);
+
+        }
+    }
+
+
+
+    
+
+
+/*  
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
         cars[2] = "Benz"; // change value of the array
         System.out.println(cars[2]);    
         System.out.println(cars.length); // check how many element in this array
@@ -15,16 +44,7 @@ public class Training {
         for(String i : cars){
             System.out.println(i);
         }
-    
-        }
-    }
 
-
-
-
-
-
-/*  
     // java break and continuw
         for (int i = 0; i < 8; i++)
         {
