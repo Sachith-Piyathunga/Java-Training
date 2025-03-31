@@ -3,7 +3,24 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
-        // Arrays real life examples
+        // multidimantional arrays
+        int [] [] myNumbers = { {1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}; // this is two dimantional array
+        myNumbers [1][2] = 20; //Change element value previous = 7 , now = 20
+        System.out.println(myNumbers[1][2]); //acsess the eliment of the array
+
+        //Adding loop through multi dimantional array
+        
+
+        }
+    }
+
+
+
+
+
+
+/*  
+    // Arrays real life examples
         //An array storing different numbers
         // An array storing different ages
         int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
@@ -24,15 +41,6 @@ public class Training {
         // Print the average
         System.out.println("The average age is: " + avg);
 
-        }
-    }
-
-
-
-    
-
-
-/*  
     String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
         cars[2] = "Benz"; // change value of the array
         System.out.println(cars[2]);    
