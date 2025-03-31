@@ -3,7 +3,55 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
-        // try real life examples
+        // java break and continuw
+        for (int i = 0; i < 8; i++)
+        {
+            if (i == 5)
+            {
+                break;
+            }
+            System.out.println(i);
+        }
+
+        //Try java continue
+        for(int j = 0; j <= 10; j = j + 2) {
+            if (j == 4){
+                continue;
+            }
+            System.out.println(j);
+        }
+            //break and continuw with while loop
+            int l = 0;
+            while (l <= 5) {
+                System.out.println(l);
+                l++;
+                if (l == 4) {
+                    break;
+                    
+                }
+                
+            }
+
+            int p = 0;
+            while (p < 10) {
+                if (p == 7) {
+                    p++;
+                    continue;                    
+                }
+                System.out.println(p);
+                p++;
+            }
+
+        }
+    }
+
+
+
+
+
+
+/*  
+    // try real life examples
           for(int i = 0; i <= 100; i +=10){
             System.out.println(i);
           }
@@ -18,16 +66,8 @@ public class Training {
             System.out.println(num + " x " + k + " = " + (num * k));
            }
 
-        }
-    }
-
-
-
-
-
-
-/*  
     /**
+     * 
            * for-each loop
            * for (type variableName : arrayName) {
                 // code block to be executed
