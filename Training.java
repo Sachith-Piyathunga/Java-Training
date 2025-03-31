@@ -3,7 +3,22 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args) {
-        // java break and continuw
+
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        cars[2] = "Benz"; // change value of the array
+        System.out.println(cars[2]);
+        System.out.println(cars.length); // check how many element in this array
+    
+        }
+    }
+
+
+
+
+
+
+/*  
+    // java break and continuw
         for (int i = 0; i < 8; i++)
         {
             if (i == 5)
@@ -42,15 +57,6 @@ public class Training {
                 p++;
             }
 
-        }
-    }
-
-
-
-
-
-
-/*  
     // try real life examples
           for(int i = 0; i <= 100; i +=10){
             System.out.println(i);
