@@ -6,8 +6,15 @@ public class Training {
 
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
         cars[2] = "Benz"; // change value of the array
-        System.out.println(cars[2]);
+        System.out.println(cars[2]);    
         System.out.println(cars.length); // check how many element in this array
+        // tring loop through array
+        for (int i = 0; i < cars.length; i++){
+            System.out.println(cars[i]);
+        }
+        for(String i : cars){
+            System.out.println(i);
+        }
     
         }
     }
