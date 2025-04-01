@@ -2,19 +2,13 @@
 
 // Java Identifiers
 public class Training {
-    // A method with if else
-    static void checkAge(int age){
-        if (age > 20){
-            System.out.println("He is adult");
-        }else{
-            System.out.println("He is child");
-        }
-
+    //Method with return value
+    static int myMethod (int x) { //If the method is return type we can use ptimitive data types (int, char) and use return method
+        return 5 + x; //Is there have any retun value remove the void keyword
     }
 
     public static void main(String[] args) {
-        checkAge(15);
-        checkAge(30);
+        System.out.println(myMethod(3)); // output == 8 (5 + 3)
         
     }
 
@@ -23,7 +17,19 @@ public class Training {
 
 
 
-/*  static void myMethod (String fName, int age){
+/*  // A method with if else
+    static void checkAge(int age){
+        if (age > 20){
+            System.out.println("He is adult");
+        }else{
+            System.out.println("He is child");
+        }
+
+    }
+    checkAge(15);
+    checkAge(30);
+
+    static void myMethod (String fName, int age){
         System.out.println(fName + " is " + age);
     } 
     myMethod("Sachintha",10);
