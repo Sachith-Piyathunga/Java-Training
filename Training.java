@@ -2,14 +2,19 @@
 
 // Java Identifiers
 public class Training {
+    // A method with if else
+    static void checkAge(int age){
+        if (age > 20){
+            System.out.println("He is adult");
+        }else{
+            System.out.println("He is child");
+        }
 
-    static void myMethod (String fName, int age){
-        System.out.println(fName + " is " + age);
     }
+
     public static void main(String[] args) {
-        myMethod("Sachintha",10);
-        myMethod("John", 50);
-        myMethod("Sara", 20);
+        checkAge(15);
+        checkAge(30);
         
     }
 
@@ -18,7 +23,12 @@ public class Training {
 
 
 
-/*    
+/*  static void myMethod (String fName, int age){
+        System.out.println(fName + " is " + age);
+    } 
+    myMethod("Sachintha",10);
+        myMethod("John", 50);
+        myMethod("Sara", 20);
 
     static void myMethod (String fName){ // String is the method and fName is the parameter
         System.out.println(fName + " Sachintha");
