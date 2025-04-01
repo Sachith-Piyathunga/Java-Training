@@ -3,14 +3,13 @@
 // Java Identifiers
 public class Training {
 
-    static void myMethod (String fName){ // String is the method and fName is the parameter
-        System.out.println(fName + " Sachintha");
-
+    static void myMethod (String fName, int age){
+        System.out.println(fName + " is " + age);
     }
     public static void main(String[] args) {
-        myMethod("John");
-        myMethod("Sara"); // when parameter is passed to the method its call argument
-                                // in here fName is a parameter and while john and sara are the arguments
+        myMethod("Sachintha",10);
+        myMethod("John", 50);
+        myMethod("Sara", 20);
         
     }
 
@@ -19,7 +18,17 @@ public class Training {
 
 
 
-/*  
+/*    
+
+    static void myMethod (String fName){ // String is the method and fName is the parameter
+        System.out.println(fName + " Sachintha");
+
+    }    
+    myMethod("John");
+    myMethod("Sara"); // when parameter is passed to the method its call argument
+     // in here fName is a parameter and while john and sara are the arguments
+        
+
     static void myMethod(){  // Create a method
     myMethod();  // calling the method
     System.out.println("My name is Sachintha");
