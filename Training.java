@@ -3,13 +3,14 @@
 // Java Identifiers
 public class Training {
 
-    static void myMethod(){  // Create a method
-        System.out.println("My name is Sachintha");
+    static void myMethod (String fName){ // String is the method and fName is the parameter
+        System.out.println(fName + " Sachintha");
+
     }
     public static void main(String[] args) {
-        myMethod();  // calling the method
-        myMethod();
-        myMethod();
+        myMethod("John");
+        myMethod("Sara"); // when parameter is passed to the method its call argument
+                                // in here fName is a parameter and while john and sara are the arguments
         
     }
 
@@ -19,6 +20,13 @@ public class Training {
 
 
 /*  
+    static void myMethod(){  // Create a method
+    myMethod();  // calling the method
+    System.out.println("My name is Sachintha");
+    }
+        myMethod();
+        myMethod();
+
     // multidimantional arrays
         int [] [] myNumbers = { {1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}; // this is two dimantional array
         myNumbers [1][2] = 20; //Change element value previous = 7 , now = 20
