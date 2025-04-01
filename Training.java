@@ -3,12 +3,14 @@
 // Java Identifiers
 public class Training {
     //Method with return value
-    static int myMethod (int x) { //If the method is return type we can use ptimitive data types (int, char) and use return method
-        return 5 + x; //Is there have any retun value remove the void keyword
+    static int myMethod (int y, int x) { //If the method is return type we can use ptimitive data types (int, char) and use return method
+        return y + x; //Is there have any retun value remove the void keyword
     }
 
     public static void main(String[] args) {
-        System.out.println(myMethod(3)); // output == 8 (5 + 3)
+        System.out.println(myMethod(10 ,5)); // output == 8 (5 + 3)
+        int z = myMethod(10/5);
+        System.out.println(z);
         
     }
 
