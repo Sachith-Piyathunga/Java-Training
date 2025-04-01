@@ -2,8 +2,24 @@
 
 // Java Identifiers
 public class Training {
+
+    static void myMethod(){  // Create a method
+        System.out.println("My name is Sachintha");
+    }
     public static void main(String[] args) {
-        // multidimantional arrays
+        myMethod();  // calling the method
+        myMethod();
+        myMethod();
+        
+    }
+
+}
+
+
+
+
+/*  
+    // multidimantional arrays
         int [] [] myNumbers = { {1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}; // this is two dimantional array
         myNumbers [1][2] = 20; //Change element value previous = 7 , now = 20
         System.out.println(myNumbers[1][2]); //acsess the eliment of the array
@@ -15,14 +31,7 @@ public class Training {
                 System.out.println(numbers [i][j]);
             }
         }
-    }
 
-}
-
-
-
-
-/*  
     // Arrays real life examples
         //An array storing different numbers
         // An array storing different ages
