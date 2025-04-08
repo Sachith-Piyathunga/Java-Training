@@ -2,13 +2,13 @@
 
 // Java Identifiers
 public class Training {
-    static int myMethod(int x){
-        return 5 + x;
-
+    // Returan 2 parameters
+    static int myNumber(int x , int y){
+        return x + y;
     }
     
     public static void main(String[] args) {
-        System.out.println(myMethod(60));
+       System.out.println(myNumber(40, 58));
         
     }
 
@@ -18,6 +18,13 @@ public class Training {
 
 
 /*  
+     static int myMethod(int x){
+        return 5 + x;
+
+    }
+     System.out.println(myMethod(60));
+
+
     //Method with return value
     static int myMethod (int y, int x) { //If the method is return type we can use ptimitive data types (int, char) and use return method
         return y + x; //Is there have any retun value remove the void keyword
