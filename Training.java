@@ -2,15 +2,13 @@
 
 // Java Identifiers
 public class Training {
-    //Method with return value
-    static int myMethod (int y, int x) { //If the method is return type we can use ptimitive data types (int, char) and use return method
-        return y + x; //Is there have any retun value remove the void keyword
-    }
+    static int myMethod(int x){
+        return 5 + x;
 
+    }
+    
     public static void main(String[] args) {
-        System.out.println(myMethod(10 ,5)); // output == 8 (5 + 3)
-        int z = myMethod(10/5);
-        System.out.println(z);
+        System.out.println(myMethod(60));
         
     }
 
@@ -19,7 +17,18 @@ public class Training {
 
 
 
-/*  // A method with if else
+/*  
+    //Method with return value
+    static int myMethod (int y, int x) { //If the method is return type we can use ptimitive data types (int, char) and use return method
+        return y + x; //Is there have any retun value remove the void keyword
+    }
+
+
+    System.out.println(myMethod(10 ,5)); // output == 8 (5 + 3)
+        int z = myMethod(10/5);
+        System.out.println(z);
+
+// A method with if else
     static void checkAge(int age){
         if (age > 20){
             System.out.println("He is adult");
@@ -337,7 +346,7 @@ public class Training {
             System.out.println("Good evening");
         }
 
-        System.out.println(Math.max(26, 50));// find max value
+            System.out.println(Math.max(26, 50));// find max value
             System.out.println(Math.min(5, 10));//Find minimum value
             System.out.println(Math.sqrt(81));//Find squreroot of the nuumber
             System.out.println(Math.abs(-4.5));//Return positive value
