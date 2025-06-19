@@ -4,10 +4,14 @@
 public class Training {
     public static void main(String[] args){
     
-    // Using the \\ escape sequence allows us to place backslashes in our String text:
+    // if we place a \n escape sequence in a String, the compiler will output a new line of text:
 
-        System.out.println("This is the backslash symbol: \\");
-    // Prints: This is the backslash symbol: \
+        System.out.println("Hello\nGoodbye");
+    /*
+    Prints:
+    Hello
+    Goodbye
+    */
 
 
 }
