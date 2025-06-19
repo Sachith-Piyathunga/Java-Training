@@ -3,9 +3,11 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args){
-    char expectedGrade = 'A';  
+    
+    // The \" escape sequence allows us to add quotation marks " to a String value. :
+        System.out.println("\"Hello World\"");
+    // Prints: "Hello World"
 
-    System.out.println(expectedGrade );
 
 
 }
