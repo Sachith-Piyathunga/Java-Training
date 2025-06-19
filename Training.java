@@ -3,10 +3,10 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args){
-    //This is where you will define your variable
-    int numComments = 6;
-    //This is where you will print your variable
-    System.out.println(numComments);
+    double androidShare = 81.7;
+
+    System.out.println(androidShare);
+
 }
 
 }
