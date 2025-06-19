@@ -4,9 +4,11 @@
 public class Training {
     public static void main(String[] args){
     
-    String openingLyrics = "Yesterday, all my troubles seemed so far away";
-
-    System.out.println(openingLyrics);
+    tring year = 2001;
+    double title = "Shrek";
+    int genre = 'C';
+    boolean runtime = 1.58;
+    char isPG = true;
 
 
 }
