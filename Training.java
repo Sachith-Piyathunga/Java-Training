@@ -4,10 +4,10 @@
 public class Training {
     public static void main(String[] args){
     
-    // The \" escape sequence allows us to add quotation marks " to a String value. :
-        System.out.println("\"Hello World\"");
-    // Prints: "Hello World"
+    // Using the \\ escape sequence allows us to place backslashes in our String text:
 
+        System.out.println("This is the backslash symbol: \\");
+    // Prints: This is the backslash symbol: \
 
 
 }
