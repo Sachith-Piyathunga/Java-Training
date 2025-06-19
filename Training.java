@@ -4,13 +4,11 @@
 public class Training {
     public static void main(String[] args){
     
-    String firstName = "Samira";
-    String blah = "Smith";
-    String com = "samira@google.com";
-    int salaryexpectation = 100000;
-    int year_of_birth = 1955;
-    
-    System.out.println("The program runs!");
+    String name = "Sachintha"; 
+    int age = 24;
+    double desiredSalary = 35000.26;
+    char gender = 'm';
+    boolean lookingForJob = true;
 }
 
 }
