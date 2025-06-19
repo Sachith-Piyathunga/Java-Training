@@ -3,9 +3,9 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args){
-    boolean intsCanHoldDecimals = false;
-    
-    System.out.println(intsCanHoldDecimals);
+    char expectedGrade = 'A';  
+
+    System.out.println(expectedGrade );
 
 
 }
