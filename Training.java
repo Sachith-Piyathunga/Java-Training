@@ -2,15 +2,23 @@
 
 // Java Identifiers
 public class Training {
-    // Returan 2 parameters
-    static int myNumber(int x , int y){
-        return x + y;
-    }
-    
-    public static void main(String[] args) {
-       System.out.println(myNumber(40, 58));
-        
-    }
+    public static void main(String[] args){
+    // This is themain method of the class
+    System.out.println("Hey there, I'm Sachintha and I'm learnig to code in Java");
+    System.out.println("I'm gonning to plant a tree today.");
+    System.out.println("  *  ");
+    System.out.println(" *** ");
+    System.out.println(" *** ");
+    System.out.println("  *  ");
+    System.out.println("  *  ");
+    System.out.println(" ");
+    System.out.println("* ** *");
+    System.out.println("******");
+    System.out.println(" **** ");
+    System.out.println("  **  ");
+    System.out.println("  **  ");
+    System.out.println("~~~~~~~");
+}
 
 }
 
