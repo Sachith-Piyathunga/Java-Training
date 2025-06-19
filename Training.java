@@ -4,14 +4,9 @@
 public class Training {
     public static void main(String[] args){
     
-    // if we place a \n escape sequence in a String, the compiler will output a new line of text:
+    String openingLyrics = "Yesterday, all my troubles seemed so far away";
 
-        System.out.println("Hello\nGoodbye");
-    /*
-    Prints:
-    Hello
-    Goodbye
-    */
+    System.out.println(openingLyrics);
 
 
 }
