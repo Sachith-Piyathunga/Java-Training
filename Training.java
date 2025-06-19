@@ -3,21 +3,10 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args){
-    // This is themain method of the class
-    System.out.println("Hey there, I'm Sachintha and I'm learnig to code in Java");
-    System.out.println("I'm gonning to plant a tree today.");
-    System.out.println("  *  ");
-    System.out.println(" *** ");
-    System.out.println(" *** ");
-    System.out.println("  *  ");
-    System.out.println("  *  ");
-    System.out.println(" ");
-    System.out.println("* ** *");
-    System.out.println("******");
-    System.out.println(" **** ");
-    System.out.println("  **  ");
-    System.out.println("  **  ");
-    System.out.println("~~~~~~~");
+    //This is where you will define your variable
+    int numComments = 6;
+    //This is where you will print your variable
+    System.out.println(numComments);
 }
 
 }
