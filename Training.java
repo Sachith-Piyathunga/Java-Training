@@ -3,9 +3,10 @@
 // Java Identifiers
 public class Training {
     public static void main(String[] args){
-    double androidShare = 81.7;
+    boolean intsCanHoldDecimals = false;
+    
+    System.out.println(intsCanHoldDecimals);
 
-    System.out.println(androidShare);
 
 }
 
