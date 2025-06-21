@@ -4,14 +4,10 @@
 public class Training {
     public static void main(String[] args){
     
-	double subtotal = 30;
-    double tax = 0.0875;
-    double taxamount = subtotal * tax;
-    double total = subtotal + taxamount;
-    double perPerson = total / 4;
-    
-    System.out.println(total);
-    System.out.println(perPerson);
+	int students = 26;
+    int leftOut = students % 3;
+
+    System.out.print(leftOut);
 }
 
 }
