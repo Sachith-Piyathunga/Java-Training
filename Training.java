@@ -4,13 +4,12 @@
 public class Training {
     public static void main(String[] args){
     
-	int zebrasInZoo = 8;
-    int giraffesInZoo = 4;
-    int animalsInZoo = zebrasInZoo + giraffesInZoo;
-    int numZebrasAfterTrade = zebrasInZoo - 2;
+	double subtotal = 30;
+    double tax = 0.0875;
+    double taxamount = subtotal * tax;
+    double total = subtotal + taxamount;
 
-    System.out.println(animalsInZoo);
-    System.out.println(numZebrasAfterTrade);
+    System.out.println(total);
 }
 
 }
