@@ -4,11 +4,22 @@
 public class Training {
     public static void main(String[] args){
     
-    String name = "Sachintha"; 
-    int age = 24;
-    double desiredSalary = 35000.26;
-    char gender = 'm';
-    boolean lookingForJob = true;
+      String name1 = "Sachintha";
+      String adjective1 = "good";
+      String adjective2 = "great";
+      String adjective3 = "angry";
+      String verb1 = "sing";
+      String noun1 = "seller";
+      String noun2 = "food";
+      String noun3 = "screem";
+      String noun4 = "police officer";
+      String noun5 = "lake";
+      String noun6 = "German";
+      String name2 = "Chamod";
+      int number = 2025;
+      String place1 = "city";
+      
+    System.out.println(name);
 }
 
 }
