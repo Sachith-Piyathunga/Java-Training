@@ -7,9 +7,9 @@ public class Training {
 	double creditsEarned = 176.5;
     double creditsOfSeminar = 8;
     double creditsToGraduate = 180;
+    double creditsAfterSeminar = creditsEarned + creditsOfSeminar;
 
-    System.out.println(creditsToGraduate < creditsEarned);
-
+    System.out.println(creditsToGraduate < creditsAfterSeminar);
     }
 
 }
