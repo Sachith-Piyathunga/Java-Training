@@ -8,8 +8,10 @@ public class Training {
     double tax = 0.0875;
     double taxamount = subtotal * tax;
     double total = subtotal + taxamount;
-
+    double perPerson = total / 4;
+    
     System.out.println(total);
+    System.out.println(perPerson);
 }
 
 }
