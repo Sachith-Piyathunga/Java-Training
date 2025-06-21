@@ -4,14 +4,16 @@
 public class Training {
     public static void main(String[] args){
     
-      double recommendedWaterIntake = 8;
-      double daysInChallenge = 30;
-      double yourWaterIntake = 235.5;
-      double totalRecommendedAmount = recommendedWaterIntake * daysInChallenge;
-      boolean isChallengeComplete = yourWaterIntake > totalRecommendedAmount;
+    String person1 = "Paul";
+    String person2 = "John";
+    String person3 = "Paul";
 
-      System.out.println(totalRecommendedAmount);
-      System.out.println(isChallengeComplete);
+    System.out.println(person1.equals(person2));
+    // Prints false, since "Paul" is not "John"
+
+    System.out.println(person1.equals(person3));
+    // Prints true, since "Paul" is "Paul"
+
     }
 
 }
