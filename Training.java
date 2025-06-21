@@ -4,11 +4,12 @@
 public class Training {
     public static void main(String[] args){
     
-	int students = 26;
-    int leftOut = students % 3;
+	int numCookies = 17;
+    int numCookies -= 3;
+    int numCookies /= 2;
 
-    System.out.print(leftOut);
-}
+    // Add your code above
+    System.out.println(numCookies);
 
 }
 
