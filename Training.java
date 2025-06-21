@@ -4,12 +4,23 @@
 public class Training {
     public static void main(String[] args){
     
-	int numCookies = 17;
-    int numCookies -= 3;
-    int numCookies /= 2;
+	/*
+     * The order is as follows:
+     * Parentheses
+     * Exponents
+     * Modulo/Multiplication/Division
+     * Addition/Subtraction
+     */
+    int expression1 = 5 % 2 - (4 * 2 - 1);
+    System.out.println(expression1);
 
-    // Add your code above
-    System.out.println(numCookies);
+    int expression2 = (3 + (2 * 2 - 5)) + 6 - 5;
+    System.out.println(expression2);
+
+    int expression3 = 5 * 4 % 3 - 2 + 1;
+    System.out.println(expression3);
+
+    }
 
 }
 
