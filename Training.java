@@ -4,12 +4,12 @@
 public class Training {
     public static void main(String[] args){
     
-      // String concatination
-        int animals = 12;
-         String species = "zebra";
-         String zooDescription = "Our zoo has " + animals + " " + species + "s!";
+        // Final keyword
+        final double pi = 3.14;
+        double pi = 5.24;
 
-        System.out.println(zooDescription);
+
+        System.out.println(pi);
 
 
     }
