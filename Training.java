@@ -9,7 +9,8 @@ public class Training {
     int animalsInZoo = zebrasInZoo + giraffesInZoo;
     int numZebrasAfterTrade = zebrasInZoo - 2;
 
-    
+    System.out.println(animalsInZoo);
+    System.out.println(numZebrasAfterTrade);
 }
 
 }
