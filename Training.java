@@ -4,12 +4,13 @@
 public class Training {
     public static void main(String[] args){
     
-	double creditsEarned = 176.5;
-    double creditsOfSeminar = 8;
-    double creditsToGraduate = 180;
-    double creditsAfterSeminar = creditsEarned + creditsOfSeminar;
+	int songsA = 9;
+    int songsB = 9;
+    int albumLengthA = 41;
+    int albumLengthB = 53;
+    boolean sameNumberOfSongs = songsA == songsB;
 
-    System.out.println(creditsToGraduate < creditsAfterSeminar);
+    System.out.println(songsA == songsB);
     }
 
 }
