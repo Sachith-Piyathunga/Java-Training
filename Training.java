@@ -4,12 +4,9 @@
 public class Training {
     public static void main(String[] args){
     
-    public Store(){
-        
-        System.out.println("I am inside the Store constructor");
-
-
-    }
+    Store newStore;
+    newStore = new Store();
+}
 
 }
 
