@@ -2,7 +2,7 @@ public class Store{
 
     public String name;
     public String breed;
-
+    public double weight;
 
   public Store(){
     
