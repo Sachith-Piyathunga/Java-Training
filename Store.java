@@ -6,7 +6,7 @@ public class Store{
   public  double inventoryPrice;
   
   // constructor method
-  public Store(String product) {
+  public Store(String product, int count, double price) {
     productType = product;
   }
 }
