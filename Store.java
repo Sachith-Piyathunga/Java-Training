@@ -1,13 +1,11 @@
 public class Store{
 
-    public String name;
-    public String breed;
-    public double weight;
+  public String productType;
+  public Store(String product){
 
-  public Store(){
+    productType = product;
     
-    System.out.println("I am inside the Store constructor");
-
+    
   }
 
 }
