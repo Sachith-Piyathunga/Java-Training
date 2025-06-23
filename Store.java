@@ -1,8 +1,12 @@
 public class Store{
 
- public static void main(String[] args) {  
-    Store lemonadeStand  = new Store ("lemonade");
-    System.out.println(lemonadeStand.productType);
-
+  // instance fields
+  public String productType;
+  public int inventoryCount;
+  public  double inventoryPrice;
+  
+  // constructor method
+  public Store(String product) {
+    productType = product;
   }
 }
