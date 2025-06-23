@@ -1,11 +1,8 @@
 public class Store{
 
-  public String productType;
-  public Store(String product){
+  public static void main(String[] args) {  
+    Store lemonadeStand  = new Store ("lemonade");
 
-    productType = product;
-    
-    
   }
 
 }
