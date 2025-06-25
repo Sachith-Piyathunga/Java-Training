@@ -1,12 +1,14 @@
 //import java.util.Scanner;
-
-// Java Identifiers
 public class Training {
+
   public static void main(String[] args) {
-    Store lemonadeStand = new Store("Coffee");
-    lemonadeStand.advertise();
+    String productType = "Cookies";
+    Store cookieShop = new Store(productType);
+      
+    cookieShop.advertise();
+ }
+
+
     
-
 }
-
 
