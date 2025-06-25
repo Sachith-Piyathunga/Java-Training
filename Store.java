@@ -9,7 +9,8 @@ public class Store {
     
   // advertise method
   public void advertise() {
-    System.out.println("Selling " + productType + "!");
-    System.out.println("Come spend some money!");
-  }  
+    String message = "Selling " + product + "!";
+    System.out.println(message);
+  }
+    
 }
