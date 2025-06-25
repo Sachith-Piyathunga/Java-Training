@@ -2,11 +2,9 @@
 public class Training {
 
   public static void main(String[] args) {
-    String productType = "Cookies";
-    Store cookieShop = new Store(productType);
-      
-    cookieShop.advertise();
- }
+    Store lemonadeStand = new Store("Lemonade");
+    lemonadeStand.greetCustomer("Sachintha");
+  }
 
 
     
