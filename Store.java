@@ -1,7 +1,8 @@
 public class Store {
   // instance fields
   String productType;
-  public double price;
+  double price;
+  double tax = 0.08;
     
   // constructor method
   public Store(String product, double initialPrice) {
@@ -11,8 +12,14 @@ public class Store {
     
   // increase price method
   public void increasePrice(double priceToAdd){
-      double newPrice = price + priceToAdd;
-      price = newPrice;
+    double newPrice = price + priceToAdd;
+    price = newPrice;
   }
     
+  // get price with tax method
+  public double getPriceWithTax(){
+
+  }
+  
+
 }
