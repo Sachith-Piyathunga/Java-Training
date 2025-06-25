@@ -18,6 +18,7 @@ public class Store {
     
   // get price with tax method
   public double getPriceWithTax(){
+    double totalPrice = price + price * tax;
 
   }
   
