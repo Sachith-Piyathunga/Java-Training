@@ -14,7 +14,7 @@ public class Store {
   }
     
   // greetCustomer() method
-  public void greetCustomer(){
+  public void greetCustomer(String customerName){
     
   }
     
