@@ -12,6 +12,7 @@ public class Store {
   // increase price method
   public void increasePrice(double priceToAdd){
       double newPrice = price + priceToAdd;
+      price = newPrice;
   }
     
 }
