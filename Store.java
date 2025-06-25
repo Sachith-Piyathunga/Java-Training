@@ -1,22 +1,17 @@
 public class Store {
   // instance fields
   String productType;
+  public double price;
     
   // constructor method
-  public Store(String product) {
+  public Store(String product, double initialPrice) {
     productType = product;
+    price = initialPrice;
   }
     
-  // advertise method
-  public void advertise() {
-    String message = "Selling " + productType + "!";
-    System.out.println(message);
-  }
-    
-  // greetCustomer() method
-  public void greetCustomer(String customerName){
-    System.out.println("Welcome to the store, " + customerName + "!");
-
+  // increase price method
+  public void increasePrice(double priceToAdd){
+      
   }
     
 }
