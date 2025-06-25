@@ -13,4 +13,9 @@ public class Store {
     System.out.println(message);
   }
     
+  // greetCustomer() method
+  public void greetCustomer(){
+    
+  }
+    
 }
