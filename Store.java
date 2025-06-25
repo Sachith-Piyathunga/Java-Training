@@ -10,7 +10,7 @@ public class Store {
   }
 
   public String toString(){
-    
+    return "This store sells " + productType + " at a price of " + price + ".";
   }
   
 }
