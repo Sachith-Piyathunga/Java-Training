@@ -8,6 +8,11 @@ public class Main {
       mathScores [2] = 76;
       mathScores [1] = 57;
       mathScores [3] = 98;
+
+      for(int i = 0; i < students.length; i++){
+      System.out.println(students[i] + ": " + mathScores[i]);
+    }
+
       
   }
 }
