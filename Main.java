@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main{
   public static void main(String[] args){
 		Newsfeed feed;
-    if(/*Replace this comment with code for checkpoint 1*/){
+    if(args[0].equals("Robot")){
       //topics for a Robot feed:
       String[] robotTopics = {"Oil", "Parts", "Algorithms", "Love"};
       feed = new Newsfeed(robotTopics);
