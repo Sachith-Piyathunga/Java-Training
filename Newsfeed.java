@@ -1,18 +1,8 @@
 public class Newsfeed {
-  String[] topics = {"Opinion", "Tech", "Science", "Health"};
-  int[] views = {0, 0, 0, 0};
   
-  public Newsfeed(){
-
-  }
-    
-  public String[] getTopics(){
-    return topics;
-  }
+  String[] topics;
   
-  public int getNumTopics(){
-    return topics.length;
-    
+  public Newsfeed(String[] initialTopics){
+		topics = initialTopics;
   }
-  
 }
