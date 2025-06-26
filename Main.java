@@ -1,15 +1,13 @@
-import java.util.Arrays;
+// import the ArrayList package here:
+import java.util.ArrayList;
 
-class Shopping {
+
+class ToDos {
   
   public static void main(String[] args) {
     
-    String[] groceryItems = {"steak", "milk", "jelly beans"};
-    double[] prices = {25.00, 2.95, 2.50};
+    // Create toDoList below:
     
-    // Adding ham to the groceries
-    groceryItems[3] = "ham";
-    prices[3] = 4.99;
     
   }
   
