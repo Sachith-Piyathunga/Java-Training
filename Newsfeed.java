@@ -5,12 +5,12 @@ public class Newsfeed {
   
   public Newsfeed(){
     // Initialize favoriteArticles here:
-    String[] favoriteArticles = new String[10];
+    favoriteArticles = new String[10];
     
   }
   
   public void setFavoriteArticle(int favoriteIndex, String newArticle){
     // Add newArticle to favoriteArticles:
-    
+    favoriteArticles[favoriteIndex] = newArticle;
   }
 }
