@@ -22,3 +22,4 @@ public class Main{
     System.out.println(Arrays.toString(feed.topics));
   }
 }
+// Check arguments with human and robot
