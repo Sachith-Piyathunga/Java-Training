@@ -1,17 +1,24 @@
 import java.util.Arrays;
-public class Main {
-  public static void main(String[] args) {
-    Newsfeed sampleFeed = new Newsfeed();
+
+public class Main{
+  public static void main(String[] args){
+		Newsfeed feed;
+    if(/*Replace this comment with code for checkpoint 1*/){
+      //topics for a Robot feed:
+      String[] robotTopics = {"Oil", "Parts", "Algorithms", "Love"};
+      feed = new Newsfeed(robotTopics);
+    }
+    else if(args[0].equals("Human")){
+      //topics for a Human feed:
+      String[] humanTopics = {"Politics", "Science", "Sports", "Love"};
+			feed = new Newsfeed(humanTopics);
+    }
+    else{
+      String[] genericTopics = {"Opinion", "Tech", "Science", "Health"};
+      feed = new Newsfeed(genericTopics);
+    }
         
-    System.out.println("The top topic is " + sampleFeed.getFirstTopic());
-        
-    sampleFeed.viewTopic(1);
-    sampleFeed.viewTopic(1);
-    sampleFeed.viewTopic(3);
-    sampleFeed.viewTopic(2);
-    sampleFeed.viewTopic(2);
-    sampleFeed.viewTopic(1);
-        
-    System.out.println("The " + sampleFeed.topics[1] + " topic has been viewed " + sampleFeed.views[1] + " times!");
+    System.out.println("The topics in this feed are:");
+    System.out.println(Arrays.toString(feed.topics));
   }
 }
