@@ -10,11 +10,12 @@ class ToDos {
     String toDo2 = "Sachintha";
     String toDo3 = "Chamod";   
     // Add to-dos to toDoList
-    
+    toDoList.add(toDo1);
+    toDoList.add(toDo2);
+    toDoList.add(toDo3);
     
     System.out.println(toDoList);
       
-    
   }
   
 }
