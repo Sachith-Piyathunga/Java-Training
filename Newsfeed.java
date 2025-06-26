@@ -17,6 +17,7 @@ public class Newsfeed {
 
   
   public void viewTopic(int topicIndex){
+    views[topicIndex]++;
     
   }
 }
