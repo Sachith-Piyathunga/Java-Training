@@ -1,17 +1,10 @@
 public class Bank{
-  public CheckingAccount accountOne;
-  public CheckingAccount accountTwo;
-
-  public Bank(){
-    accountOne = new CheckingAccount("Zeus", 100);
-    accountTwo = new CheckingAccount("Hades", 200);
-  }
-
   public static void main(String[] args){
-    Bank bank = new Bank();
-
-    System.out.println(bank.accountOne.name);
-    System.out.println(bank.accountOne.balance);
+    CheckingAccount accountOne = new CheckingAccount("Zeus", 100, "1");
+    CheckingAccount accountTwo = new CheckingAccount("Hades", 200, "2");
+    System.out.println(accountOne.name);
+    accountOne.addFunds(5);
+    accountOne.getInfo();
   }
-  
+
 }
