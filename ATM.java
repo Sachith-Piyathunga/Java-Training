@@ -15,6 +15,7 @@ public class ATM{
     if(amountToWithdraw <= this.money){
       this.money -= amountToWithdraw;
       totalMoney -= amountToWithdraw;
+
     }
   }
 
@@ -23,7 +24,13 @@ public class ATM{
     ATM firstATM = new ATM(1000);
     ATM secondATM = new ATM(500);
 
+    System.out.println(firstATM.money);  
+    System.out.println(secondATM.money); 
+
     // Step 3: Print your static variable in three different ways here
+    System.out.println(ATM.totalMoney);
+    System.out.println(firstATM.totalMoney);
+    System.out.println(secondATM.totalMoney);
     
   }
 
