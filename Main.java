@@ -6,8 +6,10 @@ class Coffee {
     int cupsOfCoffee = 1;
     
     // add while loop with counter
-    
-        
+    while(cupsOfCoffee <= 100){
+      System.out.println("cupsOfCoffee");
+      cupsOfCoffee ++;
+    }
     
   }
   
