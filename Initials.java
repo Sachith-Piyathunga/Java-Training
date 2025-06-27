@@ -7,6 +7,8 @@ public class Initials {
     String lastName = "Piyathunga";
     
     // What are the initials?
+    System.out.println(firstName.charAt(0));
+    System.out.println(lastName.charAt(0));
     
     
   }
