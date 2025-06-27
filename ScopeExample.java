@@ -3,11 +3,14 @@ public class ScopeExample{
   
   int[] myArray = {1, 2, 3, 4};
 
-  for(int i = 0; i < myArray.length; i++){
-    int sum = 0;
-    sum += myArray[i];
-  }
+  int sum = 0;
 
-  System.out.println(sum);
+  for(int i = 0; i < myArray.length; i++){
+    
+    sum += myArray[i];
+
+    System.out.println("this is in inside the for loop: " + sum);
+  }
+  System.out.println("This is in outside the for loop: " + sum);
   }
 }
