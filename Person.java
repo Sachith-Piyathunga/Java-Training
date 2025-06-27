@@ -24,8 +24,9 @@ public class Person{
   public void hasBirthday(){
     //Complete this method
     this.setAge(this.age + 1);
-    this.setWisdom(this.wisdom + 10);
+    this.setWisdom(this.wisdom + 5);
     this.setFitness(this.fitness - 3);
+    
     
   }
 }
