@@ -17,8 +17,11 @@ public class ATM{
 
   public static void main(String[] args){
     // Step 1: Create your two ATMs here
+    ATM firstATM = new ATM(1000);
+    ATM secondATM = new ATM(500);
 
     // Step 3: Print your static variable in three different ways here
+    
   }
 
 }
