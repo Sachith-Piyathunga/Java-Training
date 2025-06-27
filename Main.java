@@ -15,9 +15,10 @@ class CalculateTotal {
     // Iterate over expenses
     for(int i = 0; i < expenses.size(); i++){
       System.out.println(expenses.get(i));
+      total += expenses.get(i);
     }
     
-    System.out.println(total);
+    System.out.println("Total : " + total);
     
   }
   
