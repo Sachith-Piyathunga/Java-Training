@@ -7,7 +7,7 @@ class Coffee {
     
     // add while loop with counter
     while(cupsOfCoffee <= 100){
-      System.out.println("cupsOfCoffee");
+      System.out.println("Fry drinks cup of coffee #" + cupsOfCoffee);
       cupsOfCoffee ++;
     }
     
