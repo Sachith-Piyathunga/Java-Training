@@ -4,5 +4,6 @@ public class Bank{
     CheckingAccount accountTwo = new CheckingAccount("Hades", 200, "2");
 
     System.out.println("Balance of the account one: " + accountOne.getBalance());
+    accountOne.setBalance(5000);
   }
 }
