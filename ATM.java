@@ -1,49 +1,45 @@
-public class ATM {
-  // Static variables (shared across all ATM objects)
+public class ATM{
+  // Static variables
   public static int totalMoney = 0;
   public static int numATMs = 0;
 
-  // Instance variable (unique to each ATM object)
+  // Instance variables
   public int money;
 
-  public ATM(int inputMoney) {
+  public ATM(int inputMoney){
     this.money = inputMoney;
-
-    // Step 1: Increase the number of ATMs
-    numATMs++;
-
-    // Step 2: Add the ATM's money to the total money in the system
+    numATMs += 1;
     totalMoney += inputMoney;
   }
 
-  public void withdrawMoney(int amountToWithdraw) {
-    if (amountToWithdraw <= this.money) {
+  public void withdrawMoney(int amountToWithdraw){
+    if(amountToWithdraw <= this.money){
       this.money -= amountToWithdraw;
-
-      // Step 3: Subtract withdrawn money from totalMoney
       totalMoney -= amountToWithdraw;
     }
   }
 
-  public static void main(String[] args) {
-    // Print initial number of ATMs
-    System.out.println("Total number of ATMs: " + ATM.numATMs); 
+  // Write your averageMoney() method here
 
-    // Create two ATMs
+  public static void averageMoney(){
+    System.out.println(totalMoney / numATMs);
+    System.out.println(this.money);
+  }
+
+  public static void main(String[] args){
+
+    System.out.println("Total number of ATMs: " + ATM.numATMs); 
     ATM firstATM = new ATM(1000);
     ATM secondATM = new ATM(500);
-
-    // Print updated number of ATMs
     System.out.println("Total number of ATMs: " + ATM.numATMs); 
 
-    // Print total money in all ATMs
     System.out.println("Total amount of money in all ATMs: " + ATM.totalMoney);  
-
-    // Withdraw money from both ATMs
     firstATM.withdrawMoney(500);
     secondATM.withdrawMoney(200);
-
-    // Print updated total money
     System.out.println("Total amount of money in all ATMs: " + ATM.totalMoney);    
+
+    // Call averageMoney() here
+    ATM.averageMoney();
   }
+
 }
