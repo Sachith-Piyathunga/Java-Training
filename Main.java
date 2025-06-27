@@ -1,27 +1,21 @@
-import java.util.ArrayList;
+// Importing the Random library
+import java.util.Random;
 
-class ToDos {
-    
+class LuckyFive {
+  
   public static void main(String[] args) {
     
-    // Sherlock
-    ArrayList<String> sherlocksToDos = new ArrayList<String>();
+    // Creating a random number generator
+    Random randomGenerator = new Random();
     
-    sherlocksToDos.add("visit the crime scene");
-    sherlocksToDos.add("play violin");
-    sherlocksToDos.add("interview suspects");
-    sherlocksToDos.add("listen to Dr. Watson for amusement");
-    sherlocksToDos.add("solve the case");
-    sherlocksToDos.add("apprehend the criminal");
-    
-    sherlocksToDos.remove("visit the crime scene");
-    
-    // Calculate to-dos until case is solved:
-    System.out.println(sherlocksToDos.indexOf("solve the case"));
-      
-    // Change the value printed:
-    System.out.println("PRINT THE ANSWER HERE");
+    // Generate a number between 1 and 6
+    int dieRoll = randomGenerator.nextInt(6) + 1;
 
+    // Repeat while roll isn't 5
+    while(dieRoll != 5){
+      dieRoll = randomGenerator.nextInt(6) + 1;
+    }
+    
   }
   
 }
