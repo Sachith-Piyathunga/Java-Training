@@ -1,26 +1,29 @@
 import java.util.ArrayList;
 
-class MostExpensive {
-  
-  public static void main(String[] args) {
-    
-    ArrayList<Double> expenses = new ArrayList<Double>();
-    expenses.add(74.46);
-    expenses.add(63.99);
-    expenses.add(10.57);
-    expenses.add(81.37);
-    
-    double mostExpensive = 0;
-    
-    // Iterate over expenses
-    for(double expense : expenses){
-      if(expense > mostExpensive){
-        mostExpensive = expense;
+class Lunch {
+ 
+  public static ArrayList<String> removeAnts(ArrayList<String> lunchBox) {
+    // Add your code below
+    for(int i = 0; i < lunchBox.size(); i++){
+      if(lunchBox.get(i) == "ant"){
+        lunchBox.remove(i);
+        i--;
       }
     }
-  
-    System.out.println("The most expensive item is: " + mostExpensive);
-    
+    return lunchBox;
+
   }
+ 
   
+  public static void main(String[] args) {
+    ArrayList<String> lunchContainer = new ArrayList<String>();
+    lunchContainer.add("apple");
+    lunchContainer.add("ant");
+    lunchContainer.add("ant");
+    lunchContainer.add("sandwich");
+    lunchContainer.add("ant");
+    lunchContainer = removeAnts(lunchContainer);
+    System.out.println(lunchContainer);
+
+  }
 }
