@@ -10,8 +10,13 @@ public class CheckingAccount{
   private void addFunds(int fundsToAdd){
     balance += fundsToAdd;
   }
+
+  public void printBalance(){
+    System.out.println("Account balance is " + balance);
+  }
   
   private void getInfo(){
     System.out.println("This checking account belongs to " + name +". It has " + balance + " dollars in it.");
   }
+
 }

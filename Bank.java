@@ -3,5 +3,6 @@ public class Bank{
     CheckingAccount accountOne = new CheckingAccount("Zeus", 100);
     CheckingAccount accountTwo = new CheckingAccount("Hades", 200);
     CheckingAccount myAccount = new CheckingAccount("Mike", 300);
+    myAccount.printBalance();
   }
 }
