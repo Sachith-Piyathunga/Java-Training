@@ -5,5 +5,7 @@ public class Bank{
 
     System.out.println("Balance of the account one: " + accountOne.getBalance());
     accountOne.setBalance(5000);
+
+    System.out.println("The new account  balance is: " + accountOne.getBalance());
   }
 }
