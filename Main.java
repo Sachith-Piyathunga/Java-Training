@@ -8,6 +8,9 @@ public class Main {
         
     // Add your code below:
     Noodle[] allTheNoodles = {spaghetti, ramen, pho};
-       
+       for(Noodle noodle : allTheNoodles){
+        System.out.println(noodle.getCookPrep());
+
+       }
   }
 }
