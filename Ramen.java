@@ -4,4 +4,9 @@ class Spaetzle extends Noodle {
     this.texture = "lumpy and liquid";     
   }
     // Add the new cook() method below:  
+    @Override
+    public void cook(){
+      System.out.println("Grinding or scraping the dough into the pot of boiling water.");
+      this.texture = "cooked";
+    }
 }
