@@ -1,16 +1,13 @@
-public class Main {
+public class Main{
   public static void main(String[] args) {
-    Noodle spaghetti, ramen, pho;
-    
-    spaghetti = new Spaghetti();
+    Noodle ramen, pho;
     ramen = new Ramen();
     pho = new Pho();
-        
-    // Add your code below:
-    Noodle[] allTheNoodles = {spaghetti, ramen, pho};
-       for(Noodle noodle : allTheNoodles){
-        System.out.println(noodle.getCookPrep());
-
-       }
+      
+    NoodleRestaurant customer1 = new NoodleRestaurant("Sagirah");
+  
+    // Add your code 
+    customer1.order(pho);
+  
   }
 }
