@@ -8,5 +8,6 @@ class Spaetzle extends Noodle {
     public void cook(){
       System.out.println("Grinding or scraping the dough into the pot of boiling water.");
       this.texture = "cooked";
+      System.out.println("Boiling");
     }
 }
