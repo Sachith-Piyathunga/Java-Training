@@ -1,6 +1,6 @@
 public class Main{
   public static void main(String[] args) {
-    Spaetzle kaesespaetzle = new Spaetzle();
-    kaesespaetzle.cook();
+    Dinner noodlesDinner = new Dinner();
+    // Add your code here: 
   }
 }
