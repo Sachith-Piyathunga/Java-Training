@@ -1,6 +1,7 @@
-public class Ramen extends Noodle {
-  Ramen() {
-    super(30.0, 0.3, "flat", "wheat flour");  
+class Spaetzle extends Noodle {
+  Spaetzle() {
+    super(3.0, 1.5, "irregular", "eggs, flour, salt");
+    this.texture = "lumpy and liquid";     
   }
-
+    // Add the new cook() method below:  
 }
