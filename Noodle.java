@@ -1,4 +1,5 @@
 class Noodle {
+
   protected double lengthInCentimeters;
   protected double widthInCentimeters;
   protected String shape;
@@ -14,8 +15,7 @@ class Noodle {
     
   }
   
-  public void cook() {
-    System.out.println("Boiling.");
-    this.texture = "cooked";
+  public String getCookPrep() {
+    return "Boil noodle for 7 minutes and add sauce.";
   }
-  }
+}
