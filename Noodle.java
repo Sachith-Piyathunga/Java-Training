@@ -12,7 +12,7 @@ public class Noodle {
     this.ingredients = ingr;
   }
   
-  public boolean isTasty() {
+  public final boolean isTasty() {
     return true;
   }
 }
