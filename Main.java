@@ -7,6 +7,7 @@ public class Main {
     pho = new Pho();
         
     // Add your code below:
+    Noodle[] allTheNoodles = {spaghetti, ramen, pho};
        
   }
 }
