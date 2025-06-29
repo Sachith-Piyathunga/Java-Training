@@ -5,6 +5,9 @@ public class Main{
    
    try{
     int ratio = length / width; 
+   }catch(ArithmeticException e) {
+    System.err.println("ArithmeticException: " + e.getMessage());
+
    }
  }
 }
