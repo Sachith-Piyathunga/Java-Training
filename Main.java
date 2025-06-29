@@ -1,20 +1,35 @@
+import java.util.Arrays;
 public class Main {
 	public static void main(String[] args) {
-    // Given runner lap data
-		double[][] times = {{64.791, 75.972, 68.950, 79.039, 73.006, 74.157}, {67.768, 69.334, 70.450, 67.667, 75.686, 76.298}, {72.653, 77.649, 74.245, 62.121, 63.379, 79.354}};
-		
-		double lapTime = 0.0;
-		for(int outer = 0; outer < times[0].length; outer++){
-			lapTime = 0.0;
-			for(int inner = 0; inner < times.length; inner++){
-				System.out.println("Lap index: " + outer + ", Time index: " + inner);
-				// Add a line to sum up the values
-        lapTime+=times[inner][outer];
-			}
-			double averageVal = 0;
-      averageVal = lapTime / times.length;
-			System.out.println("Sum of lap " + outer + " times: " + lapTime);
-			System.out.println("Average time for lap " + outer + ": " + averageVal);
-		}
+		int[][] imageData={
+      {100,90,255,80,70,255,60,50},
+			{255,10,5,255,10,5,255,255},
+			{255,255,255,0,255,255,255,75},
+			{255,60,30,0,30,60,255,255}
+    };
+		// Declare and initialize the 2D array newImage
+		int[][] newImage = new int[4][6];
+
+		// Add a nested `for` loop and copy the data of `imagedata` to `newImage`
+    for(int i=0; i<newImage.length; i++){
+      for(int j=0; j<newImage[i].length; j++){
+        newImage[i][j] = imageData[i][j];
+      }
+    }
+
+		System.out.println(Arrays.deepToString(newImage));
+			
+		for(int i=0; i<newImage.length; i++){
+      for(int j=0; j<newImage[i].length; j++){
+        // Add the if-else statement here
+        if(newImage[i][j]-50<0){
+          newImage[i][j] = 0;
+        }
+        else{
+          newImage[i][j]-=50;
+        }
+      }
+    }
+		System.out.println(Arrays.deepToString(newImage));
 	}
 }
