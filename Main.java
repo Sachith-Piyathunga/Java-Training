@@ -14,6 +14,7 @@ public class Main {
   	System.out.println(Arrays.deepToString(scores));
 
 		//Manually enter the scores for the second exam below
+
     scores[0][1] = 89.7;
 		scores[1][1] = 90.5;
 		scores[2][1] = 93.6;
@@ -24,6 +25,7 @@ public class Main {
   	System.out.println(Arrays.deepToString(scores));
 		
   	//Declare and initialize an empty 4x2 2D array of double values called `newScores` below
+    double[][] newScores = new double[4][2];
 
 
   	//Use `for` loops to copy the scores below
