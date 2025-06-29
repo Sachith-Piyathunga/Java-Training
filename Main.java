@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class Main {
 	public static void main(String[] args) {
 		// Using the provided 2D array
@@ -5,8 +6,11 @@ public class Main {
 				{1, 1, 1, 1, 1},
 				{2, 4, 6, 8, 0},
 				{9, 8, 7, 6, 5}
-		};
-    int retrievedInt = intMatrix[0][3];
-    System.out.println(intMatrix[1][2] * 3);
-  }
+		};   
+    
+		// Declare and initialize a 2D array called subMatrix
+		
+    
+   //System.out.println(Arrays.deepToString(subMatrix));
+    }
 }
