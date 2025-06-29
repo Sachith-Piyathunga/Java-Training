@@ -1,13 +1,9 @@
 public class Main{
   public static void main(String[] args) {
-   int width = 0;
-   int length = 40;
-   
-   try{
-    int ratio = length / width; 
-   }catch(ArithmeticException e) {
-    System.err.println("ArithmeticException: " + e.getMessage());
-
-   }
- }
+    int steps = 10;
+    
+    for (int i = 0; i <= steps; i++) {
+      System.out.println("Step #" + i);
+    }
+  }
 }
