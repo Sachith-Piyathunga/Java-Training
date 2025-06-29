@@ -14,10 +14,10 @@ public class Main {
     int columns = intMatrix[0].length;
 
 		int sum = 0;
-		for(int i=0; i<-1; i++) {
-			for(int j = 0; j < -1; j++) {
-				// Add a line to calculate sum of all elements
-				
+		for(int i=0; i < rows; i++) {
+			for(int j = 0; j < columns; j++) {
+                // Add a line to calculate sum of all elements
+				sum+=intMatrix[i][j];
 			}
 		}
 		System.out.println(sum);
