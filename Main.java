@@ -16,6 +16,6 @@ public class Main {
     subMatrix[1][1] = intMatrix[1][1] * 5;
 		
     
-   //System.out.println(Arrays.deepToString(subMatrix));
+   System.out.println(Arrays.deepToString(subMatrix));
     }
 }
