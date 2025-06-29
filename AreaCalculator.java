@@ -49,7 +49,7 @@ public class AreaCalculator {
 	
   public static double area_triangle(int base, int height) {
 		System.out.println();
-		int A = (base * height) * 2;
+		int A = (base * height) / 2;
 		System.out.println("The area is " + A + ".");
     return A;
 	}
