@@ -1,33 +1,20 @@
 public class Main {
 	public static void main(String[] args) {
-		int[][] binary = {
-      {0, 1, 0, 1},
-      {1, 1, 1, 0},
-      {1, 0, 0, 1},
-      {1, 0, 1, 0}
-    };
+		// Given runner lap data
+		double[][] times = {{64.791, 75.972, 68.950, 79.039, 73.006, 74.157}, {67.768, 69.334, 70.450, 67.667, 75.686, 76.298}, {72.653, 77.649, 74.245, 62.121, 63.379, 79.354}};
 		
-		int onesCount = 0;
+		double runnerTime = 0.0;
+		for(int outer = -1; outer < -1; outer++) {
+			runnerTime = 0.0;
+			for(int inner = -1; inner < -1; inner++) {
+        		System.out.println("Runner index: " + outer + ", Time index: " + inner);
+				// Add a line to sum up the values in each row.
+        
+			}
+      double averageVal = 0;
 
-    for (int[] row : binary) {
-      for (int i: row) {
-        onesCount += i;
-      }
-    }
-    
-
-		System.out.println(onesCount);
-
-    String[][] wordData = {{"study", "consider", "examine", "learn"}, {"ponder", "read", "think", "cogitate"}};	
-
-    int i = 0, j = 0;
-    while (i < wordData.length) {
-      j = 0;
-      while (j < wordData[i].length) {
-        System.out.println(wordData[i][j] + ": [" + i + "]" + "[" + j + "]");
-        j++;
-      }
-      i++;
-    }
+			System.out.println("Sum of runner " + outer + " times: " + runnerTime);
+			System.out.println("Average of runner " + outer + ": " + averageVal);
+		}
 	}
 }
