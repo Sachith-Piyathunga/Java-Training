@@ -7,5 +7,6 @@ public class Main {
 				{9, 8, 7, 6, 5}
 		};
     int retrievedInt = intMatrix[0][3];
+    System.out.println(intMatrix[1][2] * 3);
   }
 }
