@@ -1,8 +1,9 @@
-public class Main{
+public class Main {
   public static void main(String[] args) {
-    int width = 20;
-    int length = 40;
-    int ratio = length / width;
-    System.out.println(ratio);
+    int[] numbers = {1, 2, 3, 4, 5};
+        
+    int lastNumber = numbers[5];
+        
+    System.out.println("The value of the last element is: " + lastNumber);
   }
 }
