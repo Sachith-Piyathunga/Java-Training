@@ -9,6 +9,7 @@ public class Main {
 		};   
     
 		// Declare and initialize a 2D array called subMatrix
+    int[][] subMatrix = new int[2][2];
 		
     
    //System.out.println(Arrays.deepToString(subMatrix));
