@@ -12,6 +12,8 @@ public class Main {
     int[][] subMatrix = new int[2][2];
     subMatrix[0][0] = intMatrix[0][0] * 5;
     subMatrix[0][1] = intMatrix[0][1] * 5;
+    subMatrix[1][0] = intMatrix[1][0] * 5;
+    subMatrix[1][1] = intMatrix[1][1] * 5;
 		
     
    //System.out.println(Arrays.deepToString(subMatrix));
