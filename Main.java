@@ -1,7 +1,10 @@
 public class Main {
 	public static void main(String[] args) {
 		// Declare a 2d array of float values called floatTwoD      
-    float [][] floatTwoD;
-    float floatTwoD = new float[4][10];
+    float[][] floatTwoD;
+		floatTwoD = new float[4][10];
+		
+    char[][] ticTacToe = {{'X', 'O', 'O'}, {'O', 'X', ' '}, {'X', ' ', 'X'}};
+    
     }
 }
