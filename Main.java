@@ -14,6 +14,11 @@ public class Main {
   	System.out.println(Arrays.deepToString(scores));
 
 		//Manually enter the scores for the second exam below
+    scores[0][1] = 89.7;
+		scores[1][1] = 90.5;
+		scores[2][1] = 93.6;
+		scores[3][1] = 88.1;
+
 
 
   	System.out.println(Arrays.deepToString(scores));
