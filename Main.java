@@ -10,6 +10,8 @@ public class Main {
     
 		// Declare and initialize a 2D array called subMatrix
     int[][] subMatrix = new int[2][2];
+    subMatrix[0][0] = intMatrix[0][0] * 5;
+    subMatrix[0][1] = intMatrix[0][1] * 5;
 		
     
    //System.out.println(Arrays.deepToString(subMatrix));
