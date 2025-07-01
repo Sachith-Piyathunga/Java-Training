@@ -1,5 +1,6 @@
 class Spaghetti extends Noodle {
   
+  // Add spaghetti method
   Spaghetti() {
     
   	super(30.0, 0.2, "round", "semolina flour");
