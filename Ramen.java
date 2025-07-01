@@ -1,5 +1,6 @@
 class Ramen extends Noodle {
   
+  // Add ramen method
   Ramen() {
     
     super(30.0, 0.3, "flat", "wheat flour");
