@@ -23,8 +23,6 @@ class Noodle {
   
   public static void main(String[] args) {
     
-    
-    
   }
   
 }
