@@ -37,5 +37,7 @@ public class Main {
       }
     }
     System.out.println(Arrays.deepToString(newScores));
+
+    System.out.println("Test print fot GitHub");
 	}
 }
