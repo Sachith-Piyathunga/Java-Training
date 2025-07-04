@@ -8,10 +8,13 @@ public class Main {
     System.out.println("Enter your first number: ");
     int num1 = scr.nextInt();
 
-    System.out.println("Enter your seconed number: ");
+    /*System.out.println("Enter your seconed number: ");
     int num2 = scr.nextInt();
 
-    System.out.println(num1 + " x " + num2 + " = " + num1 * num2);
+    System.out.println(num1 + " x " + num2 + " = " + num1 * num2);*/
+    for(int i = 0; i < 10; i++){
+      System.out.println(num1 + " x " + (i + 1) + " = " + (num1 * (i + 1)));
+    }
 		
 	}
 }
