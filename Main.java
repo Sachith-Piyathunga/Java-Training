@@ -29,6 +29,9 @@ public class Main {
 
     int res3 = f + a * h / b;
     System.out.println("Answer of c is: " + res3);
+
+    int res4 =  h + i / k * j - b % k;
+    System.out.println("Answer of d is: " + res4);
 		
 	}
 }
