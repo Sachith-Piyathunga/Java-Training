@@ -11,3 +11,5 @@
 - **Java 8+**
 - IDE: IntelliJ IDEA 
 - Version control: Git & GitHub
+
+⭐ **Feel free to check out my other projects and give them a star! Your support means a lot and keeps me motivated to share more.** 😊  
