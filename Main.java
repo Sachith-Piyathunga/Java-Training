@@ -20,7 +20,12 @@ public class Main {
     int i = 15;
     int j = 2;
     int k = 3;
-    
+
+    int res1 = a + b * c;
+    System.out.println("Answer of a is: " + res1);
+
+    int res2 = (d + e) % e;
+    System.out.println("Answer of b is: " + res2);
 		
 	}
 }
