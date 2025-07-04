@@ -5,3 +5,9 @@
 ## 🎯 About Me
 
 - I'm **Sachintha Piyathunga**, a Computer Science undergrad at the University of Westminster. This repository is my personal Java learning space—where I explore topics, document theory, and solve problems to strengthen my knowledge.
+
+## 🛠 Tech Stack & Tools
+
+- **Java 8+**
+- IDE: IntelliJ IDEA 
+- Version control: Git & GitHub
