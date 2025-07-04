@@ -1,20 +1,13 @@
 //import java.util.Arrays;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {  
-    Scanner scr = new Scanner(System.in);
-
-    System.out.println("Enter your first number: ");
-    int num1 = scr.nextInt();
-
-    /*System.out.println("Enter your seconed number: ");
-    int num2 = scr.nextInt();
-
-    System.out.println(num1 + " x " + num2 + " = " + num1 * num2);*/
-    for(int i = 0; i < 10; i++){
-      System.out.println(num1 + " x " + (i + 1) + " = " + (num1 * (i + 1)));
-    }
-		
+    // Create an patten called java
+    System.out.println("   J     a   a     a   a    ");
+    System.out.println("   J    a a   a   a   a  a  ");
+    System.out.println("J   J  aaaaa   a a   aaaaaa ");
+    System.out.println(" j j  a     a   a   a      a");
+    
 	}
 }
