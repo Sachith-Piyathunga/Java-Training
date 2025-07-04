@@ -2,12 +2,25 @@
 
 public class Main {
 	public static void main(String[] args) {  
-    double num1 = 50;
-    double num2 = 3;
+    /**
+     * a. -5 + 8 * 6
+     * b. (55+9) % 9
+     * c. 20 + -3*5 / 8
+     * d. 5 + 15 / 3 * 2 - 8 % 3
+     */
 
-    double sum = num1 / num2;
-
-    System.out.println("Sum of two numbers are: " + sum);
+    int a = -5;
+    int b = 8;
+    int c = 6;
+    int d = 55;
+    int e = 9;
+    int f = 20;
+    int g = 3;
+    int h = 5;
+    int i = 15;
+    int j = 2;
+    int k = 3;
+    
 		
 	}
 }
