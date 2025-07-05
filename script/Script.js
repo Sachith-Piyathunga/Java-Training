@@ -1,9 +1,9 @@
 let sale = true;
 
-// sale = false;
+sale = false;
 
-if(sale){
+if(sale) {
   console.log('Time to buy!');
 } else {
-  console.log('Too expencive');
+  console.log('Time to wait for a sale.');
 }
