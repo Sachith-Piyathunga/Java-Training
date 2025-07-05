@@ -1,11 +1,7 @@
-getReminder();
-
-function getReminder(){
-  console.log('Water the plants.');
+function sayThanks() {
+  console.log('Thank you for your purchase! We appreciate your business.');
 }
 
-greetInSpanish();
-
-function greetInSpanish() {
-  console.log('Buenas tardes.');
-}
+sayThanks();
+sayThanks();
+sayThanks();
