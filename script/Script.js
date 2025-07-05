@@ -1,6 +1,9 @@
-// typeof operator
+var name = 'Sachi';
+var num = 23;
+const GG = 'Game';
 
-let newVariable = 'Playing around with typeof.';
-console.log(typeof newVariable);
-newVariable = 1;
-console.log(typeof newVariable);
+console.log(`My name is ${name} My lucky number is ${num} and best word is ${GG}.`);
+
+console.log(typeof name);
+console.log(typeof num);
+console.log(typeof GG);
