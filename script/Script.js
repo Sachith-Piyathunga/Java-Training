@@ -1,9 +1,9 @@
-var name = 'Sachi';
-var num = 23;
-const GG = 'Game';
+let sale = true;
 
-console.log(`My name is ${name} My lucky number is ${num} and best word is ${GG}.`);
+// sale = false;
 
-console.log(typeof name);
-console.log(typeof num);
-console.log(typeof GG);
+if(sale){
+  console.log('Time to buy!');
+} else {
+  console.log('Too expencive');
+}
