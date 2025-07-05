@@ -1,9 +1,16 @@
-let mood = 'sleepy';
-let tirednessLevel = 6;
+let wordCount = 0;
 
-if (!mood === 'sleepy' || !tirednessLevel > 8){
-  console.log('time to sleep');
+if (wordCount) {
+  console.log("Great! You've started your work!");
 } else {
-  console.log('not bed time yet');
+  console.log('Better get to work!');
 }
 
+
+let favoritePhrase = 'Hello World!';
+
+if (favoritePhrase) {
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');
+}
