@@ -1,7 +1,4 @@
-let gainedDollar = 3;
-let lostDollar = 50;
-gainedDollar++;
-lostDollar--;
+// String Concatenation with Variables
 
-console.log(gainedDollar);
-console.log(lostDollar);
+let favoriteAnimal = 'Bool';
+console.log('My favorite animal: ' + favoriteAnimal);
