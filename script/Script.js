@@ -1,4 +1,6 @@
-// String Concatenation with Variables
+// String Interpolation
 
-let favoriteAnimal = 'Bool';
-console.log('My favorite animal: ' + favoriteAnimal);
+const myName = 'Sachintah';
+const myCity = 'Athans';
+
+console.log(`My name is ${myName}. My favorite city is  ${myCity}`); // to the string interpolation we use this symbols --> $ and `
