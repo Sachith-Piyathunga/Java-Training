@@ -1,16 +1,6 @@
-let wordCount = 0;
+let tool = '';
 
-if (wordCount) {
-  console.log("Great! You've started your work!");
-} else {
-  console.log('Better get to work!');
-}
+// Use short circuit evaluation to assign  writingUtensil variable below:
+let writingUtensil = tool || 'pen';
 
-
-let favoritePhrase = 'Hello World!';
-
-if (favoritePhrase) {
-  console.log("This string doesn't seem to be empty.");
-} else {
-  console.log('This string is definitely empty.');
-}
+console.log(`The ${writingUtensil} is mightier than the sword.`);
