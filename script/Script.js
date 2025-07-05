@@ -1,5 +1,7 @@
-function rectangleArea(width, height) {
-  let area = width * height;
-  return area;
+const numOfMonitors = monitorCount(5, 4);
+
+function monitorCount(rows, columns) {
+  return rows * columns;
 }
-console.log(rectangleArea(5, 7)) // Prints undefined
+
+console.log(numOfMonitors);
