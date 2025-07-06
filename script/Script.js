@@ -1,16 +1,4 @@
-const concept = ['arrays', 'can', 'be', 'mutated'];
+// Try the nested array
+// Array inside the another the array
 
-function changeArr(arr){
-  arr[3] = 'MUTATED';
-}
-
-changeArr(concept);
-console.log(concept);
-
-function removeElement (newArr){
-  newArr.pop();
-}
-removeElement(concept);
-
-
-console.log(concept);
+const numberClusters = [[1, 2], [3, 4], [5, 6]];
