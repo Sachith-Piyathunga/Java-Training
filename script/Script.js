@@ -1,4 +1,7 @@
-const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
 
-const removed = chores.pop();
-console.log(chores);
+groceryList.shift(); // Using th shift we can remove the first item in the array
+console.log(groceryList);
+
+groceryList.unshift('popcorn'); // Can do the opposite of the shift method
+console.log(groceryList);
