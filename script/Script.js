@@ -1,12 +1,9 @@
-// Write your code below
-const bobsFollowers = ['pesandu', 'nemitha', 'sani', 'naavya'];
-const tinasFollowers = ['saran', 'naavya', 'sani'];
-const mutualFollowers = [];
+const cards = ['diamond', 'spade', 'heart', 'club'];
 
-for (let i = 0; i < bobsFollowers.length; i++){
-  for (let j= 0; j < tinasFollowers.length; j++){
-    if (bobsFollowers[i] === tinasFollowers[j]){
-      mutualFollowers.push(bobsFollowers[i]);
-    }
-  }
+// Write your code below
+let currentCard; // Declare the variable call currentCard
+
+while (currentCard !== 'spade') { // Create a while loop, that does not have value spade
+  currentCard = cards[Math.floor(Math.random() * 4)];
+	console.log(currentCard);
 }
