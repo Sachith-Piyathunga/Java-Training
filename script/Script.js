@@ -1,6 +1,7 @@
-let newYearsResolutions = ['Keep a journal', 'Take a falconry class', 'Learn to juggle'];
+const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
 
-console.log(newYearsResolutions);
-const hobbies = ['Music', 'Cricket', 'Car'];
+const listItem  = 'Fortune favors the brave.';
 
-console.log(hobbies);
+console.log(listItem);
+console.log(famousSayings[2]);
+console.log(famousSayings[3]);
