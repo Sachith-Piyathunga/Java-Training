@@ -1,7 +1,4 @@
-// Try the nested array
-// Array inside the another the array
-
-const numberClusters = [[1, 2], [3, 4], [5, 6]];
-
-const target = numberClusters[2] [1];
-console.log(target);
+// Write your code below
+for (let i = 5; i < 11; i++){
+  console.log(i);
+}
