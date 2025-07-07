@@ -1,12 +1,12 @@
-const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
+  for(let i = 1; i <= 1000000; i++) {
+    if ( (2 + 2) != 4) {
+      console.log('Something has gone very wrong :( ');
+    }
+  }
+};
 
 // Write your code below
-for (let i = 0; i < rapperArray.length; i++){
-  console.log(rapperArray[i]);
-  if (rapperArray[i] === 'Notorious B.I.G.'){
-    break;
-  }
-}
-
-console.log("And if you don't know, now you know.");
-
+const isTwoPlusTwo = checkThatTwoPlusTwoEqualsFourAMillionTimes;
+isTwoPlusTwo();
+console.log(isTwoPlusTwo.name);
