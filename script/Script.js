@@ -1,11 +1,21 @@
-const addTwo = num => {
-  return num + 2;
-}
+const artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
 
-const checkConsistentOutput = (func, val) => {
-  const checkA = val + 2;
-  const checkB = func(val);
-  return checkA === checkB ? func(val) : 'inconsistent results';  
-}
+artists.forEach(artist => {
+  console.log(artist + ' is one of my favorite artists.');
+});
 
-console.log(checkConsistentOutput(addTwo, 10));
+const numbers = [1, 2, 3, 4, 5];
+
+const squareNumbers = numbers.map(number => {
+  return number * number;
+});
+
+console.log(squareNumbers);
+
+const things = ['desk', 'chair', 5, 'backpack', 3.14, 100];
+
+const onlyNumbers = things.filter(thing => {
+  return typeof thing === 'number';
+});
+
+console.log(onlyNumbers);
