@@ -1,12 +1,9 @@
-const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
-  for(let i = 1; i <= 1000000; i++) {
-    if ( (2 + 2) != 4) {
-      console.log('Something has gone very wrong :( ');
-    }
-  }
-};
+const addTwo = num => {
+  return num + 2;
+}
 
-// Write your code below
-const isTwoPlusTwo = checkThatTwoPlusTwoEqualsFourAMillionTimes;
-isTwoPlusTwo();
-console.log(isTwoPlusTwo.name);
+const checkConsistentOutput = (func, val) => {
+
+}
+
+console.log();
