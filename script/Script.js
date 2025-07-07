@@ -3,7 +3,9 @@ const addTwo = num => {
 }
 
 const checkConsistentOutput = (func, val) => {
-
+  const checkA = val + 2;
+  const checkB = func(val);
+  return checkA === checkB ? func(val) : 'inconsistent results';  
 }
 
-console.log();
+console.log(checkConsistentOutput(addTwo, 10));
