@@ -3,7 +3,7 @@ const cities = ['Orlando', 'Dubai', 'Edinburgh', 'Chennai', 'Accra', 'Denver', '
 const nums = [1, 50, 75, 200, 350, 525, 1000];
 
 //  Choose a method that will return undefined
-cities.method(city => console.log('Have you visited ' + city + '?'));
+cities.forEach(city => console.log('Have you visited ' + city + '?'));
 
 // Choose a method that will return a new array
 const longCities = cities.method(city => city.length > 7);
