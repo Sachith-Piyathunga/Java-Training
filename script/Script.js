@@ -20,3 +20,17 @@ const smallerNums = nums.map(num => num - 5);
 
 // Choose a method that will return a boolean value
 nums.every(num => num < 0);
+
+/**
+ * Output
+ * Have you visited Orlando?
+ * Have you visited Dubai?
+ * Have you visited Edinburgh?
+ * Have you visited Chennai?
+ * Have you visited Accra?
+ * Have you visited Denver?
+ * Have you visited Eskisehir?
+ * Have you visited Medellin?
+ * Have you visited Yokohama?
+ * CODECADEMY
+ */
