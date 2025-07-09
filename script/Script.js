@@ -1,7 +1,9 @@
-const numbers = [1, 2, 4, 10];
+const newNumbers = [1, 3, 5, 7];
 
-const summedNums = numbers.reduce((accumulator, currentValue) => {
-  return accumulator + currentValue
-}, 100)  // <- Second argument for .reduce()
+const newSum = newNumbers.reduce((accumulator, currentValue) => {
+  console.log('The value of accumulator: ', accumulator);
+  console.log('The value of currentValue: ', currentValue);
+  return accumulator + currentValue;
+}, 10);
 
-console.log(summedNums); // Output: 117
+console.log(newSum);
