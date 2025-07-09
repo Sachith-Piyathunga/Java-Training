@@ -7,4 +7,7 @@ const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'
 
 
 // Call .filter() on favoriteWords below
+const longFavoriteWords = favoriteWords.filter(word => {
+  return word.length > 7;
+})
 
