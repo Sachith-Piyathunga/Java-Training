@@ -1,9 +1,2 @@
-const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+const newNumbers = [1, 3, 5, 7];
 
-const foundAnimal = animals.findIndex(animal => {
-  return animal === 'elephant';
-});
-
-const startsWithS = animals.findIndex(animal => {
-  return animal[0] === 's' ? true : false;
-});
