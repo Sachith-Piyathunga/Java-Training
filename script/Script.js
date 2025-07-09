@@ -7,3 +7,16 @@ const newSum = newNumbers.reduce((accumulator, currentValue) => {
 }, 10);
 
 console.log(newSum);
+
+/**
+ * 
+ * output
+ * The value of accumulator:  10
+ * The value of currentValue:  1
+ * The value of accumulator:  11
+ * The value of currentValue:  3The value of accumulator:  14
+ * The value of currentValue:  5
+ * The value of accumulator:  19
+ * The value of currentValue:  7
+ * 26
+ */
