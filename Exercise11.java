@@ -1,0 +1,43 @@
+/**
+ * Validate Password
+ * Write a Java method to check whether a string is a valid password.
+ * Password rules:
+ * A password must have at least ten characters.
+ * A password consists of only letters and digits.
+ * A password must contain at least two digits.
+ */
+
+ import java.util.Scanner;
+
+ public class Exercise11  {
+
+    public static final int PASSWORD_LENGTH = 8;
+    public static void main(String[] args){
+            Scanner input = new Scanner(System.in);
+            System.out.println(
+                "1. A password must have at least eight characters.\n" +
+                "2. A password consists of only letters and digits.\n" +
+                "3. A password must contain at least two digits \n" +
+                "Input a password (You are agreeing to the above Terms and Conditions.): "); 
+            String s = input.nextLine();
+            if(is_Valid_Password(s)) {
+                System.out.println("Password is valied: " + s);
+            } else {
+                System.out.println("Password is not vailed: " + s);
+            } 
+    }
+
+    public static boolean is_Valid_Password(String password) {
+        if (password.length() < PASSWORD_LENGTH) return false;
+
+        int charCount = 0;
+        int numCount = 0;
+        for (int i = 0; i < password.length(); i++) {
+
+            char ch = password.charAt(i);
+
+            if ()
+        }
+    }
+    
+ }
