@@ -36,8 +36,20 @@
 
             char ch = password.charAt(i);
 
-            if ()
+            if (is_Numaric(ch)) numCount++;
+            else if (is_Letter(ch)) charCount++;
+            else return false;
         }
+        return (charCount >= 2 && numCount >= 2);
+    }
+
+    public static boolean is_Letter(char ch) {
+        ch = Character.toUpperCase(ch);
+        return (ch >= 'A' && ch <= 'Z');
+    }
+
+    public static boolean is_Numaric(char ch) {
+        return (ch >= '0' && ch <= '9');
     }
     
  }
