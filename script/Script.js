@@ -5,3 +5,8 @@
  * Current time is : 10 PM : 30 : 38
  */
 
+var today = new Date();
+var day = today.getDay();
+var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+
