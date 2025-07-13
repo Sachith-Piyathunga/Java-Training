@@ -1,28 +1,9 @@
 /**
- * Get Current Date in Various Formats
- * Write a JavaScript program to get the current date.
- * Expected Output :
- * mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
+ * Calculate Area of Triangle (Sides: 5, 6, 7)
+ * Write a JavaScript program to find the area of a triangle where three sides are 5, 6, 7.
+ * 
  */
 
-
-var today = new Date();
-var dd = today.getDate();
-var mm = today.getMonth();
-var yyyy = today.getFullYear();
-
-if (dd < 10) {
-  dd = '0' + dd;
-}
-
-today = mm + '-' + dd + '-' + yyyy;
-console.log(today);
-
-today = mm + '/' + dd + '/' + yyyy;
-console.log(today);
-
-today = dd + '-' + mm + '-' + yyyy;
-console.log(today);
-
-today = dd + '/' + mm + '/' + yyyy;
-console.log(today);
+var side1 = 5;
+var side2 = 6
+var side3 = 7;
