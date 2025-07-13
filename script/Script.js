@@ -28,3 +28,15 @@ if (hour === 0 && prepand === ' PM ') {
     prepand = ' PM';
   }
 }
+
+if (hour === 0 && prepand === ' PM ') {
+  if (minute === 0 && second === 0) {
+    hour = 12;
+    prepand = ' Midnight';
+  } else {
+    hour = 12;
+    prepand = ' AM';
+  }
+}
+
+console.log("Current time: " + hour + prepand + " : " + minute + " : " + second);
