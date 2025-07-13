@@ -18,3 +18,5 @@ if (dd < 10) {
 today = mm + '-' + dd + '-' + yyyy;
 console.log(today);
 
+today = mm + '/' + dd + '/' + yyyy;
+console.log(today);
