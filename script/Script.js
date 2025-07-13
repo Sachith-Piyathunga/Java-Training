@@ -20,3 +20,6 @@ console.log(today);
 
 today = mm + '/' + dd + '/' + yyyy;
 console.log(today);
+
+today = dd + '-' + mm + '-' + yyyy;
+console.log(today);
