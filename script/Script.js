@@ -4,3 +4,6 @@
  */
 
 today = new Date();
+
+var cmas = new Date (today.getFullYear(), 11, 25);
+
