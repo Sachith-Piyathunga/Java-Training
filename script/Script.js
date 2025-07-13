@@ -14,3 +14,7 @@ var yyyy = today.getFullYear();
 if (dd < 10) {
   dd = '0' + dd;
 }
+
+today = mm + '-' + dd + '-' + yyyy;
+console.log(today);
+
