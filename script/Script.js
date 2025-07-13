@@ -1,15 +1,9 @@
 /**
- * Calculate Area of Triangle (Sides: 5, 6, 7)
- * Write a JavaScript program to find the area of a triangle where three sides are 5, 6, 7.
- * 
+ * Check Leap Year (Gregorian Calendar)
+ * Write a JavaScript program to determine whether a given year is a leap 
+ * year in the Gregorian calendar.
  */
 
-var side1 = 5;
-var side2 = 6
-var side3 = 7;
-
-var s = (side1 + side2 +side3) / 2;
-
-var area = Math.sqrt(s * ((s - side1) * (s - side2) * (s -side3)));
-
-console.log(area);
+function leapyear(year) {
+  return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+}
