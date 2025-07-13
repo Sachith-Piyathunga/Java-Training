@@ -15,4 +15,6 @@ var hour = today.getHours();
 var minute = today.getMinutes();
 var second = today.getSeconds();
 
+var prepand = (hour >= 12) ? " PM " : " AM ";
+
 
