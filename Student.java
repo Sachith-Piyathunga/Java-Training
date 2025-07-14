@@ -12,4 +12,10 @@
    private int studentId;
    private String studentName;
    private String grade;
+
+   public Student() {
+      this.studentId = 0;
+      this.studentName = "Unknown";
+      this.grade = "None"; 
+   }
  }
