@@ -33,5 +33,13 @@
         this.price = price;
     }
 
+    public static void main(String[] args) {
+
+        Book book1 = new Book();
+        System.out.println("Book title: " + boo1.title);
+        System.out.println("Book author: " + book1.author);
+        System.out.println("Book price: " + boo1.price);
+
+    }
 
  }
