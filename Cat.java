@@ -10,5 +10,9 @@
     private String name;
     private int age;
 
-    
+    public Cat() {
+        this.name = "Unknown";
+        this.age = 0;
+        
+    }
  }
