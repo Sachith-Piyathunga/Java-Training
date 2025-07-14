@@ -24,6 +24,9 @@
             System.err.println("Error: Balance cannot be negative.");
             return;
         }
+
+        this.accountNumber = accountNumber;
+        this.balance = balance;
     }
  }
 
