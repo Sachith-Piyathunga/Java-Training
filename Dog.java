@@ -11,5 +11,7 @@
     private String name;
     private String colour;
 
-    
+    public Dog (String name, String colour) {
+        
+    }
  }
