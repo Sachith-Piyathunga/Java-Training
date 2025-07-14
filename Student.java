@@ -28,6 +28,8 @@
    public static void main(String[] args) {
       Student student1 = new Student(101, "Sachintha", "A");
 
-      
+      System.out.println("Student ID: " + student1.studentId);
+      System.out.println("Student Name: " + student1.studentName);
+      System.out.println("Student Grade: " + student1.grade);
    }
  }
