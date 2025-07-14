@@ -15,4 +15,10 @@ public class Rectangle {
         this.length = length;
         this.width = width;
     }
+
+    // Copy of the constructor
+    public Rectangle(Rectangle rectangle) {
+        this.length = rectangle.length; // Initialize the rectangle object length
+        this.width = rectangle.width;
+    }
 }
