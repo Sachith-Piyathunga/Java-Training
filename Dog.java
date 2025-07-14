@@ -12,6 +12,13 @@
     private String colour;
 
     public Dog (String name, String colour) {
+
+        this.name = name;
+        this.colour = colour;   
+    }
+
+
+    public static void main (String[] args) {
         
     }
  }
