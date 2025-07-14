@@ -36,8 +36,13 @@
         System.out.println("Account 1 balance is: " + account1.balance);
 
         Account account2 = new Account("null", 500);
-        System.out.println("Account 1 Number is: " + account2.accountNumber);
-        System.out.println("Account 1 balance is: " + account2.balance);
+        System.out.println("Account 2 Number is: " + account2.accountNumber);
+        System.out.println("Account 2 balance is: " + account2.balance);
+
+        Account account3 = new Account("1230000873", -200.00);
+        System.out.println("Account 3 Number is: " + account3.accountNumber);
+        System.out.println("Account 3 balance is: " + account3.balance);
+
     }
  }
 
