@@ -28,5 +28,14 @@
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
+
+    public static void main(String[] args) {
+
+        Account account1 = new Account("123456789", 10000);
+        System.out.println("Account 1 Number is: " + account1.accountNumber);
+        System.out.println("Account 1 balance is: " + account1.balance);
+
+        
+    }
  }
 
