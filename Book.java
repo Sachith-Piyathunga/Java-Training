@@ -45,6 +45,11 @@
         System.out.println("Book author: " + book2.author);
         System.out.println("Book price: " + book2.price);
 
+        Book book3 = new Book("Thruna", "Cording", 19.99);
+        System.out.println("Book title: " + book3.title);
+        System.out.println("Book author: " + book3.author);
+        System.out.println("Book price: " + book3.price);
+
     }
 
  }
