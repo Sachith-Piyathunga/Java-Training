@@ -28,5 +28,10 @@ public class Rectangle {
 
         System.out.println("Rectangle 1 Length is: " + rect1.length);
         System.out.println("Rectangle 1 Width is: " + rect1.width);
+
+        Rectangle rect2 = new Rectangle(53.8, 20.6);
+
+        System.out.println("Rectangle 2 Length is: " + rect2.length);
+        System.out.println("Rectangle 2 Width is: " + rect2.width);
     }
 }
