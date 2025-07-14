@@ -25,5 +25,8 @@ public class Rectangle {
     public static void main(String[] args) {
 
         Rectangle rect1 = new Rectangle(12.5, 8.5);
+
+        System.out.println("Rectangle 1 Length is: " + rect1.length);
+        System.out.println("Rectangle 1 Width is: " + rect1.width);
     }
 }
