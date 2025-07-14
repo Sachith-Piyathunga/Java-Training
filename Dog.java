@@ -19,6 +19,10 @@
 
 
     public static void main (String[] args) {
-        
+
+        Dog myDog = new Dog("Bool", "Black");
+
+        System.out.println("Dog's name: " + myDog.name);
+        System.out.println("Dog's colour: " + myDog.colour);
     }
  }
