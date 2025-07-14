@@ -13,5 +13,12 @@
     
     private String accountNumber;
     private double balance;
+
+    public Account(String accountNumber, double balance) {
+        if (accountNumber == null || accountNumber.isEmpty()) {
+            System.out.println("Error: Account number cannot be null or empty.");
+            return;
+        }
+    }
  }
 
