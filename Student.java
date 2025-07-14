@@ -18,4 +18,10 @@
       this.studentName = "Unknown";
       this.grade = "None"; 
    }
+
+   public Student (int studentId, String studentName, String grade) {
+      this.studentId = studentId;
+      this.studentName = studentName;
+      this.grade = grade;
+   }
  }
