@@ -16,7 +16,12 @@
 
     public Account(String accountNumber, double balance) {
         if (accountNumber == null || accountNumber.isEmpty()) {
-            System.out.println("Error: Account number cannot be null or empty.");
+            System.err.println("Error: Account number cannot be null or empty.");
+            return;
+        }
+
+        if (balance < 0 ) {
+            System.err.println("Error: Balance cannot be negative.");
             return;
         }
     }
