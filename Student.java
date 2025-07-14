@@ -31,5 +31,11 @@
       System.out.println("Student ID: " + student1.studentId);
       System.out.println("Student Name: " + student1.studentName);
       System.out.println("Student Grade: " + student1.grade);
+
+      Student student2 = new Student(520, "Piyathunga", "A");
+
+      System.out.println("Student ID: " + student2.studentId);
+      System.out.println("Student Name: " + student2.studentName);
+      System.out.println("Student Grade: " + student2.grade);
    }
  }
