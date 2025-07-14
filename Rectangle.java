@@ -21,4 +21,9 @@ public class Rectangle {
         this.length = rectangle.length; // Initialize the rectangle object length
         this.width = rectangle.width;
     }
+
+    public static void main(String[] args) {
+
+        Rectangle rect1 = new Rectangle(12.5, 8.5);
+    }
 }
