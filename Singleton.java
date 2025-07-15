@@ -11,4 +11,7 @@
  public class Singleton {
     
     private static Singleton singleInstance = null;
+    private Singleton() {
+        System.out.println("Singleton instance created.");
+    }
  }
