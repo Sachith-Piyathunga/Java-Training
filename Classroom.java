@@ -11,4 +11,10 @@
     
     private String className;
     private String[] students; // Create an array
+
+    public Classroom(String className, String[] students) {
+
+        this.className = className;
+        this.students = students;
+    }
  }
