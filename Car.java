@@ -26,5 +26,11 @@
         System.out.println("Car 1 make: " + car1.make);
         System.out.println("Cae 1 model: " + car1.model);
         System.out.println("Car 1 year: " + car1.year);
+
+        Car car2 = new Car("", "", -1);
+        
+        System.out.println("Car 2 Make: " + car2.make);
+        System.out.println("Car 2 Model: " + car2.model);
+        System.out.println("Car 2 Year: " + car2.year);
     }
  }
