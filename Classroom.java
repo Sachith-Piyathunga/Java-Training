@@ -17,4 +17,11 @@
         this.className = className;
         this.students = students;
     }
+
+    public void printClassroom() {
+
+        System.out.println("Class Name: " + className);
+        System.out.println("Students: ");
+        
+    }
  }
