@@ -18,4 +18,8 @@
         this.model = (model == null || model.isEmpty()) ? "Unknown model" : model;
         this.year = (year <= 0 ) ? 2000 : year;
     }
+    
+    public static void main(String[] args) {
+        
+    }
  }
