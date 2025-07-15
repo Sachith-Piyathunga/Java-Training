@@ -30,6 +30,8 @@
 
     public static void main(String[] args) {
 
-        
+        String[] studentArray = {"Andrine", "Ruslan", "Martin"};
+        Classroom classroom = new Classroom("Science 10", studentArray);
+        classroom.printClassroom();
     }
  }
