@@ -25,6 +25,8 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        
+
+        Point point1 = new Point(4, 6);
+        point1.printPoint();
     }
 }
