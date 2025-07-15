@@ -22,6 +22,9 @@
 
         System.out.println("Class Name: " + className);
         System.out.println("Students: ");
-        
+        for(String student : students) {
+            System.out.println(student + " ");
+        }
+        System.out.println();
     }
  }
