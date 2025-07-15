@@ -20,5 +20,10 @@
         if (singleInstance == null) {
             singleInstance = new Singleton();
         }
+        return singleInstance;
+    }
+
+    public static void main(String[] args) {
+
     }
  }
