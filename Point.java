@@ -28,5 +28,8 @@ public class Point {
 
         Point point1 = new Point(4, 6);
         point1.printPoint();
+
+        Point point2 = new Point(4.5, 5.5);
+        point2.printPoint();
     }
 }
