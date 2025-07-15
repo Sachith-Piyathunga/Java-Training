@@ -19,4 +19,8 @@ public class Point {
         this.x = (int) x;
         this.y = (int) y;
     }
+
+    public void printPoint() {
+        System.out.println("Point (x, y): (" + x + "," + y + ")");
+    }
 }
