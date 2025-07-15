@@ -9,4 +9,6 @@
 
  public class Classroom {
     
+    private String className;
+    private String[] students; // Create an array
  }
