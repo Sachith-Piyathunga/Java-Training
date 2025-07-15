@@ -23,4 +23,8 @@ public class Point {
     public void printPoint() {
         System.out.println("Point (x, y): (" + x + "," + y + ")");
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
