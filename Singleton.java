@@ -10,4 +10,5 @@
 
  public class Singleton {
     
+    private static Singleton singleInstance = null;
  }
