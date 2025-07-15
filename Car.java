@@ -20,6 +20,11 @@
     }
     
     public static void main(String[] args) {
-        
+
+        Car car1 = new Car("Honda", "CIVIC", 2020);
+
+        System.out.println("Car 1 make: " + car1.make);
+        System.out.println("Cae 1 model: " + car1.model);
+        System.out.println("Car 1 year: " + car1.year);
     }
  }
