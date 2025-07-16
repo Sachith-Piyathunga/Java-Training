@@ -17,7 +17,7 @@ public class Employee {
         return ID;
     }
 
-    public String setName() {
+    public String getName() {
         return name;
     }
 
@@ -27,6 +27,9 @@ public class Employee {
 
         emp.setId(5896);
         emp.setName("Sachintha");
+
+        System.out.println("Employee ID is: " + emp.getID());
+        System.out.println("Employee name is: " + emp.getName());
     }
     
 }
