@@ -16,5 +16,9 @@ class Car extends Vehicle {
     void accelerate() {
         System.out.println("Car: Pressing gas pedal..");
     }
+    @Override
+    void brake() {
+        System.out.println("Car: Applying brakes..");
+    } 
 
 }
