@@ -27,7 +27,10 @@ public class Numbers {
 
         num.setA(8);
         num.setB(10);
-        
+
+        num.sum();
+        num.sub();
+
     }
 
 }
