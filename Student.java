@@ -22,4 +22,10 @@ public class Student {
         return name;
     }
 
+    public static void main(String[] args) {
+        Student obj = new Student(2563, "Sachintha")
+
+        obj.printStudent("Student details: ");
+    }
+
 }
