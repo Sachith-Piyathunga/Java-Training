@@ -13,4 +13,12 @@ public class Numbers {
         this.b = b;
     }
 
+    public void sum() {
+        System.out.println("Sum of the numbers are: " + (a + b));
+    }
+
+    public void sub() {
+        System.out.println("Sub of the numbers are: " + (a - b));
+    }
+
 }
