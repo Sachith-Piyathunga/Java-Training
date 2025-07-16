@@ -15,7 +15,7 @@ class Parent {
 }
 
 // child class
-class child extends Parent {
+class Child extends Parent {
     @Override
     public void func(int a) {
         System.out.println("Child.func(int): " + a);
@@ -24,6 +24,9 @@ class child extends Parent {
 
 public class Main {
     public static void main(String[] args) {
-        
+        Parent parent = new Parent();
+        Child child = new Child();
+        // Dynamic dispatch
+        Parent polymorphicObj = new Child();
     }
 }
