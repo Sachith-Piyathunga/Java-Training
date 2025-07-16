@@ -21,4 +21,13 @@ public class Numbers {
         System.out.println("Sub of the numbers are: " + (a - b));
     }
 
+    public static void main(String[] args) {
+
+        Numbers num = new Numbers();
+
+        num.setA(8);
+        num.setB(10);
+        
+    }
+
 }
