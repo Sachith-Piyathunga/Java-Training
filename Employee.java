@@ -4,8 +4,7 @@ public class Employee {
     private double salary;
 
     public Employee(String name, double salary) {
-
-        this.name =name;
+        this.name = name;
         this.salary = salary;
     }
 
@@ -23,5 +22,10 @@ public class Employee {
 
     public void setSalary(double salary) {
         this.salary = salary;
+    }
+
+    public void displayDetails() {
+        System.out.println(("Employee: " + name));
+        System.out.println("Salary: " + salary);
     }
 }
