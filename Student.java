@@ -9,3 +9,12 @@ abstract class Vehicle {
         System.out.println("Engine is started!");
     }
 }
+
+class Car extends Vehicle {
+    
+    @Override
+    void accelerate() {
+        System.out.println("Car: Pressing gas pedal..");
+    }
+
+}
