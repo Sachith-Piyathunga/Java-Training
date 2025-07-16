@@ -7,4 +7,10 @@ public class Student {
         this.ID = ID;
         this.name = name;
     }
+
+    public void printStudent (String header) {
+        System.out.println(header);
+        System.out.println("ID: " + getID());
+        System.out.println("Name: " + getname());
+    }
 }
