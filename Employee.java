@@ -1,35 +1,11 @@
-// Encapsulation using private modifier
+// Inheritance 
 
-public class Employee {
+class Animal {
     
-    private int ID;
-    private String name;
-
-    public void setId(int ID) {
-        this.ID = ID;
+    void eat() {
+        System.out.println("Animal is eating.....");
     }
-
-    public void setName(String name) {
-        this.name = name;
+    void sleep() {
+        System.out.println("Animal is sleepnig.....");
     }
-
-    public int getID() {
-        return ID;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public static void main(String[] args) {
-        
-        Employee emp = new Employee();
-
-        emp.setId(5896);
-        emp.setName("Sachintha");
-
-        System.out.println("Employee ID is: " + emp.getID());
-        System.out.println("Employee name is: " + emp.getName());
-    }
-    
 }
