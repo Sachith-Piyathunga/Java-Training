@@ -28,5 +28,12 @@ public class Main {
         Child child = new Child();
         // Dynamic dispatch
         Parent polymorphicObj = new Child();
+
+        parent.func();
+        parent.func(50);
+
+        child.func(30);
+
+        polymorphicObj.func(10);
     }
 }
