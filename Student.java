@@ -13,4 +13,13 @@ public class Student {
         System.out.println("ID: " + getID());
         System.out.println("Name: " + getname());
     }
+
+    public int getID() {
+        return ID;
+    }
+
+    public String getname() {
+        return name;
+    }
+
 }
