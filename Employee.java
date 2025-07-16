@@ -20,5 +20,13 @@ public class Employee {
     public String setName() {
         return name;
     }
+
+    public static void main(String[] args) {
+        
+        Employee emp = new Employee();
+
+        emp.setId(5896);
+        emp.setName("Sachintha");
+    }
     
 }
