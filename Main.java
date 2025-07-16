@@ -18,6 +18,8 @@ class Animal {
 
 public class Main {
     public static void main(String[] rgs) {
-        
+        Dog myDog = new Dog();
+
+        myDog.eat();
     }
 }
