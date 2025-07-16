@@ -25,7 +25,7 @@ public class Employee {
     }
 
     public void displayDetails() {
-        System.out.println(("Employee: " + name));
+        System.out.println(("Employee name: " + name));
         System.out.println("Salary: " + salary);
     }
 
