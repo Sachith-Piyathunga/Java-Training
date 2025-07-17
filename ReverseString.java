@@ -1,30 +1,29 @@
-// Create a class Person with private fields name and age, and provide getter and setter methods.
+// Create a class Book with two constructors — one with title only, another with title and author.
 
-class Person {
-    private String name;
-    private int age;
+class Book {
+    String title;
+    String author;
 
-    public void setName(String n) {
-        name = n;
+    Book(String t) {
+        title = t;
+        author = "Unknown";
     }
 
-    public String getName() {
-        return name;
+    Book(String t, String a) {
+        title = t;
+        author = a;
     }
 
-    public void setAge(int a) {
-        age = a;
-    }
-
-    public int getAge() {
-        return age;
+    void display() {
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
     }
 
     public static void main(String[] args) {
-        Person p = new Person();
-        p.setName("Sachintha");
-        p.setAge(22);
-        System.out.println("Name: " + p.getName());
-        System.out.println("Age: " + p.getAge());
+        Book b1 = new Book("Java Basics");
+        Book b2 = new Book("Advanced Java", "John");
+
+        b1.display();
+        b2.display();
     }
 }
