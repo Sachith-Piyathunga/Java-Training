@@ -1,29 +1,16 @@
-// Create a class Book with two constructors — one with title only, another with title and author.
+// Create a class Counter with a static variable to count number of objects created.
 
-class Book {
-    String title;
-    String author;
+class Counter {
+    static int count = 0;
 
-    Book(String t) {
-        title = t;
-        author = "Unknown";
-    }
-
-    Book(String t, String a) {
-        title = t;
-        author = a;
-    }
-
-    void display() {
-        System.out.println("Title: " + title);
-        System.out.println("Author: " + author);
+    Counter() {
+        count++;
+        System.out.println("Object number: " + count);
     }
 
     public static void main(String[] args) {
-        Book b1 = new Book("Java Basics");
-        Book b2 = new Book("Advanced Java", "John");
-
-        b1.display();
-        b2.display();
+        Counter c1 = new Counter();
+        Counter c2 = new Counter();
+        Counter c3 = new Counter();
     }
 }
