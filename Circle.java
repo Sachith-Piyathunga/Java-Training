@@ -1,18 +1,18 @@
-// Write a Java class that calculates the area of a circle using OOP.
+// Create a class Animal and a subclass Dog which overrides a method makeSound().
 
-public class Circle {
-    double radius;
-
-    public Circle(double r) {
-        radius = r;
+class Animal {
+    void makeSound() {
+        System.out.println("Some animal sound");
     }
+}
 
-    double getArea() {
-        return 3.14 * radius * radius;
+class Dog extends Animal {
+    void makeSound() {
+        System.out.println("Bark");
     }
 
     public static void main(String[] args) {
-        Circle c = new Circle(5.0);
-        System.out.println("Area: " + c.getArea());
+        Dog d = new Dog();
+        d.makeSound();
     }
 }
