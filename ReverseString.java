@@ -6,5 +6,10 @@ abstract class Shape {
 }
 
 class Square extends Shape {
+    
     double side;
+
+    public Square(douuble side) {
+        this.side = side;
+    }
 }
