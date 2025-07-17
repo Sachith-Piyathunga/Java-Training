@@ -1,27 +1,30 @@
-// Create a Vehicle class with a method startEngine(). Create two subclasses Car and Bike that override this method.
+// Create a class Person with private fields name and age, and provide getter and setter methods.
 
-class Vehicle {
-    void startEngine() {
-        System.out.println("Engine started");
+class Person {
+    private String name;
+    private int age;
+
+    public void setName(String n) {
+        name = n;
     }
-}
 
-class Car extends Vehicle {
-    void startEngine() {
-        System.out.println("Car engine started");
+    public String getName() {
+        return name;
     }
-}
 
-class Bike extends Vehicle {
-    void startEngine() {
-        System.out.println("Bike engine started");
+    public void setAge(int a) {
+        age = a;
+    }
+
+    public int getAge() {
+        return age;
     }
 
     public static void main(String[] args) {
-        Vehicle v1 = new Car();
-        Vehicle v2 = new Bike();
-
-        v1.startEngine();
-        v2.startEngine();
+        Person p = new Person();
+        p.setName("Sachintha");
+        p.setAge(22);
+        System.out.println("Name: " + p.getName());
+        System.out.println("Age: " + p.getAge());
     }
 }
