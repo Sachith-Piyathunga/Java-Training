@@ -1,14 +1,11 @@
-// Write a class Rectangle that extends Shape and overrides getArea.
+// Show method overloading with a display() method
 
-class Rectangle extends Shape {
-    double width, height;
-
-    Rectangle(double w, double h) {
-        width = w;
-        height = h;
+class Printer {
+    void display(int a) {
+        System.out.println("Integer: " + a);
     }
 
-    double getArea() {
-        return width * height;
+    void display(String s) {
+        System.out.println("String: " + s);
     }
 }
