@@ -1,18 +1,14 @@
-// Runtime Polymorphism (Method Overriding)
+// Write a class Rectangle that extends Shape and overrides getArea.
 
-class Animal {
-    void sound() {
-        System.out.println("Some sound");
-    }
-}
+class Rectangle extends Shape {
+    double width, height;
 
-class Dog extends Animal {
-    void sound() {
-        System.out.println("Bark");
+    Rectangle(double w, double h) {
+        width = w;
+        height = h;
     }
 
-    public static void main(String[] args) {
-        Animal a = new Dog();  // Runtime polymorphism
-        a.sound();             // Calls Dog’s sound()
+    double getArea() {
+        return width * height;
     }
 }
