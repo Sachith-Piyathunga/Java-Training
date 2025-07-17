@@ -1,16 +1,16 @@
-// Create a class Counter with a static variable to count number of objects created.
+// Create an interface Playable with method play(). Implement it in a class Music.
 
-class Counter {
-    static int count = 0;
+interface Playable {
+    void play();
+}
 
-    Counter() {
-        count++;
-        System.out.println("Object number: " + count);
+class Music implements Playable {
+    public void play() {
+        System.out.println("Playing music...");
     }
 
     public static void main(String[] args) {
-        Counter c1 = new Counter();
-        Counter c2 = new Counter();
-        Counter c3 = new Counter();
+        Music m = new Music();
+        m.play();
     }
 }
