@@ -1,14 +1,6 @@
-// Write a Java program to reverse a string.
+// Create a Java program that uses abstraction to model a shape system.
 
-public class ReverseString {
-    public static void main(String[] args) {
-        String str = "hello";
-        String reversed = "";
+abstract class Shape {
 
-        for (int i = str.length() - 1; i >= 0; i--) {
-            reversed += str.charAt(i);
-        }
-
-        System.out.println("Reversed: " + reversed);
-    }
+    abstract double getArea();
 }
