@@ -4,3 +4,7 @@ abstract class Shape {
 
     abstract double getArea();
 }
+
+class Square extends Shape {
+    double side;
+}
