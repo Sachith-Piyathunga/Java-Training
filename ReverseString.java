@@ -12,4 +12,8 @@ class Square extends Shape {
     public Square(douuble side) {
         this.side = side;
     }
+
+    double getArea() {
+        return side * side;
+    }
 }
