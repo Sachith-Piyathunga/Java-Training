@@ -1,25 +1,27 @@
-// Create a Java program that uses abstraction to model a shape system.
+// Create a Vehicle class with a method startEngine(). Create two subclasses Car and Bike that override this method.
 
-abstract class Shape {
-
-    abstract double getArea();
+class Vehicle {
+    void startEngine() {
+        System.out.println("Engine started");
+    }
 }
 
-class Square extends Shape {
-    
-    double side;
-
-    public Square(double side) {
-        this.side = side;
+class Car extends Vehicle {
+    void startEngine() {
+        System.out.println("Car engine started");
     }
+}
 
-    double getArea() {
-        return side * side;
+class Bike extends Vehicle {
+    void startEngine() {
+        System.out.println("Bike engine started");
     }
 
     public static void main(String[] args) {
-        Square squ = new Square(10.0);
+        Vehicle v1 = new Car();
+        Vehicle v2 = new Bike();
 
-        System.out.println("Area of square: " + squ.getArea());
+        v1.startEngine();
+        v2.startEngine();
     }
 }
