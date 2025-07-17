@@ -1,11 +1,18 @@
-// Compile-Time Polymorphism (Method Overloading)
+// Runtime Polymorphism (Method Overriding)
 
-class Calculator {
-    int add(int a, int b) {
-        return a + b;
+class Animal {
+    void sound() {
+        System.out.println("Some sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Bark");
     }
 
-    double add(double a, double b) {
-        return a + b;
+    public static void main(String[] args) {
+        Animal a = new Dog();  // Runtime polymorphism
+        a.sound();             // Calls Dog’s sound()
     }
 }
