@@ -1,16 +1,11 @@
-// Create an interface Playable with method play(). Implement it in a class Music.
+// Compile-Time Polymorphism (Method Overloading)
 
-interface Playable {
-    void play();
-}
-
-class Music implements Playable {
-    public void play() {
-        System.out.println("Playing music...");
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
     }
 
-    public static void main(String[] args) {
-        Music m = new Music();
-        m.play();
+    double add(double a, double b) {
+        return a + b;
     }
 }
