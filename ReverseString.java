@@ -1,11 +1,18 @@
-// Show method overloading with a display() method
+// Show method overriding using inheritance
 
-class Printer {
-    void display(int a) {
-        System.out.println("Integer: " + a);
+class Parent {
+    void greet() {
+        System.out.println("Hello from parent");
+    }
+}
+
+class Child extends Parent {
+    void greet() {
+        System.out.println("Hello from child");
     }
 
-    void display(String s) {
-        System.out.println("String: " + s);
+    public static void main(String[] args) {
+        Parent obj = new Child();
+        obj.greet();  // runtime polymorphism
     }
 }
