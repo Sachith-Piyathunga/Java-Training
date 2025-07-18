@@ -30,3 +30,22 @@ public class Initializer {
         System.out.println("After creating an instance: initialValue = " + Initializer.initialValue);
     }
 }
+
+/**
+ * Explanation:
+ * 
+ * Define the Initializer class:
+ *      The Initializer class is defined using the class keyword.
+ * Declare a static variable initialValue:
+ *      The static variable initialValue is declared.
+ * Static block to initialize initialValue:
+ *      A static block is used to initialize initialValue to 1000.
+ *      A message is printed within the static block to indicate the initialization of initialValue.
+ * Main method to demonstrate the static block:
+ *      The main method is defined to test the Initializer class.
+ *      The value of initialValue is printed before creating an instance of the Initializer class.
+ *      An instance of the Initializer class is created.
+ *      The value of initialValue is printed after creating an instance of the 
+ *      Initializer class.
+ * 
+ */
