@@ -15,4 +15,8 @@
         initialValue = 1000;
         System.out.println("Static block: initialValue initialized to " + initialValue);
     }
+
+    public static void main(String[] args) {
+        
+    }
  }
