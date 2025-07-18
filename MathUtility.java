@@ -15,6 +15,7 @@
     }
 
     public static void main(String[] args) {
-        
+
+        int sum = MathUtility.add(11, 50);
     }
  }
