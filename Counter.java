@@ -13,5 +13,8 @@
     public Counter() {
         count++;
     }
-    
+
+    public static int getCount() {
+        return count;
+    }
  }
