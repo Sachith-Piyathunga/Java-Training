@@ -18,6 +18,8 @@
 
     public static void main(String[] args) {
         System.out.println("Before creating an instance: initialValue = " + Initializer.initialValue);
+
+        Initializer initializer = new Initializer();
         
     }
  }
