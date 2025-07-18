@@ -9,4 +9,5 @@
 
  public class Initializer {
     
+    static int initialValue;
  }
