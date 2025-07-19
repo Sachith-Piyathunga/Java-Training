@@ -33,3 +33,23 @@ public class ComplexInitializer {
         System.out.println("Value of z: " + z);
     }
 }
+
+/**
+ * Explanation:
+ * 
+ * Define the ComplexInitializer class:
+ *      The ComplexInitializer class is defined using the class keyword.
+ * Declare static variables x, y, z:
+ *      The static variables x, y, and z are declared within the class.
+ * Static block to initialize the static variables using complex logic:
+ *      The static block is used to initialize the static variables. It sets x to 10, y to 20, and calculates z using the calculateZ method.
+ *      The static block runs once when the class is first loaded, ensuring that the static variables are initialized before they are used.
+ * Static method to calculate the value of z:
+ *      The calculateZ method is a static method that takes two integers as parameters and returns the result of a complex calculation involving multiplication and subtraction.
+ *      This method is used within the static block to initialize the value of z.
+ * Main method to print the values of the static variables:
+ *      The main method is defined to test the ComplexInitializer class.
+ *      It prints the values of x, y, and z to the console.
+ * 
+ */
+
