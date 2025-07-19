@@ -9,4 +9,7 @@
 
  public class ComplexInitializer {
     
+    private static int x;
+    private static int y;
+    private static int z;
  }
