@@ -14,4 +14,8 @@ public class IDGenerator {
     public static int generateID() {
         return nextID;
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
