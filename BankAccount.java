@@ -12,4 +12,9 @@
  public class BankAccount  {
     private String accountNumber;
     private double balance;
+
+    private static String bankName;
+    private static double interestRate;
+
+    
  }
