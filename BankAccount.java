@@ -43,4 +43,8 @@
         System.out.println("Bank Name: " + bankName);
         System.out.println("Interest Rate: " + interestRate);
     }
+
+    public static void main(string[] args){
+        
+    }
  }
