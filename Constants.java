@@ -16,6 +16,7 @@
         double radius = 5.0;
         double area = calculateArea(radius);
 
-        
+        System.out.println("Radius:" + radius);
+        System.out.println("Area: " + area);
     }
  }
