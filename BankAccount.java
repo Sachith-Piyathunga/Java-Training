@@ -20,4 +20,8 @@
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
+
+    public static String getBankName() {
+        return bankName;
+    }
  }
