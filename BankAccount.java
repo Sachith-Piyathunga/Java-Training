@@ -69,3 +69,21 @@ public class BankAccount {
         account2.printDetails();
     }
 }
+
+/**
+ * Explanation:
+ * 
+ * Define the BankAccount class:
+ *      The BankAccount class is defined with instance variables accountNumber and balance.
+ * Static variables:
+ *      The static variables bankName and interestRate are declared within the class. These variables are shared across all instances of the BankAccount class.
+ * Constructor to initialize instance variables:
+ *      A constructor is provided to initialize the accountNumber and balance for each BankAccount object created.
+ * Static methods to get and set static variables:
+ *      getBankName and setBankName methods are used to get and set the static variable bankName.
+ *      getInterestRate and setInterestRate methods are used to get and set the static variable interestRate.
+ * Method to print the details of the BankAccount object:
+ *      The printDetails method prints the details of a BankAccount object, including the static variables.
+ * Main method to demonstrate the functionality:
+ *      The main method sets the static variables bankName and interestRate, creates two BankAccount objects, and prints their details using the printDetails method.
+ */
