@@ -24,4 +24,9 @@
     public static String getBankName() {
         return bankName;
     }
+
+    public static void setBankName(String name) {
+        bankName = name;
+    }
+    
  }
