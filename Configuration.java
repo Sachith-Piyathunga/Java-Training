@@ -26,3 +26,19 @@ public class Configuration {
         System.out.println("Config Value: " + configValue);
     }
 }
+
+/**
+ * Explanation:
+ * Define the Configuration class:
+ *      The Configuration class is defined using the class keyword.
+ * Declare a static variable configValue:
+ *      The static variable configValue is declared. It will hold the configuration value.
+ *  Static block to initialize configValue:
+ *      A static block is used to initialize the static variable configValue.
+ *      This block simulates reading from a configuration file by assigning a default value to configValue.
+ *      A message is printed to indicate that the static block has been executed and configValue has been initialized.
+ * Main method to print the value of configValue:
+ *      The main method is defined to test the Configuration class.
+ *      It prints the value of configValue to the console.
+ * 
+ */
