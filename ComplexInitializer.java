@@ -12,4 +12,10 @@
     private static int x;
     private static int y;
     private static int z;
+
+    static {
+        x = 10;
+        y = 39;
+        z = calculateZ(x, y);
+    }
  }
