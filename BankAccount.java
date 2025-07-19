@@ -28,5 +28,8 @@
     public static void setBankName(String name) {
         bankName = name;
     }
-    
+
+    public static double getInterestRate() {
+        return interestRate;
+    }
  }
