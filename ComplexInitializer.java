@@ -18,4 +18,8 @@
         y = 39;
         z = calculateZ(x, y);
     }
+
+    private static int calculateZ(int a, int b) {
+        return a * b + (a - b);
+    }
  }
