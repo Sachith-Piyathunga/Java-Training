@@ -32,4 +32,8 @@
     public static double getInterestRate() {
         return interestRate;
     }
+
+    public static void setInterestRate(double rate) {
+        interestRate = rate;
+    }
  }
