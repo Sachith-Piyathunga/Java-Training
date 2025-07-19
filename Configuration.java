@@ -16,4 +16,8 @@ public class Configuration  {
         configValue = "Default config value";
         System.out.println("Static block executed: configValue initialized");
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
