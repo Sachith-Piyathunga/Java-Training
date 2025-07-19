@@ -36,4 +36,11 @@
     public static void setInterestRate(double rate) {
         interestRate = rate;
     }
+
+    public void printDetails() {
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Blance: " + balance);
+        System.out.println("Bank Name: " + bankName);
+        System.out.println("Interest Rate: " + interestRate);
+    }
  }
