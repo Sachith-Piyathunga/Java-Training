@@ -10,4 +10,5 @@
 
 public class Configuration  {
     
+    public static String Configuration;
 }
