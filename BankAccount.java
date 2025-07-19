@@ -44,7 +44,8 @@
         System.out.println("Interest Rate: " + interestRate);
     }
 
-    public static void main(string[] args){
-        
+    public static void main(String[] args){
+        BankAccount.setBankName("Sampath Bank");
+        BankAccount.setInterestRate(3.5);
     }
  }
