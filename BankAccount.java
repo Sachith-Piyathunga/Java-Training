@@ -47,5 +47,9 @@
     public static void main(String[] args){
         BankAccount.setBankName("Sampath Bank");
         BankAccount.setInterestRate(3.5);
+
+        BankAccount account1 = new BankAccount("1234567", 1000.00);
+        BankAccount account2 = new BankAccount("45678912", 2000.00);
+        
     }
  }
