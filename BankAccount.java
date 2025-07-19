@@ -16,5 +16,8 @@
     private static String bankName;
     private static double interestRate;
 
-    
+    public BankAccount(String accountNumber, double balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
  }
