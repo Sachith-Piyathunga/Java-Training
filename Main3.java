@@ -6,5 +6,9 @@ public class Main3 {
     EAST,
     WEST
   }
-  
+
+  public static void main(String[] args) {
+    
+  }
+
 }
