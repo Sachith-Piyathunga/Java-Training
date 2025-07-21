@@ -13,6 +13,10 @@
         double value = 12.56;
         double fractional_part = value % 1;
         double integral_part = value - fractional_part;
-        
+
+        System.out.println("\nOriginal value: " + value);
+        System.out.println("\nIntegral value: " + integral_part);
+        System.out.println("\nFactorial value: " + fractional_part);
+        System.out.println();
     }
  }
