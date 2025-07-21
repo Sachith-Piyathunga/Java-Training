@@ -6,3 +6,7 @@
 
 import java.lang.*;
 import java.math.BigDecimal;
+
+public class Example4 {
+    
+}
