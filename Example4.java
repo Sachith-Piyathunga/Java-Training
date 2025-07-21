@@ -13,5 +13,9 @@ public class Example4 {
         float x = 451.3256412f;
         BigDecimal result;
 		int decimal_place = 4;
+
+        BigDecimal num  = new BigDecimal(Float.toString(x));
+        num = num.setScale(decimal_place, BigDecimal.ROUND_HALF_UP);
+        
     }
 }
