@@ -8,5 +8,12 @@ import java.util.*;
 import java.math.*;
 
 public class Example5 {
-    
+
+    public static void main(String[] args) {
+        
+        int[] numbers = new int[] {
+            -1, -1, 0, 2, 2, 3, 0, 1, 5, 9
+        };
+        
+    }
 }
