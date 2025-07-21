@@ -8,5 +8,8 @@ import java.lang.*;
 import java.math.BigDecimal;
 
 public class Example4 {
-    
+
+    public static void main(String[] args) {
+        
+    }
 }
