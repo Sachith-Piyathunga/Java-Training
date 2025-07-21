@@ -7,3 +7,6 @@
 import java.util.*;
 import java.math.*;
 
+public class Example5 {
+    
+}
