@@ -14,6 +14,9 @@ public class Example5 {
         int[] numbers = new int[] {
             -1, -1, 0, 2, 2, 3, 0, 1, 5, 9
         };
+
+        int count = 0;
+        HashSet < Integer > set = new HashSet < Integer >();
         
     }
 }
