@@ -11,6 +11,8 @@ public class Example3 {
         double num = 5.4444;
         if ((num % 1) == 0) {
             System.out.println("It is not a double number");
+        } else {
+            System.out.println("It is a double number");
         }
     }
 }
