@@ -10,6 +10,8 @@ import java.math.BigDecimal;
 public class Example4 {
 
     public static void main(String[] args) {
-        
+        float x = 451.3256412f;
+        BigDecimal result;
+		int decimal_place = 4;
     }
 }
