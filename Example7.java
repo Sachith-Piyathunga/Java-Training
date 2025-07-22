@@ -43,7 +43,13 @@ public class Example7 {
                 } else if (ch == 'L') {
                     result += 50;
                 } else if (ch == 'I') {
-                    
+                    if (next_char == 'X') {
+                        result += 9;
+                        i++;
+                    } else if (next_char == 'V') {
+                        result += 9;
+                        i++;
+                    }
                 }
             }
     }
