@@ -56,6 +56,8 @@ public class Example7 {
                     result += 5;
                 }
             }
+            System.out.println("\nRoman Number: " + str);
+            System.out.println("Equivalent Integer: " + result + "\n");
     }
     
 }
