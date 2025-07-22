@@ -40,6 +40,10 @@ public class Example7 {
                     } else {
                         result += 10;
                     }
+                } else if (ch == 'L') {
+                    result += 50;
+                } else if (ch == 'I') {
+                    
                 }
             }
     }
