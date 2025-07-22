@@ -34,7 +34,12 @@ public class Example7 {
                     if (next_char == 'C') {
                         result += 90;
                         i++;
-                    } else if ()
+                    } else if (next_char == 'L') {
+                        result += 40;
+                        i++;
+                    } else {
+                        result += 10;
+                    }
                 }
             }
     }
