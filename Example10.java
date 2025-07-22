@@ -15,5 +15,9 @@ public class Example10 {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Input a float number: ");
+
+        float x = in.nextFloat();
+        System.out.printf("The rounded value of %f is: %.2f",x, round_num(x));
+        System.out.printf("\n");
     }
 }
