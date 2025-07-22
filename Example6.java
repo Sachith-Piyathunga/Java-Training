@@ -13,5 +13,10 @@ public class Example6 {
             positive = -1;
             num = -1 * num;
         }
+
+        int sum = 0;
+        while (num > 0) {
+            int r = num % 10;
+        }
     }
 }
