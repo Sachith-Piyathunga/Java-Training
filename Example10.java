@@ -26,5 +26,17 @@ public class Example10 {
         float f_num = (float)Math.floor(fn);
         float c_num = (float)Math.ceil(fn);
 
+        if ((fn - f_num) > (c_num - fn))
+			{
+				return c_num;
+				}
+		else if ((c_num - fn) > (fn - f_num)) 
+		{
+			return f_num;
+			}
+		else 
+		{ 
+	       return c_num; 
+		   }
     }
 }
