@@ -25,7 +25,13 @@ public class Example7 {
                     } else if (next_char == 'D') {
                         result += 400;
                         i++;
+                    } else {
+                        result += 100;
                     }
+                } else if (ch == 'D') {
+                    result += 500;
+                } else if (ch == 'X') {
+                    
                 }
             }
     }
