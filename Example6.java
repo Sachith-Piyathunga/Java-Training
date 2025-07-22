@@ -17,6 +17,12 @@ public class Example6 {
         int sum = 0;
         while (num > 0) {
             int r = num % 10;
+
+            int maxDiff = Integer.MAX_VALUE - sum * 10;
+            if (sum > Integer.MAX_VALUE / 10 || maxDiff) {
+                System.out.println("Wronge number");
+            }
+            
         }
     }
 }
