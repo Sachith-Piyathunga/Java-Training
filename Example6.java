@@ -4,6 +4,8 @@
  * Write a Java program to reverse an integer number.
  */
 
- public class Example6 {
-    
- }
+public class Example6 {
+    public static void main(String[] args) {
+        
+    }
+}
