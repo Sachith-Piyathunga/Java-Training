@@ -9,7 +9,13 @@ public class Example7 {
         
         String str = "DCCVII";
         int len = str.length();
-        
+
+            str = str + " ";
+            int result = 0;
+            for(int i = 0; i < len; i++) {
+                char ch = str.charAt(i);
+                char next_char = str.charAt(i + 1);
+            }
     }
     
 }
