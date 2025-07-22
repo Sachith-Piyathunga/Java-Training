@@ -47,9 +47,13 @@ public class Example7 {
                         result += 9;
                         i++;
                     } else if (next_char == 'V') {
-                        result += 9;
+                        result += 4;
                         i++;
+                    } else {
+                        result++;
                     }
+                } else {
+                    result += 5;
                 }
             }
     }
