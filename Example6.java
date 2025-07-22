@@ -9,5 +9,9 @@ public class Example6 {
         int num = 1287;
         int positive = 1;
         
+        if (num < 0) {
+            positive = -1;
+            num = -1 * num;
+        }
     }
 }
