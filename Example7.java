@@ -15,6 +15,10 @@ public class Example7 {
             for(int i = 0; i < len; i++) {
                 char ch = str.charAt(i);
                 char next_char = str.charAt(i + 1);
+
+                if (ch == 'M') {
+                    result += 1000;
+                }
             }
     }
     
