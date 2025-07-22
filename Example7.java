@@ -18,6 +18,11 @@ public class Example7 {
 
                 if (ch == 'M') {
                     result += 1000;
+                } else if (ch == 'C') {
+                    if (next_char == 'M') {
+                        result += 900;
+                        i++;
+                    }
                 }
             }
     }
