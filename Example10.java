@@ -21,7 +21,10 @@ public class Example10 {
         System.out.printf("\n");
     }
 
-    public static float round_bun (float fn) {
+    public static float round_num(float fn) {
         
+        float f_num = (float)Math.floor(fn);
+        float c_num = (float)Math.ceil(fn);
+
     }
 }
