@@ -31,7 +31,10 @@ public class Example7 {
                 } else if (ch == 'D') {
                     result += 500;
                 } else if (ch == 'X') {
-                    
+                    if (next_char == 'C') {
+                        result += 90;
+                        i++;
+                    } else if ()
                 }
             }
     }
