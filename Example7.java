@@ -22,6 +22,9 @@ public class Example7 {
                     if (next_char == 'M') {
                         result += 900;
                         i++;
+                    } else if (next_char == 'D') {
+                        result += 400;
+                        i++;
                     }
                 }
             }
