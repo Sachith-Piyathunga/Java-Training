@@ -14,5 +14,10 @@ public class Exercise8 {
         System.out.println("Input an integer number: ");
         int x = in.nextInt();
         System.out.println("The absolute value of %d is: %d",x, convert (x));
+        System.out.println("\n");
+    }
+
+    public static int convert (int n) {
+        
     }
 }
