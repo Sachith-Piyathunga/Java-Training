@@ -15,4 +15,9 @@ public class Example9 {
         System.out.printf("The absol;ute value of %.2f is: %.2f", x ,convert(x));
         System.out.printf("\n");
     }
+
+    public static float convert(float n) {
+        float absolute = (n >= 0) ? n : -n;
+        return absolute;
+    }
 }
