@@ -17,4 +17,8 @@ public class Counter {
     public static int getCount () {
         return count;
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
