@@ -23,6 +23,7 @@ public class Counter {
         Counter counter1 = new Counter();
         Counter counter2 = new Counter();
         Counter counter3 = new Counter();
-        
+
+        System.out.println("Count: " + Counter.getCount());
     }
 }
