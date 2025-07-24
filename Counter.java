@@ -27,3 +27,21 @@ public class Counter {
         System.out.println("Count: " + Counter.getCount());
     }
 }
+
+/**
+ * Explanation:
+ * 
+ * Define the Counter class:
+ *      The Counter class is defined using the class keyword.
+ * Static variable to keep track of the count of instances:
+ *      A private static variable count is declared to keep track of the number of instances created.
+ * Constructor increments the static variable count:
+ *      The constructor Counter() is defined to increment the count variable every time a new instance is created.
+ * Static method to get the value of count:
+ *      A static method getCount() is defined to return the value of the static variable count.
+ * Main method to test the Counter class:
+ *      The main method is defined to test the Counter class.
+ *      Several Counter objects (c1, c2, c3) are created.
+ *      The value of count is printed using the getCount() method.
+ * 
+ */
