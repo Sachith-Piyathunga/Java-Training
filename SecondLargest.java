@@ -5,6 +5,10 @@ public class SecondLargest {
 
         for (int num : arr) { if (num > first) { 
             second = first; first = num;
-            } else if (num > second && num != first)
+            } else if (num > second && num != first) {
+                second = num;
+            }
+        }
+        System.out.println("Second largest: " + second);
     }
 }
