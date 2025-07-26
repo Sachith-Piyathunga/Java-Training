@@ -7,4 +7,8 @@ public class Student {
         this.name = name;
         this.age = age;
     }
+
+    void printDetails() {
+        System.out.println("Name: " + name + "Age: " + age);
+    }
 }
