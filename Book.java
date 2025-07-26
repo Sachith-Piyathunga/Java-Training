@@ -32,5 +32,7 @@ public class Book {
         System.out.println("Book title: " + book2.title);
         System.out.println("Book author: " + book2.author);
         System.out.println("Book price: " + book2.price);
+
+        Book book3 = new Book("The New Life", "Piyathunga", 250.56);
     }
 }
