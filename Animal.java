@@ -5,6 +5,9 @@ public class Animal {
     }
 
     class Cat extends Animal {
-        
+        @Override
+        public void makeSound() {
+            System.out.println("The cat meawes.");
+        }
     }
 }
