@@ -20,4 +20,8 @@ public class Book {
         this.author = author;
         this.price = price;
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
