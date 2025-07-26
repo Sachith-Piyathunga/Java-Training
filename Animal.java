@@ -10,4 +10,8 @@ public class Animal {
             System.out.println("The cat meawes.");
         }
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
