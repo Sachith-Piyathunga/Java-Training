@@ -29,6 +29,8 @@ public class Book {
         System.out.println("Book price: " + book1.price);
 
         Book book2 = new Book("The wall", "Sachintha");
-        
+        System.out.println("Book title: " + book2.title);
+        System.out.println("Book author: " + book2.author);
+        System.out.println("Book price: " + book2.price);
     }
 }
