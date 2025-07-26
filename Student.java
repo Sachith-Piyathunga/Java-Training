@@ -11,4 +11,8 @@ public class Student {
     void printDetails() {
         System.out.println("Name: " + name + "Age: " + age);
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
