@@ -15,6 +15,9 @@ public class Animal {
 
         Animal animal = new Animal();
         Cat cat = new Cat();
-        
+
+        animal.makeSound();
+        cat.makeSound();
+
     }
 }
