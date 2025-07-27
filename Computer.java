@@ -1,3 +1,6 @@
 class Computer {
     
+    class Processor {
+        
+    }
 }
