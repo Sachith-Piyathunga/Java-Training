@@ -26,6 +26,7 @@ public class University {
     }
 
     public static void main(String[] args) {
-        
+        University.Department compSciDept = new University.Department("Computer Science",50);
+        compSciDept.displayInfo();
     }
 }
