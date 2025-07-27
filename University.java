@@ -10,4 +10,7 @@
 
 public class University {
     
+    static class Department {
+        
+    }
 }
