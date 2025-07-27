@@ -21,4 +21,8 @@ class Computer {
         Processor processor = new Processor();
         processor.displayDetails();
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
