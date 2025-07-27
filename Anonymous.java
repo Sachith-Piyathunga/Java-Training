@@ -9,7 +9,10 @@
 public class Anonymous {
     public static void main(String[] args) {
         Greeting greeting = new Greeting() {
-            
+            @Override
+            public void sayHelllo() {
+                System.out.println("Hello, World");
+            }
         }
     }
 }
