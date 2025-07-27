@@ -16,6 +16,9 @@ public class Library {
     }
 
     public class Book {
-        
+
+        public String getLibraryName() {
+            
+        }
     }
 }
