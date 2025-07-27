@@ -24,4 +24,8 @@ public class University {
             System.out.println("Number of Faculty Members: " + facultyCount);
         }
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
