@@ -14,4 +14,8 @@ public class Library {
     public Library(String libraryName) {
         this.libraryName = libraryName;
     }
+
+    public class Book {
+        
+    }
 }
