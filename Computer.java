@@ -17,6 +17,8 @@ class Computer {
     }
 
     void showProcessorDetails() {
-        
+
+        Processor processor = new Processor();
+        processor.displayDetails();
     }
 }
