@@ -13,5 +13,10 @@ public class University {
     static class Department {
         private String departmentName;
         private int facultyCount;
+
+        public Department(String departmentName, int facultyCount) {
+            this.departmentName = departmentName;
+            this.facultyCount = facultyCount;
+        }
     }
 }
