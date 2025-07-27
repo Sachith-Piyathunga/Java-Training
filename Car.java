@@ -15,5 +15,7 @@ public class Car {
                 System.out.println("Engine is running.");
             }
         }
+        Engine engine = new Engine();
+        engine.run();
     }
 }
