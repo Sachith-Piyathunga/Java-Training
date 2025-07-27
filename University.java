@@ -18,5 +18,10 @@ public class University {
             this.departmentName = departmentName;
             this.facultyCount = facultyCount;
         }
+
+        public void displayInfo() {
+            System.out.println("Department: " + departmentName);
+            System.out.println("Number of Faculty Members: " + facultyCount);
+        }
     }
 }
