@@ -10,4 +10,8 @@
 public class Library {
     
     private String libraryName;
+
+    public Library(String libraryName) {
+        this.libraryName = libraryName;
+    }
 }
