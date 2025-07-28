@@ -8,5 +8,9 @@ interface Shape {
 }
 
 class Circle implements Shape {
-    
+    double redious = 5;
+
+    public double area() {
+        return Math.PI *  radius * radius;
+    }
 }
