@@ -18,5 +18,7 @@ class Circle implements Shape {
 // Test 2 for the static methods
 
 /**
+ * He ask about the basic java questions
+ * ask abot 4 OOP concepts
  * 
  */
