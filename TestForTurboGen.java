@@ -14,3 +14,9 @@ class Circle implements Shape {
         return Math.PI *  radius * radius;
     }
 }
+
+// Test 2 for the static methods
+
+/**
+ * 
+ */
