@@ -23,4 +23,6 @@ class Circle implements Shape {
  * static keyword explanation
  * about the codes
  * need to get an idea about the Flutter and OOP
+ * Watch the full course video on the youtube or linedinlearning
+ * practice java, OOP and flutter codes 
  */
