@@ -9,4 +9,6 @@ public class Keywords {
  * breake - A contral statement for braking out the loops.
  * catch - Chateches expretions genarated by try statements.
  * continue - Skip the part of the loop.
+ * default - Specifies the default block of code in a switch statement.
+ * else - Indicates alternative branches in an if statement.
  */
