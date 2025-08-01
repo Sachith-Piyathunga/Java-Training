@@ -84,6 +84,7 @@ public class Shape {
         Triangle triangle = new Triangle(4, 6);
 
         System.out.println("Area of the Rectangle: " + rectangle.getArea());
+        System.out.println("Area of the Circle: " + circle.getArea());
         
     }
 
