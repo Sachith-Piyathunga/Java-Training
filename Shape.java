@@ -4,7 +4,18 @@
  * interface. Implement the getArea() method for each of the three classes.
  */
 
- // Shape.java
+  // Shape.java
+// This is an interface named 'Shape' that defines a contract for classes to implement.
 public interface Shape {
+    // Abstract method signature for getting the area of a shape.
     double getArea();
+}
+
+public class Rectangle implements Shape {
+    
+}
+
+public class Shape {
+    
+
 }
