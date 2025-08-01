@@ -39,6 +39,11 @@ public class Circle implements Shape {
     public Circle(double redius) {
         this.redius = redius;
     }
+
+    @Override
+    public double getArea() {
+        
+    }
 }
 
 public class Shape {
