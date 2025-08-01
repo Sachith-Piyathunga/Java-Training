@@ -34,7 +34,7 @@ public class Rectangle implements Shape {
 }
 
 public class Circle implements Shape {
-    
+    private double redius;
 }
 
 public class Shape {
