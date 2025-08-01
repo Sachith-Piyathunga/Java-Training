@@ -82,6 +82,9 @@ public class Shape {
         Circle circle = new Circle(3);
 
         Triangle triangle = new Triangle(4, 6);
+
+        System.out.println("Area of the Rectangle: " + rectangle.getArea());
+        
     }
 
 }
