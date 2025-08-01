@@ -20,6 +20,10 @@ public class Rectangle implements Shape {
         this.length = length;
         this.width = width;
     }
+    @Override
+    public double getArea() {
+        
+    }
 }
 
 public class Shape {
