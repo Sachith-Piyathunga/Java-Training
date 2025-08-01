@@ -53,6 +53,10 @@ public class Circle implements Shape {
     }
 }
 
+public class Triangle implements Shape {
+    
+}
+
 public class Shape {
     
 
