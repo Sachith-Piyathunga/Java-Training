@@ -33,6 +33,10 @@ public class Rectangle implements Shape {
     }
 }
 
+public class Circle implements Shape {
+    
+}
+
 public class Shape {
     
 
