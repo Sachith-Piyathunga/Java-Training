@@ -61,6 +61,11 @@ public class Triangle implements Shape {
         this.base = base;
         this.height = height;
     }
+
+    @Override
+    public double getArea() {
+        
+    }
 }
 
 public class Shape {
