@@ -39,9 +39,10 @@ public class JavaInheritance2 {
         Vehicle vehicle = new Vehicle();
 
         Car car = new Car();
-        
-        Vehicle.drive();
 
+        vehicle.drive();
+
+        car.drive();
     }
 }
 
