@@ -34,15 +34,23 @@ class Car extends Vehicle {
  * parent class Vehicle. The overridden method prints "Repairing a car" to the console.
  */
 
+ // Define the main class
 public class JavaInheritance2 {
+    // Define the main method
     public static void main(String[] args) {
+        // Create an instance of Vehicle
         Vehicle vehicle = new Vehicle();
-
+        // Create an instance of Car
         Car car = new Car();
-
-        vehicle.drive();
-
-        car.drive();
+        // Call the drive method on the vehicle instance
+        vehicle.drive(); // Output: Repairing a vehicle
+        // Call the drive method on the car instance
+        car.drive(); // Output: Repairing a car
     }
 }
+
+/**
+ * An instance of the Vehicle class is created and stored in the variable vehicle.
+ * An instance of the Car class is created and stored in the variable car.
+ */
 
