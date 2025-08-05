@@ -21,5 +21,6 @@ class Vehicle {
 // There is a method called drive(), which prints "Repairing a vehicle" to the console.
 
 class Car extends Vehicle {
+    @Override
     
 }
