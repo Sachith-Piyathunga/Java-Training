@@ -10,5 +10,7 @@ public class JavaInheritance2 {
 }
 
 class Vehicle {
-    
+    public void drive() {
+        
+    }
 }
