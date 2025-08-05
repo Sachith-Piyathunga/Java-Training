@@ -8,3 +8,7 @@
 public class JavaInheritance2 {
     
 }
+
+class Vehicle {
+    
+}
