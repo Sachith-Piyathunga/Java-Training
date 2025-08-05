@@ -19,3 +19,7 @@ class Vehicle {
 } 
 // The above code defines a Java class named Vehicle. Inside this class:
 // There is a method called drive(), which prints "Repairing a vehicle" to the console.
+
+class Car extends Vehicle {
+    
+}
