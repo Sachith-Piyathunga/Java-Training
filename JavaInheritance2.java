@@ -20,9 +20,20 @@ class Vehicle {
 // The above code defines a Java class named Vehicle. Inside this class:
 // There is a method called drive(), which prints "Repairing a vehicle" to the console.
 
+// Define the child class Car that extends Vehicle
 class Car extends Vehicle {
+    // Use the @Override annotation to indicate that this method overrides a method in the superclass
     @Override
+    // Define the drive method
     public void drive() {
-        System.out.println("Repairing the Car");
+        // Print "Repairing a car" to the console
+        System.out.println("Repairing a car");
     }
-}
+} 
+/**
+ * The above code defines a Java class named Car, which is a child class that 
+ * extends the parent class Vehicle. Inside this class:
+ * 
+ * There is a method named drive(), which overrides the drive() method from the 
+ * parent class Vehicle. The overridden method prints "Repairing a car" to the console.
+ */
