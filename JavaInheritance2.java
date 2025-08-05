@@ -5,10 +5,6 @@
  * the drive() method to print "Repairing a car".
  */
 
-public class JavaInheritance2 {
-    
-}
-
 // Define the parent class Vehicle
 class Vehicle {
     // Define a public method named drive
@@ -37,3 +33,8 @@ class Car extends Vehicle {
  * There is a method named drive(), which overrides the drive() method from the 
  * parent class Vehicle. The overridden method prints "Repairing a car" to the console.
  */
+
+public class JavaInheritance2 {
+    
+}
+
