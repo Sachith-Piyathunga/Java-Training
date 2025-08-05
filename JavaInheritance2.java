@@ -37,7 +37,8 @@ class Car extends Vehicle {
 public class JavaInheritance2 {
     public static void main(String[] args) {
         Vehicle vehicle = new Vehicle();
-        
+
+        Car car = new Car();
     }
 }
 
