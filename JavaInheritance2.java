@@ -52,5 +52,7 @@ public class JavaInheritance2 {
 /**
  * An instance of the Vehicle class is created and stored in the variable vehicle.
  * An instance of the Car class is created and stored in the variable car.
+ * The drive() method is called on the vehicle object, resulting in the output "Repairing a vehicle."
+ * The drive() method is called on the car object, resulting in the output "Repairing a car."
  */
 
