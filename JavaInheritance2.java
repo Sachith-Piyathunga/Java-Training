@@ -9,8 +9,13 @@ public class JavaInheritance2 {
     
 }
 
+// Define the parent class Vehicle
 class Vehicle {
+    // Define a public method named drive
     public void drive() {
-        System.out.println("Repairing the vehicle.");
+        // Print "Repairing a vehicle" to the console
+        System.out.println("Repairing a vehicle");
     }
-}
+} 
+// The above code defines a Java class named Vehicle. Inside this class:
+// There is a method called drive(), which prints "Repairing a vehicle" to the console.
