@@ -31,7 +31,9 @@ class Employee {
 
 // HRManager.java class
 
-public class HRManager 
+public class HRManager extends Employee {
+
+}
 
 public class JavaInheritance3 {
     
