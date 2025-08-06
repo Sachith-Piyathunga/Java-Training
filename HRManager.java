@@ -35,6 +35,9 @@ public class HRManager extends Employee {
     public HRManager(double salary) {
         super(salary);
     }
+    public void work() {
+        System.out.println("\nManaging Employee");
+    }
 }
 
 public class JavaInheritance3 {
