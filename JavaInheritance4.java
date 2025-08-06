@@ -99,7 +99,11 @@ public class JavaInheritance4 {
         SA1234.withdraw(300);
         // Print the balance after attempting to withdraw $300
         System.out.println("Balance after trying to withdraw $300: $" + SA1234.getBalance());
-       
+ 
+        // Print message to indicate withdrawal action
+        System.out.println("Try to withdraw $250 from SA1000!");
+        // Withdraw $250 from SA1000 (balance falls below $100)
+        SA1000.withdraw(250);
 
 
 }
