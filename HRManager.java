@@ -38,6 +38,10 @@ public class HRManager extends Employee {
     public void work() {
         System.out.println("\nManaging Employee");
     }
+
+    public void addEmployee() {
+        System.out.println("\nAdding new Employee");
+    }
 }
 
 public class JavaInheritance3 {
