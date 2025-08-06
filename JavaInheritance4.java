@@ -13,6 +13,10 @@ class BankAccount {
         this.accountNumber = accountNumber;
         this.blance = blance;
     }
+
+    public void deposit(double amount) {
+        blance += amount;
+    }
 }
 
 public class JavaInheritance4 {
