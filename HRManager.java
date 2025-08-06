@@ -32,7 +32,9 @@ class Employee {
 // HRManager.java class
 
 public class HRManager extends Employee {
-
+    public HRManager(double salary) {
+        super(salary);
+    }
 }
 
 public class JavaInheritance3 {
