@@ -17,6 +17,10 @@ class BankAccount {
     public void deposit(double amount) {
         blance += amount;
     }
+
+    public void withdraw(double amount) {
+        
+    }
 }
 
 public class JavaInheritance4 {
