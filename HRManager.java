@@ -64,6 +64,8 @@ public class JavaInheritance3 {
         employee.work();
 
         System.out.println("Manager salary: " + manager.getSalary());
+
+        manager.addEmployee();
     }
     
 }
