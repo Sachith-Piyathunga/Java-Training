@@ -89,6 +89,11 @@ public class JavaInheritance4 {
         BA1234.withdraw(600);
         // Print the new balance after withdrawal
         System.out.println("New balance after withdrawing $600: $" + BA1234.getBalance());
+        
+        // Print message to indicate creation of a SavingsAccount object
+        System.out.println("\nCreate a SavingsAccount object (A/c No. SA1234) with initial balance of $450:");
+        // Create a SavingsAccount object (A/c No. "SA1234") with initial balance of $450
+        SavingsAccount SA1234 = new SavingsAccount("SA1234", 450);
 
 
 
