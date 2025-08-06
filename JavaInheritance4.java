@@ -69,7 +69,20 @@ class BankAccount {
 }
 
 public class JavaInheritance4 {
+    // Main method, entry point of the program
     public static void main(String[] args) {
+        // Print message to indicate creation of a BankAccount object
         System.out.println("Create a Bank Account object (A/c No. BA1234) with initial balance of $500:");
-    }
+        // Create a BankAccount object (A/c No. "BA1234") with initial balance of $500
+        BankAccount BA1234 = new BankAccount("BA1234", 500);
+
+        // Print message to indicate deposit action
+        System.out.println("Deposit $1000 into account BA1234:");
+        // Deposit $1000 into account BA1234
+        BA1234.deposit(1000);
+        // Print the new balance after deposit
+        System.out.println("New balance after depositing $1000: $" + BA1234.getBalance());
+
+
+
 }
