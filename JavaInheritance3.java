@@ -11,6 +11,10 @@ class Employee {
     public Employee(double salary) {
         this.salary = salary;
     }
+
+    public void work() {
+        System.out.println("Working as an Employee!");
+    }
 }
 
 public class JavaInheritance3 {
