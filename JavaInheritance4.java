@@ -5,7 +5,8 @@
  */
 
 class BankAccount {
-    
+    private String accountNumber;
+    private double blance;
 }
 
 public class JavaInheritance4 {
