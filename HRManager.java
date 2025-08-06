@@ -56,16 +56,34 @@ public class HRManager extends Employee {
 
 public class JavaInheritance3 {
 
+    // Main method
     public static void main(String[] args) {
-        Employee employee = new Employee(40000);
+        // Create an Employee object with a salary of 40000
+        Employee emp = new Employee(40000);
 
-        HRManager manager = new HRManager(70000);
+        // Create an HRManager object with a salary of 70000
+        HRManager mgr = new HRManager(70000);
 
-        employee.work();
+        // Call the work method on the Employee object
+        emp.work();
 
-        System.out.println("Manager salary: " + manager.getSalary());
+        // Print the salary of the Employee object
+        System.out.println("Employee salary: " + emp.getSalary());
 
-        manager.addEmployee();
+        // Call the work method on the HRManager object
+        mgr.work();
+
+        // Print the salary of the HRManager object
+        System.out.println("Manager salary: " + mgr.getSalary());
+
+        // Call the addEmployee method on the HRManager object
+        mgr.addEmployee();
     }
     
 }
+
+/**
+ * In the above exercise, the Employee class has a work() method that prints a message and a getSalary() method that returns the employee's salary.
+ * The HRManager subclass extends the Employee class and overrides the work() method to display a different message.
+ * 
+ */
