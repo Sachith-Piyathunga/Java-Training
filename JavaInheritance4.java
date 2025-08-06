@@ -21,6 +21,8 @@ class BankAccount {
     public void withdraw(double amount) {
         if(blance >= amount) {
             blance -= amount;
+        } else {
+            System.out.println("Insufficient balance");
         }
     }
 }
