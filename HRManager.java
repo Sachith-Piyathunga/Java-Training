@@ -57,6 +57,7 @@ public class HRManager extends Employee {
 public class JavaInheritance3 {
 
     public static void main(String[] args) {
+        Employee employee = new Employee(40000);
         
     }
     
