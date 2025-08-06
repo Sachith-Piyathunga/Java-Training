@@ -82,6 +82,13 @@ public class JavaInheritance4 {
         BA1234.deposit(1000);
         // Print the new balance after deposit
         System.out.println("New balance after depositing $1000: $" + BA1234.getBalance());
+       
+        // Print message to indicate withdrawal action
+        System.out.println("Withdraw $600 from account BA1234:");
+        // Withdraw $600 from account BA1234
+        BA1234.withdraw(600);
+        // Print the new balance after withdrawal
+        System.out.println("New balance after withdrawing $600: $" + BA1234.getBalance());
 
 
 
