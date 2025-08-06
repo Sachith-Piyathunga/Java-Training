@@ -15,6 +15,10 @@ class Employee {
     public void work() {
         System.out.println("Working as an Employee!");
     }
+
+    public double getSalary() {
+        return salary;
+    }
 }
 
 public class JavaInheritance3 {
