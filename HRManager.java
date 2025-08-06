@@ -60,7 +60,8 @@ public class JavaInheritance3 {
         Employee employee = new Employee(40000);
 
         HRManager manager = new HRManager(70000);
-        
+
+        employee.work();
     }
     
 }
