@@ -25,6 +25,10 @@ class BankAccount {
             System.out.println("Insufficient balance");
         }
     }
+
+    public double getBalance() {
+        return blance;
+    }
 }
 
 public class JavaInheritance4 {
