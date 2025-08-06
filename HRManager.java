@@ -85,5 +85,6 @@ public class JavaInheritance3 {
 /**
  * In the above exercise, the Employee class has a work() method that prints a message and a getSalary() method that returns the employee's salary.
  * The HRManager subclass extends the Employee class and overrides the work() method to display a different message.
- * 
+ * It adds a method addEmployee() that prints a message indicating that a new employee is being added.
+ * The Main class creates an instance of Employee and HRManager, calls the work() and getSalary() methods, and also calls the addEmployee() method on the HRManager object.
  */
