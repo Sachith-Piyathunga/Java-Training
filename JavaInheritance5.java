@@ -27,5 +27,8 @@
 // Main class
 // Define the JavaInheritance5 class
 public class JavaInheritance5 {
-    
+    // Add main method
+    public static void main(String[] args) {
+        
+    }
 }
