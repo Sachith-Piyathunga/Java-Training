@@ -33,5 +33,8 @@ public class JavaInheritance5 {
         Animal animal = new Animal();
         // Call the move method
         animal.move();
+
+        // Create the instance of the Cheetah
+        Cheetah cheetah = new Cheetah();
     }
 }
