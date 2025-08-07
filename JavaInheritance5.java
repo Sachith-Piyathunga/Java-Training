@@ -23,6 +23,9 @@
     } 
 }
 
+// JavaInheritance5.java
+// Main class
+// Define the JavaInheritance5 class
 public class JavaInheritance5 {
     
 }
