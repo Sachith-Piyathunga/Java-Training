@@ -29,6 +29,7 @@
 public class JavaInheritance5 {
     // Add main method
     public static void main(String[] args) {
-        
+        // Create the instance of the Animal
+        Animal animal = new Animal();
     }
 }
