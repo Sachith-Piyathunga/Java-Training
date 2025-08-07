@@ -13,6 +13,12 @@
     }
 }
 
+// Cheetah.java
+// Child class Cheetah
+/* public */ class Cheetah extends Animal {
+    
+}
+
 public class JavaInheritance5 {
     
 }
