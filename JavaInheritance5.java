@@ -9,7 +9,7 @@
 /* public */ class Animal {
     // Method to print the message
     public void move() {
-        
+        System.out.println("Animal moves...");
     }
 }
 
