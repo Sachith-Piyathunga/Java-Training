@@ -47,4 +47,10 @@ public class JavaInheritance5 {
  * This method simply prints a message to the console saying the animal is moving. 
  * The Cheetah class extends the Animal class and overrides the move() method to 
  * print a message that Cheetah is running.
+ * 
+ * In the JavaInheritance5 class, create an instance of the "Animal" class and call 
+ * its move() method. 
+ * This prints the "This animal is moving" message to the console. 
+ * We also create an instance of the "Cheetah" class and call its move() method. 
+ * This prints the "This cheetah is running" message to the console.
  */
