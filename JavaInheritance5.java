@@ -16,7 +16,11 @@
 // Cheetah.java
 // Child class Cheetah
 /* public */ class Cheetah extends Animal {
-    
+    // Override the move method
+    @Override
+    public void move() {
+        System.out.println("This Chetah is running....");
+    } 
 }
 
 public class JavaInheritance5 {
