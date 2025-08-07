@@ -3,6 +3,16 @@
  * Create a subclass called Cheetah that overrides the move() method to run.
  */
 
+// Animal.java
+// Parent class Animal
+// Define the Animal class
+/* public */ class Animal {
+    // Method to print the message
+    public void move() {
+        
+    }
+}
+
 public class JavaInheritance5 {
     
 }
