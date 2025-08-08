@@ -82,3 +82,11 @@ public class JavaInheritance6 {
 
     }
 }
+
+/**
+ * Explanation
+ * The Person class has two private instance variables, firstName and lastName, 
+ * and two public methods, getFirstName() and getLastName(), that return the values 
+ * of these variables.
+ * 
+ */
