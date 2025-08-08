@@ -5,6 +5,17 @@
  * include the employee's job title.
  */
 
+// Person.java
+// Parent class Person
+// Define the Person class
+/* public */ class Person {
+    // Add private fields for first name and last name
+    private String firstName;
+    private String lastName;
+    
+    
+}
+
 public class JavaInheritance6 {
     
 }
