@@ -19,6 +19,10 @@
         this.lastName = lastName;
     }
     
+    // Method to get the first name
+    public String getFirstName() {
+        return firstName;
+    }
 }
 
 public class JavaInheritance6 {
