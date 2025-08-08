@@ -102,4 +102,8 @@ public class JavaInheritance6 {
  * Employee1's getFirstName(), getLastName(), and getEmployeeId() methods of 
  * "employee1" are called. Their return values are concatenated into a string, 
  * which is printed to the console.
+ * 
+ * Similarly, Employee2's getFirstName(), getLastName(), and getEmployeeId() methods 
+ * of employee2 are called. Their return values are concatenated into a string, 
+ * which is printed to the console.
  */
