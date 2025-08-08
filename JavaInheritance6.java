@@ -23,6 +23,11 @@
     public String getFirstName() {
         return firstName;
     }
+
+    // Method to get the last name
+    public String getLastName() {
+        return lastName;
+    }
 }
 
 public class JavaInheritance6 {
