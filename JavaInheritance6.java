@@ -12,7 +12,12 @@
     // Add private fields for first name and last name
     private String firstName;
     private String lastName;
-    
+
+    // Constructor to initialize first name and the last name
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
     
 }
 
