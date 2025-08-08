@@ -54,6 +54,13 @@
     public int getEmployeeID() {
         return employeeID;
     }
+
+    // Override the getLastName method from the supperclass (Person)
+    @Override
+    public String getLastName() {
+        // Return the last name from the super class combine with the job title
+        return super.getLastName() + ", " + jobTitle;
+    }
 }
 
 public class JavaInheritance6 {
