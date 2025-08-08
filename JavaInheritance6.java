@@ -96,6 +96,10 @@ public class JavaInheritance6 {
  * 
  * In the above Main class, we create two instances of the Employee class, namely 
  * "employee1" and "employee2".
-
-
+ * 
+ * "employee1" is initialized with the values "Kortney" for the first name, "Rosalee" 
+ * for the last name, 4451 for the employee ID, and "HR Manager" for the job title. 
+ * Employee1's getFirstName(), getLastName(), and getEmployeeId() methods of 
+ * "employee1" are called. Their return values are concatenated into a string, 
+ * which is printed to the console.
  */
