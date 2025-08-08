@@ -72,6 +72,7 @@ public class JavaInheritance6 {
 
         // Create the Employee object employee1 with first name , last name, id, and the job title
         Employee employee1 = new Employee("Scahintha", "Piyathunga", 2200313, "Developer");
-        
+        // Print the employee1 details
+        System.out.println(employee1.getFirstName() + " " + employee1.getLastName() + " (" + employee1.getEmployeeID() + ")");
     }
 }
