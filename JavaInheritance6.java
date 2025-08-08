@@ -42,7 +42,8 @@
 
     // Constructor for Employee class, taking firs name, last name, employee Id, job title
     public Employee(String firstName, String lastName, int employeeID, String jobTitle) {
-        
+        // Call the constructor of the superclass (Person) with first name and the last name
+        super (firstName, lastName);
     }
 }
 
