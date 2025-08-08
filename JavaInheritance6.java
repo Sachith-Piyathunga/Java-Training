@@ -49,6 +49,11 @@
         // Initialize the jobTitle instance veriable
         this.jobTitle = jobTitle;
     }
+
+    // Public method to get the employee id
+    public int getEmployeeID() {
+        return employeeID;
+    }
 }
 
 public class JavaInheritance6 {
