@@ -39,6 +39,11 @@
     private int employeeID;
     // Private instance veriable for the job title
     private String jobTitle;
+
+    // Constructor for Employee class, taking firs name, last name, employee Id, job title
+    public Employee(String firstName, String lastName, int employeeID, String jobTitle) {
+        
+    }
 }
 
 public class JavaInheritance6 {
