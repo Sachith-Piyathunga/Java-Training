@@ -93,4 +93,9 @@ public class JavaInheritance6 {
  * variables, employeeId and jobTitle, as well as a public method called getEmployeeId
  * (). It also overrides the getLastName() method from the Person class to include the
  *  employee's jobTitle. 
+ * 
+ * In the above Main class, we create two instances of the Employee class, namely 
+ * "employee1" and "employee2".
+
+
  */
