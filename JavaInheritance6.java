@@ -69,6 +69,9 @@
 public class JavaInheritance6 {
     // Main method to execute the program
     public static void main(String[] args) {
+
+        // Create the Employee object employee1 with first name , last name, id, and the job title
+        Employee employee1 = new Employee("Scahintha", "Piyathunga", 2200313, "Developer");
         
     }
 }
