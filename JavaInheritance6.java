@@ -30,6 +30,14 @@
     }
 }
 
+// Employee.java
+// Child class Employee
+// Declare the Employee class which extends the Person class
+/* public */ class Employee extends Person {
+
+    //
+}
+
 public class JavaInheritance6 {
     
 }
