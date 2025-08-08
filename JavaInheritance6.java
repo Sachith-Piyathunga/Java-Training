@@ -35,7 +35,10 @@
 // Declare the Employee class which extends the Person class
 /* public */ class Employee extends Person {
 
-    //
+    // Private instance veriable for emplooyee ID
+    private int employeeID;
+    // Private instance veriable for the job title
+    private String jobTitle;
 }
 
 public class JavaInheritance6 {
