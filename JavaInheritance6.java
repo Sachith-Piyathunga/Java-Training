@@ -44,6 +44,10 @@
     public Employee(String firstName, String lastName, int employeeID, String jobTitle) {
         // Call the constructor of the superclass (Person) with first name and the last name
         super (firstName, lastName);
+        // Initialize the employeeID instance veriable
+        this.employeeID = employeeID;
+        // Initialize the jobTitle instance veriable
+        this.jobTitle = jobTitle;
     }
 }
 
