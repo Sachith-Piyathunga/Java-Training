@@ -63,6 +63,12 @@
     }
 }
 
+// JavaInheritance6.java
+// Main class
+// Declare the JavaInheritance6 class
 public class JavaInheritance6 {
-    
+    // Main method to execute the program
+    public static void main(String[] args) {
+        
+    }
 }
