@@ -14,7 +14,7 @@
     private double balance;
 
     // Parameterized constructor to initialize the veriables
-    public BankAccount(int accountNumber, double balance) {
+    public BankAccount(String accountNumber, double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
@@ -51,7 +51,7 @@
 // Declare the SavingsAccount class, inheriting from BankAccount class
 /* public */ class SavingsAccount extends BankAccount {
     // Parameterized constructor to initialize the variables
-    public SavingsAccount(int accountNumber, double balance) {
+    public SavingsAccount(String accountNumber, double balance) {
         // Call the parent class constructor
         super(accountNumber, balance);
     }
@@ -76,6 +76,11 @@
 public class JavaInheritance7 {
     // Main method
     public static void main(String[] args) {
+        // Print the message
+        System.out.println("Create a Bank Account object (A/c No. BA1234) with initial balance of $500:");
+        // Create the bankaccount object
+        BankAccount bnkacnt = new BankAccount("BAC426128", 500);
+        
         
     }
 }
