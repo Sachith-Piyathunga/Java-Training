@@ -45,6 +45,7 @@
 }
 
 
+
 // SavingsAccount.java
 // Create subclass called savingsaccount
 // Declare the SavingsAccount class, inheriting from BankAccount class
@@ -70,7 +71,11 @@
 }
 
 
-
+// Main class
+// Define the JavaInheritance7 class
 public class JavaInheritance7 {
-    
+    // Main method
+    public static void main(String[] args) {
+        
+    }
 }
