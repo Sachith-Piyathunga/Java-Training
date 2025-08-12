@@ -18,6 +18,12 @@
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
+
+    // Method to deposit the amount into account\
+    public void deposit(double amount) {
+        // Increse the blance by the deposit amount
+        balance += amount;
+    }
 }
 
 public class JavaInheritance7 {
