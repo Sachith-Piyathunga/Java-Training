@@ -44,6 +44,16 @@
     }
 }
 
+
+// SavingsAccount.java
+// Create subclass called savingsaccount
+// Declare the SavingsAccount class, inheriting from BankAccount class
+/* public */ class SavingsAccount extends BankAccount {
+    
+}
+
+
+
 public class JavaInheritance7 {
     
 }
