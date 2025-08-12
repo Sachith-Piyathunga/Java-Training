@@ -81,6 +81,13 @@ public class JavaInheritance7 {
         // Create the bankaccount object
         BankAccount bnkacnt = new BankAccount("BAC426128", 500);
         
-        
+        // Print message to indicate the deposit
+        System.out.println("Deposit $1000 into account BAC426128");
+        // Deposit the $1000 to accout
+        BAC426128.deposit(1000);
+        // Print the new balance after deposit
+        System.out.println("New balance after depositing $1000: $" + BAC426128.getBalance());
+
+
     }
 }
