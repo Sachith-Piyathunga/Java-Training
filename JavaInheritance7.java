@@ -8,6 +8,10 @@
 // Parent class BankAccount
 // Declare the BankAccount class
 /* public */ class BankAccount {
+    // Private field to store the account number
+    private int accountNumber;
+    // Private feild to store the blance
+    private double balance;
     
 }
 
