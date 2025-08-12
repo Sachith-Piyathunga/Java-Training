@@ -12,7 +12,12 @@
     private int accountNumber;
     // Private feild to store the blance
     private double balance;
-    
+
+    // Parameterized constructor to initialize the veriables
+    public BankAccount(int accountNumber, double balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
 }
 
 public class JavaInheritance7 {
