@@ -109,8 +109,13 @@ public class JavaInheritance7 {
         System.out.println("\nCreate a SavingsAccount object (A/c No. SA787898) with initial balance of $300:");
         // Create the savings acount object
         SavingsAccount SA787898 = new SavingsAccount("SA787898", 300);
-                
 
+        // Print message to indicate the withdrawal action
+        System.out.println("Try to withdraw thwe $250 from SA787898!");
+        // Withdraw the $250 from SA787898
+        SA787898.withdraw(250);
+        // Print balance after withdraw
+        System.out.println("Balance after trying to withdraw $250: $" + SA787898.getBalance());
 
     }
 }
