@@ -58,7 +58,11 @@
     // Override the withdrawal method from the parent class
     @Override
     public void withdraw(double amount) {
-        
+        // Check if the withdrawal would cause the balance to drop below $100
+        if (getBalance() - amount < 100) {
+            // Print the message
+            System.out.println("Minimum balance of $100 required...!");
+        }
     }
 }
 
