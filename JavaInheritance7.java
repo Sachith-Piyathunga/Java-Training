@@ -77,7 +77,7 @@ public class JavaInheritance7 {
     // Main method
     public static void main(String[] args) {
         // Print the message
-        System.out.println("Create a Bank Account object (A/c No. BA1234) with initial balance of $500:");
+        System.out.println("Create a Bank Account object (A/c No. BAC426128) with initial balance of $500:");
         // Create the bankaccount object
         BankAccount bnkacnt = new BankAccount("BAC426128", 500);
         
@@ -88,6 +88,13 @@ public class JavaInheritance7 {
         // Print the new balance after deposit
         System.out.println("New balance after depositing $1000: $" + BAC426128.getBalance());
 
+        // Print message to indiocate the withdrawal action
+        System.out.println("Withdraw the $600 from account BAC4256128: ");
+        // Withdraw $600 from accountBAC426128
+        BAC426128.withdraw(600);
+        // Print the new balance after withdrawal
+        System.out.println("New balanca after withdrawing $600: $" + BAC426128.getBalance());
 
+        
     }
 }
