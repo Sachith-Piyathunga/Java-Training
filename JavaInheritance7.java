@@ -4,6 +4,12 @@
  * withdraw() method to prevent withdrawals if the account balance falls below one hundred.
  */
 
+// BankAccount.java
+// Parent class BankAccount
+// Declare the BankAccount class
+/* public */ class BankAccount {
+    
+}
 
 public class JavaInheritance7 {
     
