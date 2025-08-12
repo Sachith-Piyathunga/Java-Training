@@ -27,7 +27,11 @@
 
     // Method to withdraw an amount from the account
     public void withdraw(double amount) {
-        
+        // Check if the blance is sufficent for the withdraw
+        if (balance >= amount) {
+            // Decrese the balance by the withdrawal amount
+            balance -= amount;
+        }
     }
 }
 
