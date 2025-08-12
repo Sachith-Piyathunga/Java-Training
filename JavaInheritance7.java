@@ -24,6 +24,11 @@
         // Increse the blance by the deposit amount
         balance += amount;
     }
+
+    // Method to withdraw an amount from the account
+    public void withdraw(double amount) {
+        
+    }
 }
 
 public class JavaInheritance7 {
