@@ -49,7 +49,11 @@
 // Create subclass called savingsaccount
 // Declare the SavingsAccount class, inheriting from BankAccount class
 /* public */ class SavingsAccount extends BankAccount {
-    
+    // Parameterized constructor to initialize the variables
+    public SavingsAccount(int accountNumber, double balance) {
+        // Call the parent class constructor
+        super(accountNumber, balance);
+    }
 }
 
 
