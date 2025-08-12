@@ -62,6 +62,9 @@
         if (getBalance() - amount < 100) {
             // Print the message
             System.out.println("Minimum balance of $100 required...!");
+        } else {
+            // Call the parent class withdrawal method
+            super.withdraw(amount);
         }
     }
 }
