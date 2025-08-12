@@ -31,6 +31,9 @@
         if (balance >= amount) {
             // Decrese the balance by the withdrawal amount
             balance -= amount;
+        } else {
+            // Print the message
+            System.out.println("Insufficent balance");
         }
     }
 }
