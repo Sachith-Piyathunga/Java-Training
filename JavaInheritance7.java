@@ -36,6 +36,12 @@
             System.out.println("Insufficent balance");
         }
     }
+
+    // Method to get the currnet balance
+    public double getBalance() {
+        // Return the current balance
+        return balance;
+    }
 }
 
 public class JavaInheritance7 {
