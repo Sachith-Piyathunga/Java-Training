@@ -54,6 +54,12 @@
         // Call the parent class constructor
         super(accountNumber, balance);
     }
+
+    // Override the withdrawal method from the parent class
+    @Override
+    public void withdraw(double amount) {
+        
+    }
 }
 
 
