@@ -126,7 +126,10 @@ public class JavaInheritance7 {
  * The BankAccount class has a constructor that takes account number and balance as arguments. 
  * It also has methods to deposit and withdraw money, and to check the account balance.
  * 
- * 
+ * The SavingsAccount class is a subclass of BankAccount and overrides the withdraw() method. 
+ * It checks if the account balance falls below one hundred before allowing a withdrawal. 
+ * The method prints an error message if the balance is below one hundred. 
+ * If the balance is greater than or equal to one hundred, the method calls the withdraw() method of the superclass to withdraw.
  * 
  * 
  */
