@@ -119,3 +119,14 @@ public class JavaInheritance7 {
 
     }
 }
+
+/**
+ * Explanation
+ * 
+ * The BankAccount class has a constructor that takes account number and balance as arguments. 
+ * It also has methods to deposit and withdraw money, and to check the account balance.
+ * 
+ * 
+ * 
+ * 
+ */
