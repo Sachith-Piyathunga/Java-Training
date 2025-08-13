@@ -17,6 +17,9 @@
 
     // Private instance variable for the year of the vehicle
     private int year;
+
+    // Private instance variable for the fuel type of the vehicle
+    private String fuelType;
 }
 
 
