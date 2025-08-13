@@ -131,5 +131,11 @@ public class JavaInheritance7 {
  * The method prints an error message if the balance is below one hundred. 
  * If the balance is greater than or equal to one hundred, the method calls the withdraw() method of the superclass to withdraw.
  * 
+ * The main method begins by creating an instance of the BankAccount class with an account number 
+ * of "BAC426128" and an initial balance of $500. 
+ * It then deposits $1000 into the account and displays the new balance. 
+ * It then withdraws $600 from the account and displays the new balance.
+ * 
+ * 
  * 
  */
