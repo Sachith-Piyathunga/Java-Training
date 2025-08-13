@@ -136,6 +136,9 @@ public class JavaInheritance7 {
  * It then deposits $1000 into the account and displays the new balance. 
  * It then withdraws $600 from the account and displays the new balance.
  * 
- * 
+ * Next, the method creates an instance of the SavingsAccount class with an account number 
+ * of "SA454565" and an initial balance of $450. 
+ * It then attempts to withdraw $300 from the account and displays the new balance. 
+ * Since the balance remains above the minimum $150 balance required for the account, the withdrawal is successful.
  * 
  */
