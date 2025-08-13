@@ -20,6 +20,9 @@
 
     // Private instance variable for the fuel type of the vehicle
     private String fuelType;
+
+    // Private instance variable for the fuel efficiency of the vehicle
+    private double fuelEfficiency;
 }
 
 
