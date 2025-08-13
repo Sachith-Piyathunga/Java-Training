@@ -1,8 +1,17 @@
 /**
- * Write a Java program to create a class called Shape with methods called getPerimeter() and getArea(). 
- * Create a subclass called Circle that overrides the getPerimeter() and getArea() methods 
- * to calculate the area and perimeter of a circle.
+ * Write a Java program to create a vehicle class hierarchy. 
+ * The base class should be Vehicle, with subclasses Truck, Car and Motorcycle. 
+ * Each subclass should have properties such as make, model, year, and fuel type. 
+ * Implement methods for calculating fuel efficiency, distance traveled, and maximum speed.
  */
+
+// Vehicle.java
+// Parent class Vehicle
+// Declare the abstract class Vehicle
+/* public */ class Vehicle {
+    
+}
+
 
 public class JavaInheritance8 {
     
