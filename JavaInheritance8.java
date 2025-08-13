@@ -11,6 +11,9 @@
 /* public */ class Vehicle {
     // Private instance variable for the make of the vehicle
     private String make;
+
+    // Private instance variable for the model of the vehicle
+    private String model;
 }
 
 
