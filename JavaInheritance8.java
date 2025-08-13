@@ -9,7 +9,8 @@
 // Parent class Vehicle
 // Declare the abstract class Vehicle
 /* public */ class Vehicle {
-    
+    // Private instance variable for the make of the vehicle
+    private String make;
 }
 
 
