@@ -14,6 +14,9 @@
 
     // Private instance variable for the model of the vehicle
     private String model;
+
+    // Private instance variable for the year of the vehicle
+    private int year;
 }
 
 
