@@ -91,7 +91,8 @@
     private double cargoCapacity;
     // Parameterized constructor
     public Truck(String make, String model, int year, String fuelType, double fuelEfficiency, double cargoCapacity) {
-
+        // Call the costructer of the superclass
+        super(make, model, year, fuelType, fuelEfficiency);
     }
 }
 
