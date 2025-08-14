@@ -23,6 +23,13 @@
 
     // Private instance variable for the fuel efficiency of the vehicle
     private double fuelEfficiency;
+
+    // Create a parameterized constructor
+    public Vehicle(String make, String model, int year, String fuelType, double fuelEfficiency) {
+        
+    }
+
+
 }
 
 
