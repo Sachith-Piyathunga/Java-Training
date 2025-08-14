@@ -112,7 +112,8 @@
     // Override the calculateDistanceTraveled method from super class
     @Override
     public double calculateDistanceTraveled() {
-        
+        // Implimantation for distance traveld calculation
+        return calculateFuelEfficiency() * getFuelEfficiency();
     }
 }
 
