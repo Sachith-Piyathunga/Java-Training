@@ -87,7 +87,8 @@
 // Child class Truck
 // Declare the Truck class which extends the Vehicle class
 /* public */ class Truck extends Vehicles {
-    
+    // Private instance variable
+    private double vargoCapacity;
 }
 
 
