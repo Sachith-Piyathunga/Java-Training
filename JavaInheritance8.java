@@ -96,6 +96,11 @@
         // Initializa the cargoCapacity instance variable
         this.cargoCapacity = cargoCapacity;
     }
+
+    // Public method to get the cargo capacity of the truck
+    public double getCargoCapacity() {
+        return cargoCapacity;
+    }
 }
 
 
