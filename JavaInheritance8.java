@@ -88,7 +88,11 @@
 // Declare the Truck class which extends the Vehicle class
 /* public */ class Truck extends Vehicles {
     // Private instance variable
-    private double vargoCapacity;
+    private double cargoCapacity;
+    // Parameterized constructor
+    public Truck(String make, String model, int year, String fuelType, double fuelEfficiency, double cargoCapacity) {
+
+    }
 }
 
 
