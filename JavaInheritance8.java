@@ -68,6 +68,9 @@
 
     // Abstract method to calculate the distance traveld
     public abstract double calculateDistanceTraveld();
+
+    // Abstract method to get the maximum speed
+    public abstract double getMaxSpeed();
 }
 
 
