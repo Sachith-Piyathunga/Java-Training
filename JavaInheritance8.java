@@ -48,6 +48,11 @@
         return model;
     }
 
+    // Add public method get year of the vehicle
+    public int getYear() {
+        return year;
+    }
+
     
 }
 
