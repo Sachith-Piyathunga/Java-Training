@@ -73,6 +73,16 @@
     public abstract double getMaxSpeed();
 }
 
+/**
+ * Explanation
+ * 
+ * This is an abstract class that serves as the parent class for the other vehicle classes. 
+ * It contains five private instance variables (make, model, year, fuelType, and fuelEfficiency) 
+ * and six public methods (a constructor, five getters for the instance variables, and three abstract methods). 
+ * The abstract methods are meant to be overridden by child classes with specific implementations.
+ * 
+ */
+
 
 public class JavaInheritance8 {
     
