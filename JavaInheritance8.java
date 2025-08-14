@@ -106,7 +106,7 @@
     @Override
     public double calculateFuelEfficiency() {
         // Implementtion for fuel efficiency
-        return getFuelEfficiency() * 
+        return getFuelEfficiency() * (1.0 / (1.0 + (getCargoCapacity() / 1000.0)));
     }
 }
 
