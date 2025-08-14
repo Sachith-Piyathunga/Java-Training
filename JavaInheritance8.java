@@ -53,7 +53,10 @@
         return year;
     }
 
-    
+    // Add public method get fuel type of the vehicle
+    public String getFuelType() {
+        return fuelType;
+    }
 }
 
 
