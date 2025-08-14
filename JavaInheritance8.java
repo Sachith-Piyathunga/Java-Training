@@ -65,6 +65,9 @@
 
     // Abstract method to calculate the uel efficiency
     public abstract double calculateFuelEfficiency();
+
+    // Abstract method to calculate the distance traveld
+    public abstract double calculateDistanceTraveld();
 }
 
 
