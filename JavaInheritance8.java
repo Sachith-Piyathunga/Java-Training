@@ -62,6 +62,9 @@
     public double getFuelEfficiency() {
         return fuelEfficiency;
     }
+
+    // Abstract method to calculate the uel efficiency
+    public abstract double calculateFuelEfficiency();
 }
 
 
