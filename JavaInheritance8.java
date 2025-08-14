@@ -101,6 +101,13 @@
     public double getCargoCapacity() {
         return cargoCapacity;
     }
+
+    // Override the calculate the fuel efficiency method from the supper class
+    @Override
+    public double calculateFuelEfficiency() {
+        // Implementtion for fuel efficiency
+        return getFuelEfficiency() * 
+    }
 }
 
 
