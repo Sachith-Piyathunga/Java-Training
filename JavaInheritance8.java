@@ -108,6 +108,12 @@
         // Implementtion for fuel efficiency
         return getFuelEfficiency() * (1.0 / (1.0 + (getCargoCapacity() / 1000.0)));
     }
+
+    // Override the calculateDistanceTraveled method from super class
+    @Override
+    public double calculateDistanceTraveled() {
+        
+    }
 }
 
 
