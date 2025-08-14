@@ -38,6 +38,10 @@
         this.fuelEfficiency = fuelEfficiency;
     }
 
+    // Add public method get make of the vehicle
+    public String getMake() {
+        return make;
+    }
 
 }
 
