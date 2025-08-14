@@ -26,7 +26,16 @@
 
     // Create a parameterized constructor
     public Vehicle(String make, String model, int year, String fuelType, double fuelEfficiency) {
-        
+        // Initialize the make instance variable
+        this.make = make;
+        // Initialize the model instance variable
+        this.model = model;
+        // Initialize the year instance variable
+        this.year = year;
+        // Initialize the fuelType instance variable
+        this.fuelType = fuelType;
+        // Initialize the fuelEfficiency instance variable
+        this.fuelEfficiency = fuelEfficiency;
     }
 
 
