@@ -83,6 +83,21 @@
  * 
  */
 
+// Truck.java
+// Child class Truck
+// Declare the Truck class which extends the Vehicle class
+/* public */ class Truck extends Vehicles {
+    
+}
+
+
+
+
+
+
+
+
+
 
 public class JavaInheritance8 {
     
