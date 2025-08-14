@@ -57,6 +57,11 @@
     public String getFuelType() {
         return fuelType;
     }
+
+    // Add public method get fuel efficiency of the vehicle
+    public double getFuelEfficiency() {
+        return fuelEfficiency;
+    }
 }
 
 
