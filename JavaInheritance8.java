@@ -43,6 +43,12 @@
         return make;
     }
 
+    // Add public method get model of the vehicle
+    public String getModel() {
+        return model;
+    }
+
+    
 }
 
 
