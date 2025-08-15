@@ -285,3 +285,13 @@ public class JavaInheritance8 {
         System.out.println("Max Speed: " + motorcycle.getMaxSpeed() + " mph");
     } 
 }
+
+/**
+ * Explanation
+ * 
+ * The above class is the main class that contains the main method. 
+ * It creates instances of each vehicle type, sets their values, 
+ * and then prints their respective details and calculations such as 
+ * fuel efficiency, distance traveled, and max speed.
+ * 
+ */
