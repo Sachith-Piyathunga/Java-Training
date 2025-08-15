@@ -177,6 +177,16 @@
     }
 }
 
+/**
+ * Explanation
+ * 
+ * The above class is another child class of Vehicle and extends the Vehicle class. 
+ * It has an additional instance variable, numSeats. The class has a constructor 
+ * that accepts all the necessary parameters including the number of seats. 
+ * The class overrides the three abstract methods of the parent class and provides 
+ * specific implementations of the methods.
+ * 
+ */
 
 
 
