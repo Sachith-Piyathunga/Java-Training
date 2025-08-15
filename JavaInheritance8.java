@@ -200,8 +200,12 @@
         // Call the constructor of the supper class
         super(make, model, year, fuelType, fuelEfficiency);
         // Initialize the instance variable
-        this engineDisplacement = engineDisplacement;
-        
+        this.engineDisplacement = engineDisplacement;        
+    }
+
+    // Public method to get the engine displacement of the motorcycle
+    public double getEngineDisplacement() {
+        return engineDisplacement;
     }
 
 }
