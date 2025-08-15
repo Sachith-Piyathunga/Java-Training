@@ -37,6 +37,12 @@ class Employee {
     public String getAddress() {
         return address;
     }
+
+    // Getter method for the address field
+    public double getSalary() {
+        return salary;
+    }
+
 }
 
 
