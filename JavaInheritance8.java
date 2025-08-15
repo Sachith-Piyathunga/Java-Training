@@ -141,7 +141,11 @@
 
     // Private instance variable
     private int numSeats;
-    
+
+    // Constructor for the Car class
+    public Car(String make, String model, int year, String fuelType, double fuelEfficiency, int numSeats) {
+        
+    }
 }
 
 
