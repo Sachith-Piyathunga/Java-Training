@@ -18,7 +18,14 @@ class Employee {
 
     // Constructor for the employee class
     private Employee(String name, String address, double salary, String jobTitle) {
-        
+        // Initialize the name field
+        this.name = name;
+        // Initalize the address feild
+        this.address = address;
+        // Initialize the salary feild
+        this.salary = salary;
+        // Initialize the jobTitle feild
+        this.jobTitle = jobTitle;
     }
 }
 
