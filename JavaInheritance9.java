@@ -61,6 +61,20 @@ class Employee {
     }
 }
 
+/**
+ * Explanation
+ * 
+ * Employee class: This class represents a generic employee with private instance 
+ * variables 'name', 'address', 'salary', and 'jobTitle'. 
+ * It also provides getter methods to access these private variables.
+ *      getName(): Returns the employee's name.
+ *      getAddress(): Returns the employee's address.
+ *      getSalary(): Returns the employee's salary.
+ *      getJobTitle(): Returns the employee's job title.
+ * 
+ */
+
+
 
 
 public class JavaInheritance9 {
