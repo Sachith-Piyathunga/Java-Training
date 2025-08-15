@@ -67,7 +67,7 @@
     public abstract double calculateFuelEfficiency();
 
     // Abstract method to calculate the distance traveld
-    public abstract double calculateDistanceTraveld();
+    public abstract double calculateDistanceTraveled();
 
     // Abstract method to get the maximum speed
     public abstract double getMaxSpeed();
@@ -271,11 +271,14 @@ public class JavaInheritance8 {
         // Print the Car's calculated fuel efficiency
         System.out.println("Fuel Efficiency: " + car.calculateFuelEfficiency() + " mpg");
         // Print the car's calculated distance traveled
-        System.out.println("Distance Traveled: " + car.calculateDistanceTraveld() + " miles");
+        System.out.println("Distance Traveled: " + car.calculateDistanceTraveled() + " miles");
         // Print the car's maximum speed
         System.out.println("Max Speed: " + car.getMaxSpeed() + " mph\n");
-        
 
+        // Print the car's model
+        System.out.println("Car Model: " + car.getModel());
+        // Print the car's calculated fuel efficiency
+        System.out.println("Fuel Efficiency: " + car.calculateDistanceTraveled() + " mpg");
 
     
     } 
