@@ -195,6 +195,11 @@
     // Private instance variable for the engine displacement of the moyorcycle
     private double engineDisplacement;
 
+    // Constructor to motorcycle class
+    public Motorcycle(String make, String model, int year, String fuelType, double fuelEfficiency) {
+        
+    }
+
 }
 
 
