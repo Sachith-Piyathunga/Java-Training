@@ -83,6 +83,22 @@ class Employee {
  * 
  */
 
+// Class declaretion for manager witch extends Employee
+class Manager extends Employee {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
