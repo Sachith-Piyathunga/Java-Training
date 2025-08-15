@@ -228,10 +228,18 @@
         // Implementation for maximum speed calculation for motorcycles
         return 80.0;
     }
-
 }
 
-
+/**
+ * Explanation
+ * 
+ * This is also a child class of Vehicle and extends the Vehicle class. 
+ * It has an additional instance variable, engineDisplacement. 
+ * The class has a constructor that accepts all the necessary parameters. 
+ * The class overrides the three abstract methods of the parent class and 
+ * provides specific implementations of the methods.
+ * 
+ */
 
 
 public class JavaInheritance8 {
