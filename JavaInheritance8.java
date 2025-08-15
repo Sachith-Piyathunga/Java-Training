@@ -144,7 +144,10 @@
 
     // Constructor for the Car class
     public Car(String make, String model, int year, String fuelType, double fuelEfficiency, int numSeats) {
-        
+        // Call the costructor from the super clas
+        super(make, model, year, fuelType, fuelEfficiency);
+        // Initiaalize the instance variable
+        this.numSeats = numSeats;
     }
 }
 
