@@ -254,5 +254,7 @@ public class JavaInheritance8 {
         // Create an instance of Car class
         Car car = new Car("Honda", "CIVIC", 2025, "Petrol", 12.564, 8);
 
+        // Create an instance variable
+        Motorcycle motorcycle = new Motorcycle("Bajaj", "CT - 100", 2023, "Petrol", 70.25);
     } 
 }
