@@ -10,7 +10,11 @@
 
 // Class declaretion for Employee
 class Employee {
-    
+    // Private fields for the Employee class
+    private String name;
+    private String address;
+    private double salary;
+    private String jobTitle;
 }
 
 
