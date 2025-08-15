@@ -76,8 +76,10 @@ class Employee {
  * In the base class, it provides a default implementation that returns 0.0. 
  * Subclasses can override this method to provide custom bonus calculation logic.
  * 
- * 
- * 
+ * generatePerformanceReport(): This method generates a performance report for an 
+ * employee. Similar to the bonus calculation, it provides a default implementation 
+ * that returns "No performance report available." Subclasses can override this 
+ * method to provide custom performance report generation logic.
  * 
  */
 
