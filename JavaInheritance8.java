@@ -155,11 +155,18 @@
         return numSeats;
     }
 
-    // Override the calculateFuelEfficiency  method
+    // Override the calculateFuelEfficiency method
     @Override
     public double calculateFuelEfficiency() {
         // Implimantation for fuel efficiency calculation for the cars
         return getFuelEfficiency() * (1.0 / (1.0 + (getNumSeats() / 5.0)));
+    }
+
+    //Override the calculateDistanceTraveled method
+    @Override
+    public double calculateDistanceTraveled() {
+        // Implimantation for distance traveled calculation for cars
+        return calculateFuelEfficiency() * getFuelEfficiency();
     }
 }
 
