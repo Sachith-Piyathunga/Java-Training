@@ -241,7 +241,12 @@
  * 
  */
 
-
+// JavaInheritance8.java
+// Main class
 public class JavaInheritance8 {
     
+    // Main method to execute the program
+    public static void main(String[] args) {
+        
+    } 
 }
