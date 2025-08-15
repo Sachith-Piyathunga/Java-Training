@@ -85,7 +85,8 @@ class Employee {
 
 // Class declaretion for manager witch extends Employee
 class Manager extends Employee {
-    
+    // private field for the number of subordinates
+    private int numberOfSubordinates;
 }
 
 
