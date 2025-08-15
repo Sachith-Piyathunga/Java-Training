@@ -222,6 +222,13 @@
         return calculateFuelEfficiency() * getFuelEfficiency();
     }
 
+    // Override the getMaxSpeed method from the superclass
+    @Override
+    public double getMaxSpeed() {
+        // Implementation for maximum speed calculation for motorcycles
+        return 80.0;
+    }
+
 }
 
 
