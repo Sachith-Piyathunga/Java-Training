@@ -197,6 +197,10 @@
 
     // Constructor to motorcycle class
     public Motorcycle(String make, String model, int year, String fuelType, double fuelEfficiency) {
+        // Call the constructor of the supper class
+        super(make, model, year, fuelType, fuelEfficiency);
+        // Initialize the instance variable
+        this engineDisplacement = engineDisplacement;
         
     }
 
