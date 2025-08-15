@@ -249,9 +249,10 @@ public class JavaInheritance8 {
     public static void main(String[] args) {
 
         // Create the instance of the Truck class
-        Truck truck = new Truck("Honda", "Civic", 2025, "Petrol", 12.564, 5.5);
+        Truck truck = new Truck("TATA", "TATA - 223", 2025, "Desal", 4.56, 5.5);
 
-        
+        // Create an instance of Car class
+        Car car = new Car("Honda", "CIVIC", 2025, "Petrol", 12.564, 8);
 
     } 
 }
