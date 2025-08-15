@@ -168,6 +168,13 @@
         // Implimantation for distance traveled calculation for cars
         return calculateFuelEfficiency() * getFuelEfficiency();
     }
+
+    // Override the getMaxSpeed method
+    @Override
+    public double getMaxSpeed() {
+        // Implimantation for maximum speed calculation for the cars
+        return 120.0;
+    }
 }
 
 
