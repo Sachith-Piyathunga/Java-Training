@@ -149,6 +149,11 @@
         // Initiaalize the instance variable
         this.numSeats = numSeats;
     }
+
+    // public method to get the number of seats in the car
+    public int getNumSeats() {
+        return numSeats;
+    }
 }
 
 
