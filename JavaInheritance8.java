@@ -139,6 +139,9 @@
 // Declare the Car class extends the Vehicle class
 /* public */ class Car extends Vehicle {
 
+    // Private instance variable
+    private int numSeats;
+    
 }
 
 
