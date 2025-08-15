@@ -48,6 +48,12 @@ class Employee {
         return jobTitle;
     }
 
+    // Method to calculate the bonus for the employee
+    public double calculateBonus() {
+        // Default implemetation for bonus calculation
+        return 0.0;
+    }
+
 }
 
 
