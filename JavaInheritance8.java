@@ -215,6 +215,13 @@
         return getFuelEfficiency() * (1.0 / (1.0 + (getEngineDisplacement() / 1000.0)));
     }
 
+    // Override the calculateDistanceTraveled method from the superclass
+    @Override
+    public double calculateDistanceTraveled() {
+        // Implemetation for distance taveled calculation for motorcycle
+        return calculateFuelEfficiency() * getFuelEfficiency();
+    }
+
 }
 
 
