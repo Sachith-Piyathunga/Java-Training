@@ -208,6 +208,13 @@
         return engineDisplacement;
     }
 
+    // Override method calculateFuelEfficiency 
+    @Override
+    public double calculateFuelEfficiency() {
+        // Implement for fuel efficency calculation for motorcycle
+        return getFuelEfficiency() * (1.0 / (1.0 + (getEngineDisplacement() / 1000.0)));
+    }
+
 }
 
 
