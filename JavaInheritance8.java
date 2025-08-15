@@ -134,7 +134,12 @@
  * 
  */
 
+// Car.java
+// Child class Car
+// Declare the Car class extends the Vehicle class
+/* public */ class Car extends Vehicle {
 
+}
 
 
 
