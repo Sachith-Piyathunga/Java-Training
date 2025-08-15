@@ -247,6 +247,11 @@ public class JavaInheritance8 {
     
     // Main method to execute the program
     public static void main(String[] args) {
+
+        // Create the instance of the Truck class
+        Truck truck = new Truck("Honda", "Civic", 2025, "Petrol", 12.564, 5.5);
+
         
+
     } 
 }
