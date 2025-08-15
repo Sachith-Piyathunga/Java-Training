@@ -188,8 +188,14 @@
  * 
  */
 
+// Motorcycle.java
+// Child class Motorcycle
+// Declare the Motocycle class with extends the Vehi
+/* public */ class Motorcycle extends Vehicle {
+    // Private instance variable for the engine displacement of the moyorcycle
+    private double engineDisplacement;
 
-
+}
 
 
 
