@@ -54,6 +54,11 @@ class Employee {
         return 0.0;
     }
 
+    // Method to generate the preformance report for the employee
+    public String generatePerformanceReport() {
+        // Defult implementation for performance report
+        return "No performance report available.";
+    }
 }
 
 
