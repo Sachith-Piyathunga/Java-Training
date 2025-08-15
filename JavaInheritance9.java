@@ -38,9 +38,14 @@ class Employee {
         return address;
     }
 
-    // Getter method for the address field
+    // Getter method for the salary field
     public double getSalary() {
         return salary;
+    }
+
+    // Getter method for the jobTitle field
+    public String getJobTitle() {
+        return jobTitle;
     }
 
 }
