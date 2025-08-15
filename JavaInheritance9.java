@@ -15,6 +15,11 @@ class Employee {
     private String address;
     private double salary;
     private String jobTitle;
+
+    // Constructor for the employee class
+    private Employee(String name, String address, double salary, String jobTitle) {
+        
+    }
 }
 
 
