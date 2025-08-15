@@ -22,10 +22,15 @@ class Employee {
         this.name = name;
         // Initalize the address feild
         this.address = address;
-        // Initialize the salary feild
+        // Initialize the salary field
         this.salary = salary;
-        // Initialize the jobTitle feild
+        // Initialize the jobTitle field
         this.jobTitle = jobTitle;
+    }
+
+    // Getter method for the name field
+    public String getName() {
+        return name;
     }
 }
 
