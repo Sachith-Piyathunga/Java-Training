@@ -270,6 +270,10 @@ public class JavaInheritance8 {
         System.out.println("Car Model: " + car.getmodel());
         // Print the Car's calculated fuel efficiency
         System.out.println("Fuel Efficiency: " + car.calculateFuelEfficiency() + " mpg");
+        // Print the car's calculated distance traveled
+        System.out.println("Distance Traveled: " + car.calculateDistanceTraveld() + " miles");
+        // Print the car's maximum speed
+        System.out.println("Max Speed: " + car.getMaxSpeed() + " mph\n");
         
 
 
