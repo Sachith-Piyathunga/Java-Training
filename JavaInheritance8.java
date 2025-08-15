@@ -154,6 +154,13 @@
     public int getNumSeats() {
         return numSeats;
     }
+
+    // Override the calculateFuelEfficiency  method
+    @Override
+    public double calculateFuelEfficiency() {
+        // Implimantation for fuel efficiency calculation for the cars
+        return getFuelEfficiency() * (1.0 / (1.0 + (getNumSeats() / 5.0)));
+    }
 }
 
 
