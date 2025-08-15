@@ -72,6 +72,13 @@ class Employee {
  *      getSalary(): Returns the employee's salary.
  *      getJobTitle(): Returns the employee's job title.
  * 
+ * calculateBonus(): This method is used to calculate the bonus for an employee. 
+ * In the base class, it provides a default implementation that returns 0.0. 
+ * Subclasses can override this method to provide custom bonus calculation logic.
+ * 
+ * 
+ * 
+ * 
  */
 
 
