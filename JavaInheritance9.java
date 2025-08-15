@@ -32,6 +32,11 @@ class Employee {
     public String getName() {
         return name;
     }
+
+    // Getter method for the address field
+    public String getAddress() {
+        return address;
+    }
 }
 
 
