@@ -256,5 +256,10 @@ public class JavaInheritance8 {
 
         // Create an instance variable
         Motorcycle motorcycle = new Motorcycle("Bajaj", "CT - 100", 2023, "Petrol", 70.25);
+        
+        // Print the truck's model
+        System.out.println("Truck model: " + truck.getModel());
+        // Print the truck's calculated fuel efficiency
+        System.out.println("Fuel Efficiency: " + truck.calculateFuelEfficiency() + " mpg");
     } 
 }
