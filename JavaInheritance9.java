@@ -121,7 +121,7 @@ class Manager extends Employee {
         System.out.println("Manager " + getName() + " is managing a project.");
     }
 
-
+}
 /**
  *  Explanation
  * 
@@ -155,7 +155,11 @@ class Manager extends Employee {
  * It returns a specific performance report message for managers, including the manager's 
  * name and an "Excellent" rating.
  * 
- */}
+ * 
+ * public void manageProject(): This is a custom method specific to the "Manager" class. 
+ * It simulates the action of a manager managing a project by printing a message to the console.
+ * 
+ */
 
 
 
