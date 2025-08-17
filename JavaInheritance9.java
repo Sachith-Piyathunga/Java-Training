@@ -129,7 +129,9 @@ class Manager extends Employee {
  * "Employee" class. It means that a Manager is a specialized type of Employee and 
  * inherits all the attributes and methods of the Employee class.
  * 
- * 
+ * private int numberOfSubordinates: This instance variable represents the number of 
+ * subordinates managed by the manager. 
+ * It is specific to the "Manager" class and not present in the base "Employee" class.
  * 
  * 
  * 
