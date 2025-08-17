@@ -144,6 +144,13 @@ class Manager extends Employee {
  * public int getNumberOfSubordinates(): This method allows you to retrieve the 
  * number of subordinates managed by the manager.
  * 
+ * @Override public double calculateBonus(): This method is marked with the @Override 
+ * annotation, indicating that it is an overridden method from the superclass (Employee). 
+ * The "calculateBonus()" method provides a custom implementation for bonus calculation 
+ * for managers. In this case, it calculates the bonus as 15% of the manager's salary.
+ * 
+ * 
+ * 
  */}
 
 
