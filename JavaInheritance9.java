@@ -100,6 +100,13 @@ class Manager extends Employee {
     public int getNumberOfSubordinates() {
         return numberOfSubordinates;
     }
+
+    // Override method to calcula the bonus for the manager
+    @Override
+    public double calculateBonus() {
+        // Custom inplimantation for the bonus calculation 
+        return getSalary() * 0.15;
+    }
 }
 
 
