@@ -95,6 +95,11 @@ class Manager extends Employee {
         // Initialize the numberOfSubordinates field
         this.numberOfSubordinates = numberOfSubordinates;
     }
+
+    // Getter method for the numberOfSubordinates field
+    public int getNumberOfSubordinates() {
+        return numberOfSubordinates;
+    }
 }
 
 
