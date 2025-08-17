@@ -120,7 +120,22 @@ class Manager extends Employee {
         // Print the message including the manager is managing a project
         System.out.println("Manager " + getName() + " is managing a project.");
     }
-}
+
+
+/**
+ *  Explanation
+ * 
+ * extends Employee: This line indicates that the "Manager" class inherits from the 
+ * "Employee" class. It means that a Manager is a specialized type of Employee and 
+ * inherits all the attributes and methods of the Employee class.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */}
 
 
 
