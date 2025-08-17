@@ -114,6 +114,11 @@ class Manager extends Employee {
         // Custom implimantation for performance report for manager
         return "Performance report for Manager " + getName() + ": Excellent";
     }
+
+    // Custom method for managing project
+    public void mangeProject() {
+        
+    }
 }
 
 
