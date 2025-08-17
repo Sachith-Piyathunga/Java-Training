@@ -149,7 +149,11 @@ class Manager extends Employee {
  * The "calculateBonus()" method provides a custom implementation for bonus calculation 
  * for managers. In this case, it calculates the bonus as 15% of the manager's salary.
  * 
- * 
+ * @Override public String generatePerformanceReport(): Similar to the "calculateBonus()" 
+ * method, this method is also marked as an override and provides a custom implementation 
+ * for generating a performance report for managers. 
+ * It returns a specific performance report message for managers, including the manager's 
+ * name and an "Excellent" rating.
  * 
  */}
 
