@@ -117,7 +117,8 @@ class Manager extends Employee {
 
     // Custom method for managing project
     public void mangeProject() {
-        
+        // Print the message including the manager is managing a project
+        System.out.println("Manager " + getName() + " is managing a project.");
     }
 }
 
