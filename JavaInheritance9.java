@@ -133,7 +133,13 @@ class Manager extends Employee {
  * subordinates managed by the manager. 
  * It is specific to the "Manager" class and not present in the base "Employee" class.
  * 
- * 
+ * public Manager(String name, String address, double salary, String jobTitle, int 
+ * numberOfSubordinates): This is the constructor for the "Manager" class. 
+ * It takes parameters for 'name', 'address', 'salary', 'jobTitle', and 
+ * numberOfSubordinates, which are used to initialize the attributes inherited 
+ * from the "Employee" class as well as the numberOfSubordinates specific to managers. 
+ * The super(...) keyword is used to call the constructor of the superclass (Employee) 
+ * to initialize its attributes.
  * 
  * 
  * 
