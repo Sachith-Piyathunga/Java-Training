@@ -111,7 +111,8 @@ class Manager extends Employee {
     // Override method to genarate the performance report for the manager
     @Override
     public String generatePerformanceReport() {
-        
+        // Custom implimantation for performance report for manager
+        return "Performance report for Manager " + getName() + ": Excellent";
     }
 }
 
