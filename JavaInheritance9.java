@@ -107,6 +107,12 @@ class Manager extends Employee {
         // Custom inplimantation for the bonus calculation 
         return getSalary() * 0.15;
     }
+
+    // Override method to genarate the performance report for the manager
+    @Override
+    public String generatePerformanceReport() {
+        
+    }
 }
 
 
