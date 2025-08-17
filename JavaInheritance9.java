@@ -87,6 +87,11 @@ class Employee {
 class Manager extends Employee {
     // private field for the number of subordinates
     private int numberOfSubordinates;
+
+    // Constructor for manager class
+    public Manager(String name, String address, double salary, String jobTitle, int numberOfSubordinates) {
+        
+    }
 }
 
 
