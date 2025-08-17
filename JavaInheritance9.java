@@ -141,7 +141,8 @@ class Manager extends Employee {
  * The super(...) keyword is used to call the constructor of the superclass (Employee) 
  * to initialize its attributes.
  * 
- * 
+ * public int getNumberOfSubordinates(): This method allows you to retrieve the 
+ * number of subordinates managed by the manager.
  * 
  */}
 
