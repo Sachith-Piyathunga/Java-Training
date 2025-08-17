@@ -90,6 +90,8 @@ class Manager extends Employee {
 
     // Constructor for manager class
     public Manager(String name, String address, double salary, String jobTitle, int numberOfSubordinates) {
+        // Calling the constructor of the superclass Employee
+        super(name, address, salary, jobTitle);
         
     }
 }
