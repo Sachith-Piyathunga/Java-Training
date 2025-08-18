@@ -171,6 +171,11 @@ class Manager extends Employee {
 class Developer extends Employee {
     // Private field for the programming language
     private String programmingLanguage;
+
+    // Constructor for the Developer class
+    public Developer(String name, String address, double salary, String jobTitle, String programmingLanguage) {
+        
+    }
 }
 
 
