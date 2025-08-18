@@ -224,7 +224,10 @@ class Developer extends Employee {
  * public String getProgrammingLanguage(): This method allows you to retrieve the 
  * programming language specialization of the developer.
  * 
- * 
+ * @Override public double calculateBonus(): This method is marked with the @Override annotation, 
+ * indicating that it is an overridden method from the superclass (Employee). 
+ * The "calculateBonus()" method provides a custom implementation for bonus calculation for developers. 
+ * In this case, it calculates the bonus as 10% of the developer's salary.
  * 
  * 
  * 
