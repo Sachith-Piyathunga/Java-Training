@@ -229,7 +229,10 @@ class Developer extends Employee {
  * The "calculateBonus()" method provides a custom implementation for bonus calculation for developers. 
  * In this case, it calculates the bonus as 10% of the developer's salary.
  * 
- * 
+ * @Override public String generatePerformanceReport(): Similar to the "calculateBonus()" method, 
+ * this method is also marked as an override and provides a custom implementation for 
+ * generating a performance report for developers. 
+ * It returns a specific performance report message for developers, including the developer's name and a "Good" rating.
  * 
  */
 
