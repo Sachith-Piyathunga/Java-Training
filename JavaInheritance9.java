@@ -167,7 +167,10 @@ class Manager extends Employee {
 
 
 
-
+// Class declaretion for developer which extends Employee
+class Developer extends Employee {
+    
+}
 
 
 
