@@ -200,10 +200,21 @@ class Developer extends Employee {
         // Pring the message indicating the developer is writing code
         System.out.println("Developer " + getName() + " is writing code in " + programmingLanguage);
     }
-
 }
 
-
+/**
+ * Explanation
+ * 
+ * extends Employee: Similar to the "Manager" class, this line indicates that the Developer 
+ * class inherits from the "Employee" class. 
+ * It means that a 'Developer' is a specialized type of 'Employee' and inherits all the 
+ * attributes and methods of the Employee class.
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
 
 
 
