@@ -169,7 +169,8 @@ class Manager extends Employee {
 
 // Class declaretion for developer which extends Employee
 class Developer extends Employee {
-    
+    // Private field for the programming language
+    private String programmingLanguage;
 }
 
 
