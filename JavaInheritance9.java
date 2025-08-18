@@ -188,6 +188,12 @@ class Developer extends Employee {
         return getSalary() * 0.10;
     }
 
+    // Override method to genarate the performance report for the developer
+    @Override
+    public String generatePerformanceReport() {
+        
+    }
+
 }
 
 
