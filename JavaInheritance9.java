@@ -210,7 +210,9 @@ class Developer extends Employee {
  * It means that a 'Developer' is a specialized type of 'Employee' and inherits all the 
  * attributes and methods of the Employee class.
  * 
- * 
+ * private String programmingLanguage: This instance variable represents the programming 
+ * language that the developer specializes in. 
+ * It is specific to the "Developer" class and not present in the base "Employee" class.
  * 
  * 
  * 
