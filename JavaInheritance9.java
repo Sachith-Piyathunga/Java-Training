@@ -214,7 +214,12 @@ class Developer extends Employee {
  * language that the developer specializes in. 
  * It is specific to the "Developer" class and not present in the base "Employee" class.
  * 
- * 
+ * public Developer(String name, String address, double salary, String jobTitle, 
+ * String programmingLanguage): This is the constructor for the "Developer" class. 
+ * It takes parameters for 'name', 'address', 'salary', 'jobTitle', and programmingLanguage, 
+ * which are used to initialize the attributes inherited from the "Employee" class as well 
+ * as the programmingLanguage specific to developers. 
+ * The super(...) keyword is used to call the constructor of the superclass (Employee) to initialize its attributes.
  * 
  */
 
