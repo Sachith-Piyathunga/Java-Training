@@ -176,6 +176,8 @@ class Developer extends Employee {
     public Developer(String name, String address, double salary, String jobTitle, String programmingLanguage) {
         // Calling the constructor of the superclass Employee
         super(name, address, salary, jobTitle);
+        // Initialize the programmingLanguage field
+        this.programmingLanguage = programmingLanguage;
     }
 }
 
