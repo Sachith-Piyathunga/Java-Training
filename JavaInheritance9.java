@@ -195,6 +195,11 @@ class Developer extends Employee {
         return "Performance report for Developer " + getName() + ": Good";
     }
 
+    // Custom method for writing code
+    public void writeCode() {
+        
+    }
+
 }
 
 
