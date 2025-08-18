@@ -234,6 +234,9 @@ class Developer extends Employee {
  * generating a performance report for developers. 
  * It returns a specific performance report message for developers, including the developer's name and a "Good" rating.
  * 
+ * public void writeCode(): This is a custom method specific to the "Developer" class. It simulates 
+ * the action of a developer writing code in their specialized programming language by printing a message to the console.
+ * 
  */
 
 
