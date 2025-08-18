@@ -122,6 +122,7 @@ class Manager extends Employee {
     }
 
 }
+
 /**
  *  Explanation
  * 
@@ -162,11 +163,6 @@ class Manager extends Employee {
  */
 
 
-
-
-
-
-
 // Class declaretion for developer which extends Employee
 class Developer extends Employee {
     // Private field for the programming language
@@ -179,6 +175,12 @@ class Developer extends Employee {
         // Initialize the programmingLanguage field
         this.programmingLanguage = programmingLanguage;
     }
+
+    // Getter method for the programmingLanguage field
+    public String getProgrammingLanguage() {
+        return programmingLanguage;
+    }
+
 }
 
 
