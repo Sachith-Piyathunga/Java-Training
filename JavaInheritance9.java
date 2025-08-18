@@ -197,7 +197,8 @@ class Developer extends Employee {
 
     // Custom method for writing code
     public void writeCode() {
-        
+        // Pring the message indicating the developer is writing code
+        System.out.println("Developer " + getName() + " is writing code in " + programmingLanguage);
     }
 
 }
