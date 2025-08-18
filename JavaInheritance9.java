@@ -221,6 +221,13 @@ class Developer extends Employee {
  * as the programmingLanguage specific to developers. 
  * The super(...) keyword is used to call the constructor of the superclass (Employee) to initialize its attributes.
  * 
+ * public String getProgrammingLanguage(): This method allows you to retrieve the 
+ * programming language specialization of the developer.
+ * 
+ * 
+ * 
+ * 
+ * 
  */
 
 
