@@ -181,6 +181,12 @@ class Developer extends Employee {
         return programmingLanguage;
     }
 
+    // Override method to calculate the bonus for the developer
+    @Override
+    public double calculateBonus() {
+        
+    }
+
 }
 
 
