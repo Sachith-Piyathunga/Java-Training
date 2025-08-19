@@ -244,8 +244,11 @@ class Developer extends Employee {
  class Programmer extends Developer {
     // Constructor for the programmer class
     public Programmer(String name, String address, double salary, String programmingLanguage) {
-        
+        // Calling the constructor of the superclass Developer
+        super(name, address, salary, "Programmer", programmingLanguage);
     }
+
+    
  }
 
 
