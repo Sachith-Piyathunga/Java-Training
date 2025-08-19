@@ -264,7 +264,8 @@ class Developer extends Employee {
 
     // Custom method for debugging the code
     public void debugCode() {
-        
+        // Printing a message indicating the programmer is debugging the code
+        System.out.println("Programmer " + getName() + " is debugging code in " + getProgrammingLanguage());
     }
  }
 
