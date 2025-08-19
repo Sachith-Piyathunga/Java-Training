@@ -251,7 +251,8 @@ class Developer extends Employee {
     // Override the method to calculate the binus for the programmer
     @Override
     public double calculateBonus() {
-        
+        // Custom implimantation for bonus calculation for programmer
+        return getSalary() * 0.12;
     }
  }
 
