@@ -352,7 +352,10 @@ public class JavaInheritance9 {
  *      (manager, developer, and programmer) to calculate their respective bonuses.
  *      The bonuses are displayed on the console.
  * 
- * 
+ * Generating Performance Reports:
+ *      The program calls the "generatePerformanceReport()" method for each employee 
+ *      type (manager, developer, and programmer) to generate performance reports.
+ *      The performance reports are displayed on the console.
  * 
  * 
  * 
