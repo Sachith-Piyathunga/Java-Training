@@ -357,14 +357,11 @@ public class JavaInheritance9 {
  *      type (manager, developer, and programmer) to generate performance reports.
  *      The performance reports are displayed on the console.
  * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+ * Specific Actions:
+ *      For each employee type, specific actions are performed:
+ *          manager uses the "manageProject()" method to simulate managing a project.
+ *          developer uses the "writeCode()" method to simulate writing code in a specific programming language.
+ *          programmer uses the "debugCode()" method to simulate debugging code in a specific programming language.
+ *      These actions are displayed on the console.
  * 
  */
