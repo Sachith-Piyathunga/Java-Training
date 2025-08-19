@@ -320,7 +320,8 @@ public class JavaInheritance9 {
         // Print the programmer's bonus
         System.out.println("Programmer's Bonus: $" + programmer.calculateBonus());
 
-
+        // Print the manager's performance report
+        System.out.println(manager.generatePerformanceReport());
 
     }
     
