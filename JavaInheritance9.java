@@ -310,7 +310,9 @@ public class JavaInheritance9 {
         Manager manager = new Manager("Sachintha", "123 ASD St", 25000, "Manager", 10);
         // Create the instance of the Developer
         Developer developer = new Developer("Chamod", "1234 qwe St", 520, "Developer", "Java");
-
+        // Create the insatnce of programmer
+        Programmer programmer = new Programmer("Piyathunga", "234 cvb St", 4500, "JavaScript");
+        
 
 
 
