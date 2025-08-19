@@ -329,6 +329,8 @@ public class JavaInheritance9 {
         
         // Manager managing the project
         manager.mangeProject();
+        // Developer writing the code
+        developer.writeCode();
     }
     
 }
