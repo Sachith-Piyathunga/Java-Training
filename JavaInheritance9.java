@@ -312,8 +312,9 @@ public class JavaInheritance9 {
         Developer developer = new Developer("Chamod", "1234 qwe St", 520, "Developer", "Java");
         // Create the insatnce of programmer
         Programmer programmer = new Programmer("Piyathunga", "234 cvb St", 4500, "JavaScript");
-        
 
+        // Print the manager's bonus
+        System.out.println("Manager's Bonus: $" + manager.calculateBonus());
 
 
 
