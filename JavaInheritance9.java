@@ -240,6 +240,10 @@ class Developer extends Employee {
  */
 
 
+ // Class declareion for programmer which extends Developer
+ class Programmer extends Developer {
+    
+ }
 
 
 
