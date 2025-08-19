@@ -294,7 +294,9 @@ class Developer extends Employee {
  * It returns a specific performance report message for programmers, including the programmer's 
  * name and an "Excellent" rating.
  * 
- * 
+ * public void debugCode(): This is a custom method specific to the "Programmer" class. 
+ * It simulates the action of a programmer debugging code in their specialized programming 
+ * language by printing a message to the console.
  * 
  */
 
