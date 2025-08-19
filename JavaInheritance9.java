@@ -301,7 +301,12 @@ class Developer extends Employee {
  */
 
 
-
+ // JavaInheritance9.java
+// public class declaretion for the main class 
 public class JavaInheritance9 {
+    // Main method
+    public static void main(String[] args) {
+        
+    }
     
 }
