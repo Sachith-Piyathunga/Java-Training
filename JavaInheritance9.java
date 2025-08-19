@@ -333,6 +333,35 @@ public class JavaInheritance9 {
         developer.writeCode();
         // Programmer debuging the code
         programmer.debugCode();
-    }
-    
+    }  
 }
+
+/**
+ * Explanation
+ * 
+ * Creating Employee Objects:
+ *      Three employee objects are created: 'manager', 'developer', and 
+ *      'programmer', each with their specific attributes such as name, address, 
+ *      salary, and job title.
+ *      manager is an instance of the "Manager" class.
+ *      developer is an instance of the "Developer" class.
+ *      programmer is an instance of the "Programmer" class.
+ * 
+ * Calculating Bonuses:
+ *      The program calls the "calculateBonus()" method for each employee type 
+ *      (manager, developer, and programmer) to calculate their respective bonuses.
+ *      The bonuses are displayed on the console.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
