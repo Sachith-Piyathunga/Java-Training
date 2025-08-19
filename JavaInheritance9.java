@@ -258,7 +258,8 @@ class Developer extends Employee {
     // Override method to genarate the performance report for programmers
     @Override
     public String generatePerformanceReport() {
-        
+        // Custom implimantation for performance report for programmers
+        return "Performance report for programmer " + getName() + " :Excellent";
     }
  }
 
