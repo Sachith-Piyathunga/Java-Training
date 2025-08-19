@@ -308,6 +308,15 @@ public class JavaInheritance9 {
     public static void main(String[] args) {
         // Create the instance fo the Manager
         Manager manager = new Manager("Sachintha", "123 ASD St", 25000, "Manager", 10);
+        // Create the instance of the Developer
+        Developer developer = new Developer("Chamod", "1234 qwe St", 520, "Developer", "Java");
+
+
+
+
+
+
+
     }
     
 }
