@@ -276,6 +276,19 @@ class Developer extends Employee {
  * "Developer" class. It means that a 'Programmer' is a specialized type of 'Developer' 
  * and inherits all the attributes and methods of the Developer class.
  * 
+ * public Programmer(String name, String address, double salary, String programmingLanguage): 
+ * This is the constructor for the "Programmer" class. 
+ * It takes parameters for 'name', 'address', 'salary', and 'programmingLanguage'. 
+ * It passes these parameters to the constructor of the superclass (Developer) using the super(...) 
+ * keyword to initialize the attributes inherited from the "Developer" class. 
+ * The 'jobTitle' parameter is set to "Programmer" to indicate the specific job title for programmers.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
  */
 
 
