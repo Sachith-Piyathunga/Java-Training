@@ -261,6 +261,11 @@ class Developer extends Employee {
         // Custom implimantation for performance report for programmers
         return "Performance report for programmer " + getName() + " :Excellent";
     }
+
+    // Custom method for debugging the code
+    public void debugCode() {
+        
+    }
  }
 
 
