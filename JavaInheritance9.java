@@ -254,6 +254,12 @@ class Developer extends Employee {
         // Custom implimantation for bonus calculation for programmer
         return getSalary() * 0.12;
     }
+
+    // Override method to genarate the performance report for programmers
+    @Override
+    public String generatePerformanceReport() {
+        
+    }
  }
 
 
