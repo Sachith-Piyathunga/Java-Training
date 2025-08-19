@@ -324,6 +324,8 @@ public class JavaInheritance9 {
         System.out.println(manager.generatePerformanceReport());
         // Print the developer's performance report
         System.out.println(developer.generatePerformanceReport());
+        // Print the programmer's performances report
+        System.out.println(programmer.generatePerformanceReport());
 
     }
     
