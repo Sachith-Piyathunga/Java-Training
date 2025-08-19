@@ -242,7 +242,10 @@ class Developer extends Employee {
 
  // Class declareion for programmer which extends Developer
  class Programmer extends Developer {
-    
+    // Constructor for the programmer class
+    public Programmer(String name, String address, double salary, String programmingLanguage) {
+        
+    }
  }
 
 
