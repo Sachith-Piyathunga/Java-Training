@@ -315,7 +315,8 @@ public class JavaInheritance9 {
 
         // Print the manager's bonus
         System.out.println("Manager's Bonus: $" + manager.calculateBonus());
-
+        // Print the developer's bonus
+        System.out.println("Developer's Bonus: $" + developer.calculateBonus());
 
 
 
