@@ -283,7 +283,10 @@ class Developer extends Employee {
  * keyword to initialize the attributes inherited from the "Developer" class. 
  * The 'jobTitle' parameter is set to "Programmer" to indicate the specific job title for programmers.
  * 
- * 
+ * @Override public double calculateBonus(): This method is marked with the @Override annotation, 
+ * indicating that it is an overridden method from the superclass (Developer). 
+ * The "calculateBonus()" method provides a custom implementation for bonus calculation for programmers. 
+ * In this case, it calculates the bonus as 12% of the programmer's salary.
  * 
  * 
  * 
