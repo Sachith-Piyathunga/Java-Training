@@ -306,7 +306,8 @@ class Developer extends Employee {
 public class JavaInheritance9 {
     // Main method
     public static void main(String[] args) {
-        
+        // Create the instance fo the Manager
+        Manager manager = new Manager("Sachintha", "123 ASD St", 25000, "Manager", 10);
     }
     
 }
