@@ -57,5 +57,8 @@ public class JavaEncapsulation {
         person.setAge(25);
         person.setCountry("Sri Lanaka");
 
+        // Get values using getter methods
+        String name = person.getName();
+
     }
 }
