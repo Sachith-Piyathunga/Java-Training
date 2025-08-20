@@ -13,8 +13,13 @@ class Person {
     // Private field to store country of the person
     private String country;
 
+    // Public method to get the name of the person
+    public String getName() {
+        return name;
+    }
+
     // public method to set the name of the person
-    public void setName() {
+    public void setName(String name) {
         this.name = name;
     }
 
