@@ -40,6 +40,12 @@ class BankAccount {
  * instance variables accountNumber and balance. 
  * By making these variables private, we ensure that they can only be accessed and 
  * modified through the public getter and setter methods.
+ * 
+ * The getter methods (getAccountNumber() and getBalance()) are public methods that 
+ * provide access to private variables. 
+ * They allow other classes to retrieve accountNumber and balance values. 
+ * In this case, getAccountNumber() returns the value of accountNumber as a String, 
+ * and getBalance() returns the value of balance as a double.
  */
 
 
