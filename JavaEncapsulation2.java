@@ -37,6 +37,7 @@ class Rectangle {
 // Main class
 public class JavaEncapsulation2 {
     public static void main(String[] args) {
-        
+        // Create an instance of Rectangle
+        Rectangle rectangle =new Rectangle();
     }
 }
