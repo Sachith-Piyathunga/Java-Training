@@ -7,7 +7,10 @@
 // BankAccount.java
 // BankAccount class
 class BankAccount {
-    
+    // Declare a private String variable for account number
+    private String accountNumber;
+    // Declare a private double variable for balance
+    private double balance;
 }
 
 
