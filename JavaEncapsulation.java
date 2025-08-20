@@ -33,6 +33,11 @@ class Person {
         this.age = age;
     }
 
+    // Public method to set the country of the person
+    public String getCountry() {
+        return country;
+    }
+
 }
 
 
