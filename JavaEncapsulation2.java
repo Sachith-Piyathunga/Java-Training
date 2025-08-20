@@ -4,6 +4,11 @@
  * and modify these variables.
  */
 
+// Rectangle.java
+// Rectangle class
+class Rectangle {
+    
+}
 
 
 public class JavaEncapsulation2 {
