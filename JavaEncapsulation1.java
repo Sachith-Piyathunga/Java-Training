@@ -71,5 +71,9 @@ public class JavaEncapsulation1 {
         // Get values using getter methods
         String accountNumber = account.getAccountNumber();
         double balance = account.getBalance();
+
+        // Print the values
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Balance: " + balance);;
     }
 }
