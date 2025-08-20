@@ -62,11 +62,14 @@ class BankAccount {
 public class JavaEncapsulation1 {
     public static void main(String[] args) {
         // Create an instance of BankAccount
-        BankAccount acount =  new BankAccount();
+        BankAccount account =  new BankAccount();
 
         // Set values using setter methods
         account.setAccountNumber("AVR-564523");
         account.setBalance(5000.0);
-        
+
+        // Get values using getter methods
+        String accountNumber = account.getAccountNumber();
+        double balance = account.getBalance();
     }
 }
