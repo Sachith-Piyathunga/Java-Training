@@ -57,7 +57,10 @@ class BankAccount {
  * 
  */
 
-
+// JavaEncapsulation1.java
+// Main class
 public class JavaEncapsulation1 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
