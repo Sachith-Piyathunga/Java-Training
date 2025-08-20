@@ -33,7 +33,10 @@ class Rectangle {
     }
 }
 
-
+// JavaEncapsulation2.java
+// Main class
 public class JavaEncapsulation2 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
