@@ -33,9 +33,14 @@ class Person {
         this.age = age;
     }
 
-    // Public method to set the country of the person
+    // Public method to get the country of the person
     public String getCountry() {
         return country;
+    }
+
+    // Public method to set the country of the person
+    public void setCountry(String country) {
+        this.country = country; 
     }
 
 }
