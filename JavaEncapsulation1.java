@@ -61,6 +61,7 @@ class BankAccount {
 // Main class
 public class JavaEncapsulation1 {
     public static void main(String[] args) {
-        
+        // Create an instance of BankAccount
+        BankAccount acount =  new BankAccount();
     }
 }
