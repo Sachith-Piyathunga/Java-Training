@@ -53,3 +53,19 @@ public class JavaEncapsulation2 {
         System.out.println("Width: " + width);
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * the Rectangle class encapsulates the private instance variables length and width. 
+ * The getLength() and getWidth() methods are public getter methods that allow other 
+ * classes to access length and width values. 
+ * The setLength() and setWidth() methods are public setter methods that allow 
+ * other classes to modify length and width values.
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
