@@ -46,6 +46,15 @@ class BankAccount {
  * They allow other classes to retrieve accountNumber and balance values. 
  * In this case, getAccountNumber() returns the value of accountNumber as a String, 
  * and getBalance() returns the value of balance as a double.
+ * 
+ * The setter methods (setAccountNumber() and setBalance()) are also public methods 
+ * that modify private variables. 
+ * Private variables are created by accepting parameters (String accountNumber 
+ * and double balance). 
+ * In this case, setAccountNumber() sets accountNumber value based on the provided 
+ * argument. 
+ * SetBalance() sets the balance value based on the provided argument.
+ * 
  */
 
 
