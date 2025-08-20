@@ -22,6 +22,11 @@ class BankAccount {
         this.accountNumber = accountNumber;
     }
 
+    // Getter method for balance
+    public double getBalance() {
+        return balance;
+    }
+
 }
 
 
