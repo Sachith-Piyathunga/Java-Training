@@ -55,6 +55,7 @@ public class JavaEncapsulation {
         // Set values using seter methods
         person.setName("Sachintha Piyathunga");
         person.setAge(25);
+        person.setCountry("Sri Lanaka");
 
     }
 }
