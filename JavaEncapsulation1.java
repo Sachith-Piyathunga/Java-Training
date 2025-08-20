@@ -11,6 +11,13 @@ class BankAccount {
     private String accountNumber;
     // Declare a private double variable for balance
     private double balance;
+
+    // Getter method to get the account number
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+
 }
 
 
