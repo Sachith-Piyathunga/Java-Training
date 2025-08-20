@@ -90,6 +90,8 @@ public class JavaEncapsulation {
  * Then, the setter methods are used to set the values of the private variables name, 
  * age, and country.
  * 
- * 
+ * To retrieve these values, the getter methods are called (String name = person.getName(), 
+ * int age = person.getAge(), String country = person.getCountry()). 
+ * Finally, the retrieved values are printed using System.out.println().
  * 
  */
