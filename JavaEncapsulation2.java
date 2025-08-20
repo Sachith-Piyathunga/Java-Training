@@ -11,6 +11,11 @@ class Rectangle {
     private double length;
     // Declare a provate double variable for width
     private double width;
+
+    // Getter method for length
+    public double getLength() {
+        return length;
+    }
 }
 
 
