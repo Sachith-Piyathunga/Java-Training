@@ -45,7 +45,10 @@ class Person {
 
 }
 
-
+// JavaEncapsulation.java
+// Main class
 public class JavaEncapsulation {
-    
+    public static void main(String[] args) {
+        
+    }
 }
