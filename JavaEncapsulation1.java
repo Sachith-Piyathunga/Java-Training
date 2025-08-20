@@ -4,6 +4,12 @@
  * access and modify these variables.
  */
 
+// BankAccount.java
+// BankAccount class
+class BankAccount {
+    
+}
+
 
 
 public class JavaEncapsulation1 {
