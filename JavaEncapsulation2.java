@@ -64,8 +64,9 @@ public class JavaEncapsulation2 {
  * The setLength() and setWidth() methods are public setter methods that allow 
  * other classes to modify length and width values.
  * 
- * 
- * 
- * 
+ * In the Main class, an object rectangle of the Rectangle class is created. 
+ * The setter methods (setLength() and setWidth()) are used to set length and width values. 
+ * The getter methods (getLength() and getWidth()) are used to retrieve length and width values.
+ * We then use System.out.println() statements to print the length and width values.
  * 
  */
