@@ -7,7 +7,10 @@
 // Rectangle.java
 // Rectangle class
 class Rectangle {
-    
+    // Declare a private double variable for length
+    private double length;
+    // Declare a provate double variable for width
+    private double width;
 }
 
 
