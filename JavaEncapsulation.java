@@ -23,6 +23,10 @@ class Person {
         this.name = name;
     }
 
+    // Public method to get the age of the person
+    public int getAge() {
+        return age;
+    }
 
 }
 
