@@ -18,7 +18,7 @@ class Person {
         return name;
     }
 
-    // public method to set the name of the person
+    // Public method to set the name of the person
     public void setName(String name) {
         this.name = name;
     }
@@ -26,6 +26,11 @@ class Person {
     // Public method to get the age of the person
     public int getAge() {
         return age;
+    }
+
+    // Public method to set the age of the person
+    public void setAge(int age) {
+        this.age = age;
     }
 
 }
