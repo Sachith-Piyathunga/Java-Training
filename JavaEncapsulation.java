@@ -69,3 +69,20 @@ public class JavaEncapsulation {
 
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * In the above exercise, the Person class encapsulates the private instance variables 
+ * name, age, and country. 
+ * These variables are declared private, which means they cannot be accessed outside 
+ * the Person class.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
