@@ -31,9 +31,16 @@ class BankAccount {
     public void setBalance(double balance) {
         this.balance = balance;
     }
-
 }
 
+/**
+ * Explanation
+ * 
+ * In the above code, we have a BankAccount class that encapsulates the private 
+ * instance variables accountNumber and balance. 
+ * By making these variables private, we ensure that they can only be accessed and 
+ * modified through the public getter and setter methods.
+ */
 
 
 public class JavaEncapsulation1 {
