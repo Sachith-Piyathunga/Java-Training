@@ -17,6 +17,10 @@ class BankAccount {
         return accountNumber;
     }
 
+    // Setter method for account number
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
 
 }
 
