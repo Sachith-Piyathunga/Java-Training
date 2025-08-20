@@ -43,5 +43,9 @@ public class JavaEncapsulation2 {
         // Set values using setter method
         rectangle.setLength(56.2);
         rectangle.setWidth(20.63);
+
+        // Get values using getter methids
+        double length = rectangle.getLength();
+        double width = rectangle.getWidth();
     }
 }
