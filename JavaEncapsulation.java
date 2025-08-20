@@ -51,5 +51,10 @@ public class JavaEncapsulation {
     public static void main(String[] args) {
         // Crete an instance of person
         Person person = new Person();
+
+        // Set values using seter methods
+        person.setName("Sachintha Piyathunga");
+
+
     }
 }
