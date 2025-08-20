@@ -47,5 +47,9 @@ public class JavaEncapsulation2 {
         // Get values using getter methids
         double length = rectangle.getLength();
         double width = rectangle.getWidth();
+
+        // Print the values
+        System.out.println("Length: " + length);
+        System.out.println("Width: " + width);
     }
 }
