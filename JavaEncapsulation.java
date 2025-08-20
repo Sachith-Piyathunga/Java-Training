@@ -49,6 +49,7 @@ class Person {
 // Main class
 public class JavaEncapsulation {
     public static void main(String[] args) {
-        
+        // Crete an instance of person
+        Person person = new Person();
     }
 }
