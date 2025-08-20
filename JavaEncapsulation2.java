@@ -38,6 +38,10 @@ class Rectangle {
 public class JavaEncapsulation2 {
     public static void main(String[] args) {
         // Create an instance of Rectangle
-        Rectangle rectangle =new Rectangle();
+        Rectangle rectangle = new Rectangle();
+
+        // Set values using setter method
+        rectangle.setLength(56.2);
+        rectangle.setWidth(20.63);
     }
 }
