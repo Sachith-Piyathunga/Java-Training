@@ -79,7 +79,11 @@ public class JavaEncapsulation {
  * These variables are declared private, which means they cannot be accessed outside 
  * the Person class.
  * 
- * 
+ * To access and modify these private variables, public getter and setter methods are provided. 
+ * The getter methods (getName(), getAge(), and getCountry()) allow other classes to 
+ * retrieve the values of private variables. 
+ * The setter methods (setName(), setAge(), and setCountry()) provide a way to modify 
+ * the values of private variables.
  * 
  * 
  * 
