@@ -59,6 +59,7 @@ public class JavaEncapsulation {
 
         // Get values using getter methods
         String name = person.getName();
+        int age = person.getAge();
 
     }
 }
