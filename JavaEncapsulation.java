@@ -85,7 +85,10 @@ public class JavaEncapsulation {
  * The setter methods (setName(), setAge(), and setCountry()) provide a way to modify 
  * the values of private variables.
  * 
- * 
+ * In the Main class, an instance of the Person class is created using the Person 
+ * constructor (Person person = new Person()). 
+ * Then, the setter methods are used to set the values of the private variables name, 
+ * age, and country.
  * 
  * 
  * 
