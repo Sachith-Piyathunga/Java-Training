@@ -21,6 +21,11 @@ class Rectangle {
     public void setLength(double length) {
         this.length = length;
     }
+
+    // Getter method for width
+    public double getWidth() {
+        return width;
+    }
 }
 
 
