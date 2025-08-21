@@ -48,7 +48,10 @@ class Student {
 
     // Method to add a grade to the grades list
     public void addGrade(double grade) {
-        
+        // Initialize the grades list if it is null
+        if (grades == null) {
+            
+        }
     }
 }
 
