@@ -64,6 +64,10 @@ public class JavaEncapsulation4 {
     public static void main(String[] args) {
         // Create an insatance of car
         Car car =new Car();
-        
+
+        // Set the values using setter method
+        car.setCompany_Name("HONDA");
+        car.setModel_Name("CIVIC");
+        car.setYear(2025);
     }
 }
