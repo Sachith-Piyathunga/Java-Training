@@ -64,6 +64,7 @@ class Student {
 // import java.util.List;
 public class JavaEncapsulation3 {
     public static void main(String[] args) {
-        
+        // Create an instance of the student
+        Student student = new Student();
     }
 }
