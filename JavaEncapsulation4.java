@@ -83,3 +83,18 @@ public class JavaEncapsulation4 {
         System.out.println("Mileage: " + mileage);
     }
 }
+
+
+/**
+ * Explanation 
+ * 
+ * In this code, the Car class encapsulates the private instance variables company_name, 
+ * model_name, year, and mileage. The getCompany_name(), getModel_name(), and getYear() 
+ * methods are public getter methods that allow other classes to access company_name, 
+ * model_name, and year, respectively. The corresponding set methods are provided to 
+ * modify these variables.
+ * 
+ * 
+ * 
+ * 
+ */
