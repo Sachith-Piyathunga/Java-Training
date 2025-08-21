@@ -32,8 +32,13 @@ class Car {
     }
 
     // Getter method for the model name
-    private String getModel_Name() {
+    public String getModel_Name() {
         return model_Name;
+    }
+
+    // Setter method for the model name
+    public void setModel_Name(String model_Name) {
+        this.model_Name = model_Name;
     }
 
 }
