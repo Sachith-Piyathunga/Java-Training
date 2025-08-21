@@ -15,6 +15,8 @@ class Car {
     // Declare a private String variable for the model name
     private String model_Name;
 
+    // Declare a private int variable for the year
+    private int year;
     
 }
 
