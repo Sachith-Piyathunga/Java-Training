@@ -20,6 +20,12 @@ class Car {
 
     // Declare a private double variable for the mileage
     private double mileage;
+
+    // Getter method for the copmpany name
+    public String getCompany_Name() {
+        return company_Name;
+    }
+
 }
 
 
