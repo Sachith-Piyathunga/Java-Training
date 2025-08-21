@@ -35,6 +35,11 @@ class Student {
     public String getStudent_Name() {
         return student_Name;
     }
+
+    // Setter method for student name
+    public void setStudent_Name(String student_Name) {
+        this.student_Name = student_Name;
+    }
 }
 
 
