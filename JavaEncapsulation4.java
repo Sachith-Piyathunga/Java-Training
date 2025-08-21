@@ -26,9 +26,14 @@ class Car {
         return company_Name;
     }
 
-    // Stter method for the company name
+    // Setter method for the company name
     public void setCompany_Name(String company_Name) {
         this.company_Name = company_Name;
+    }
+
+    // Getter method for the model name
+    private String getModel_Name() {
+        return model_Name;
     }
 
 }
