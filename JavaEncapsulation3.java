@@ -30,6 +30,11 @@ class Student {
     public void setStudent_ID(int student_ID) {
         this.student_ID = student_ID;
     }
+
+    // Getter method for student name
+    public String getStudent_Name() {
+        return student_Name;
+    }
 }
 
 
