@@ -46,6 +46,11 @@ class Car {
         return year;
     }
 
+    // Setter method for year
+    public void setYear(int year) {
+        this.year = year;
+    }
+
 }
 
 
