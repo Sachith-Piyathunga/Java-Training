@@ -9,7 +9,10 @@
 // Car.java
 // Car class
 class Car {
-    
+    // Declare a private String variable for the company name
+    private String company_Name;
+
+
 }
 
 
