@@ -12,7 +12,14 @@ import java.util.List;
 
 // Student class
 class Student {
+    // Declare a private int variable for the student ID
+    private int student_ID;
     
+    // Declare a private String variable for the student name
+    private String student_Name;
+
+    // Declare a private List of Double for the grades
+    private List grades;
 }
 
 
