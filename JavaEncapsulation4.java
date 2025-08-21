@@ -12,7 +12,10 @@ class Car {
     // Declare a private String variable for the company name
     private String company_Name;
 
+    // Declare a private String variable for the model name
+    private String model_Name;
 
+    
 }
 
 
