@@ -70,5 +70,10 @@ public class JavaEncapsulation3 {
         // Set the values using setter method
         student.setStudent_ID(45);
         student.setStudent_Name("Sachintha Chamod");
+
+        // Add the grades using addGrade() method
+        student.addGrade(95.6);
+        student.addGrade(90.5);
+        student.addGrade(85.9);
     }
 }
