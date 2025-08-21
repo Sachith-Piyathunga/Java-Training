@@ -5,6 +5,16 @@
  * However, only provide a getter method for the mileage variable.
  */
 
+
+// Car.java
+// Car class
+class Car {
+    
+}
+
+
+
+
 public class JavaEncapsulation4 {
     
 }
