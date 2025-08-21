@@ -41,6 +41,11 @@ class Car {
         this.model_Name = model_Name;
     }
 
+    // Getter method for the year
+    public int getYear() {
+        return year;
+    }
+
 }
 
 
