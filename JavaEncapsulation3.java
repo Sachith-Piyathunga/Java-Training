@@ -25,6 +25,11 @@ class Student {
     public int getStudent_ID() {
         return student_ID;
     }
+
+    // Setter method for student ID
+    public void setStudent_ID(int student_ID) {
+        this.student_ID = student_ID;
+    }
 }
 
 
