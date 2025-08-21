@@ -17,7 +17,9 @@ class Car {
 
     // Declare a private int variable for the year
     private int year;
-    
+
+    // Declare a private double variable for the mileage
+    private double mileage;
 }
 
 
