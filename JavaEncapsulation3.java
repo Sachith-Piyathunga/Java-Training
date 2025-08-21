@@ -63,5 +63,7 @@ class Student {
 // import java.util.ArrayList;
 // import java.util.List;
 public class JavaEncapsulation3 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
