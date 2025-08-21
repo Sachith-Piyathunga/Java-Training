@@ -98,6 +98,10 @@ public class JavaEncapsulation3 {
  *      within the Student class.
  *      Public getter and setter methods are provided for student_id and student_name 
  *      to access and modify these variables.
- * 
+ *      Additionally, a getter method is provided for the grades variable, which 
+ *      returns a list of double values.
+ *      There is also a method called addGrade() that allows adding grades to the g
+ *      rades list. It performs additional validation by checking if the grades list 
+ *      is null and initializing it if necessary.
  * 
  */
