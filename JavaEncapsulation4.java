@@ -58,8 +58,10 @@ class Car {
 }
 
 
-
-
+// JavaEncapsulation4.java
+// Main class
 public class JavaEncapsulation4 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
