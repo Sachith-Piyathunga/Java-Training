@@ -51,6 +51,10 @@ class Car {
         this.year = year;
     }
 
+    // Getter method for the mileage
+    public double getMileage() {
+        return mileage;
+    }
 }
 
 
