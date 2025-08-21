@@ -62,6 +62,8 @@ class Car {
 // Main class
 public class JavaEncapsulation4 {
     public static void main(String[] args) {
+        // Create an insatance of car
+        Car car =new Car();
         
     }
 }
