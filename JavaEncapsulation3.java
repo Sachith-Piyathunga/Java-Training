@@ -75,5 +75,10 @@ public class JavaEncapsulation3 {
         student.addGrade(95.6);
         student.addGrade(90.5);
         student.addGrade(85.9);
+
+        // Get the values using the getter methods
+        int student_ID = student.getStudent_ID();
+        String student_name = student.getStudent_Name();
+        List<Double> grades = student.getGrades();
     }
 }
