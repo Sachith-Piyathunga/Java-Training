@@ -40,6 +40,11 @@ class Student {
     public void setStudent_Name(String student_Name) {
         this.student_Name = student_Name;
     }
+
+    // Getter method for grades
+    public List getGrades() {
+        return grades;
+    }
 }
 
 
