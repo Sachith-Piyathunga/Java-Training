@@ -66,5 +66,9 @@ public class JavaEncapsulation3 {
     public static void main(String[] args) {
         // Create an instance of the student
         Student student = new Student();
+
+        // Set the values using setter method
+        student.setStudent_ID(45);
+        student.setStudent_Name("Sachintha Chamod");
     }
 }
