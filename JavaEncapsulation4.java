@@ -69,5 +69,11 @@ public class JavaEncapsulation4 {
         car.setCompany_Name("HONDA");
         car.setModel_Name("CIVIC");
         car.setYear(2025);
+
+        // Get the values using the geter methods
+        String company_Name = car.getCompany_Name();
+        String model_Name = car.getModel_Name();
+        int year = car.getYear();
+        double mileage = car.getMileage();
     }
 }
