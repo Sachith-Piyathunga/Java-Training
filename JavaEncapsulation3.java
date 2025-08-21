@@ -80,5 +80,10 @@ public class JavaEncapsulation3 {
         int student_ID = student.getStudent_ID();
         String student_name = student.getStudent_Name();
         List<Double> grades = student.getGrades();
+
+        // Print the values
+        System.out.println("Student ID: " + student_ID);
+        System.out.println("Student Name: " + student_name);
+        System.out.println("Grades: " + grades);
     }
 }
