@@ -45,6 +45,11 @@ class Student {
     public List getGrades() {
         return grades;
     }
+
+    // Method to add a grade to the grades list
+    public void addGrade(double grade) {
+        
+    }
 }
 
 
