@@ -98,5 +98,9 @@ public class JavaEncapsulation4 {
  * access mileage values. However, no setter method is provided for mileage, 
  * meaning it cannot be modified outside the Car class.
  * 
- * 
+ * In the Main class, an object car of the Car class is created. Company_name, 
+ * model_name, and year values are set using the respective setter methods, and then 
+ * retrieved using the getter methods.
+ * The mileage is then retrieved using the getMileage() method and printed using 
+ * System.out.println().
  */
