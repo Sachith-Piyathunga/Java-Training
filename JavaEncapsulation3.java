@@ -50,7 +50,7 @@ class Student {
     public void addGrade(double grade) {
         // Initialize the grades list if it is null
         if (grades == null) {
-            
+            grades = new ArrayList<>();
         }
     }
 }
