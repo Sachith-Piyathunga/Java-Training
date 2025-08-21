@@ -20,6 +20,11 @@ class Student {
 
     // Declare a private List of Double for the grades
     private List grades;
+
+    // Getter method for student ID
+    public int getStudent_ID() {
+        return student_ID;
+    }
 }
 
 
