@@ -10,7 +10,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
+// Student class
+class Student {
+    
+}
 
 
 
