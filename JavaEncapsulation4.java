@@ -94,7 +94,9 @@ public class JavaEncapsulation4 {
  * model_name, and year, respectively. The corresponding set methods are provided to 
  * modify these variables.
  * 
- * 
+ * The getMileage() method is a public getter method that allows other classes to 
+ * access mileage values. However, no setter method is provided for mileage, 
+ * meaning it cannot be modified outside the Car class.
  * 
  * 
  */
