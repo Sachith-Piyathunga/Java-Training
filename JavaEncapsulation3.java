@@ -92,6 +92,7 @@ public class JavaEncapsulation3 {
  * Explanation
  * 
  * The Student class:
+ * 
  *      It defines a class called Student with private instance variables student_id, 
  *      student_name, and grades.
  *      The variables are marked as private, which means they can only be accessed 
@@ -104,4 +105,12 @@ public class JavaEncapsulation3 {
  *      rades list. It performs additional validation by checking if the grades list 
  *      is null and initializing it if necessary.
  * 
+ * The Main class:
+ * 
+ *      It contains the main method, which serves as the entry point for the program.
+ *      An instance of the Student class is created using the new keyword.
+ *      The values of student_id and student_name are set using the setter methods.
+ *      Grades are added to the grades list using the addGrade() method.
+ *      The values of student_id, student_name, and grades are retrieved using the 
+ *      respective getter methods.
  */
