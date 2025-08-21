@@ -6,6 +6,14 @@
  * performing additional validation.
  */
 
+// IMpoert the ArrayList and List classes fromthe java.util package
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+
+
 
 public class JavaEncapsulation3 {
     
