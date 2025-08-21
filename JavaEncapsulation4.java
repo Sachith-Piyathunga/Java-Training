@@ -75,5 +75,11 @@ public class JavaEncapsulation4 {
         String model_Name = car.getModel_Name();
         int year = car.getYear();
         double mileage = car.getMileage();
+
+        // Print the values
+        System.out.println("Company Name: " + company_Name);
+        System.out.println("Model Name: " + model_Name);
+        System.out.println("Year: " + year);
+        System.out.println("Mileage: " + mileage);
     }
 }
