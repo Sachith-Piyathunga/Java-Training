@@ -87,3 +87,17 @@ public class JavaEncapsulation3 {
         System.out.println("Grades: " + grades);
     }
 }
+
+/**
+ * Explanation
+ * 
+ * The Student class:
+ *      It defines a class called Student with private instance variables student_id, 
+ *      student_name, and grades.
+ *      The variables are marked as private, which means they can only be accessed 
+ *      within the Student class.
+ *      Public getter and setter methods are provided for student_id and student_name 
+ *      to access and modify these variables.
+ * 
+ * 
+ */
