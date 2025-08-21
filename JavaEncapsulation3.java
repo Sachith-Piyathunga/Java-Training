@@ -52,6 +52,8 @@ class Student {
         if (grades == null) {
             grades = new ArrayList<>();
         }
+        // Add the grade to the graeds list
+        grades.add(grade);
     }
 }
 
