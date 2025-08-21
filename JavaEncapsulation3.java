@@ -58,8 +58,10 @@ class Student {
 }
 
 
-
-
+// JavaEncapsulation3.java
+// Main class
+// import java.util.ArrayList;
+// import java.util.List;
 public class JavaEncapsulation3 {
     
 }
