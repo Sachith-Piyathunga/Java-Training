@@ -102,4 +102,8 @@ public class JavaEncapsulation5 {
  * 
  *      Controlled Access: The public getter and setter methods provide controlled 
  *      access to the private variables, allowing for validation and modification when necessary.
+ * 
+ *      Data Integrity: Encapsulation helps maintain data integrity by ensuring that the internal 
+ *      state of the object can only be changed through well-defined methods.
+ * 
  */
