@@ -57,5 +57,11 @@ public class JavaEncapsulation5 {
     public static void main(String[] args) {
         // Create the new object
         Smartphone phone = new Smartphone();
+
+        // Set the values of the phone
+        phone.setBrand("SAMSUNG");
+        phone.setModel("Galaxy S25 Ultra");
+        phone.setStorageCapacity(512);
+
     }
 }
