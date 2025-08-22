@@ -97,8 +97,9 @@ public class JavaEncapsulation5 {
  * Note on Encapsulation
  * Encapsulation works in the above exercise by:
  * 
- * Hiding Data: The private instance variables brand, model, and storageCapacity 
- * are not accessible directly from outside the class.
+ *      Hiding Data: The private instance variables brand, model, and storageCapacity 
+ *      are not accessible directly from outside the class.
  * 
- * 
+ *      Controlled Access: The public getter and setter methods provide controlled 
+ *      access to the private variables, allowing for validation and modification when necessary.
  */
