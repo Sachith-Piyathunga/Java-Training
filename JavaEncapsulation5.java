@@ -55,6 +55,7 @@
 public class JavaEncapsulation5 {
     // Main method to test the Samrtphone class
     public static void main(String[] args) {
-        
+        // Create the new object
+        Smartphone phone = new Smartphone();
     }
 }
