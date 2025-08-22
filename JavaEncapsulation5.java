@@ -12,7 +12,10 @@
     private String model;
     private int storageCapacity;
 
-    
+    // Public getter method for the brand variable
+    public String getBrand() {
+        return brand;
+    }
 }
 
 
