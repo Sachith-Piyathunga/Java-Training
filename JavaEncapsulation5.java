@@ -36,6 +36,11 @@
     public int getStorageCapacity() {
         return storageCapacity;
     }
+
+    // Setter method for storageCapacity variable
+    public void setStorageCapacity(int storageCapacity) {
+        this.storageCapacity = storageCapacity;
+    }
 }
 
 
