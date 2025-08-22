@@ -66,5 +66,9 @@ public class JavaEncapsulation5 {
         // Increase storage capacity by 512
         phone.setStorageCapacity(512);
 
+        // Print the details of the phone
+        System.out.println("Brand: " + phone.getBrand());
+        System.out.println("Model: " + phone.getModel());
+        System.out.println("Storage Capacity: " + phone.getStorageCapacity() + "GB");
     }
 }
