@@ -94,7 +94,11 @@ public class JavaEncapsulation5 {
  * Main Method: Tests the functionality of the Smartphone class by creating an instance, 
  * setting its properties, increasing the storage, and printing the details.
  * 
+ * Note on Encapsulation
+ * Encapsulation works in the above exercise by:
  * 
+ * Hiding Data: The private instance variables brand, model, and storageCapacity 
+ * are not accessible directly from outside the class.
  * 
  * 
  */
