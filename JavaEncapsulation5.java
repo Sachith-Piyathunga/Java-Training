@@ -21,6 +21,11 @@
     public void setBrand(String brand) {
         this.brand = brand;
     }
+
+    // Getter method for model variable
+    public String getModel() {
+        return model;
+    }
 }
 
 
