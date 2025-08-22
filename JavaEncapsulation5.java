@@ -80,7 +80,13 @@ public class JavaEncapsulation5 {
  * Private Instance Variables: The brand, model, and storageCapacity variables are 
  * declared as private to ensure encapsulation.
  * 
- * 
+ * Public Getters and Setters: These methods provide controlled access to the private variables.
+ *      getBrand(): Returns the brand.
+ *      setBrand(String brand): Sets the brand.
+ *      getModel(): Returns the model.
+ *      setModel(String model): Sets the model.
+ *      getStorageCapacity(): Returns the storage capacity.
+ *      setStorageCapacity(int storageCapacity): Sets the storage capacity.
  * 
  * 
  * 
