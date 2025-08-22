@@ -5,7 +5,10 @@
  * that takes an integer value and increases the storageCapacity by that value.
  */
 
-
+// Define the Smartphone class
+/* public */ class Smartphone {
+    
+}
 
 
 
