@@ -16,6 +16,11 @@
     public String getBrand() {
         return brand;
     }
+
+    // Setter method for the brand variable
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
 }
 
 
