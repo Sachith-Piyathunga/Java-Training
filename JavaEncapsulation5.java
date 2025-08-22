@@ -31,6 +31,11 @@
     public void setModel(String model) {
         this.model = model;
     }
+
+    // Getter method for storageCapacity variable
+    public int getStorageCapacity() {
+        return storageCapacity;
+    }
 }
 
 
