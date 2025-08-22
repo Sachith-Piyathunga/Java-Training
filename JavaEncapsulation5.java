@@ -50,8 +50,11 @@
     }
 }
 
-
-
+// JavaEncapsulation5.java
+// Main class
 public class JavaEncapsulation5 {
-    
+    // Main method to test the Samrtphone class
+    public static void main(String[] args) {
+        
+    }
 }
