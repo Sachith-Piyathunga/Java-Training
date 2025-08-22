@@ -7,6 +7,11 @@
 
 // Define the Smartphone class
 /* public */ class Smartphone {
+    // Private instance variables
+    private String brand;
+    private String model;
+    private int storageCapacity;
+
     
 }
 
