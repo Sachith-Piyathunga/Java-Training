@@ -44,7 +44,9 @@
 
     // Method to increase the storage capacity by given value
     public void increaseStorage(int additionalStorage) {
-        
+        if (additionalStorage > 0) {
+            this.storageCapacity += additionalStorage;
+        }
     }
 }
 
