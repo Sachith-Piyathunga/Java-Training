@@ -41,6 +41,11 @@
     public void setStorageCapacity(int storageCapacity) {
         this.storageCapacity = storageCapacity;
     }
+
+    // Method to increase the storage capacity by given value
+    public void increaseStorage(int additionalStorage) {
+        
+    }
 }
 
 
