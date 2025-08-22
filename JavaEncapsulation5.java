@@ -72,3 +72,21 @@ public class JavaEncapsulation5 {
         System.out.println("Storage Capacity: " + phone.getStorageCapacity() + "GB");
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * Private Instance Variables: The brand, model, and storageCapacity variables are 
+ * declared as private to ensure encapsulation.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
