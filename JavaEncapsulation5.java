@@ -63,5 +63,8 @@ public class JavaEncapsulation5 {
         phone.setModel("Galaxy S25 Ultra");
         phone.setStorageCapacity(512);
 
+        // Increase storage capacity by 512
+        phone.setStorageCapacity(512);
+
     }
 }
