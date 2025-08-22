@@ -88,7 +88,8 @@ public class JavaEncapsulation5 {
  *      getStorageCapacity(): Returns the storage capacity.
  *      setStorageCapacity(int storageCapacity): Sets the storage capacity.
  * 
- * 
+ * increaseStorage Method: Takes an integer value and increases the storageCapacity by 
+ * that value if it's positive.
  * 
  * 
  * 
