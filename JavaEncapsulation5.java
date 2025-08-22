@@ -91,7 +91,8 @@ public class JavaEncapsulation5 {
  * increaseStorage Method: Takes an integer value and increases the storageCapacity by 
  * that value if it's positive.
  * 
- * 
+ * Main Method: Tests the functionality of the Smartphone class by creating an instance, 
+ * setting its properties, increasing the storage, and printing the details.
  * 
  * 
  * 
