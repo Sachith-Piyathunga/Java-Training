@@ -42,6 +42,12 @@
         this.price = price;
     }
 
+    // Method for the discount percentage for the product
+    public void applyDiscount(double percentage) {
+        if (percentage > 0 && percentage <= 100) {
+            this.price -= this.price * (percentage / 100);
+        }
+    }
 }
 
 
