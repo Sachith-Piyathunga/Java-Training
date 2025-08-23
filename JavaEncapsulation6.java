@@ -27,6 +27,11 @@
         return productCode;
     }
 
+    // Setter method for the product code
+    public void setProductCode(String productCode) {
+        this.productCode = productCode;
+    }
+
 }
 
 
