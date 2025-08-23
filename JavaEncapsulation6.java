@@ -22,6 +22,10 @@
         this.productName = productName;
     } 
 
+    // Getter method for the product code
+    public String getProductCode() {
+        return productCode;
+    }
 
 }
 
