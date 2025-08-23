@@ -41,6 +41,11 @@
     public void setDuration(int duration) {
         this.duration = duration;
     }
+
+    // Method to get the movies details as a formated string
+    public String getMovieDetails() {
+        return "Title: " + title + ", Director: " + director + ", Duration: " + duration + "minutes";
+    }
 }
 
 
