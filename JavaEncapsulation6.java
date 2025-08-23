@@ -5,6 +5,13 @@
  * that takes a percentage and reduces the price by that percentage.
  */
 
+// Define the product class
+/* public */ class product {
+    // Private instance variables
+    private String productName;
+    private String productCode;
+    private doublr price;
+}
 
 
 
