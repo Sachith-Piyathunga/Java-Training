@@ -31,6 +31,16 @@
     public void setDirector(String director) {
         this.director = director;
     }
+
+    // Getter method for the duration
+    public int getDuration() {
+        return duration;
+    }
+
+    // Setter method for the duration
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
 }
 
 
