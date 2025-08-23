@@ -17,7 +17,11 @@
         return productName;
     }
 
-    
+    // Setter method for the product name
+    public void setProductName(String productName) {
+        this.productName = productName;
+    } 
+
 
 }
 
