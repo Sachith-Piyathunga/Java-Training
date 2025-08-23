@@ -49,6 +49,11 @@
 }
 
 
+// JavaEncapsulation7.java
+// Main class
 public class JavaEncapsulation7 {
-    
+    // Publix method for the movie class
+    public static void main(String[] args) {
+        
+    }
 }
