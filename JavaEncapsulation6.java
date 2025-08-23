@@ -57,5 +57,10 @@ public class JavaEncapsulation6 {
     public static void main(String[] args) {
         // Create the object for product
         Product product = new Product();
+
+        // Set the values using setter methods
+        product.setProductName("Lenovo Laptop");
+        product.setProductCode("LAP-45983-Rizen-R");
+        product.setPrice(350000.56);
     }
 }
