@@ -21,6 +21,16 @@
     public void setTitle(String title) {
         this.title = title;
     }
+
+    // Getter method for the director
+    public String getDirector() {
+        return director;
+    }
+
+    // Setter method for the director
+    public void setDirector(String director) {
+        this.director = director;
+    }
 }
 
 
