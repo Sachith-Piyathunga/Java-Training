@@ -32,6 +32,11 @@
         this.productCode = productCode;
     }
 
+    // Getter mrthod for thr price
+    public double price() {
+        return price;
+    }
+
 }
 
 
