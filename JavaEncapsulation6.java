@@ -62,5 +62,13 @@ public class JavaEncapsulation6 {
         product.setProductName("Lenovo Laptop");
         product.setProductCode("LAP-45983-Rizen-R");
         product.setPrice(350000.56);
+
+        // Apply a 8% discount to the product
+        product.applyDiscount(8);
+
+        // Print the details of the product
+        System.out.println("Product Name: " + product.getProductName());
+        System.out.println("Product Code: " + product.getProductCode());
+        System.out.println("Price after discount: $" + product.getPrice());
     }
 }
