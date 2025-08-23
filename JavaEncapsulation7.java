@@ -11,6 +11,16 @@
     private String title;
     private String director;
     private int duration;
+
+    // Getter method for the title 
+    public String getTitle() {
+        return title;
+    }
+
+    // Setter method for the title
+    public void setTitle(String title) {
+        this.title = title;
+    }
 }
 
 
