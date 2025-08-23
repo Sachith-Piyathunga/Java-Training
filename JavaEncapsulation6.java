@@ -50,8 +50,11 @@
     }
 }
 
-
-
+// JavaEncapsulation6.java
+// Main class
 public class JavaEncapsulation6 {
-    
+    // Main method for the product class
+    public static void main(String[] args) {
+        
+    }
 }
