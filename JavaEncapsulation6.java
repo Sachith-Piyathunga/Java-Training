@@ -37,6 +37,11 @@
         return price;
     }
 
+    // Setter method for the price
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
 }
 
 
