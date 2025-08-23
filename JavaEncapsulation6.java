@@ -6,7 +6,7 @@
  */
 
 // Define the product class
-/* public */ class product {
+/* public */ class Product {
     // Private instance variables
     private String productName;
     private String productCode;
@@ -55,6 +55,7 @@
 public class JavaEncapsulation6 {
     // Main method for the product class
     public static void main(String[] args) {
-        
+        // Create the object for product
+        Product product = new Product();
     }
 }
