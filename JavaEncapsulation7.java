@@ -7,7 +7,10 @@
 
 // Define the Movive class
 /* public */ class Movie {
-    
+    // Private instance variables
+    private String title;
+    private String director;
+    private int duration;
 }
 
 
