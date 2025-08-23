@@ -10,7 +10,15 @@
     // Private instance variables
     private String productName;
     private String productCode;
-    private doublr price;
+    private double price;
+
+    // Getter method for the product name
+    public String getProductName() {
+        return productName;
+    }
+
+    
+
 }
 
 
