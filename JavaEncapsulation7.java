@@ -54,6 +54,15 @@
 public class JavaEncapsulation7 {
     // Publix method for the movie class
     public static void main(String[] args) {
-        
+        // Create the new movie object
+        Movie movie = new Movie();
+
+        // Set the details of the movie
+        movie.setTitle("TITANIC");
+        movie.setDirector("James Cameron");
+        movie.setDuration(194);
+
+        // Print the details of the movie
+        System.out.println(movie.getMovieDetails());
     }
 }
