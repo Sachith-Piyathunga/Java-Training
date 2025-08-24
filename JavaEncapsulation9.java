@@ -28,6 +28,11 @@
     public int getNumberOfRooms() {
         return numberOfRooms;
     }
+
+    // Setter method for the number of rooms
+    public void setNumberOfRooms(int numberOfRooms) {
+        this.numberOfRooms = numberOfRooms;
+    }
 }
 
 
