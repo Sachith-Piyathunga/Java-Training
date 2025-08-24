@@ -75,3 +75,11 @@ public class JavaEncapsulation8 {
         System.out.println("RAM Size: " + desktop.getRamSize() + "GB");
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * Private Instance Variables: The brand, processor, and ramSize variables are declared 
+ * as private to ensure encapsulation.
+ */
