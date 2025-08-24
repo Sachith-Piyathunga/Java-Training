@@ -63,5 +63,8 @@ public class JavaEncapsulation9 {
         house.setAddress("ASD Main Rd.");
         house.setNumberOfRooms(6);
         house.setArea(145.6);
+
+        // Calculate the price of the house
+        double price = house.calculatePrice(2000);
     }
 }
