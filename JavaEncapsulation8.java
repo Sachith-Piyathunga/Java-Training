@@ -65,5 +65,8 @@ public class JavaEncapsulation8 {
         desktop.setBrand("Azuse");
         desktop.setProcessor("Rizon9");
         desktop.setRamSize(32);
+
+        // Upgrade the Ram size by 32GB
+        desktop.upgradeRam(32);
     }
 }
