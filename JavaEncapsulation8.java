@@ -42,6 +42,11 @@
         this.ramSize = ramSize;
     }
 
+    // Method to update the ram size by a given value
+    public void upgradeRam(int addtionalRam) {
+        
+    }
+
 }
 
 
@@ -51,6 +56,6 @@
 public class JavaEncapsulation8 {
     // Main method for the desktop class
     public static void main(String[] args) {
-        
+
     }
 }
