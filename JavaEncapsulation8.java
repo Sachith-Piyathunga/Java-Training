@@ -68,5 +68,10 @@ public class JavaEncapsulation8 {
 
         // Upgrade the Ram size by 32GB
         desktop.upgradeRam(32);
+
+        // Print the details of the desktop
+        System.out.println("Brand: " + desktop.getBrand());
+        System.out.println("Processor: " + desktop.getProcessor());
+        System.out.println("RAM Size: " + desktop.getRamSize() + "GB");
     }
 }
