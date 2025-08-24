@@ -46,8 +46,11 @@
 
 
 
-
-
+// JavaEncapsulation8.java 
+// Main class
 public class JavaEncapsulation8 {
-    
+    // Main method for the desktop class
+    public static void main(String[] args) {
+        
+    }
 }
