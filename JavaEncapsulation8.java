@@ -91,6 +91,9 @@ public class JavaEncapsulation8 {
  *      getRamSize(): Returns the RAM size.
  *      setRamSize(int ramSize): Sets the RAM size.
  * 
- * 
+ * upgradeRam Method: Takes an integer value and increases the ramSize by that value 
+ * if it's positive.
+ * Main Method: Tests the functionality of the Desktop class by creating an instance, 
+ * setting its properties, upgrading the RAM, and printing the details.
  * 
  */
