@@ -44,7 +44,9 @@
 
     // Method to update the ram size by a given value
     public void upgradeRam(int addtionalRam) {
-        
+        if (addtionalRam > 0) {
+            this.ramSize += addtionalRam;
+        }
     }
 
 }
