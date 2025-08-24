@@ -22,6 +22,11 @@
         this.brand = brand;
     }
 
+    // Getter method for the processor
+    public String getProcessor() {
+        return processor;
+    }
+
 }
 
 
