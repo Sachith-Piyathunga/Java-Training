@@ -23,6 +23,11 @@
     public void setAddress(String address) {
         this.address = address;
     }
+
+    // Getter method for the number of rooms
+    public int getNumberOfRooms() {
+        return numberOfRooms;
+    }
 }
 
 
