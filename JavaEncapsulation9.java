@@ -33,6 +33,11 @@
     public void setNumberOfRooms(int numberOfRooms) {
         this.numberOfRooms = numberOfRooms;
     }
+
+    // Getter method for the area
+    public double getArea() {
+        return area;
+    }
 }
 
 
