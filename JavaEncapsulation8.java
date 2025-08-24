@@ -60,5 +60,10 @@ public class JavaEncapsulation8 {
     public static void main(String[] args) {
         // Create the new Desktop object
         Desktop desktop = new Desktop();
+
+        // Set the values for the Desktop
+        desktop.setBrand("Azuse");
+        desktop.setProcessor("Rizon9");
+        desktop.setRamSize(32);
     }
 }
