@@ -74,3 +74,11 @@ public class JavaEncapsulation9 {
         System.out.println("Price: $" + price);
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * Private Instance Variables: The address, numberOfRooms, and area variables 
+ * are declared as private to ensure encapsulation.
+ */
