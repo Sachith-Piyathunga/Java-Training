@@ -82,4 +82,15 @@ public class JavaEncapsulation8 {
  * 
  * Private Instance Variables: The brand, processor, and ramSize variables are declared 
  * as private to ensure encapsulation.
+ * 
+ * Public Getters and Setters: These methods provide controlled access to the private variables.
+ *      getBrand(): Returns the brand.
+ *      setBrand(String brand): Sets the brand.
+ *      getProcessor(): Returns the processor.
+ *      setProcessor(String processor): Sets the processor.
+ *      getRamSize(): Returns the RAM size.
+ *      setRamSize(int ramSize): Sets the RAM size.
+ * 
+ * 
+ * 
  */
