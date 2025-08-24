@@ -5,7 +5,10 @@
  * and increases the ramSize by that value.
  */
 
-
+// Define the Desktop class
+/* public */ class Desktop {
+    
+}
 
 
 
