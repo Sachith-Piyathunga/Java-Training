@@ -27,6 +27,11 @@
         return processor;
     }
 
+    // Setter method for the processor
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+
 }
 
 
