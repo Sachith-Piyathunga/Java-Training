@@ -9,7 +9,10 @@
 // House.java
 // Define the House class
 /* public */ class House {
-    
+    // Private insatance variable
+    private String address;
+    private int numberOfRooms;
+    private double area;
 }
 
 
