@@ -32,6 +32,11 @@
         this.processor = processor;
     }
 
+    // Getter method for the ram size
+    public int getRamSize() {
+        return ramSize;
+    }
+
 }
 
 
