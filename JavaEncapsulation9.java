@@ -13,6 +13,11 @@
     private String address;
     private int numberOfRooms;
     private double area;
+
+    // Getter method for the adress
+    public String getAddress() {
+        return address;
+    }
 }
 
 
