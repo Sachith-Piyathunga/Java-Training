@@ -66,5 +66,11 @@ public class JavaEncapsulation9 {
 
         // Calculate the price of the house
         double price = house.calculatePrice(2000);
+
+        // Print the details of the house and its calculated price
+        System.out.println("Address: " + house.getAddress());
+        System.out.println("Number of Rooms: " + house.getNumberOfRooms());
+        System.out.println("Area: " + house.getArea() + " sq meters");
+        System.out.println("Price: $" + price);
     }
 }
