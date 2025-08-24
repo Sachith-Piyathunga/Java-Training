@@ -90,4 +90,10 @@ public class JavaEncapsulation9 {
  *      setNumberOfRooms(int numberOfRooms): Sets the number of rooms.
  *      getArea(): Returns the area.
  *      setArea(double area): Sets the area.
+ * 
+ * calculatePrice Method: Takes a price per square meter and returns the 
+ * total price of the house.
+ * 
+ * Main Method: Tests the functionality of the House class by creating an instance, 
+ * setting its properties, calculating the price, and printing the details.
  */
