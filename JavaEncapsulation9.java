@@ -81,4 +81,13 @@ public class JavaEncapsulation9 {
  * 
  * Private Instance Variables: The address, numberOfRooms, and area variables 
  * are declared as private to ensure encapsulation.
+ * 
+ * Public Getters and Setters: These methods provide controlled access to 
+ * the private variables.
+ *      getAddress(): Returns the address.
+ *      setAddress(String address): Sets the address.
+ *      getNumberOfRooms(): Returns the number of rooms.
+ *      setNumberOfRooms(int numberOfRooms): Sets the number of rooms.
+ *      getArea(): Returns the area.
+ *      setArea(double area): Sets the area.
  */
