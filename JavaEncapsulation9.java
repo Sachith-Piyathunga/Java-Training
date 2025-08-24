@@ -56,6 +56,7 @@
 public class JavaEncapsulation9 {
     // Main method
     public static void main(String[] args) {
-        
+        // Create the house object
+        House house = new House();
     }
 }
