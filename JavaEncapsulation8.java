@@ -37,6 +37,11 @@
         return ramSize;
     }
 
+    // Setter method for the ram size
+    public void setRamSize(int ramSize) {
+        this.ramSize = ramSize;
+    }
+
 }
 
 
