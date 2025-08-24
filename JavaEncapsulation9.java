@@ -6,6 +6,13 @@
  */
 
 
+// House.java
+// Define the House class
+/* public */ class House {
+    
+}
+
+
 
 public class JavaEncapsulation9 {
     
