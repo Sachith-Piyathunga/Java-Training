@@ -7,7 +7,12 @@
 
 // Define the Desktop class
 /* public */ class Desktop {
+    // private instance variables
+    private String brand;
+    private String processor;
+    private int ramSize;
     
+
 }
 
 
