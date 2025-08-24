@@ -43,6 +43,11 @@
     public void setArea(double area) {
         this.area = area;
     }
+
+    // Method to calculate the price of the house
+    public double calculatePrice(double pricePerSqureMeter) {
+        return this.area * pricePerSqureMeter;
+    }
 }
 
 
