@@ -18,6 +18,11 @@
     public String getAddress() {
         return address;
     }
+
+    // Setter method for adress
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
 
 
