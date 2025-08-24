@@ -11,7 +11,11 @@
     private String brand;
     private String processor;
     private int ramSize;
-    
+
+    // Getter method for the brand
+    public String getBrand() {
+        return brand;
+    }
 
 }
 
