@@ -38,6 +38,11 @@
     public double getArea() {
         return area;
     }
+
+    // Setter method for the area
+    public void setArea(double area) {
+        this.area = area;
+    }
 }
 
 
