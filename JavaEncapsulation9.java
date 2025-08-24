@@ -58,5 +58,10 @@ public class JavaEncapsulation9 {
     public static void main(String[] args) {
         // Create the house object
         House house = new House();
+
+        // Set the values 
+        house.setAddress("ASD Main Rd.");
+        house.setNumberOfRooms(6);
+        house.setArea(145.6);
     }
 }
