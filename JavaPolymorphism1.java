@@ -36,7 +36,12 @@
     }
 }
 
-
+// JavaPolymorphism1.java
+// Main calss
+// Declare the main class
 public class JavaPolymorphism1 {
-    
+    // Main method
+    public static void main(String[] args) {
+        
+    }
 }
