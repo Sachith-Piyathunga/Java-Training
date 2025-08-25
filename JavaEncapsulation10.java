@@ -102,8 +102,12 @@ public class JavaEncapsulation10 {
  *      getBalance(): Returns the balance.
  *      setBalance(double balance): Sets the balance.
  * 
+ * deposit Method: Takes an amount and increases the balance by that amount if it's positive.
  * 
+ * withdraw Method: Takes an amount and decreases the balance by that amount if it's 
+ * positive and less than or equal to the current balance.
  * 
- * 
+ * Main Method: Tests the functionality of the Account class by creating an instance, 
+ * setting its properties, performing transactions, and printing the details.
  * 
  */
