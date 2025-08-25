@@ -30,6 +30,11 @@
         return accountHolder;
     }
 
+    // Setter method for the account holder
+    public void setAccountHolder(String accountHolder) {
+        this.accountHolder = accountHolder;
+    }
+
 }
 
 
