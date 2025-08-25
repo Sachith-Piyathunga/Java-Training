@@ -42,6 +42,7 @@
 public class JavaPolymorphism1 {
     // Main method
     public static void main(String[] args) {
-        
+        // Create the instane of Animal
+        Animal animal = new Animal();
     }
 }
