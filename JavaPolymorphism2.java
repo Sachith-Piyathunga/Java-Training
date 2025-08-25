@@ -15,6 +15,11 @@ class Vehicle {
     public void speedUp() {
         speed += 10;
     }
+
+    // Method to get the current speed
+    public int getSpeed() {
+        return speed;
+    }
 }
 
 
