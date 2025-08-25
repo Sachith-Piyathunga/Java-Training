@@ -25,6 +25,11 @@
         this.accountNumber = accountNumber;
     }
 
+    // Getter method for the account holder
+    public String getAccountHolder() {
+        return accountHolder;
+    }
+
 }
 
 
