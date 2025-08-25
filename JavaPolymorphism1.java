@@ -44,5 +44,8 @@ public class JavaPolymorphism1 {
     public static void main(String[] args) {
         // Create the instane of Animal
         Animal animal = new Animal();
+
+        // Create the instance of Bird
+        Bird bird = new Bird();
     }
 }
