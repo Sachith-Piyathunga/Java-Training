@@ -76,5 +76,8 @@ public class JavaEncapsulation10 {
 
         // Deposit an amount to the account
         account.deposit(600.2);
+
+        // Withdraw an amount from the account
+        account.withdraw(500.45);
     }
 }
