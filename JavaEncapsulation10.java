@@ -73,5 +73,8 @@ public class JavaEncapsulation10 {
         account.setAccountNumber("123456789");
         account.setAccountNumber("Sachintha Chamod");
         account.setBalance(50000.56);
+
+        // Deposit an amount to the account
+        account.deposit(600.2);
     }
 }
