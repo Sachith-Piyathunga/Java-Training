@@ -29,7 +29,11 @@
 // Subclass Cat
 // Declare the Cat class that extends the animal class
 /* public */ class Cat extends Animal {
-    
+    // Override the makesound method
+    @Override
+    public void makeSound() {
+        System.out.println("The cat meows");
+    }
 }
 
 
