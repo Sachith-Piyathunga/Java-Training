@@ -40,7 +40,11 @@ class Car extends Vehicle {
 // Subclass Motorcycle
 // Declare the Motorcycle class that extends the vehicle class
 class Motorcycle extends Vehicle {
-    
+    // Override the speedUp method from the vehicle class
+    @Override
+    public void speedUp() {
+        
+    }
 }
 
 
