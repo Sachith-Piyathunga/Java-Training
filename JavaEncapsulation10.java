@@ -68,5 +68,10 @@ public class JavaEncapsulation10 {
     public static void main(String[] args) {
         // Create the new object
         Account account = new Account();
+
+        // Set the values
+        account.setAccountNumber("123456789");
+        account.setAccountNumber("Sachintha Chamod");
+        account.setBalance(50000.56);
     }
 }
