@@ -66,6 +66,7 @@
 public class JavaEncapsulation10 {
     // Main method for test the account class
     public static void main(String[] args) {
-        
+        // Create the new object
+        Account account = new Account();
     }
 }
