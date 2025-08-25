@@ -79,5 +79,10 @@ public class JavaEncapsulation10 {
 
         // Withdraw an amount from the account
         account.withdraw(500.45);
+
+        // Print tthe details of the account
+        System.out.println("Account Number: " + account.getAccountNumber());
+        System.out.println("Account Holder: " + account.getAccountHolder());
+        System.out.println("Balance: $" + account.getBalance());
     }
 }
