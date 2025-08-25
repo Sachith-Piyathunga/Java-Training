@@ -60,5 +60,11 @@ public class JavaPolymorphism2 {
         Car car = new Car();
         // Create the instance of the Motorcycle
         Motorcycle motorcycle = new Motorcycle();
+
+        // Print the initial speed of the car
+        System.out.println("Car initial speed: " + car.getSpeed());
+        // Print the initial speed of the motorcycle
+        System.out.println("Motorcycle initial speed: " + motorcycle.getSpeed());
+
     }
 }
