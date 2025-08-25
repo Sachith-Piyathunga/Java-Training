@@ -45,6 +45,13 @@
         this.balance = balance;
     }
 
+    // Method to deposit an amount and increase the balance
+    public void deposit(double amount) {
+        if (amount > 0) {
+            this.balance += amount;
+        }
+    }
+
 }
 
 
