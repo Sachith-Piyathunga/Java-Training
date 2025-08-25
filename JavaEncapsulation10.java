@@ -58,12 +58,14 @@
             this.balance -= amount;
         }
     }
-
 }
 
 
-
-
+// JavaEncapsulation10.java
+// Main class
 public class JavaEncapsulation10 {
-    
+    // Main method for test the account class
+    public static void main(String[] args) {
+        
+    }
 }
