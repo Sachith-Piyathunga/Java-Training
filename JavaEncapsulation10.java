@@ -35,6 +35,11 @@
         this.accountHolder = accountHolder;
     }
 
+    // Getter method for the balance
+    public double getBalance() {
+        return balance;
+    }
+
 }
 
 
