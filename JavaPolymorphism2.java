@@ -50,7 +50,12 @@ class Motorcycle extends Vehicle {
     }
 }
 
-
+// JavaPolymorphism2.java
+// Main class
+// Declare the main class
 public class JavaPolymorphism2 {
-    
+    // Main method 
+    public static void main(String[] args) {
+        
+    }
 }
