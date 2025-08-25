@@ -8,7 +8,13 @@
 // Base class Vehicle
 // Declare the Vehicle class
 class Vehicle {
-    
+    // Private field for the speed
+    private int speed;
+
+    // Method to increece the speed
+    public void speedUp() {
+        speed += 10;
+    }
 }
 
 
