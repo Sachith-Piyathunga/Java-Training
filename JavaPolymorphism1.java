@@ -50,5 +50,12 @@ public class JavaPolymorphism1 {
 
         // Create the instance of Cat
         Cat cat = new Cat();
+
+        // Call the makeSound method on the Animal instance
+        animal.makeSound(); // Output: The animal makes a sound
+        // Call the makeSound method on the Bird instance
+        bird.makeSound();   // Output: The bird chirps
+        // Call the makeSound method on the Cat instance
+        cat.makeSound();    // Output: The cat meows
     }
 }
