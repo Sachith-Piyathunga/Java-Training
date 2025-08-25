@@ -14,7 +14,12 @@
     }
 }
 
-
+// Bird.java
+// Subclass bird
+// Declare the Birdclas extend the animal class
+public class Bird extends Animal {
+    
+} 
 
 
 
