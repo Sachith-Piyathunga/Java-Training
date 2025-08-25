@@ -20,6 +20,11 @@
         return accountNumber;
     }
 
+    // Setter method for the account number
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
 }
 
 
