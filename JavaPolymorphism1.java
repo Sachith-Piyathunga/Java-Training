@@ -4,7 +4,12 @@
  * in each subclass to make a specific sound for each animal.
  */
 
-
+// Animal.java
+// Base class Amimal
+// Declare the Animal class
+/* public */ class Animal {
+    
+}
 
 
 
