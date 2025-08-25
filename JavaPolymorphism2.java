@@ -22,6 +22,14 @@ class Vehicle {
     }
 }
 
+// Car.java
+// Subclass Car
+// Declare the Car class that extends the Vehicle
+class Car extends Vehicle {
+    
+}
+
+
 
 
 public class JavaPolymorphism2 {
