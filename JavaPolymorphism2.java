@@ -36,7 +36,12 @@ class Car extends Vehicle {
     }
 }
 
-
+// Motorcycle.java
+// Subclass Motorcycle
+// Declare the Motorcycle class that extends the vehicle class
+class Motorcycle extends Vehicle {
+    
+}
 
 
 public class JavaPolymorphism2 {
