@@ -71,5 +71,9 @@ public class JavaPolymorphism2 {
         // Speed up the motorcycle
         motorcycle.speedUp();
 
+        // Print the speed of the car after speeding up
+        System.out.println("\nCar speed after speeding up: " + car.getSpeed());
+        // Print the speed of the motorcycle after speeding up
+        System.out.println("Motorcycle speed after speeding up: " + motorcycle.getSpeed());
     }
 }
