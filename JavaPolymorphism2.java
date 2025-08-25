@@ -56,6 +56,9 @@ class Motorcycle extends Vehicle {
 public class JavaPolymorphism2 {
     // Main method 
     public static void main(String[] args) {
-        
+        // Create the instance of the Car class
+        Car car = new Car();
+        // Create the instance of the Motorcycle
+        Motorcycle motorcycle = new Motorcycle();
     }
 }
