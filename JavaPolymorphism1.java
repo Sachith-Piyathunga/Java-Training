@@ -17,8 +17,12 @@
 // Bird.java
 // Subclass bird
 // Declare the Birdclas extend the animal class
-public class Bird extends Animal {
-    
+/* public */ class Bird extends Animal {
+    // Override the makesound method
+    @Override
+    public void makeSound() {
+        System.out.println("The bird chips");
+    }
 } 
 
 
