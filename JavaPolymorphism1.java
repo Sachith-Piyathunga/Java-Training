@@ -25,6 +25,12 @@
     }
 } 
 
+// Cat.java
+// Subclass Cat
+// Declare the Cat class that extends the animal class
+/* public */ class Cat extends Animal {
+    
+}
 
 
 public class JavaPolymorphism1 {
