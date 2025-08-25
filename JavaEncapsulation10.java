@@ -86,3 +86,24 @@ public class JavaEncapsulation10 {
         System.out.println("Balance: $" + account.getBalance());
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * Private Instance Variables: The accountNumber, accountHolder, and balance variables 
+ * are declared as private to ensure encapsulation.
+ * 
+ * Public Getters and Setters: These methods provide controlled access to the private variables.
+ *      getAccountNumber(): Returns the account number.
+ *      setAccountNumber(String accountNumber): Sets the account number.
+ *      getAccountHolder(): Returns the account holder.
+ *      setAccountHolder(String accountHolder): Sets the account holder.
+ *      getBalance(): Returns the balance.
+ *      setBalance(double balance): Sets the balance.
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
