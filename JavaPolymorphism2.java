@@ -29,7 +29,10 @@ class Car extends Vehicle {
     // Override the speedUp method from the vehicle class
     @Override
     public void speedUp() {
-        
+        // Call the speedUp method of the perant class
+        super.speedUp();
+        // Print the message 
+        System.out.println("\nCar speed increased by 22 units.");
     }
 }
 
