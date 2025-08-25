@@ -8,7 +8,10 @@
 // Base class Amimal
 // Declare the Animal class
 /* public */ class Animal {
-    
+    // Method to print the animal sound
+    public void makeSound() {
+        System.out.println("The animal makes a sound");
+    }
 }
 
 
