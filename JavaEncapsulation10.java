@@ -14,7 +14,12 @@
     private String accountNumber;
     private String accountHolder;
     private double balance;
-    
+
+    // Getter method for the account number
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
 }
 
 
