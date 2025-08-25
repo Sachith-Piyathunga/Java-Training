@@ -7,6 +7,15 @@
  */
 
 
+// Account.java
+// Define the account class
+/* public */ class Account {
+    
+}
+
+
+
+
 public class JavaEncapsulation10 {
     
 }
