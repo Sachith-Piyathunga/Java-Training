@@ -10,6 +10,10 @@
 // Account.java
 // Define the account class
 /* public */ class Account {
+    // Private instance ariables
+    private String accountNumber;
+    private String accountHolder;
+    private double balance;
     
 }
 
