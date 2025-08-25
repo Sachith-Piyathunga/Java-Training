@@ -43,7 +43,10 @@ class Motorcycle extends Vehicle {
     // Override the speedUp method from the vehicle class
     @Override
     public void speedUp() {
-        
+        // Call the speedUp method
+        super.speedUp();
+        // Print the message
+        System.out.println("Motorcycle speed increased by 12 units");
     }
 }
 
