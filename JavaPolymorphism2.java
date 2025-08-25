@@ -26,7 +26,11 @@ class Vehicle {
 // Subclass Car
 // Declare the Car class that extends the Vehicle
 class Car extends Vehicle {
-    
+    // Override the speedUp method from the vehicle class
+    @Override
+    public void speedUp() {
+        
+    }
 }
 
 
