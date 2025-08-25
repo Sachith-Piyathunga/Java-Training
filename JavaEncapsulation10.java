@@ -52,6 +52,11 @@
         }
     }
 
+    // Method to withdraw an amount
+    public void withdraw(double amount) {
+        
+    }
+
 }
 
 
