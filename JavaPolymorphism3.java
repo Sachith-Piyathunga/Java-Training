@@ -54,6 +54,13 @@
         // Assign the instance variable
         this.height = height;
     }
+
+    // Override the calculate area method
+    @Override
+    public double calculateArea() {
+        // Calculate and  return the area
+        return width * height;
+    }
 }
 
 
