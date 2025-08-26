@@ -74,7 +74,8 @@
 
     // Constructor for Triangle class
     public Triangle(double base, double height) {
-        
+        // Assign the instance variable
+        this.base = base;
     }
 }
 
