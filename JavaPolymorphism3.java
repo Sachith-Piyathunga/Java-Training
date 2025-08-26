@@ -5,7 +5,13 @@
  */
 
 
-//
+// Shape.java
+// Base class Shape
+// Declare the Shape class
+/* public */ class Shape {
+    
+}
+
 
 
 public class JavaPolymorphism3 {
