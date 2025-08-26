@@ -9,7 +9,11 @@
 // Base class Shape
 // Declare the Shape class
 /* public */ class Shape {
-    
+    // Method to calculate the area of the shape
+    // Default implimantaion returns 0
+    public double calculateArea() {
+        return 0;
+    }
 }
 
 
