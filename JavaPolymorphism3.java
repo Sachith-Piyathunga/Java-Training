@@ -89,8 +89,13 @@
 }
 
 
-
-
+// JavaPolymorphism3.java
+// Main class
+// Define the main class
 public class JavaPolymorphism3 {
     
+    // Main method 
+    public static void main(String[] args) {
+        
+    }
 }
