@@ -96,6 +96,8 @@ public class JavaPolymorphism3 {
     
     // Main method 
     public static void main(String[] args) {
-        
+
+        // Create the Circle object
+        Circle circle = new Circle(5);
     }
 }
