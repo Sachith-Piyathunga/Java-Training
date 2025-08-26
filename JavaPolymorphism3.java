@@ -71,6 +71,11 @@
     // Declare private double variable
     private double base;
     private double height;
+
+    // Constructor for Triangle class
+    public Triangle(double base, double height) {
+        
+    }
 }
 
 
