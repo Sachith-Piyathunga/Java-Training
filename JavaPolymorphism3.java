@@ -105,6 +105,8 @@ public class JavaPolymorphism3 {
         System.out.println("Area of Cricle: " + circle.calculateArea());
 
         // Create the Rectangle object
-        Rectangle rectangle = new Rectangle(23, 30);
+        Rectangle rectangle = new Rectangle(23.2, 30.56);
+        // Print the area of Rectangle
+        System.out.println("\nArea of Rectangle: " + rectangle.calculateArea());
     }
 }
