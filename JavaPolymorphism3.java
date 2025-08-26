@@ -1,3 +1,5 @@
+import org.w3c.dom.css.Rect;
+
 /**
  * Write a Java program to create a base class Shape with a method called calculateArea(). 
  * Create three subclasses: Circle, Rectangle, and Triangle. Override the calculateArea() 
@@ -101,5 +103,8 @@ public class JavaPolymorphism3 {
         Circle circle = new Circle(5);
         // Print the area of circle object
         System.out.println("Area of Cricle: " + circle.calculateArea());
+
+        // Create the Rectangle object
+        Rectangle rectangle = new Rectangle(23, 30);
     }
 }
