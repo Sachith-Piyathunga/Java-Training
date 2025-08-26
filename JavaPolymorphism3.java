@@ -36,10 +36,14 @@
         // Calculate and return the area
         return Math.PI * radius * radius;
     }
-
 }
 
-
+// Rectangle.java
+// Subclass Rectangle
+// Define the Rectangle class as a subclass of Shape
+/* public */ class Rectangle extends Shape {
+    
+}
 
 
 
