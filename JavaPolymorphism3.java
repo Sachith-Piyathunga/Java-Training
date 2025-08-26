@@ -20,6 +20,9 @@
 // Subclass Circle
 // Define the Circle class as a subclass of shape
 /* public */ class Circle extends Shape {
+    
+    // Declare a private double variable radius
+    private double radius;
 
 }
 
