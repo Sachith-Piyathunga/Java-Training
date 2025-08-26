@@ -46,6 +46,11 @@
     // Declare private double variables width and hight
     private double width;
     private double height;
+
+    // Constructor for the Rectangle class
+    public Rectangle(Double width, double height) {
+        
+    }
 }
 
 
