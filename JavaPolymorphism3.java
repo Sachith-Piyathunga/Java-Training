@@ -63,6 +63,13 @@
     }
 }
 
+// Triagle.java
+// Subclass triangle
+// Define the triangle class
+/* public */ class Triangle extends Shape {
+    
+}
+
 
 
 
