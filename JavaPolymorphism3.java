@@ -51,6 +51,8 @@
     public Rectangle(Double width, double height) {
         // Assign the instance variable
         this.width = width;
+        // Assign the instance variable
+        this.height = height;
     }
 }
 
