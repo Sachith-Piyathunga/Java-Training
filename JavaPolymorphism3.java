@@ -16,6 +16,16 @@
     }
 }
 
+// Circle.java
+// Subclass Circle
+// Define the Circle class as a subclass of shape
+/* public */ class Circle extends Shape {
+
+}
+
+
+
+
 
 
 public class JavaPolymorphism3 {
