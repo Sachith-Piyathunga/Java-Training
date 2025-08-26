@@ -99,5 +99,7 @@ public class JavaPolymorphism3 {
 
         // Create the Circle object
         Circle circle = new Circle(5);
+        // Print the area of circle object
+        System.out.println("Area of Cricle: " + circle.calculateArea());
     }
 }
