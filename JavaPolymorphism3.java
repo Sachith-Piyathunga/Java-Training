@@ -67,7 +67,10 @@
 // Subclass triangle
 // Define the triangle class
 /* public */ class Triangle extends Shape {
-    
+
+    // Declare private double variable
+    private double base;
+    private double height;
 }
 
 
