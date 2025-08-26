@@ -76,6 +76,8 @@
     public Triangle(double base, double height) {
         // Assign the instance variable
         this.base = base;
+        // Assign the instance variable
+        this.height = height;
     }
 }
 
