@@ -111,5 +111,7 @@ public class JavaPolymorphism3 {
 
         // Creete the Triangle object
         Triangle triangle = new Triangle(12.3, 18.6);
+        // Print the area of Triangle
+        System.out.println("\nArea of Triangle: " + triangle.calculateArea());
     }
 }
