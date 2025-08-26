@@ -24,6 +24,12 @@
     // Declare a private double variable radius
     private double radius;
 
+    // Constructor for the radius class
+    public Circle(double radius) {
+        // Assign the parameter radius to the instance variable
+        this.radius = radius;
+    }
+
 }
 
 
