@@ -42,7 +42,10 @@
 // Subclass Rectangle
 // Define the Rectangle class as a subclass of Shape
 /* public */ class Rectangle extends Shape {
-    
+
+    // Declare private double variables width and hight
+    private double width;
+    private double height;
 }
 
 
