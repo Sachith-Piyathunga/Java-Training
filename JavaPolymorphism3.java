@@ -30,6 +30,13 @@
         this.radius = radius;
     }
 
+    // Override the calculateArea method from the Shape class
+    @Override
+    public double calculateArea() {
+        // Calculate and return the area
+        return Math.PI * radius * radius;
+    }
+
 }
 
 
