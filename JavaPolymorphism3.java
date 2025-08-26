@@ -49,7 +49,8 @@
 
     // Constructor for the Rectangle class
     public Rectangle(Double width, double height) {
-        
+        // Assign the instance variable
+        this.width = width;
     }
 }
 
