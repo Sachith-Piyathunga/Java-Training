@@ -74,7 +74,10 @@ class Manager extends Employee {
 // Subclass programmer
 // Define the programmer class
 class Programmer extends Employee {
-    
+
+    // Declare the private variables
+    private double baseSalary;
+    private double overtimePay;
 }
 
 
