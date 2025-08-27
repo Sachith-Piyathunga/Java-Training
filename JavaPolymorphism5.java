@@ -25,7 +25,8 @@ class Football extends Sports {
     // Override the method call play
     @Override
     public void play() {
-        
+        // Print the message
+        System.out.println("Playing football..........");
     }
 }
 
