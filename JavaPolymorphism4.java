@@ -18,6 +18,8 @@ class Employee {
     public Employee(String name, String role) {
         // Create the instaance variable
         this.name = name;
+        // Create the instaance variable
+        this.role = role;
     }
 }
 
