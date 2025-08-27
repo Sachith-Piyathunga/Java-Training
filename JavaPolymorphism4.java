@@ -5,6 +5,15 @@
  * specific roles.
  */
 
+// Employee.java
+// Base class Employee
+// Define the employee class
+class Employee {
+    
+}
+
+
+
 
 public class JavaPolymorphism4 {
     
