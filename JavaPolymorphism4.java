@@ -98,11 +98,12 @@ class Programmer extends Employee {
 }
 
 
-
-
-
-
-
+// JavaPolymorphism4.java
+// Main class
+// Define the main class
 public class JavaPolymorphism4 {
-    
+    // Create the main method
+    public static void main(String[] args) {
+        
+    }
 }
