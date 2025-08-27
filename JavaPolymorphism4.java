@@ -85,6 +85,8 @@ class Programmer extends Employee {
         super(name, "Programmer");
         // Assign the instance variable
         this.baseSalary = baseSalary;
+        // Assign the instance variable
+        this.overtimePay = overtimePay;
     }
 }
 
