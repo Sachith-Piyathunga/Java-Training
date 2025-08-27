@@ -55,6 +55,8 @@ class Manager extends Employee {
     public Manager(String name, double baseSalary, double bonus) {
         // Call the constructor of the superclass
         super(name, "Manager");
+        // Assign the instance variable
+        this.baseSalary = baseSalary;
     }
 }
 
