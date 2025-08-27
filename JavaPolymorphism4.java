@@ -113,5 +113,8 @@ public class JavaPolymorphism4 {
 
         // Print the salary of the manager object
         System.out.println("Manager: " + emp1.getName() + "\nRole: " + emp1.getRole() + "\nSalary: Rs -" + emp1.calculateSalary());
+
+        // Print the salary of the programmer object
+        System.out.println("\nProgrammer: " + emp2.getName() + "\nRole: " + emp2.getRole() + "\nSalary: Rs -" + emp2.calculateSalary());
     }
 }
