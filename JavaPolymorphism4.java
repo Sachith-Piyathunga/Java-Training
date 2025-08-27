@@ -46,7 +46,10 @@ class Employee {
 // Subclass Manager
 // Definethe Manager class
 class Manager extends Employee {
-    
+
+    // Declare the private variables
+    private double baseSalary;
+    private double bonus;
 }
 
 
