@@ -5,7 +5,12 @@
  */
 
 
-
+// Sports.java
+// Base class Sports
+// Define the Sports class
+class Sports {
+    
+}
 
 
 
