@@ -57,6 +57,8 @@ class Manager extends Employee {
         super(name, "Manager");
         // Assign the instance variable
         this.baseSalary = baseSalary;
+        // Assign the instance variable
+        this.bonus = bonus;
     }
 }
 
