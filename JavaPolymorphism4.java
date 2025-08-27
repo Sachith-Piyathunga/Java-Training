@@ -78,6 +78,11 @@ class Programmer extends Employee {
     // Declare the private variables
     private double baseSalary;
     private double overtimePay;
+
+    // Constructor for the programmer class
+    public Programmer(String name, double baseSalary, double overtimePay) {
+
+    }
 }
 
 
