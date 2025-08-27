@@ -21,6 +21,12 @@ class Employee {
         // Create the instaance variable
         this.role = role;
     }
+
+    // Getter method for get the name
+    public String getName() {
+        // Return the name
+        return name;
+    }
 }
 
 
