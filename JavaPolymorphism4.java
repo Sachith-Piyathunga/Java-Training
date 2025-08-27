@@ -27,6 +27,12 @@ class Employee {
         // Return the name
         return name;
     }
+
+    // Getter method for get the role
+    public String getRole() {
+        // Return the role
+        return role;
+    }
 }
 
 
