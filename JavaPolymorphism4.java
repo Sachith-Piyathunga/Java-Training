@@ -88,6 +88,12 @@ class Programmer extends Employee {
         // Assign the instance variable
         this.overtimePay = overtimePay;
     }
+
+    // Overrie the calculate salary method
+    @Override
+    public double calculateSalary() {
+        
+    }
 }
 
 
