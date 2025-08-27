@@ -16,7 +16,8 @@ class Employee {
 
     // Constructor for the Employee class
     public Employee(String name, String role) {
-        
+        // Create the instaance variable
+        this.name = name;
     }
 }
 
