@@ -70,7 +70,12 @@ class Manager extends Employee {
 }
 
 
-
+// Programmer.java
+// Subclass programmer
+// Define the programmer class
+class Programmer extends Employee {
+    
+}
 
 
 
