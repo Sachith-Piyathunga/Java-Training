@@ -68,5 +68,9 @@ public class JavaPolymorphism5 {
         Sports sports = new Sports();
         // Create the Football object
         Football football = new Football();
+        // Create the Basketball object
+        Basketball basketball = new Basketball();
+        // Create the Rugby objet
+        Rugby rugby = new Rugby();
     }
 }
