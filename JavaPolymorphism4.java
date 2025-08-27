@@ -9,7 +9,10 @@
 // Base class Employee
 // Define the employee class
 class Employee {
-    
+
+    // Declare the private instance variables
+    private String name;
+    private String role;
 }
 
 
