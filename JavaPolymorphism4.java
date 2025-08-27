@@ -50,6 +50,11 @@ class Manager extends Employee {
     // Declare the private variables
     private double baseSalary;
     private double bonus;
+
+    // Constructor for the Manager class
+    public Manager(String name, double baseSalary, double bonus) {
+        
+    }
 }
 
 
