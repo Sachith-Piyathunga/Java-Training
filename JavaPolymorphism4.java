@@ -42,6 +42,20 @@ class Employee {
 }
 
 
+// Manager.java
+// Subclass Manager
+// Definethe Manager class
+class Manager extends Employee {
+    
+}
+
+
+
+
+
+
+
+
 
 
 public class JavaPolymorphism4 {
