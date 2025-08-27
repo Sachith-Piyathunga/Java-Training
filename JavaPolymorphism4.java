@@ -13,6 +13,11 @@ class Employee {
     // Declare the private instance variables
     private String name;
     private String role;
+
+    // Constructor for the Employee class
+    public Employee(String name, String role) {
+        
+    }
 }
 
 
