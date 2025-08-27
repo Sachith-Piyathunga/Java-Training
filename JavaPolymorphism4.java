@@ -60,6 +60,12 @@ class Manager extends Employee {
         // Assign the instance variable
         this.bonus = bonus;
     }
+
+    // Override the calculate salary method from the employee class
+    @Override
+    public double calculateSalary() {
+        
+    }
 }
 
 
