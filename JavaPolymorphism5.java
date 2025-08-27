@@ -17,7 +17,12 @@ class Sports {
     }
 }
 
-
+// Football.java
+// Subclass Football
+// Define the Football class
+class Football extends Sports {
+    
+}
 
 
 
