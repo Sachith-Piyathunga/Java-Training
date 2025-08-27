@@ -64,7 +64,8 @@ class Manager extends Employee {
     // Override the calculate salary method from the employee class
     @Override
     public double calculateSalary() {
-        
+        // Calculate the managers salary
+        return baseSalary + bonus;
     }
 }
 
