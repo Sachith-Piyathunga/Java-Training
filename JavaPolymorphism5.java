@@ -63,6 +63,10 @@ public class JavaPolymorphism5 {
     
     // Define the main method
     public static void main(String[] args) {
-        
+
+        // Create the Sports object
+        Sports sports = new Sports();
+        // Create the Football object
+        Football football = new Football();
     }
 }
