@@ -104,6 +104,8 @@ class Programmer extends Employee {
 public class JavaPolymorphism4 {
     // Create the main method
     public static void main(String[] args) {
-        
+
+        // Create the manager object
+        Manager emp1 = new Manager("Sachintha", 100000.56, 50000.56);
     }
 }
