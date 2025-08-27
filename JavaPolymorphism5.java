@@ -12,7 +12,8 @@ class Sports {
 
     // Create the method call play
     public void play() {
-        
+        // Print the message
+        System.out.println("Playing the sport...........\n");
     }
 }
 
