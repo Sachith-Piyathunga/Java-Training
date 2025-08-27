@@ -9,7 +9,11 @@
 // Base class Sports
 // Define the Sports class
 class Sports {
-    
+
+    // Create the method call play
+    public void play() {
+        
+    }
 }
 
 
