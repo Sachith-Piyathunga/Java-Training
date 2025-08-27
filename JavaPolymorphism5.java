@@ -21,7 +21,12 @@ class Sports {
 // Subclass Football
 // Define the Football class
 class Football extends Sports {
-    
+
+    // Override the method call play
+    @Override
+    public void play() {
+        
+    }
 }
 
 
