@@ -111,6 +111,7 @@ public class JavaPolymorphism4 {
         // Create the Programmer object
         Programmer emp2 = new Programmer("Piyathunga", 200000.56, 30000.56);
 
-        
+        // Print the salary of the manager object
+        System.out.println("Manager: " + emp1.getName() + "\nRole: " + emp1.getRole() + "\nSalary: Rs -" + emp1.calculateSalary());
     }
 }
