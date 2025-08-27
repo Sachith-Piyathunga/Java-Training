@@ -33,6 +33,12 @@ class Employee {
         // Return the role
         return role;
     }
+
+    // Public method to calculate salary of the employee
+    public double calculateSalary() {
+        // Return default
+        return 0.0;
+    }
 }
 
 
