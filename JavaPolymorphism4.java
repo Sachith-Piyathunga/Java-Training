@@ -83,6 +83,8 @@ class Programmer extends Employee {
     public Programmer(String name, double baseSalary, double overtimePay) {
         // Call the constructor of the superclass
         super(name, "Programmer");
+        // Assign the instance variable
+        this.baseSalary = baseSalary;
     }
 }
 
