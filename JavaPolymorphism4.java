@@ -92,7 +92,8 @@ class Programmer extends Employee {
     // Overrie the calculate salary method
     @Override
     public double calculateSalary() {
-        
+        // Calculate the programmers salary
+        return baseSalary + overtimePay;
     }
 }
 
