@@ -57,7 +57,12 @@ class Rugby extends Sports {
 }
 
 
-
+// JavaPolymorphism5.java
+// Main class
 public class JavaPolymorphism5 {
     
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
