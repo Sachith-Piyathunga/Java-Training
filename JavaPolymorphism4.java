@@ -107,5 +107,10 @@ public class JavaPolymorphism4 {
 
         // Create the manager object
         Manager emp1 = new Manager("Sachintha", 100000.56, 50000.56);
+
+        // Create the Programmer object
+        Programmer emp2 = new Programmer("Piyathunga", 200000.56, 30000.56);
+
+        
     }
 }
