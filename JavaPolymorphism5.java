@@ -44,6 +44,13 @@ class Basketball extends Sports {
 }
 
 
+// Rugby.java
+// Subclass Rugby
+// Definethe Rugby class
+class Rugby extends Sports {
+    
+}
+
 
 
 public class JavaPolymorphism5 {
