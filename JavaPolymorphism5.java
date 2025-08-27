@@ -35,7 +35,12 @@ class Football extends Sports {
 // Subclass Basketball
 // Define the Basketball class
 class Basketball extends Sports {
-
+    // Override the play method
+    @Override 
+    public void play() {
+        // Print the message
+        System.out.println("Playing basketbal.............");
+    }
 }
 
 
