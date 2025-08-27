@@ -81,7 +81,8 @@ class Programmer extends Employee {
 
     // Constructor for the programmer class
     public Programmer(String name, double baseSalary, double overtimePay) {
-
+        // Call the constructor of the superclass
+        super(name, "Programmer");
     }
 }
 
