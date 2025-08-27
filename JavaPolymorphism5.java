@@ -72,5 +72,11 @@ public class JavaPolymorphism5 {
         Basketball basketball = new Basketball();
         // Create the Rugby objet
         Rugby rugby = new Rugby();
+
+        // Call the every play methods
+        sports.play();
+        football.play();
+        basketball.play();
+        rugby.play();
     }
 }
