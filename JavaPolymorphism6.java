@@ -56,7 +56,8 @@ class Square extends Shape {
 
     // Define a constructor
     public Square(double side) {
-
+        // Assign the instance variable
+        this.side = side;
     }
 
 }
