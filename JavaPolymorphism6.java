@@ -54,8 +54,11 @@ class Square extends Shape {
     // Declare the private variable
     private double side;
 
+    // Define a constructor
+    public Square(double side) {
 
-    
+    }
+
 }
 
 
