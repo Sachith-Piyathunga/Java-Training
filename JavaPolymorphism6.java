@@ -6,6 +6,14 @@
  */
 
 
+// Shape.java
+// Define the abstract class name Shape
+abstract class Shape {
+
+}
+
+
+
 
 
 public class JavaPolymorphism6 {
