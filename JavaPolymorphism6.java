@@ -50,6 +50,11 @@ class Circle extends Shape {
 // Square.java
 // Define the Square class
 class Square extends Shape {
+
+    // Declare the private variable
+    private double side;
+
+
     
 }
 
