@@ -77,6 +77,11 @@ class Triangle extends Shape {
     // Declare the private variables
     private double base;
     private double hight;
+
+    // Define a constructor
+    public Triangle(double base, double hight) {
+        
+    }
 }
 
 
