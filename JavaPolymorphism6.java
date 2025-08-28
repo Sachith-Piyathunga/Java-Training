@@ -34,7 +34,8 @@ class Circle extends Shape {
     // Override the draw method
     @Override
     public void draw() {
-        
+        // Print the message
+        System.out.println("Drawing a cricle");
     }
 }
 
