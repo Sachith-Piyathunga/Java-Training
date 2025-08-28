@@ -109,6 +109,8 @@ public class JavaPolymorphism6 {
     // Define the main method
     public static void main(String[] args) {
         // Assign the values to the objects
-        Circle circle = new Circle(7.89);
+        Shape circle = new Circle(7.89);
+        // Assign the values to the objects
+        Shape square = new Square(12.89);
     }
 }
