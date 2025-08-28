@@ -47,6 +47,16 @@ class Circle extends Shape {
 }
 
 
+// Square.java
+// Define the Square class
+class Square extends Shape {
+    
+}
+
+
+
+
+
 
 public class JavaPolymorphism6 {
     
