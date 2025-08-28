@@ -102,8 +102,12 @@ class Triangle extends Shape {
 }
 
 
-
-
+// JavaPolymorphism6.java
+// Main class
 public class JavaPolymorphism6 {
     
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
