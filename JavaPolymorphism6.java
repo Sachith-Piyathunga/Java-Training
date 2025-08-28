@@ -80,7 +80,8 @@ class Triangle extends Shape {
 
     // Define a constructor
     public Triangle(double base, double hight) {
-        
+        // Assign the instance variable
+        this.base = base;
     }
 }
 
