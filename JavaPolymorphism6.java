@@ -70,6 +70,11 @@ class Square extends Shape {
 }
 
 
+// Triangle.java
+// Define the Triangle class
+class Triangle extends Shape {
+
+}
 
 
 
