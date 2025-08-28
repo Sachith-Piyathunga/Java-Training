@@ -112,5 +112,9 @@ public class JavaPolymorphism6 {
         Shape circle = new Circle(7.89);
         // Assign the values to the objects
         Shape square = new Square(12.89);
+        // Assign the values to the objects
+        Shape triangle = new Triangle(8.89, 10.89);
+
+
     }
 }
