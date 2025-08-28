@@ -85,6 +85,12 @@ class Triangle extends Shape {
         // Assign the instance variable
         this.hight = hight;
     }
+
+    // Override the draw method
+    @Override
+    public void draw() {
+        
+    }
 }
 
 
