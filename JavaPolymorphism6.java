@@ -30,6 +30,12 @@ class Circle extends Shape {
         // Assign the instance variable
         this.radius = radius;
     }
+
+    // Override the draw method
+    @Override
+    public void draw() {
+        
+    }
 }
 
 
