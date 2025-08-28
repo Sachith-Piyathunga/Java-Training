@@ -120,5 +120,10 @@ public class JavaPolymorphism6 {
         drawShapeAndCalculateArea(square);
         drawShapeAndCalculateArea(triangle);
 
+        // Define the drawShapeAndCalculateArea method
+        public static void drawShapeAndCalculateArea(Shape shape) {
+            
+        }
+
     }
 }
