@@ -96,7 +96,8 @@ class Triangle extends Shape {
     // Override the calculate area method
     @Override
     public double calculateArea() {
-        
+        // Return the area of triangle
+        return 0.5 * base * hight;
     }
 }
 
