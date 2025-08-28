@@ -126,6 +126,8 @@ public class JavaPolymorphism6 {
             shape.draw();
             // Call the calculate area method
             double area = shape.calculateArea();
+            // Print the area of the shape
+            System.out.println("Area: " + area);
         }
 
     }
