@@ -24,6 +24,11 @@ class Circle extends Shape {
 
     // Declare the private variable
     private double radius;
+
+    // Define the costructor
+    public Circle(double radius) {
+        
+    }
 }
 
 
