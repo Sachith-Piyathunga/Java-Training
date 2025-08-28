@@ -10,6 +10,8 @@
 // Define the abstract class name Shape
 abstract class Shape {
 
+    // Declare an abstract method
+    public abstract void draw():
 }
 
 
