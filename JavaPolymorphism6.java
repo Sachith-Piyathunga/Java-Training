@@ -124,6 +124,8 @@ public class JavaPolymorphism6 {
         public static void drawShapeAndCalculateArea(Shape shape) {
             // Call the draw method
             shape.draw();
+            // Call the calculate area method
+            double area = shape.calculateArea();
         }
 
     }
