@@ -74,6 +74,9 @@ class Square extends Shape {
 // Define the Triangle class
 class Triangle extends Shape {
 
+    // Declare the private variables
+    private double base;
+    private double hight;
 }
 
 
