@@ -60,6 +60,12 @@ class Square extends Shape {
         this.side = side;
     }
 
+    // Override the draw method
+    @Override
+    public void draw() {
+        
+    }
+
 }
 
 
