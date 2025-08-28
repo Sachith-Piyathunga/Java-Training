@@ -12,6 +12,9 @@ abstract class Shape {
 
     // Declare an abstract method
     public abstract void draw():
+
+    // Declare an abstract method calculateArea
+    public abstract double calculateArea();
 }
 
 
