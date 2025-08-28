@@ -115,6 +115,10 @@ public class JavaPolymorphism6 {
         // Assign the values to the objects
         Shape triangle = new Triangle(8.89, 10.89);
 
+        // Call the methods
+        drawShapeAndCalculateArea(circle);
+        drawShapeAndCalculateArea(square);
+        drawShapeAndCalculateArea(triangle);
 
     }
 }
