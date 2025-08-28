@@ -21,7 +21,9 @@ abstract class Shape {
 // Circle.java
 // Define the Circle class
 class Circle extends Shape {
-    
+
+    // Declare the private variable
+    private double radius;
 }
 
 
