@@ -92,6 +92,12 @@ class Triangle extends Shape {
         // Print the message
         System.out.println("Drawing the triangle");
     }
+
+    // Override the calculate area method
+    @Override
+    public double calculateArea() {
+        
+    }
 }
 
 
