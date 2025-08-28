@@ -37,6 +37,12 @@ class Circle extends Shape {
         // Print the message
         System.out.println("Drawing a cricle");
     }
+
+    // Override the calculate area method
+    @Override
+    public double calculateArea() {
+
+    }
 }
 
 
