@@ -27,7 +27,8 @@ class Circle extends Shape {
 
     // Define the costructor
     public Circle(double radius) {
-        
+        // Assign the instance variable
+        this.radius = radius;
     }
 }
 
