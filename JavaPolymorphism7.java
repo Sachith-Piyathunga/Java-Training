@@ -11,7 +11,8 @@
 class Animal {
     // Method for animal to eat
     public void eat() {
-        
+        // Print the message
+        System.out.println("Animal eats.");
     }
 } 
 
