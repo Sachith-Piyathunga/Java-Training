@@ -29,7 +29,8 @@ class Lion extends Animal {
     // Overrride the eat method
     @Override
     public void eat() {
-        
+        // Print the message
+        System.out.println("Lion eat meat.");
     }
 }
 
