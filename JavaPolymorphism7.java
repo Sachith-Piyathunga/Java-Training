@@ -101,5 +101,9 @@ public class JavaPolymorphism7 {
         // Call the methods
         tiger.eat();
         tiger.sound();
+
+        // Call the methods
+        panther.eat();
+        panther.sound();
     }
 }
