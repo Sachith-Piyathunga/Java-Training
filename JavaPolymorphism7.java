@@ -74,7 +74,8 @@ class Panther extends Animal {
     // Override the sound method
     @Override 
     public void sound() {
-        
+        // Print the message
+        System.out.println("Panther purrs and sometimes hisses.");
     }
 }
 
