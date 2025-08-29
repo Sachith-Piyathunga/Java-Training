@@ -32,6 +32,12 @@ class Lion extends Animal {
         // Print the message
         System.out.println("Lion eat meat.");
     }
+
+    // Overrid the sound method
+    @Override 
+    public void sound() {
+        
+    }
 }
 
 
