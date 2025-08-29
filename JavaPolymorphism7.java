@@ -9,7 +9,10 @@
 // Animal.java
 // Define the Animal class
 class Animal {
-    
+    // Method for animal to eat
+    public void eat() {
+        
+    }
 } 
 
 
