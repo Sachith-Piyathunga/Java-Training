@@ -6,6 +6,12 @@
  */
 
 
+// Animal.java
+// Define the Animal class
+class Animal {
+    
+} 
+
 
 
 
