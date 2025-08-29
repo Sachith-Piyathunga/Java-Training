@@ -51,6 +51,12 @@ class Tiger extends Animal {
         // Print the message
         System.out.println("Tiger eats meat and sometimes fish.");
     }
+
+    // Override the sound method
+    @Override
+    public void sound() {
+        
+    }
 }
 
 
