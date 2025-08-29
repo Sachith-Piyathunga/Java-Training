@@ -23,6 +23,13 @@ class Animal {
 } 
 
 
+// Lion.java
+// Define the Lion class
+class Lion extends Animal {
+    
+}
+
+
 
 
 
