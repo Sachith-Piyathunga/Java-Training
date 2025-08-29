@@ -17,7 +17,8 @@ class Animal {
 
     // Method for animal to make sound
     public void sound() {
-        
+        // Print the message
+        System.out.println("Animal makes a sound.");
     }
 } 
 
