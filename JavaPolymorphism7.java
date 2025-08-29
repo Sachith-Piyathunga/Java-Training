@@ -97,5 +97,9 @@ public class JavaPolymorphism7 {
         // Call the methods
         lion.eat();
         lion.sound();
+
+        // Call the methods
+        tiger.eat();
+        tiger.sound();
     }
 }
