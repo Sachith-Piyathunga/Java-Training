@@ -45,7 +45,11 @@ class Lion extends Animal {
 // Tiger.java
 // Define the Tiger class
 class Tiger extends Animal {
-    
+    // Override the eat method
+    @Override
+    public void eat() {
+        
+    }
 }
 
 
