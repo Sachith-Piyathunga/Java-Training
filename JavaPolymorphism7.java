@@ -90,5 +90,8 @@ public class JavaPolymorphism7 {
 
         // Create the tiger object
         Animal tiger = new Tiger(); 
+
+        // Create the panther object
+        Animal panther = new Panther();
     }
 }
