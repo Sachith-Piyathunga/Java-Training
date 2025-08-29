@@ -93,5 +93,9 @@ public class JavaPolymorphism7 {
 
         // Create the panther object
         Animal panther = new Panther();
+
+        // Call the methods
+        lion.eat();
+        lion.sound();
     }
 }
