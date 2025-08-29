@@ -14,6 +14,11 @@ class Animal {
         // Print the message
         System.out.println("Animal eats.");
     }
+
+    // Method for animal to make sound
+    public void sound() {
+        
+    }
 } 
 
 
