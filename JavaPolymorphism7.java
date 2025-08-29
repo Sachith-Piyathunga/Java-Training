@@ -85,6 +85,7 @@ class Panther extends Animal {
 public class JavaPolymorphism7 {
     // Define the main method
     public static void main(String[] args) {
-        
+        // Create an lion object
+        Animal lion = new Lion();
     }
 }
