@@ -42,6 +42,13 @@ class Lion extends Animal {
 }
 
 
+// Tiger.java
+// Define the Tiger class
+class Tiger extends Animal {
+    
+}
+
+
 
 
 
