@@ -67,7 +67,8 @@ class Panther extends Animal {
     // Override the eat method
     @Override
     public void eat() {
-        
+        // Print the message
+        System.out.println("Panther eats meat ans small mammals.");
     }
 }
 
