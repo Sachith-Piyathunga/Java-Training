@@ -80,9 +80,11 @@ class Panther extends Animal {
 }
 
 
-
-
-
+// JavaPolymorphism7.java
+// Main class
 public class JavaPolymorphism7 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
