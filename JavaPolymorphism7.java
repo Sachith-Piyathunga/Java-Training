@@ -115,4 +115,9 @@ public class JavaPolymorphism7 {
  * The "Animal" class is the base class and 'Lion', 'Tiger', and 'Panther' are its 
  * subclasses. Each subclass overrides the eat() method to describe what each animal 
  * eats and the sound() method to make a specific sound for each animal.
+ * 
+ * In the main() method, we create instances of Lion, Tiger, and Panther. We then call 
+ * the eat() and sound() methods on these objects. Since these methods are overridden 
+ * in the subclasses, the appropriate behavior for each animal will be displayed when 
+ * we run the program.
  */
