@@ -71,6 +71,10 @@ public class OOP1 {
         // Set the name and age for the person 2
         person2.setName("Baanu");
         person2.setAge(85);
-
+        System.out.println("Set new age and name:");
+        // Print the updated name and age of person1 
+        System.out.println(person1.getName() + " is now " + person1.getAge() + " years old.");
+        // Print the updated name and age of person2 
+        System.out.println(person2.getName() + " is now " + person2.getAge() + " years old.");
     }
 }
