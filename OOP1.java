@@ -56,6 +56,7 @@
 public class OOP1 {
     // Define the main method
     public static void main(String[] args) {
-        
+        // Create the instance of the person class
+        Person person1 = new Person("Sachintha", 75);
     }
 }
