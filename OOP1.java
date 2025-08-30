@@ -5,6 +5,11 @@
  */
 
 
+ // Person.java
+// Define the Person class
+/* public */ class Person {
+    
+}
 
 
 
