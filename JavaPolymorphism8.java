@@ -46,7 +46,8 @@ class Motorcycle extends Vehicle {
 
     // Override the stop engine method
     public void stopEngine() {
-        
+        // Print the message
+        System.out.println("Motorcycle engine stopped when ignition was turned off.");
     }
 }
 
