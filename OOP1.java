@@ -24,6 +24,11 @@
         // Return the name
         return name;
     }
+
+    // Getter method for thee age
+    public int getAge() {
+        
+    }
 }
 
 
