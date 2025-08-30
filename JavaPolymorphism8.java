@@ -59,5 +59,7 @@ public class JavaPolymorphism8 {
     public static void main(String[] args) {
         // Create the Car object
         Vehicle car = new Car();
+        // Create the motorcycle object
+        Vehicle motorcycle = new Motorcycle();
     }
 }
