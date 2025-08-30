@@ -8,7 +8,9 @@
  // Person.java
 // Define the Person class
 /* public */ class Person {
-    
+    // Declare the private variables
+    private String name;
+    private int age;
 }
 
 
