@@ -16,6 +16,11 @@ abstract class Vehicle {
 } 
 
 
+// Car.java
+// Define the car class
+class Car extends Vehicle {
+    
+}
 
 
 
