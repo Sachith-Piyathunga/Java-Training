@@ -27,7 +27,8 @@
 
     // Setter mthod for the name
     public void setName(String name) {
-        
+        // Set the name variable
+        this.name =  name;
     }
 
     // Getter method for thee age
