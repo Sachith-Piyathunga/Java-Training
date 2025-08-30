@@ -60,5 +60,8 @@ public class OOP1 {
         Person person1 = new Person("Sachintha", 75);
         // Create an instance of the person class
         Person person2 = new Person("Piyathunga", 35);
+
+        // Print the details of the person 1
+        System.out.println(person1.getName() + " is " + person1.getAge() + " Years old.");
     }
 }
