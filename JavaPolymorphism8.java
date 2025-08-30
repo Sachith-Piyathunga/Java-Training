@@ -52,7 +52,11 @@ class Motorcycle extends Vehicle {
 }
 
 
-
+// JavaPolymorphism8.java
+// Main class
 public class JavaPolymorphism8 {
-    
+    // Defienthe main method
+    public static void main(String[] args) {
+        
+    }
 }
