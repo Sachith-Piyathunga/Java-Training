@@ -62,6 +62,11 @@ public class OOP1 {
         Person person2 = new Person("Piyathunga", 35);
 
         // Print the details of the person 1
-        System.out.println(person1.getName() + " is " + person1.getAge() + " Years old.");
+        System.out.println(person1.getName() + " is " + person1.getAge() + " years old.");
+        // Print the details of the person 2
+        System.out.println(person2.getName() + " is " + person2.getAge() + "years old.\n");
+
+
+
     }
 }
