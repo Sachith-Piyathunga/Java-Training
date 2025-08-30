@@ -27,7 +27,8 @@
 
     // Getter method for thee age
     public int getAge() {
-        
+        // Return the age
+        return age;
     }
 }
 
