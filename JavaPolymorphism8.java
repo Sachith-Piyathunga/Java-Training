@@ -43,6 +43,11 @@ class Motorcycle extends Vehicle {
         // Print th mesage
         System.out.println("Motorcycle engine started with a kick-start.");
     }
+
+    // Override the stop engine method
+    public void stopEngine() {
+        
+    }
 }
 
 
