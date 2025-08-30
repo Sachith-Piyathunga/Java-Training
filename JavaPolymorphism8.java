@@ -25,6 +25,12 @@ class Car extends Vehicle {
         // Print the message
         System.out.println("Car engine started with a key.");
     }
+
+    // Override the stop engine method
+    @Override
+    public void stopEngine() {
+        
+    }
 }
 
 
