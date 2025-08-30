@@ -36,6 +36,11 @@
         // Return the age
         return age;
     }
+
+    // Setter method for the age
+    public void setAge(int age) {
+        
+    }
 }
 
 
