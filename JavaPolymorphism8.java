@@ -9,7 +9,7 @@
 // Define the abstract vehicle class
 abstract class Vehicle {
     // Abstract method to start the engine
-    public abstract void startEnginr();
+    public abstract void startEngine();
 
     // Abstract method to stop the engine
     public abstract void stopEngine();
@@ -19,7 +19,11 @@ abstract class Vehicle {
 // Car.java
 // Define the car class
 class Car extends Vehicle {
-    
+    // Override the start engine method
+    @Override
+    public void startEngine() {
+        
+    }
 }
 
 
