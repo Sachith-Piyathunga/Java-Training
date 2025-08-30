@@ -51,13 +51,11 @@
  * getter method to access the attributes.
  */
 
-
-
-
-
-
-
-
+// OOP1.java
+// Main class
 public class OOP1 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
