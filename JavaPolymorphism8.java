@@ -40,7 +40,8 @@ class Car extends Vehicle {
 class Motorcycle extends Vehicle {
     // Override the start engine method
     public void startEngine() {
-        
+        // Print th mesage
+        System.out.println("Motorcycle engine started with a kick-start.");
     }
 }
 
