@@ -61,5 +61,8 @@ public class JavaPolymorphism8 {
         Vehicle car = new Car();
         // Create the motorcycle object
         Vehicle motorcycle = new Motorcycle();
+
+        // Staart and stop the engine for the car
+        startAndStopEngine(car);
     }
 }
