@@ -25,6 +25,11 @@
         return name;
     }
 
+    // Setter mthod for the name
+    public void setName(String name) {
+        
+    }
+
     // Getter method for thee age
     public int getAge() {
         // Return the age
