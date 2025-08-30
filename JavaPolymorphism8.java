@@ -78,3 +78,13 @@ public class JavaPolymorphism8 {
             vehicle.stopEngine();
         }
 }
+
+
+/**
+ * Explanation
+ * 
+ * The "Vehicle" class is the base abstract class, and Car and Motorcycle are its 
+ * concrete subclasses. Each subclass overrides the startEngine() and stopEngine() 
+ * methods to provide different ways of starting and stopping the engines based on 
+ * the vehicle type.
+ */
