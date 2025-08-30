@@ -87,4 +87,11 @@ public class JavaPolymorphism8 {
  * concrete subclasses. Each subclass overrides the startEngine() and stopEngine() 
  * methods to provide different ways of starting and stopping the engines based on 
  * the vehicle type.
+ * 
+ * In the Main class, we have a static method startAndStopEngine(Vehicle vehicle) that 
+ * takes an object of the base class Vehicle as a parameter. Inside this method, we 
+ * call the startEngine() and stopEngine() methods on the vehicle object. Since the 
+ * startAndStopEngine method takes a Vehicle type parameter, it can accept Car and 
+ * Motorcycle objects.
+ * 
  */
