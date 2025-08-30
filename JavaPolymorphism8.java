@@ -70,7 +70,8 @@ public class JavaPolymorphism8 {
 
         // Method to start and stop the engine
         public static void startAndStopEngine(Vehicle vehicle) {
-            
+            // Start the engine of the vehicle
+            vehicle.startEngine();
         }
     }
 }
