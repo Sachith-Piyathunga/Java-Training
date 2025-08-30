@@ -44,6 +44,13 @@
     }
 }
 
+/** Explanation
+ * 
+ * The above class has two private attributes: name and age, and a constructor that 
+ * initializes these attributes with the values passed as arguments. It also has a 
+ * getter method to access the attributes.
+ */
+
 
 
 
