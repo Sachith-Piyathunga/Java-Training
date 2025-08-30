@@ -38,7 +38,10 @@ class Car extends Vehicle {
 // Motorcycle.java
 // Define the Motorcycle class
 class Motorcycle extends Vehicle {
-    
+    // Override the start engine method
+    public void startEngine() {
+        
+    }
 }
 
 
