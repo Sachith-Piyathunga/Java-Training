@@ -14,7 +14,9 @@
 
     // Constructor for the person class
     public Person(String name, int age) {
-
+        // Set the variables
+        this.name = name;
+        this.age = age;
     }
 }
 
