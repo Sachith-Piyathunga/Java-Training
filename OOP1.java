@@ -39,7 +39,8 @@
 
     // Setter method for the age
     public void setAge(int age) {
-        
+        // Set the age variable
+        this.age = age;
     }
 }
 
