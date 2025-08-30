@@ -57,6 +57,7 @@ class Motorcycle extends Vehicle {
 public class JavaPolymorphism8 {
     // Defienthe main method
     public static void main(String[] args) {
-        
+        // Create the Car object
+        Vehicle car = new Car();
     }
 }
