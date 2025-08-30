@@ -66,7 +66,8 @@ public class OOP1 {
         // Print the details of the person 2
         System.out.println(person2.getName() + " is " + person2.getAge() + "years old.\n");
 
-
+        // Set the age for person 1
+        person1.setAge(45);
 
     }
 }
