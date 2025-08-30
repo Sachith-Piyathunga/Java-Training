@@ -68,6 +68,9 @@ public class OOP1 {
 
         // Set the age for person 1
         person1.setAge(45);
+        // Set the name and age for the person 2
+        person2.setName("Baanu");
+        person2.setAge(85);
 
     }
 }
