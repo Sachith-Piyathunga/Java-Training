@@ -18,6 +18,11 @@
         this.name = name;
         this.age = age;
     }
+
+    // Getter method for the name
+    public String getName() {
+        
+    }
 }
 
 
