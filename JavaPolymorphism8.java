@@ -8,7 +8,8 @@
 // Vehicle.java
 // Define the abstract vehicle class
 abstract class Vehicle {
-    // 
+    // Abstract method to start the engine
+    public abstract void startEnginr();
 } 
 
 
