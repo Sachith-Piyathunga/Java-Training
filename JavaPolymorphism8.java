@@ -35,6 +35,11 @@ class Car extends Vehicle {
 }
 
 
+// Motorcycle.java
+// Define the Motorcycle class
+class Motorcycle extends Vehicle {
+    
+}
 
 
 
