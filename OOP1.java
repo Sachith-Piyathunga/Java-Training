@@ -11,6 +11,11 @@
     // Declare the private variables
     private String name;
     private int age;
+
+    // Constructor for the person class
+    public Person(String name, int age) {
+
+    }
 }
 
 
