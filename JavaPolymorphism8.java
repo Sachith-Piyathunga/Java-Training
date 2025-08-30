@@ -5,6 +5,11 @@
  */
 
 
+// Vehicle.java
+// Define the abstract vehicle class
+abstract class Vehicle {
+    // 
+} 
 
 
 
