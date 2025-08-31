@@ -29,7 +29,8 @@
 
     // Setter method for the name
     public void setName(String name) {
-        
+        // Set the name variable
+        this.name = name;
     }
 } 
 
