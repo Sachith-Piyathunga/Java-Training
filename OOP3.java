@@ -39,7 +39,8 @@
 
     // Setter method for the height
     public void setHeight(double height) {
-        
+        // Set the variable
+        this.height = height;
     }
 }
 
