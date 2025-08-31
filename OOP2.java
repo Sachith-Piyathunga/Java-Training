@@ -35,7 +35,8 @@
 
     // Getter method for the breed
     public String getBreed() {
-        
+        // Return the breed
+        return breed;
     }
 } 
 
