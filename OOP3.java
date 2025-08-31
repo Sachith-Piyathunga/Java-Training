@@ -51,7 +51,8 @@
 
     // Method to calculate the Perimeter
     public double getPerimeter() {
-        
+        // Calculate the perimeter
+        return 2 * (width + height);
     }
 }
 
