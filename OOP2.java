@@ -41,7 +41,8 @@
 
     // Setter method for the breed
     public void setBreeed(String breed) {
-        
+        // Set the breed variable
+        this.breed = breed;
     }
 } 
 
