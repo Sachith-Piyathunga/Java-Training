@@ -38,6 +38,11 @@
         // Return the breed
         return breed;
     }
+
+    // Setter method for the breed
+    public void setBreeed(String breed) {
+        
+    }
 } 
 
 
