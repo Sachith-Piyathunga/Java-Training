@@ -9,12 +9,14 @@
 /* public */ class Rectangle {
     // Declare the private variables
     private double width;
-    private double heigth;
+    private double height;
 
     // Create the constructor for the rectangle class
     public Rectangle(Double width, double heigth) {
         // Set the width variable
         this.width = width;
+        // Set the height variable
+        this.height = height;
     }
 }
 
