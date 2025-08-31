@@ -12,6 +12,11 @@
     private String name;
     // Declare the private variable
     private String breed;
+
+    // Create the constructor for the dog class
+    public Dog(String name, String breed) {
+        
+    }
 } 
 
 
