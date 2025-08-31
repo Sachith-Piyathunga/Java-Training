@@ -5,6 +5,11 @@
  */
 
 
+// Dog.java
+// Define the Dog class
+/* public */ class Dog {
+
+} 
 
 
 
