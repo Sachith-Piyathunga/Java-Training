@@ -27,7 +27,8 @@
 
     // Setter method for the width
     public void setWidth(double width) {
-        
+        // Set the variable
+        this.width = width;
     }
 }
 
