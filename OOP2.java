@@ -71,5 +71,8 @@ public class OOP2 {
         System.out.println(dog1.getName() + " is a " + dog1.getBreed() + ".");
         // Print the message for dog 2
         System.out.println(dog2.getName() + " is a " + dog2.getBreed() + ".");
+
+        // Print the message
+        System.out.println("\nSet the new Breed of dog1 and new name of dog2:");
     }
 }
