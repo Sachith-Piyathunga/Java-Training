@@ -17,6 +17,8 @@
     public Dog(String name, String breed) {
         // Set the instance variables
         this.name = name;
+        // Set the instance variables
+        this.breed = breed;
     }
 } 
 
