@@ -69,5 +69,7 @@ public class OOP2 {
 
         // Print the message for dog 1
         System.out.println(dog1.getName() + " is a " + dog1.getBreed() + ".");
+        // Print the message for dog 2
+        System.out.println(dog2.getName() + " is a " + dog2.getBreed() + ".");
     }
 }
