@@ -8,7 +8,8 @@
 // Dog.java
 // Define the Dog class
 /* public */ class Dog {
-
+    // Declare the private variable
+    private String name;
 } 
 
 
