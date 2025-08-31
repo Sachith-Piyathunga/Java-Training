@@ -36,6 +36,11 @@
         // Return the height
         return height;
     }
+
+    // Setter method for the height
+    public void setHeight(double height) {
+        
+    }
 }
 
 
