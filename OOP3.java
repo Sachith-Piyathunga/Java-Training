@@ -45,7 +45,8 @@
 
     // Method to calculate the area
     public double getArea() {
-        
+        // Calculate the area
+        return width * height;  
     }
 }
 
