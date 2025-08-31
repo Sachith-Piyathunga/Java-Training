@@ -79,7 +79,9 @@ public class OOP2 {
         // Change the name of the dog 2
         dog2.setName("Ballage ammata");
 
-        // Print the updated name
+        // Print the updated name and breed
         System.out.println(dog1.getName() + " is now a " + dog1.getBreed() + ".");
+        // Print the updated name and breed
+        System.out.println(dog2.getName() + " is now a " + dog2.getBreed() + ".");
     }
 }
