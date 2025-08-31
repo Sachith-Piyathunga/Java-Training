@@ -10,6 +10,8 @@
 /* public */ class Dog {
     // Declare the private variable
     private String name;
+    // Declare the private variable
+    private String breed;
 } 
 
 
