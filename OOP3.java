@@ -21,7 +21,8 @@
 
     // Getter method for the width
     public double getWidth() {
-        
+        // Return width
+        return width;
     }
 }
 
