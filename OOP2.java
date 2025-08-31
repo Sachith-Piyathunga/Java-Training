@@ -85,3 +85,13 @@ public class OOP2 {
         System.out.println(dog2.getName() + " is now a " + dog2.getBreed() + ".");
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * In the above example code, we create two instances of the "Dog" class, set their 
+ * attributes through the constructor, and print their name and breed using the getter 
+ * methods. We also modify the attributes using the setter methods and print 
+ * the updated values.
+ */
