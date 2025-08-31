@@ -18,6 +18,11 @@
         // Set the height variable
         this.height = height;
     }
+
+    // Getter method for the width
+    public double getWidth() {
+        
+    }
 }
 
 
