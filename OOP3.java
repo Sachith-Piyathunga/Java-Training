@@ -33,7 +33,8 @@
 
     // Getter method for tyhe height
     public double getHeigth() {
-        
+        // Return the height
+        return height;
     }
 }
 
