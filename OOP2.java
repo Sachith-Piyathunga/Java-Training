@@ -20,6 +20,11 @@
         // Set the instance variables
         this.breed = breed;
     }
+
+    // Getter method for the name
+    public String getName() {
+        
+    }
 } 
 
 
