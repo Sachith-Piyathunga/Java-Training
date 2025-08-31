@@ -12,7 +12,7 @@
     private double height;
 
     // Create the constructor for the rectangle class
-    public Rectangle(Double width, double heigth) {
+    public Rectangle(double width, double height) {
         // Set the width variable
         this.width = width;
         // Set the height variable
@@ -41,6 +41,11 @@
     public void setHeight(double height) {
         // Set the variable
         this.height = height;
+    }
+
+    // Method to calculate the area
+    public double getArea() {
+        
     }
 }
 
