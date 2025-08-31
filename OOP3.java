@@ -4,7 +4,11 @@
  */
 
 
-
+// Rectangle.java
+// Define the rectangle class
+/* public */ class Rectangle {
+    
+}
 
 
 
