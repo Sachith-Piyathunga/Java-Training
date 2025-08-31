@@ -13,7 +13,8 @@
 
     // Create the constructor for the rectangle class
     public Rectangle(Double width, double heigth) {
-        
+        // Set the width variable
+        this.width = width;
     }
 }
 
