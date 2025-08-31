@@ -32,6 +32,11 @@
         // Set the name variable
         this.name = name;
     }
+
+    // Getter method for the breed
+    public String getBreed() {
+        
+    }
 } 
 
 
