@@ -56,10 +56,12 @@
  */
 
 
-
-
-
-
+// OOP2.java
+// Main class
+// Define the main clss
 public class OOP2 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
