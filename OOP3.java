@@ -57,11 +57,22 @@
 }
 
 
+/**
+ * Explanation
+ * 
+ * The above class has two private attributes: 'width' and 'height', a constructor that 
+ * initializes these attributes with the values passed as arguments, and getter and 
+ * setter methods to access and modify these attributes. It also has two methods 
+ * 'getArea()' and 'getPerimeter() ' to calculate the area and perimeter of the 
+ * rectangle.
+ */
+
+ 
 // OOP3.java
 // Define the main class
 public class OOP3 {
     // Define the main method
     public static void main(String[] args) {
-        
+
     }
 }
