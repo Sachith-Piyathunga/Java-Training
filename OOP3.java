@@ -57,17 +57,11 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+// OOP3.java
+// Define the main class
 public class OOP3 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
