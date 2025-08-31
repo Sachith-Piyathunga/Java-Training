@@ -48,6 +48,11 @@
         // Calculate the area
         return width * height;  
     }
+
+    // Method to calculate the Perimeter
+    public double getPerimeter() {
+        
+    }
 }
 
 
