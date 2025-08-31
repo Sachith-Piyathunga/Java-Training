@@ -66,5 +66,8 @@ public class OOP2 {
         Dog dog1 = new Dog("Balla", "Danneee");
         // Create the dog object
         Dog dog2 = new Dog("Balu Balla", "Wal Special");
+
+        // Print the message for dog 1
+        System.out.println(dog1.getName() + " is a " + dog1.getBreed() + ".");
     }
 }
