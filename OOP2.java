@@ -62,6 +62,7 @@
 public class OOP2 {
     // Define the main method
     public static void main(String[] args) {
-        
+        // Create the dog object
+        Dog dog1 = new Dog("Balla", "Danneee")
     }
 }
