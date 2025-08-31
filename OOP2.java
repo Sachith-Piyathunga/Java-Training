@@ -15,7 +15,8 @@
 
     // Create the constructor for the dog class
     public Dog(String name, String breed) {
-        
+        // Set the instance variables
+        this.name = name;
     }
 } 
 
