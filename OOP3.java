@@ -7,7 +7,9 @@
 // Rectangle.java
 // Define the rectangle class
 /* public */ class Rectangle {
-    
+    // Declare the private variables
+    private double width;
+    private double heigth;
 }
 
 
