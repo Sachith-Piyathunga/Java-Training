@@ -78,5 +78,8 @@ public class OOP2 {
         dog1.setBreeed("Extra special wal Dogiyaa. Hodama badu.");
         // Change the name of the dog 2
         dog2.setName("Ballage ammata");
+
+        // Print the updated name
+        System.out.println(dog1.getName() + " is now a " + dog1.getBreed() + ".");
     }
 }
