@@ -44,8 +44,16 @@
         // Set the breed variable
         this.breed = breed;
     }
+    
 } 
 
+/**
+ * Explain
+ * 
+ * The above class has two private attributes: ‘name’ and ‘breed’, and a constructor 
+ * that initializes these attributes with the values passed as arguments. It also has 
+ * getter and setter methods to access and modify these attributes.
+ */
 
 
 
