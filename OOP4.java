@@ -32,6 +32,11 @@ import java.util.ArrayList;
         // Return the title
         return title;
     }
+
+    // Setter method for the title
+    public void setTitle(String title) {
+        
+    }
 }
 
 
