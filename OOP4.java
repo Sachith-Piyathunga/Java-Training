@@ -106,5 +106,7 @@ public class OOP4 {
         // Add the book2 to the book collection
         Book.addBook(book2);
 
+        // Retrieve the book collection
+        ArrayList<Book> bookCollection = Book.getBookCollection();
     }
 }
