@@ -20,11 +20,11 @@ import java.util.ArrayList;
     private static ArrayList<Book> bookCollection = new ArrayList<Book>();
 
     // Constructor for the Book class
-    public Book(String title, String author, String ISBM) {
+    public Book(String title, String author, String ISBN) {
         // Set the variables
         this.title = title;
         this.author = author;
-        this.ISBN = ISBM;
+        this.ISBN = ISBN;
     }
 
     // Getter method for the title
@@ -129,7 +129,8 @@ public class OOP4 {
 
         // Iterate over each book in the collection
         for (Book book : bookCollection) {
-            
+            // Print the title, author, and ISBN of each book
+            System.out.println(book.getTitle() + " by " + book.getAuthor() + ", ISBN: " + book.getISBN());
         }
     }
 }
