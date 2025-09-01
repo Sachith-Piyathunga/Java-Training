@@ -81,7 +81,9 @@ public class OOP3 {
         // Print the perimeter of the rectangle
         System.out.println("The perimeter of the rectangle is " + rectangle.getPerimeter());
 
-        // Set the new width for the rectangle
+        // Set a new width for the rectangle
         rectangle.setWidth(10.53);
+        // Set a new height for the rectangle
+        rectangle.setHeight(12.53);
     }
 }
