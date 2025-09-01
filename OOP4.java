@@ -12,6 +12,9 @@ import java.util.ArrayList;
 /* public */ class Book {
     // Declare the private variable
     private String title;
+    // Declare the private variable
+    private String author;
+    
 }
 
 
