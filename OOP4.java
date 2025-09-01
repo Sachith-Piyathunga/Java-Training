@@ -65,7 +65,8 @@ import java.util.ArrayList;
 
     // Static method to add a book to the book collection
     public static void removeBook(Book book) {
-        
+        // Add the provided book object
+        bookCollection.add(book);
     }
 }
 
