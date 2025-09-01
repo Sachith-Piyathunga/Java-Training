@@ -38,6 +38,11 @@ import java.util.ArrayList;
         // Set the variable
         this.title = title;
     }
+
+    // Getter method for the author
+    public String getAuthor() {
+        
+    }
 }
 
 
