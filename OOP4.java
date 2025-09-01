@@ -134,3 +134,11 @@ public class OOP4 {
         }
     }
 }
+
+/**Explanation
+ * 
+ * Create two instances of the "Book" class and add them to the collection with the 
+ * ‘addBook’ method. Then print the title, author, and ISBN of each book in the 
+ * collection using a for loop. Also remove book1 from the collection using the 
+ * ‘removeBook’ method and print the updated collection.
+ */
