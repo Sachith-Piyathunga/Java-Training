@@ -108,5 +108,8 @@ public class OOP4 {
 
         // Retrieve the book collection
         ArrayList<Book> bookCollection = Book.getBookCollection();
+
+        // Print the hedding for the book collection
+        System.out.println("List of Books:");
     }
 }
