@@ -62,6 +62,11 @@ import java.util.ArrayList;
         // Set the variable
         this.ISBN = ISBN;
     }
+
+    // Static method to add a book to the book collection
+    public static void removeBook(Book book) {
+        
+    }
 }
 
 
