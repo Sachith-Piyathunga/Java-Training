@@ -117,5 +117,8 @@ public class OOP4 {
             // Print the details
             System.out.println(book.getTitle() + " by " + book.getAuthor() + ", ISBN: " + book.getISBN());
         }
+
+        // Remove book1 from the book collection
+        Book.removeBook(book2);
     }
 }
