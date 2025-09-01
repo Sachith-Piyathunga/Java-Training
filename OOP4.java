@@ -41,7 +41,8 @@ import java.util.ArrayList;
 
     // Getter method for the author
     public String getAuthor() {
-        
+        // Return the author
+        return author;
     }
 }
 
