@@ -8,6 +8,10 @@
 // Import the array list class from the jav.util package
 import java.util.ArrayList;
 
+// Define the Book class
+/* public */ class Book {
+
+}
 
 
 
