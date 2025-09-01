@@ -47,7 +47,8 @@ import java.util.ArrayList;
 
     // Setter method for the author
     public void setAuthor(String author) {
-        
+        // Set the variable
+        this.author = author;
     }
 }
 
