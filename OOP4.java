@@ -18,6 +18,11 @@ import java.util.ArrayList;
     private String ISBN;
     // Declare the array list
     private static ArrayList<Book> bookCollection = new ArrayList<Book>();
+
+    // Constructor for the Book class
+    public Book(String title, String author, String ISBM) {
+        
+    }
 }
 
 
