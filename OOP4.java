@@ -26,6 +26,11 @@ import java.util.ArrayList;
         this.author = author;
         this.ISBN = ISBM;
     }
+
+    // Getter method for the title
+    public String getTitle() {
+
+    }
 }
 
 
