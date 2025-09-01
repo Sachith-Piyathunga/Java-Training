@@ -59,7 +59,8 @@ import java.util.ArrayList;
 
     // Setter method for the ISBN
     public void setISBN(String ISBN) {
-        // 
+        // Set the variable
+        this.ISBN = ISBN;
     }
 }
 
