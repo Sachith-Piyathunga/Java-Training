@@ -98,5 +98,11 @@ public class OOP4 {
     public static void main(String[] args) {
         // Create the book object
         Book book1 = new Book("The Rich", "Sachintha", "asd-123");
+        // Create the book object
+        Book book2 = new Book("The Car", "Chamod", "ZXC-345");
+
+
+
+
     }
 }
