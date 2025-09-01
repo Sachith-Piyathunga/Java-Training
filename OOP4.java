@@ -101,7 +101,8 @@ public class OOP4 {
         // Create the book object
         Book book2 = new Book("The Car", "Chamod", "ZXC-345");
 
-
+        // Add the book1 to the book collection
+        Book.addBook(book1);
 
 
     }
