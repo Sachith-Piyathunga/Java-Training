@@ -44,6 +44,11 @@ import java.util.ArrayList;
         // Return the author
         return author;
     }
+
+    // Setter method for the author
+    public void setAuthor(String author) {
+        
+    }
 }
 
 
