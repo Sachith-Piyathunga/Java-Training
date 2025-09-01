@@ -84,6 +84,10 @@ public class OOP3 {
         // Set a new width for the rectangle
         rectangle.setWidth(10.53);
         // Set a new height for the rectangle
-        rectangle.setHeight(12.53);
+        rectangle.setHeight(12.53); 
+
+        // Print the upgraded details
+        System.out.println("\nThe area of the rectangle is now " + rectangle.getArea());
+        
     }
 }
