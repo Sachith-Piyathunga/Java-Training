@@ -50,6 +50,11 @@ import java.util.ArrayList;
         // Set the variable
         this.author = author;
     }
+
+    // Getter method for the ISBN number
+    public String getISBN() {
+        
+    }
 }
 
 
