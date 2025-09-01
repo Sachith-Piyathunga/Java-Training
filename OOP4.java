@@ -21,7 +21,10 @@ import java.util.ArrayList;
 
     // Constructor for the Book class
     public Book(String title, String author, String ISBM) {
-        
+        // Set the variables
+        this.title = title;
+        this.author = author;
+        this.ISBN = ISBM;
     }
 }
 
