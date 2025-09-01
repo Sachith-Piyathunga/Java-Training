@@ -10,7 +10,8 @@ import java.util.ArrayList;
 
 // Define the Book class
 /* public */ class Book {
-
+    // Declare the private variable
+    private String title;
 }
 
 
