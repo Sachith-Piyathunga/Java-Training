@@ -77,6 +77,15 @@ import java.util.ArrayList;
 }
 
 
+/**
+ * Explanation
+ * 
+ * The above class has three private attributes: title, author and ISBN. It has a 
+ * constructor that initializes these attributes with the values passed as arguments, 
+ * and getter and setter methods to access and modify these attributes. It also has 
+ * static methods to add and remove books from a collection, and a static 
+ * method to get the book collection.
+ */
 
 
 
