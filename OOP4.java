@@ -53,7 +53,8 @@ import java.util.ArrayList;
 
     // Getter method for the ISBN number
     public String getISBN() {
-        
+        // Return the ISBN
+        return ISBN;
     }
 }
 
