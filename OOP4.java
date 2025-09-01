@@ -120,5 +120,8 @@ public class OOP4 {
 
         // Remove book1 from the book collection
         Book.removeBook(book2);
+
+        // Print the message for the removed bok
+        System.out.println("\nAfter removing " + book1.getTitle() + ":");
     }
 }
