@@ -111,5 +111,10 @@ public class OOP4 {
 
         // Print the hedding for the book collection
         System.out.println("List of Books:");
+
+        // Iterate over each book in the book collection
+        for (Book book : bookCollection) {
+            
+        }
     }
 }
