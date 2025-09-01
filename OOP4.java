@@ -103,7 +103,8 @@ public class OOP4 {
 
         // Add the book1 to the book collection
         Book.addBook(book1);
-
+        // Add the book2 to the book collection
+        Book.addBook(book2);
 
     }
 }
