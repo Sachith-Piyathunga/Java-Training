@@ -35,7 +35,8 @@ import java.util.ArrayList;
 
     // Setter method for the title
     public void setTitle(String title) {
-        
+        // Set the variable
+        this.title = title;
     }
 }
 
