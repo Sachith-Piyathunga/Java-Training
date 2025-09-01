@@ -80,5 +80,8 @@ public class OOP3 {
         System.out.println("The area of the rectangle is " + rectangle.getArea());
         // Print the perimeter of the rectangle
         System.out.println("The perimeter of the rectangle is " + rectangle.getPerimeter());
+
+        // Set the new width for the rectangle
+        rectangle.setWidth(10.53);
     }
 }
