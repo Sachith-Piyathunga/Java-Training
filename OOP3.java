@@ -88,6 +88,7 @@ public class OOP3 {
 
         // Print the upgraded details
         System.out.println("\nThe area of the rectangle is now " + rectangle.getArea());
-        
+        // Print the upgraded details
+        System.out.println("The perimeter of the rectangle is now " + rectangle.getPerimeter());
     }
 }
