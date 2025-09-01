@@ -68,6 +68,12 @@ import java.util.ArrayList;
         // Add the provided book object
         bookCollection.add(book);
     }
+
+    // Static method to retrieve the entire book collection
+    public static ArrayList<Book> getBookCollection() {
+        // Return the book collectio array list
+        return bookCollection;
+    }
 }
 
 
