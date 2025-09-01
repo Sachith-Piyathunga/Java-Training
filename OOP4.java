@@ -14,7 +14,8 @@ import java.util.ArrayList;
     private String title;
     // Declare the private variable
     private String author;
-    
+    // Declare the private variable
+    private String ISBN;
 }
 
 
