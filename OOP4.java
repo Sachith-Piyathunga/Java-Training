@@ -114,7 +114,8 @@ public class OOP4 {
 
         // Iterate over each book in the book collection
         for (Book book : bookCollection) {
-            
+            // Print the details
+            System.out.println(book.getTitle() + " by " + book.getAuthor() + ", ISBN: " + book.getISBN());
         }
     }
 }
