@@ -96,6 +96,7 @@ import java.util.ArrayList;
 public class OOP4 {
     // Define the main class
     public static void main(String[] args) {
-        
+        // Create the book object
+        Book book1 = new Book("The Rich", "Sachintha", "asd-123");
     }
 }
