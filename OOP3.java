@@ -78,5 +78,7 @@ public class OOP3 {
 
         // Print the area fo the rectangle
         System.out.println("The area of the rectangle is " + rectangle.getArea());
+        // Print the perimeter of the rectangle
+        System.out.println("The perimeter of the rectangle is " + rectangle.getPerimeter());
     }
 }
