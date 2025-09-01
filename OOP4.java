@@ -16,6 +16,8 @@ import java.util.ArrayList;
     private String author;
     // Declare the private variable
     private String ISBN;
+    // Declare the array list
+    private static ArrayList<Book> bookCollection = new ArrayList<Book>();
 }
 
 
