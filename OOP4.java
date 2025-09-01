@@ -56,6 +56,11 @@ import java.util.ArrayList;
         // Return the ISBN
         return ISBN;
     }
+
+    // Setter method for the ISBN
+    public void setISBN(String ISBN) {
+        // 
+    }
 }
 
 
