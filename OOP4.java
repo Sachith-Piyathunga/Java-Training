@@ -123,5 +123,8 @@ public class OOP4 {
 
         // Print the message for the removed bok
         System.out.println("\nAfter removing " + book1.getTitle() + ":");
+
+        // Print the hedding for the updated book
+        System.out.println("List of Books:");
     }
 }
