@@ -73,6 +73,7 @@
 public class OOP3 {
     // Define the main method
     public static void main(String[] args) {
-
+        // Create an instance of the rectangle class
+        Rectangle rectangle = new Rectangle(12.56, 15.62);
     }
 }
