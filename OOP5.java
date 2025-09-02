@@ -174,6 +174,8 @@ public class OOP5 {
         System.out.println("\nAfter depositing 1000 into account1:");
         // Deposit 1000 into account 1
         bank.depositMoney(account1, 1000);
+        // Print the updated account details
+        System.out.println(account1.getAccountInfo());
     
     }
 }
