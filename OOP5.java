@@ -143,8 +143,11 @@ import java.util.ArrayList;
  */
 
 
-
-
+//OOP5.java
+// Main class
 public class OOP5 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
