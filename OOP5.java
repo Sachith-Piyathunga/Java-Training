@@ -20,6 +20,11 @@
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
+
+    // Getter method for the name
+    public String getName() {
+        
+    }
 }
 
 
