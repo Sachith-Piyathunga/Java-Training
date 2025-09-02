@@ -103,6 +103,11 @@ import java.util.ArrayList;
         accounts = new ArrayList<Account>();
     }
 
+    // Method to add an account to the account list
+    public void addAccount(Account account) {
+        // Add the given account to the accounts array list
+        accounts.add(account);
+    }
 
 }
 
