@@ -5,6 +5,10 @@
  */
 
 
+ // Import the array list class
+import java.util.ArrayList;
+
+
 // Account.java
 // Define the account class
 /* public */ class Account {
@@ -85,6 +89,8 @@
  * account, print account details and more.
  */
 
+
+// Bank.java
 
 
 
