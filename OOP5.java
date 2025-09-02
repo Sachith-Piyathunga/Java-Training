@@ -47,7 +47,8 @@
 
     // Getter method for the balance
     public double getBalance() {
-        
+        // Return balance
+        return balance;
     }
 }
 
