@@ -127,6 +127,11 @@ import java.util.ArrayList;
         account.withdraw(amount);
     }
 
+    // Method get the list of all accouts
+    public ArrayList<Account> getAccounts() {
+        // Return the accounts array list
+        return accounts;
+    }
 }
 
 
