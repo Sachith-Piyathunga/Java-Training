@@ -5,7 +5,11 @@
  */
 
 
-
+// Account.java
+// Define the account class
+/* public */ class Account {
+    
+}
 
 
 
