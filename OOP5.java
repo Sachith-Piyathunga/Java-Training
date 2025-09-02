@@ -184,5 +184,7 @@ public class OOP5 {
         
         // Prin the message indicating the start of a withdrawal transaction
         System.out.println("After withdrawing 5000 from account3:"); 
+        // Withdraw the 5000 from account 3
+        bank.withdrawMoney(account3, 5000);
     }
 }
