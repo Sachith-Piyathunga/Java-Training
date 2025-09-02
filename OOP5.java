@@ -59,7 +59,8 @@
 
     // Method to deposit the specific amount into the account
     public void diposit(double amount) {
-        
+        // Increse the balance
+        balance += amount;
     }
 }
 
