@@ -172,6 +172,8 @@ public class OOP5 {
     
         // Print a message indicating the start deposit
         System.out.println("\nAfter depositing 1000 into account1:");
+        // Deposit 1000 into account 1
+        bank.depositMoney(account1, 1000);
     
     }
 }
