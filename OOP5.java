@@ -35,7 +35,8 @@
 
     // Getter method for the account number
     public String getAccountNumber() {
-        
+        // Return the account number
+        return accountNumber;
     }
 }
 
