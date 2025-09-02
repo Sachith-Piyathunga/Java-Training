@@ -160,6 +160,10 @@ public class OOP5 {
         bank.addAccount(account1);
         bank.addAccount(account2);
         bank.addAccount(account3);
+
+        // Get the list of accounts from the bank
+        ArrayList<Account> accounts = bank.getAccounts();
+
     
     
     
