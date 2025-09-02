@@ -186,5 +186,7 @@ public class OOP5 {
         System.out.println("After withdrawing 5000 from account3:"); 
         // Withdraw the 5000 from account 3
         bank.withdrawMoney(account3, 5000);
+        // Print the updated account deatails for account 3
+        System.out.println(account3.getAccountInfo());
     }
 }
