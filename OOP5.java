@@ -15,7 +15,10 @@
 
     // Constructor for the acoount class
     public Account(String name, String accountNumber, double balance) {
-        
+        // Set the variables
+        this.name = name;
+        this.accountNumber = accountNumber;
+        this.balance = balance;
     }
 }
 
