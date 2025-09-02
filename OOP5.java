@@ -68,6 +68,11 @@
         // Decrece the balance
         balance -= amount;
     }
+
+    // Method to get the account details
+    public String getAccountInfo() {
+        
+    }
 }
 
 
