@@ -148,6 +148,7 @@ import java.util.ArrayList;
 public class OOP5 {
     // Define the main method
     public static void main(String[] args) {
-        
+        // Create new bank object
+        Bank bank = new Bank();
     }
 }
