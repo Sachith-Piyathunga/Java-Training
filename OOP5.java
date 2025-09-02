@@ -53,7 +53,8 @@
 
     // Setter method for the balance
     public void setBalance(double balance) {
-        
+        // Set the balance variable
+        this.balance = balance;
     }
 }
 
