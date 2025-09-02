@@ -50,6 +50,11 @@
         // Return balance
         return balance;
     }
+
+    // Setter method for the balance
+    public void setBalance(double balance) {
+        
+    }
 }
 
 
