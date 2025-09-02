@@ -56,6 +56,11 @@
         // Set the balance variable
         this.balance = balance;
     }
+
+    // Method to deposit the specific amount into the account
+    public void diposit(double amount) {
+        
+    }
 }
 
 
