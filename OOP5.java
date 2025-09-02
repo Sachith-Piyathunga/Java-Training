@@ -93,7 +93,9 @@ import java.util.ArrayList;
 // Bank.java
 // Define the bank class
 /* public */ class Bank {
-    
+
+    // Declare the array list to store account objects
+    private ArrayList<Account> accounts;
 }
 
 
