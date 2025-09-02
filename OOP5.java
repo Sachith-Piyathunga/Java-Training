@@ -41,7 +41,8 @@
 
     // Setter method for the account number
     public void setAccountNumber(String accountNumber) {
-        
+        // Set account number variable
+        this.accountNumber = accountNumber;
     }
 }
 
