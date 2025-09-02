@@ -96,6 +96,14 @@ import java.util.ArrayList;
 
     // Declare the array list to store account objects
     private ArrayList<Account> accounts;
+
+    // Constructor for the bank class
+    public Bank() {
+        // Initialize the accounts array list
+        accounts = new ArrayList<Account>();
+    }
+
+
 }
 
 
