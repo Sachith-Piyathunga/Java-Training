@@ -109,6 +109,11 @@ import java.util.ArrayList;
         accounts.add(account);
     }
 
+    // Method to remove an account from the accounts list
+    public void removeAccount(Account account) {
+        // Remove the given account from theaccounts array list
+        accounts.remove(account);
+    }
 }
 
 
