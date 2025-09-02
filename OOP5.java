@@ -114,6 +114,12 @@ import java.util.ArrayList;
         // Remove the given account from theaccounts array list
         accounts.remove(account);
     }
+
+    // Method to deposit some money into account
+    public void depositMoney(Account account, double amount) {
+        // Call the account deposit method
+        account.diposit(amount);
+    }
 }
 
 
