@@ -77,6 +77,14 @@
 }
 
 
+/**
+ * Explanation
+ * 
+ * The above class has three private attributes: name, accountNumber and balance. 
+ * There are several methods to deposit, withdraw, maintain balance in an individual 
+ * account, print account details and more.
+ */
+
 
 
 
