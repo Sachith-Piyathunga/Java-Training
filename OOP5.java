@@ -181,6 +181,8 @@ public class OOP5 {
         System.out.println("No transaction in account 2");
         // Print the account details for the account 2
         System.out.println(account2.getAccountInfo());
-    
+        
+        // Prin the message indicating the start of a withdrawal transaction
+        System.out.println("After withdrawing 5000 from account3:"); 
     }
 }
