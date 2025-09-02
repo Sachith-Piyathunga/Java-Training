@@ -8,7 +8,10 @@
 // Account.java
 // Define the account class
 /* public */ class Account {
-    
+    // Declare the private variables
+    private String name;
+    private String accountNumber;
+    private double balance;
 }
 
 
