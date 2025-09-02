@@ -71,7 +71,8 @@
 
     // Method to get the account details
     public String getAccountInfo() {
-        
+        // Return a string concatinating
+        return "Name: " + name + ", Account Number: " + accountNumber + ", Balance: " + balance;
     }
 }
 
