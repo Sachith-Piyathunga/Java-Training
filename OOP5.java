@@ -176,6 +176,9 @@ public class OOP5 {
         bank.depositMoney(account1, 1000);
         // Print the updated account details
         System.out.println(account1.getAccountInfo());
+
+        // Print a message indicating no transaction for the account 2
+        System.out.println("No transaction in account 2");
     
     }
 }
