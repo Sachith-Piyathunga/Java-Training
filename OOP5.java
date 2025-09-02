@@ -134,6 +134,14 @@ import java.util.ArrayList;
     }
 }
 
+/**
+ * Explanation
+ * 
+ * The above class has a private accounts attribute, a constructor that initializes this 
+ * attribute as an empty array list. It also has methods to add and remove accounts 
+ * from the collection, and to deposit and withdraw money from an account.
+ */
+
 
 
 
