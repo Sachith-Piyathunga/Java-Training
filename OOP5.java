@@ -120,6 +120,13 @@ import java.util.ArrayList;
         // Call the account deposit method
         account.diposit(amount);
     }
+
+    // Method witharaw some money from the account
+    public void withdrawMoney(Account account, double amount) {
+        // Call the withdraw method
+        account.withdraw(amount);
+    }
+
 }
 
 
