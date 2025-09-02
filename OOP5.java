@@ -170,7 +170,8 @@ public class OOP5 {
             System.out.println(account.getAccountInfo());
         }
     
-    
+        // Print a message indicating the start deposit
+        System.out.println("\nAfter depositing 1000 into account1:");
     
     }
 }
