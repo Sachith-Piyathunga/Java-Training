@@ -190,3 +190,16 @@ public class OOP5 {
         System.out.println(account3.getAccountInfo());
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * In the above  code, create an instance of the "Bank" class and three instances of 
+ * the "Account" class, and add them to the collection through the ‘addAccount’ method.
+ * then print the account information for each account in the collection using a for loop. 
+ * also deposit 1000 into account1 using the ‘depositMoney’ method, and withdraw 5000 
+ * from account3 using the ‘withdrawMoney’ method. also print the updated account 
+ * information. Account2 has no transaction.
+ * 
+ */
