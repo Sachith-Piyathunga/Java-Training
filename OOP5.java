@@ -62,6 +62,11 @@
         // Increse the balance
         balance += amount;
     }
+
+    // Method to withdraw a specific amount from the account
+    public void withdraw(double amount) {
+        
+    }
 }
 
 
