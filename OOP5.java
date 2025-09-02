@@ -23,7 +23,8 @@
 
     // Getter method for the name
     public String getName() {
-        
+        // Return name
+        return name;
     }
 }
 
