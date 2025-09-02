@@ -91,7 +91,10 @@ import java.util.ArrayList;
 
 
 // Bank.java
-
+// Define the bank class
+/* public */ class Bank {
+    
+}
 
 
 
