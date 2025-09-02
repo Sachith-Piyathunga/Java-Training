@@ -44,6 +44,11 @@
         // Set account number variable
         this.accountNumber = accountNumber;
     }
+
+    // Getter method for the balance
+    public double getBalance() {
+        
+    }
 }
 
 
