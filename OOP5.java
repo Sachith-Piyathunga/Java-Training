@@ -164,7 +164,11 @@ public class OOP5 {
         // Get the list of accounts from the bank
         ArrayList<Account> accounts = bank.getAccounts();
 
-    
+        // Loop through the accounts in the account list
+        for (Account account : accounts) {
+            // Print the account details
+            System.out.println(account.getAccountInfo());
+        }
     
     
     
