@@ -65,7 +65,8 @@
 
     // Method to withdraw a specific amount from the account
     public void withdraw(double amount) {
-        
+        // Decrece the balance
+        balance -= amount;
     }
 }
 
