@@ -150,5 +150,10 @@ public class OOP5 {
     public static void main(String[] args) {
         // Create new bank object
         Bank bank = new Bank();
+
+        // Crete the new accounts objects
+        Account account1 = new Account("Sachintha", "C0011", 5000);
+        Account account2 = new Account("Chamod", "C0121", 4500);
+        Account account3 = new Account("Piyathunga", "C0222", 20000);
     }
 }
