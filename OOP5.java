@@ -12,6 +12,11 @@
     private String name;
     private String accountNumber;
     private double balance;
+
+    // Constructor for the acoount class
+    public Account(String name, String accountNumber, double balance) {
+        
+    }
 }
 
 
