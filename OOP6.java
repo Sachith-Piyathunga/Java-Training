@@ -35,6 +35,11 @@
         // Return ture if the colour is red
         return colour.equals("red");
     }
+
+    // Method to check if traffic light is green
+    public boolean isGreen() {
+        
+    }
 } 
 
 
