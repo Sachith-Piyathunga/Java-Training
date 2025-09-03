@@ -20,6 +20,8 @@
     public TrafficLight(String colour, int duration) {
         // Initialize the colour traffic light
         this.colour = colour;
+        // Initialize the duration of the traffic light
+        this.duration = duration;
     }
 } 
 
