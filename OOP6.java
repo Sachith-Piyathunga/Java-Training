@@ -41,6 +41,12 @@
         // Return true if the colour is green
         return colour.equals("green");
     }
+
+    // Method to get the duratio of the traffic light
+    public int getDuration() {
+        // Return the duration
+        return duration;
+    }
 } 
 
 
