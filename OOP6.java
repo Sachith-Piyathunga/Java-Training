@@ -98,3 +98,14 @@ public class OOP6 {
         System.out.println("The light duration is now: " + light.getDuration());
     }
 }
+
+/**
+ * 
+ * Explanation
+ * 
+ * In the above code, create an instance of the "TrafficLight" class with the color 
+ * "red" and a duration of 30 seconds. then print whether the light is red or green using the 
+ * “isRed” and “isGreen” methods. change the light color to "green" through the “changeColor” 
+ * method, and display whether the light is now green. also print the light duration using the 
+ * “getDuration” method, and change the duration to 60 seconds with the “setDuration” method.
+ */
