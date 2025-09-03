@@ -73,5 +73,7 @@ public class OOP6 {
     // Define the main method
     public static void main(String[] args) {
         
+        // Create the new traffic light object
+        TrafficLight light = new TrafficLight("red", 30); 
     }
 }
