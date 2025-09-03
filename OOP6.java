@@ -13,7 +13,8 @@
 
     // Declare the private variable
     private String colour;
-    // 
+    // Declare the private variable
+    private int duration;
 } 
 
 
