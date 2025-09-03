@@ -67,16 +67,11 @@
  */
 
 
-
-
-
-
-
-
-
-
-
-
+// OOP6.java
+// Main class
 public class OOP6 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
