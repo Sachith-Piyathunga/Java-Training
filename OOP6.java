@@ -32,7 +32,8 @@
 
     // Method ot check if the trafficlight is red
     public boolean isRed() {
-        
+        // Return ture if the colour is red
+        return colour.equals("red");
     }
 } 
 
