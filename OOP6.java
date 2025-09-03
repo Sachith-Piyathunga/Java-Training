@@ -18,7 +18,8 @@
 
     // Constructor for the traffic light class
     public TrafficLight(String colour, int duration) {
-        
+        // Initialize the colour traffic light
+        this.colour = colour;
     }
 } 
 
