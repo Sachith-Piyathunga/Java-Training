@@ -26,7 +26,8 @@
 
     // Method to change the colour of the traffic light
     public void changeColour(String newColour) {
-        
+        // Update the variable
+        colour = newColour;
     }
 } 
 
