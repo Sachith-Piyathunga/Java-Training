@@ -56,6 +56,15 @@
 } 
 
 
+/**
+ * Explanation 
+ * 
+ * The above class has two private attributes: ‘color’ and ‘duration’. A constructor 
+ * initializes these attributes with the values passed as arguments, and getter and 
+ * setter methods to access and modify these attributes. It also has methods to change 
+ * the ‘color’, and to check if the light is red or green.
+ * 
+ */
 
 
 
