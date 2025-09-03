@@ -29,6 +29,11 @@
         // Update the variable
         colour = newColour;
     }
+
+    // Method ot check if the trafficlight is red
+    public boolean isRed() {
+        
+    }
 } 
 
 
