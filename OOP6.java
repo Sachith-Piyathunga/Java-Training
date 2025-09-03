@@ -81,5 +81,8 @@ public class OOP6 {
 
         // Print whether the traffic light is green
         System.out.println("The light is green: " + light.isGreen());
+
+        // Change the colouer of the light
+        light.changeColour("green");
     }
 }
