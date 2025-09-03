@@ -93,5 +93,8 @@ public class OOP6 {
 
         // Set the new duration for the traffic light
         light.setDuration(20);
+
+        // Print the updated duration of the traffic light
+        System.out.println("The light duration is now: " + light.getDuration());
     }
 }
