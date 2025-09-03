@@ -47,6 +47,12 @@
         // Return the duration
         return duration;
     }
+
+    // Method to set the duration of the traffic light
+    public void setDuration(int duration) {
+        // Update the duration variable to the new value
+        this.duration = duration;
+    }
 } 
 
 
