@@ -15,6 +15,11 @@
     private String colour;
     // Declare the private variable
     private int duration;
+
+    // Constructor for the traffic light class
+    public TrafficLight(String colour, int duration) {
+        
+    }
 } 
 
 
