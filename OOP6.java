@@ -7,6 +7,11 @@
  */
 
 
+// TrafficLight.java
+// Define the traffic light class
+/* public */ class TrafficLight {
+    
+} 
 
 
 
