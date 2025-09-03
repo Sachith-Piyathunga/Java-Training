@@ -75,5 +75,8 @@ public class OOP6 {
         
         // Create the new traffic light object
         TrafficLight light = new TrafficLight("red", 30); 
+
+        // Print whether the traffic light is red
+        System.out.println("The light is red: " + light.isRed());
     }
 }
