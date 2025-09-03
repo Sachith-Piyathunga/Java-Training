@@ -23,6 +23,11 @@
         // Initialize the duration of the traffic light
         this.duration = duration;
     }
+
+    // Method to change the colour of the traffic light
+    public void changeColour(String newColour) {
+        
+    }
 } 
 
 
