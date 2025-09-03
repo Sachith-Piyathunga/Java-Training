@@ -87,5 +87,8 @@ public class OOP6 {
 
         // Print whether the traffic light is green now
         System.out.println("The light is now green: " + light.isGreen());
+
+        // Print the duration of the traffic light
+        System.out.println("The light duration is: " + light.getDuration());
     }
 }
