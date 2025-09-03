@@ -38,7 +38,8 @@
 
     // Method to check if traffic light is green
     public boolean isGreen() {
-        
+        // Return true if the colour is green
+        return colour.equals("green");
     }
 } 
 
