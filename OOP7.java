@@ -97,15 +97,11 @@ import java.time.Period;
  */
 
 
-
-
-
-
-
-
-
-
-
+// OOP7.java
+// Main class
 public class OOP7 {
-    
+    // Define the main methbod
+    public static void main(String[] args) {
+        
+    }
 }
