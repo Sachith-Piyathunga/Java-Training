@@ -85,6 +85,16 @@ import java.time.Period;
 }
 
 
+/**
+ * 
+ * Explanation
+ * 
+ *  In the above Employee class, there are three private attributes: name, salary, 
+ * and hireDate, a constructor that initializes these attributes with the values 
+ * passed as arguments, and getter and setter methods to access and modify these 
+ * attributes.
+ * 
+ */
 
 
 
