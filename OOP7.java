@@ -20,6 +20,11 @@ import java.time.Period;
     private double salary;
     // Declare private variabale
     private LocalDate hireDate;
+
+    // Constructor for the employee class
+    public Employee(String name, double salary, LocalDate hireDate) {
+
+    }
 }
 
 
