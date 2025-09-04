@@ -18,7 +18,8 @@ import java.time.Period;
     private String name;
     // Declare private variabale
     private double salary;
-    
+    // Declare private variabale
+    private LocalDate hireDate;
 }
 
 
