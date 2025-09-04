@@ -75,7 +75,8 @@ import java.time.Period;
 
     // Method to print the details of the employee
     public void printEmployeeDetails() {
-        
+        // Print the name
+        System.out.println("\nName: " + name);
     }
 }
 
