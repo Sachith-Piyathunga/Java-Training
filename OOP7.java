@@ -23,7 +23,8 @@ import java.time.Period;
 
     // Constructor for the employee class
     public Employee(String name, double salary, LocalDate hireDate) {
-
+        // Initialize the name
+        this.name = name;
     }
 }
 
