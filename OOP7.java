@@ -27,6 +27,8 @@ import java.time.Period;
         this.name = name;
         // Initialize the salary
         this.salary = salary;
+        // Initialize the hire date
+        this.hireDate = hireDate;
     }
 }
 
