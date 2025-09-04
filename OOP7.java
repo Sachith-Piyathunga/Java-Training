@@ -12,7 +12,10 @@ import java.time.LocalDate;
 import java.time.Period;
 
 
-
+// Define the employee class
+/* public */ class Employee {
+    
+}
 
 
 
