@@ -37,6 +37,12 @@ import java.time.Period;
         return name;
     }
 
+    // Setter method for the name
+    public void setName(String name) {
+        // Update the variable
+        this.name = name;
+    }
+
     // Getter method for the salary
     public double getSalary() {
         // Return salary
