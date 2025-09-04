@@ -16,6 +16,9 @@ import java.time.Period;
 /* public */ class Employee {
     // Declare private variabale
     private String name;
+    // Declare private variabale
+    private double salary;
+    
 }
 
 
