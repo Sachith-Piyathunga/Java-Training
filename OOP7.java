@@ -72,6 +72,11 @@ import java.time.Period;
         // Calculate the service period
         return Period.between(hireDate, LocalDate.now()).getYears();
     }
+
+    // Method to print the details of the employee
+    public void printEmployeeDetails() {
+        
+    }
 }
 
 
