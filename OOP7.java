@@ -69,7 +69,8 @@ import java.time.Period;
 
     // Method to calculate the years of service of the employee
     public int getYearsOfService() {
-        
+        // Calculate the service period
+        return Period.between(hireDate, LocalDate.now()).getYears();
     }
 }
 
