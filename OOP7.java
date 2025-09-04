@@ -122,5 +122,8 @@ public class OOP7 {
         
         // Print the years of service of the employee 2
         System.out.println("Years of Service: " + emp2.getYearsOfService());
+
+        // Print the detrails of the employee 3
+        emp3.printEmployeeDetails();
     }
 }
