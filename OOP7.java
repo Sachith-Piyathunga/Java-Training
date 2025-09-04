@@ -36,6 +36,12 @@ import java.time.Period;
         // Return name
         return name;
     }
+
+    // Getter method for the salary
+    public double getSalary() {
+        // Return salary
+        return salary;
+    }
 }
 
 
