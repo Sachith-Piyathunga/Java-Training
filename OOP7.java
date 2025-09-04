@@ -66,6 +66,11 @@ import java.time.Period;
         // Upadate the variable
         this.hireDate = hireDate;
     }
+
+    // Method to calculate the years of service of the employee
+    public int getYearsOfService() {
+        
+    }
 }
 
 
