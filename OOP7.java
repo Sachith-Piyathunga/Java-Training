@@ -30,6 +30,12 @@ import java.time.Period;
         // Initialize the hire date
         this.hireDate = hireDate;
     }
+
+    // Getter method for the name
+    public String getName() {
+        // Return name
+        return name;
+    }
 }
 
 
