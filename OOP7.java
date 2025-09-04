@@ -48,6 +48,12 @@ import java.time.Period;
         // Return salary
         return salary;
     }
+
+    // Setter method for the salary
+    public void setSalary(double salary) {
+        // Update the variable
+        this.salary = salary;
+    }
 }
 
 
