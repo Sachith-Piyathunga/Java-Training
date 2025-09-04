@@ -78,7 +78,9 @@ import java.time.Period;
         // Print the name
         System.out.println("\nName: " + name);
         // Print the salary
-        System.out.println("\nSlary: " + salary);
+        System.out.println("\nSalary: " + salary);
+        // Print the hire date
+        System.out.println("\nHire Date: " + hireDate);
     }
 }
 
