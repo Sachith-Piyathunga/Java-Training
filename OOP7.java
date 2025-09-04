@@ -25,6 +25,8 @@ import java.time.Period;
     public Employee(String name, double salary, LocalDate hireDate) {
         // Initialize the name
         this.name = name;
+        // Initialize the salary
+        this.salary = salary;
     }
 }
 
