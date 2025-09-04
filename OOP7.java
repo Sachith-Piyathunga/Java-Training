@@ -102,6 +102,10 @@ import java.time.Period;
 public class OOP7 {
     // Define the main methbod
     public static void main(String[] args) {
+        // Create the new employee object
+        Employee emp1 = new Employee("Sachintha", 5000000.25, 2020);
+
+
         
     }
 }
