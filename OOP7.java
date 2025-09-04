@@ -60,6 +60,12 @@ import java.time.Period;
         // Return hire date
         return hireDate;
     }
+
+    // Setter method for the hire date
+    public void setHireDate(LocalDate hireDate) {
+        // Upadate the variable
+        this.hireDate = hireDate;
+    }
 }
 
 
