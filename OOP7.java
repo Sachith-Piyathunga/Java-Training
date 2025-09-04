@@ -130,3 +130,13 @@ public class OOP7 {
         System.out.println("Years of Service: " + emp3.getYearsOfService());
     }
 }
+
+/**
+ * 
+ * Explanation
+ * 
+ * In the above main() function, create three instances of the "Employee" class, 
+ * and print their name, salary, hire date, and years of service using the 
+ * appropriate methods.
+ * 
+ */
