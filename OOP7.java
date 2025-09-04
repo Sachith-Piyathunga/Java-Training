@@ -14,7 +14,8 @@ import java.time.Period;
 
 // Define the employee class
 /* public */ class Employee {
-    
+    // Declare private variabale
+    private String name;
 }
 
 
