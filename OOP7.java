@@ -54,6 +54,12 @@ import java.time.Period;
         // Update the variable
         this.salary = salary;
     }
+
+    // Getter method for the hire date
+    public LocalDate getHireDate() {
+        // Return hire date
+        return hireDate;
+    }
 }
 
 
