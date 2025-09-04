@@ -113,5 +113,8 @@ public class OOP7 {
 
         // Print the details of the employee 1
         emp1.printEmployeeDetails();
+
+        // Print the years of service of the employee 1
+        System.out.println("Years of Service: " + emp1.getYearsOfService());
     }
 }
