@@ -103,9 +103,12 @@ public class OOP7 {
     // Define the main methbod
     public static void main(String[] args) {
         // Create the new employee object
-        Employee emp1 = new Employee("Sachintha", 5000000.25, 2020);
+        Employee emp1 = new Employee("Sachintha", 5000000.25, LocalDate.parse("2021-04-01"));
 
-
+        // Create the new employee object
+        Employee emp2 = new Employee("Loyd Blair", 70000, LocalDate.parse("2015-04-01"));
         
+        
+
     }
 }
