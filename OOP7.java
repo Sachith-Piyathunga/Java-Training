@@ -108,7 +108,9 @@ public class OOP7 {
         // Create the new employee object
         Employee emp2 = new Employee("Loyd Blair", 70000, LocalDate.parse("2015-04-01"));
         
-        
+        // Create the new employee object
+        Employee emp3 = new Employee("Magdalena Artemon", 50000, LocalDate.parse("2011-01-15"));
+
 
     }
 }
