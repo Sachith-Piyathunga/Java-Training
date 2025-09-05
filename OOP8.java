@@ -22,6 +22,7 @@ import java.util.ArrayList;
     public Student(String name, int grade, ArrayList courses) {
         // Initialize the variaables
         this.name = name;
+        this.grade = grade;
     }
 }
 
