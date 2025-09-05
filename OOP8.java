@@ -79,10 +79,11 @@ import java.util.ArrayList;
  */
 
 
-
-
-
-
+// Main class
+// OOP8.java
 public class OOP8 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
