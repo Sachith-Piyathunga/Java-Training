@@ -46,7 +46,8 @@ import java.util.ArrayList;
 
     // Methods to add the courses to the list
     public void addCourses(String course) {
-        
+        // Add the given course to the list
+        courses.add(course);
     }
 }
 
