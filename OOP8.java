@@ -52,7 +52,8 @@ import java.util.ArrayList;
 
     // Method to remove the courses from the list
     public void removeCourse(String course) {
-        
+        // Remove given course from the list
+        courses.remove(course);
     }
 }
 
