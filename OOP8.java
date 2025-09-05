@@ -58,7 +58,8 @@ import java.util.ArrayList;
 
     // Method to print the details of the sstudent
     public void printStudentDetails() {
-        
+        // Print the name of the student
+        System.out.println("Name: " + name);
     }
 }
 
