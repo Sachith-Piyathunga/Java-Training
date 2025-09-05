@@ -143,3 +143,16 @@ public class OOP8 {
         System.out.println(student1.getName() + "'s courses: " + student1.getCourses());
     }
 }
+
+
+/**
+ * 
+ * Explanation
+ * 
+ * The above Main class creates three instances of the Student class, adds courses to their 
+ * courses list using the “addCourse()” method, and prints out the list of courses 
+ * for each student using the “getCourses()” method. It then removes a course for 
+ * student1 using the ‘removeCourse()’ method, and prints out the updated list of 
+ * courses for student1.
+ * 
+ */
