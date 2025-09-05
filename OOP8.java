@@ -66,6 +66,16 @@ import java.util.ArrayList;
 }
 
 
+/**
+ * 
+ * Explanation
+ * 
+ * The above "Student" class has three private attributes: 'name', 'grade', and 'courses'. 
+ * The 'name' and 'grade' attributes are initialized in the constructor with the values 
+ * passed as arguments. The 'courses' attribute is initialized as an empty array list.
+ * 
+ * 
+ */
 
 
 
