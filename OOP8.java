@@ -4,6 +4,9 @@
  */
 
 
+// Student.java
+// Import the java array list class
+import java.util.ArrayList;
 
 
 
