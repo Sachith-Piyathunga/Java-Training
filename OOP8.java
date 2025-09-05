@@ -117,5 +117,13 @@ public class OOP8 {
 
         // Print the name and and there list of courses
         System.out.println(student1.getName() + "'s courses: " + student1.getCourses());
+
+        // Print a message indicating courses are add to the student 2
+        System.out.println("\nAdding courses for " + student2.getName());
+
+
+
+
+
     }
 }
