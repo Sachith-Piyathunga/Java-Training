@@ -84,6 +84,8 @@ import java.util.ArrayList;
 public class OOP8 {
     // Define the main method
     public static void main(String[] args) {
-        
+
+        // Create the new student object
+        Student student1 = new Student("Sachintha", 5, "Science");
     }
 }
