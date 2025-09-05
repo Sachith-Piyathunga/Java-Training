@@ -124,6 +124,9 @@ public class OOP8 {
         // Add the courses
         student2.addCourses("History");
 
+        // Add the courses
+        student2.addCourses("Music");
+
 
 
     }
