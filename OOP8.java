@@ -96,5 +96,8 @@ public class OOP8 {
 
         // Print a header for student1
         student1.printStudentDetails();
+
+        // Print a header for student2
+        student2.printStudentDetails();
     }
 }
