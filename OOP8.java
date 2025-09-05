@@ -93,5 +93,8 @@ public class OOP8 {
 
         // Create the new student object
         Student student3 = new Student("Piyathunga", 1, "English");
+
+        // Print a header for student1
+        student1.printStudentDetails();
     }
 }
