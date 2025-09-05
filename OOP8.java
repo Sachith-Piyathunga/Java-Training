@@ -111,5 +111,8 @@ public class OOP8 {
 
         // Add the courses
         student1.addCourses("Science");
+        
+        // Add the courses
+        student1.addCourses("Maths");
     }
 }
