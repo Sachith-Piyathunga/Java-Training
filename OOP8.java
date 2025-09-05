@@ -13,6 +13,8 @@ import java.util.ArrayList;
     
     // Declare the private variable
     private String name;
+    // Declare the private variable
+    private int grade;
 }
 
 
