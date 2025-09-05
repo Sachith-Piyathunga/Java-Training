@@ -49,6 +49,11 @@ import java.util.ArrayList;
         // Add the given course to the list
         courses.add(course);
     }
+
+    // Method to remove the courses from the list
+    public void removeCourse(String course) {
+        
+    }
 }
 
 
