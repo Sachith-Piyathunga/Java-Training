@@ -105,5 +105,8 @@ public class OOP8 {
 
         // Print the message
         System.out.println("Adding courses for " + student1.getName());
+
+        // Add the courses
+        student1.addCourses("Maths");
     }
 }
