@@ -37,6 +37,12 @@ import java.util.ArrayList;
         // Return the grade
         return grade;
     }
+
+    // Getter method for get the courses
+    public ArrayList getCourses() {
+        // Return the course
+        return courses;
+    }
 }
 
 
