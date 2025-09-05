@@ -20,7 +20,8 @@ import java.util.ArrayList;
 
     // Costructor for the student class
     public Student(String name, int grade, ArrayList courses) {
-        
+        // Initialize the variaables
+        this.name = name;
     }
 }
 
