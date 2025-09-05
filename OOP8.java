@@ -23,6 +23,7 @@ import java.util.ArrayList;
         // Initialize the variaables
         this.name = name;
         this.grade = grade;
+        this.courses = new ArrayList();
     }
 }
 
