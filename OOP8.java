@@ -60,6 +60,8 @@ import java.util.ArrayList;
     public void printStudentDetails() {
         // Print the name of the student
         System.out.println("Name: " + name);
+        // Print the grade of the student
+        System.out.println("Grade: " + grade);
     }
 }
 
