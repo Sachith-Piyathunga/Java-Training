@@ -15,6 +15,8 @@ import java.util.ArrayList;
     private String name;
     // Declare the private variable
     private int grade;
+    // Declare the private variable
+    private ArrayList courses;
 }
 
 
