@@ -25,6 +25,12 @@ import java.util.ArrayList;
         this.grade = grade;
         this.courses = new ArrayList();
     }
+
+    // Getter method for the name
+    public String getName() {
+        // Return the name
+        return name;
+    }
 }
 
 
