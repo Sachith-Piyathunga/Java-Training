@@ -130,6 +130,10 @@ public class OOP8 {
         // Add the courses
         student2.addCourses("Sinhala");
 
+        // Print a message indicating the course "Science" is being removed for student1
+        System.out.println("\nRemoving 'Science' course for " + student1.getName());
+    
+
 
 
     }
