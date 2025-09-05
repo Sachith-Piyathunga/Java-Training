@@ -31,6 +31,12 @@ import java.util.ArrayList;
         // Return the name
         return name;
     }
+
+    // Getter method for the grade
+    public int getGrade() {
+        // Return the grade
+        return grade;
+    }
 }
 
 
