@@ -139,7 +139,7 @@ public class OOP8 {
         // Remove the course "Science" from student1's courses
         student1.removeCourse("Science");
     
-
-
+        // Print student1's name and their updated list of courses
+        System.out.println(student1.getName() + "'s courses: " + student1.getCourses());
     }
 }
