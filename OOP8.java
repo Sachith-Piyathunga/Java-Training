@@ -91,6 +91,7 @@ public class OOP8 {
         // Create new object
         Student student2 = new Student("Chamod", 2, "Maths");
 
-        
+        // Create the new student object
+        Student student3 = new Student("Piyathunga", 1, "English");
     }
 }
