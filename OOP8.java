@@ -87,5 +87,10 @@ public class OOP8 {
 
         // Create the new student object
         Student student1 = new Student("Sachintha", 5, "Science");
+
+        // Create new object
+        Student student2 = new Student("Chamod", 2, "Maths");
+
+        
     }
 }
