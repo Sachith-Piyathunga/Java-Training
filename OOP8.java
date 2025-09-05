@@ -11,6 +11,8 @@ import java.util.ArrayList;
 // Define the student class
 /* public */ class Student {
     
+    // Declare the private variable
+    private String name;
 }
 
 
