@@ -55,6 +55,11 @@ import java.util.ArrayList;
         // Remove given course from the list
         courses.remove(course);
     }
+
+    // Method to print the details of the sstudent
+    public void printStudentDetails() {
+        
+    }
 }
 
 
