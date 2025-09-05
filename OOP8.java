@@ -43,6 +43,11 @@ import java.util.ArrayList;
         // Return the course
         return courses;
     }
+
+    // Methods to add the courses to the list
+    public void addCourses(String course) {
+        
+    }
 }
 
 
