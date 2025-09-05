@@ -102,5 +102,8 @@ public class OOP8 {
 
         // Print a header for student1
         student1.printStudentDetails();
+
+        // Print the message
+        System.out.println("Adding courses for " + student1.getName());
     }
 }
