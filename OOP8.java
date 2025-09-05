@@ -121,7 +121,8 @@ public class OOP8 {
         // Print a message indicating courses are add to the student 2
         System.out.println("\nAdding courses for " + student2.getName());
 
-
+        // Add the courses
+        student2.addCourses("History");
 
 
 
