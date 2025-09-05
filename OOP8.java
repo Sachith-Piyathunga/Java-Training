@@ -111,8 +111,11 @@ public class OOP8 {
 
         // Add the courses
         student1.addCourses("Science");
-        
+
         // Add the courses
         student1.addCourses("Maths");
+
+        // Print the name and and there list of courses
+        System.out.println(student1.getName() + "'s courses: " + student1.getCourses());
     }
 }
