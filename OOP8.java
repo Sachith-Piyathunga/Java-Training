@@ -133,7 +133,9 @@ public class OOP8 {
         // Print a message indicating the course "Science" is being removed for student1
         System.out.println("\nRemoving 'Science' course for " + student1.getName());
     
-
+        // Print a message indicating the course "Science" is being removed for student1
+        System.out.println("\nRemoving 'Science' course for " + student1.getName());
+    
 
 
     }
