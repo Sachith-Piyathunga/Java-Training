@@ -17,6 +17,11 @@ import java.util.ArrayList;
     private int grade;
     // Declare the private variable
     private ArrayList courses;
+
+    // Costructor for the student class
+    public Student(String name, int grade, ArrayList courses) {
+        
+    }
 }
 
 
