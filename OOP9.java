@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Write a Java program to create a class called "Library" with a collection of 
  * books and methods to add and remove books.
@@ -70,7 +72,8 @@ Import java.util.ArrayList;
 
     // Construcor for the book field
     public Library() {
-        
+        // Creaate a new ArrayList
+        book = new ArrayList<Book>();
     }
 }
 
