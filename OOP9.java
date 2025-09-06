@@ -39,6 +39,12 @@
         return author;
     }
 
+    // Setter method for the author
+    public void setAuthor(String author) {
+        // Assign the author variable
+        this.author = author;
+    }
+
 }
 
 
