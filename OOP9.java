@@ -139,6 +139,7 @@ public class OOP9 {
 
         // Remove the book from the library
         library.removeBook(book2);
-
+        // Print the message
+        System.out.println("\nBooks in the library after removing " + book2.getTitle() + ":");
     }
 }
