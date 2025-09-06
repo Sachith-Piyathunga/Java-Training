@@ -17,6 +17,8 @@
     public Book(String title, String author) {
         // Assign the parameter
         this.title = title;
+        // Assign the parameter
+        this.author = author;
     }
 
 }
