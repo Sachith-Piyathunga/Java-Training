@@ -67,6 +67,11 @@ Import java.util.ArrayList;
 
     // Create the private field
     private ArrayList<Book> books;
+
+    // Construcor for the book field
+    public Library() {
+        
+    }
 }
 
 
