@@ -115,5 +115,16 @@ public class OOP9 {
     public static void main(String[] args) {
         // Create the new instance of the library class
         Library library = new Library();
+
+        // Create the new book objects
+        Book book1 = new Book("Adventures of Tom Sawyer", "Mark Twain");
+        Book book2 = new Book("Ben Hur", "Lewis Wallace");
+        Book book3 = new Book("Time Machine", "H.G. Wells");
+        Book book4 = new Book("Anna Karenina", "Leo Tolstoy");
+
+
+
+
+        
     }
 }
