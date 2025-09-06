@@ -10,6 +10,8 @@
 
     // Create the private field
     private String title;
+    // Create the private field
+    private String author;
 }
 
 
