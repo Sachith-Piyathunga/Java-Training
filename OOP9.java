@@ -7,7 +7,9 @@
 // Book.java
 // Define the book class
 /* public */ class Book {
-    
+
+    // Create the private field
+    private String title;
 }
 
 
