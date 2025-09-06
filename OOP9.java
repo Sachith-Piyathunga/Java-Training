@@ -62,7 +62,10 @@
 // Import the java ArrayList class
 Import java.util.ArrayList;
 
-
+// Define the Library class
+/* public */ class Library {
+    
+}
 
 
 
