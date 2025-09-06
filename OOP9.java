@@ -113,6 +113,7 @@ Import java.util.ArrayList;
 public class OOP9 {
     // Define the main method
     public static void main(String[] args) {
-        
+        // Create the new instance of the library class
+        Library library = new Library();
     }
 }
