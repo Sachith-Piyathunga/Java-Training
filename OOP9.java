@@ -87,6 +87,12 @@ Import java.util.ArrayList;
         // Remove the book from book list
         books.remove(book);
     }
+
+    // Method to get the list of books
+    public ArrayList<Book> getBooks() {
+        // Return the books
+        return books;
+    }
 }
 
 
