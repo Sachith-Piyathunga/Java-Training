@@ -44,9 +44,18 @@
         // Assign the author variable
         this.author = author;
     }
-
 }
 
+
+/**
+ * Explanation
+ * 
+ * The above class has two private attributes, "title" and "author". It has a constructor 
+ * that takes two arguments, the title and author of the book, and initializes the 
+ * corresponding attributes. It also has getter and setter methods to access and 
+ * modify the title and author attributes.
+ * 
+ */
 
 
 
