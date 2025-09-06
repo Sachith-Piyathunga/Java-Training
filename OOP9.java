@@ -64,7 +64,9 @@ Import java.util.ArrayList;
 
 // Define the Library class
 /* public */ class Library {
-    
+
+    // Create the private field
+    private ArrayList<Book> books;
 }
 
 
