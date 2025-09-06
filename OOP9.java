@@ -78,7 +78,8 @@ Import java.util.ArrayList;
 
     // Method to add the book
     public void addBook(Book book) {
-        
+        // Add the book to the book list
+        books.add(book);
     }
 }
 
