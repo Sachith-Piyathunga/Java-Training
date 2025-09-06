@@ -131,5 +131,10 @@ public class OOP9 {
         // Print the message
         System.out.println("Book in the library:");
 
+        // Itarete through the lst of books in the library
+        for (Book book : library.getBooks()) {
+            
+        }
+
     }
 }
