@@ -4,7 +4,11 @@
  */
 
 
-
+// Book.java
+// Define the book class
+/* public */ class Book {
+    
+}
 
 
 
