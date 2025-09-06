@@ -133,7 +133,8 @@ public class OOP9 {
 
         // Itarete through the lst of books in the library
         for (Book book : library.getBooks()) {
-            
+            // Print the message
+            System.out.println(book.getTitle() + " by " + book.getAuthor());
         }
 
     }
