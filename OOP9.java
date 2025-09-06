@@ -122,9 +122,13 @@ public class OOP9 {
         Book book3 = new Book("Time Machine", "H.G. Wells");
         Book book4 = new Book("Anna Karenina", "Leo Tolstoy");
 
+        // Add the books to the library
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book3);
+        library.addBook(book4);
 
 
 
-        
     }
 }
