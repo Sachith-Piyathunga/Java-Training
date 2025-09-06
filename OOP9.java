@@ -96,7 +96,12 @@ Import java.util.ArrayList;
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * The above "Library" class has a private books attribute, which is an ArrayList of 
+ * Book objects. The Library constructor initializes this attribute as an empty list.
+ */
 
 
 
