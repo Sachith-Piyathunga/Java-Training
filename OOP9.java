@@ -131,7 +131,7 @@ public class OOP9 {
         // Print the message
         System.out.println("Book in the library:");
 
-        // Itarete through the lst of books in the library
+        // Itarete through the list of books in the library
         for (Book book : library.getBooks()) {
             // Print the message
             System.out.println(book.getTitle() + " by " + book.getAuthor());
@@ -141,5 +141,11 @@ public class OOP9 {
         library.removeBook(book2);
         // Print the message
         System.out.println("\nBooks in the library after removing " + book2.getTitle() + ":");
+        // Iterate through the updated list of books in the library
+        for (Book book : library.getBooks()) {
+            
+        } 
+    
+    
     }
 }
