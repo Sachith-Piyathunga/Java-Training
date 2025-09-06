@@ -84,7 +84,8 @@ Import java.util.ArrayList;
 
     // Method to remove the book
     public void removeBook(Book book) {
-        
+        // Remove the book from book list
+        books.remove(book);
     }
 }
 
