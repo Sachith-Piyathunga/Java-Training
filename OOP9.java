@@ -12,6 +12,10 @@
     private String title;
     // Create the private field
     private String author;
+
+    // Construcor for the book class
+    public Book(String title, String author) 
+    
 }
 
 
