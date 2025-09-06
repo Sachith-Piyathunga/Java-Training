@@ -143,9 +143,8 @@ public class OOP9 {
         System.out.println("\nBooks in the library after removing " + book2.getTitle() + ":");
         // Iterate through the updated list of books in the library
         for (Book book : library.getBooks()) {
-            
+            // Print the message
+            System.out.println(book.getTitle() + " by " + book.getAuthor());
         } 
-    
-    
     }
 }
