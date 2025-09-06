@@ -21,10 +21,16 @@
         this.author = author;
     }
 
-    // Setter method for the title
+    // Getter method for the title
     public String getTitle() {
         // Return the title
         return title;
+    }
+
+    // Setter method for the title
+    public void setTitle(String title) {
+        // Assign the title variable
+        this.title = title;
     }
 
 }
