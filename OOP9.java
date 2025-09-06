@@ -33,6 +33,12 @@
         this.title = title;
     }
 
+    // Getter method for the author
+    public String getAuthor() {
+        // Return the author
+        return author;
+    }
+
 }
 
 
