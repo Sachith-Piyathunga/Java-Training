@@ -101,6 +101,10 @@ Import java.util.ArrayList;
  * 
  * The above "Library" class has a private books attribute, which is an ArrayList of 
  * Book objects. The Library constructor initializes this attribute as an empty list.
+ * The "addBook()" method adds a Book object to the books list, while the “removeBook()” 
+ * method removes a Book object from the list. The “getBooks()” method returns 
+ * the books list.
+ * 
  */
 
 
