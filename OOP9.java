@@ -128,7 +128,8 @@ public class OOP9 {
         library.addBook(book3);
         library.addBook(book4);
 
-
+        // Print the message
+        System.out.println("Book in the library:");
 
     }
 }
