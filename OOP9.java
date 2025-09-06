@@ -137,5 +137,8 @@ public class OOP9 {
             System.out.println(book.getTitle() + " by " + book.getAuthor());
         }
 
+        // Remove the book from the library
+        library.removeBook(book2);
+
     }
 }
