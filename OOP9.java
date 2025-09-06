@@ -14,8 +14,11 @@
     private String author;
 
     // Construcor for the book class
-    public Book(String title, String author) 
-    
+    public Book(String title, String author) {
+        // Assign the parameter
+        this.title = title;
+    }
+
 }
 
 
