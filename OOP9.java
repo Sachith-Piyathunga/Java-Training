@@ -75,6 +75,11 @@ Import java.util.ArrayList;
         // Creaate a new ArrayList
         book = new ArrayList<Book>();
     }
+
+    // Method to add the book
+    public void addBook(Book book) {
+        
+    }
 }
 
 
