@@ -73,13 +73,18 @@ Import java.util.ArrayList;
     // Construcor for the book field
     public Library() {
         // Creaate a new ArrayList
-        book = new ArrayList<Book>();
+        books = new ArrayList<Book>();
     }
 
     // Method to add the book
     public void addBook(Book book) {
         // Add the book to the book list
         books.add(book);
+    }
+
+    // Method to remove the book
+    public void removeBook(Book book) {
+        
     }
 }
 
