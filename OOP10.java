@@ -20,9 +20,12 @@ import java.time.LocalTime;
     // Create a private field
     private int delayTime;
 
+    // Constructor for the airplane class
+    public Airplane(String flightNumber, String destination, LocalTime scheduleDeparture, int delayTime) {
+        
+    }
 
 
-    
 }
 
 
