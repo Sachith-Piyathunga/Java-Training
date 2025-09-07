@@ -138,7 +138,8 @@ public class OOP10 {
         // Delay flight 2 by 110 minutes
         flight2.delay(110);
 
-
+        // Print the current flight status after delays
+        System.out.println("\nCurrent Flight Status:");
 
 
 
