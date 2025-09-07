@@ -46,7 +46,8 @@ import java.time.LocalTime;
 
     // Getter method for the destination
     public String getDestination() {
-        
+        // Return destination
+        return destination;
     }
 
 
