@@ -64,7 +64,8 @@ import java.time.LocalTime;
 
     // Getter method for the delay time
     public int getDelayTime() {
-        
+        // Return the delay time
+        return delayTime;
     }
 
 }
