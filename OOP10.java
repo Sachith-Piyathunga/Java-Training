@@ -24,6 +24,8 @@ import java.time.LocalTime;
     public Airplane(String flightNumber, String destination, LocalTime scheduleDeparture) {
         // Assign the flightnumber parameter
         this.flightNumber = flightNumber;
+        // Assign the destination parameter
+        this.destination = destination;
     }
 
 
