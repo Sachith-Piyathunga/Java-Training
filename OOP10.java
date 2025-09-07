@@ -28,6 +28,8 @@ import java.time.LocalTime;
         this.destination = destination;
         // Assign the schedule departure parameter
         this.scheduleDeparture = scheduleDeparture;
+        // Initialize the delay time 0
+        this.delayTime = 0;
     }
 
 
