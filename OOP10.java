@@ -44,6 +44,11 @@ import java.time.LocalTime;
         this.flightNumber = flightNumber;
     }
 
+    // Getter method for the destination
+    public String getDestination() {
+        
+    }
+
 
 }
 
