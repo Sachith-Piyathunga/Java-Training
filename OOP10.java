@@ -32,6 +32,11 @@ import java.time.LocalTime;
         this.delayTime = 0;
     }
 
+    // Getter method for the flight number
+    public String getFlightNumber() {
+        
+    }
+
 
 }
 
