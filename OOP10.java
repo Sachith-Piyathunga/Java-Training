@@ -76,7 +76,8 @@ import java.time.LocalTime;
 
     // Method to set a delay and update the scheduled departure time
     public void delay(int minutes) {
-        
+        // Assign the delay time parameter
+        this.delayTime = minutes;
     }
 
 }
