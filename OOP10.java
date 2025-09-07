@@ -126,6 +126,8 @@ public class OOP10 {
         // Print the flight status
         System.out.println("Flight status: ");
 
+        // Check the flight status of flight 1
+        flight1.checkStatus();
 
 
 
