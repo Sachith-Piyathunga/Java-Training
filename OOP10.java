@@ -40,7 +40,8 @@ import java.time.LocalTime;
 
     // Setter method for the flight number
     public void setFlightNumber(String flightNumber) {
-        
+        // Assign the flight number parameter
+        this.flightNumber = flightNumber;
     }
 
 
