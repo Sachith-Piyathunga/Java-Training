@@ -52,7 +52,8 @@ import java.time.LocalTime;
     
     // Setter method for the destination
     public void setDestination(String destination) {
-        
+        // Assign the destination parameter
+        this.destination = destination;
     }
 
 }
