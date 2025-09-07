@@ -58,7 +58,8 @@ import java.time.LocalTime;
 
     // Getter mthod for the scheduled departure
     public LocalTime getScheduledDeparture(LocalTime scheduledDeparture) {
-        
+        // Retunrn the scheduled departure
+        return scheduledDeparture;
     }
 
 }
