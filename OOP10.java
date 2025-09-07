@@ -62,6 +62,11 @@ import java.time.LocalTime;
         return scheduledDeparture;
     }
 
+    // Setter method for the scheduled departure time
+    public void setScheduledDeparture(LocalTime scheduledDeparture) {
+        
+    }
+
     // Getter method for the delay time
     public int getDelayTime() {
         // Return the delay time
