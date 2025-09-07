@@ -133,7 +133,8 @@ public class OOP10 {
         // Check the flight status of flight 3
         flight3.checkStatus();
 
-
+        // Delay flight 1 by 40 minutes
+        flight1.delay(40);
 
 
 
