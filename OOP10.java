@@ -17,6 +17,11 @@ import java.time.LocalTime;
     private String destination;
     // Create a private field
     private LocalTime scheduleDeparture;
+    // Create a private field
+    private int delayTime;
+
+
+
     
 }
 
