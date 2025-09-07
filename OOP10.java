@@ -116,6 +116,29 @@ import java.time.LocalTime;
 public class OOP10 {
     // Define the main method
     public static void main(String[] args) {
+        // Creta the new airplane object
+        Airplane flight1 = new Airplane("CDE345", "London", LocalTime.of(10, 30));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
     }
 }
