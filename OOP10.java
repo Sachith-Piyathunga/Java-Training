@@ -26,6 +26,8 @@ import java.time.LocalTime;
         this.flightNumber = flightNumber;
         // Assign the destination parameter
         this.destination = destination;
+        // Assign the schedule departure parameter
+        this.scheduleDeparture = scheduleDeparture;
     }
 
 
