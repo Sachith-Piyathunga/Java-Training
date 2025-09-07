@@ -86,7 +86,8 @@ import java.time.LocalTime;
     public void checkStatus() {
         // Check if time is no delay
         if (delayTime == 0) {
-            
+            // Print the message
+        System.out.println("Flight " + flightNumber + " is on time.");
         }
     }
 }
