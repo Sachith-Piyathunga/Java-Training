@@ -122,7 +122,9 @@ public class OOP10 {
         Airplane flight2 = new Airplane("KUI765", "New York", LocalTime.of(14, 0));
         // Create the new airplane object
         Airplane flight3 = new Airplane("JUY456", "Paris", LocalTime.of(14, 0));
-
+        
+        // Print the flight status
+        System.out.println("Flight status: ");
 
 
 
