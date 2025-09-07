@@ -135,7 +135,8 @@ public class OOP10 {
 
         // Delay flight 1 by 40 minutes
         flight1.delay(40);
-
+        // Delay flight 2 by 110 minutes
+        flight2.delay(110);
 
 
 
