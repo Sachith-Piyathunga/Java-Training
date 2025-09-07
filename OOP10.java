@@ -49,7 +49,11 @@ import java.time.LocalTime;
         // Return destination
         return destination;
     }
-
+    
+    // Setter method for the destination
+    public void setDestination(String destination) {
+        
+    }
 
 }
 
