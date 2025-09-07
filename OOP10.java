@@ -34,7 +34,8 @@ import java.time.LocalTime;
 
     // Getter method for the flight number
     public String getFlightNumber() {
-        
+        // Return the flight number
+        return flightNumber;
     }
 
 
