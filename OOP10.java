@@ -109,6 +109,13 @@ import java.time.LocalTime;
  * 
  */
 
+
+
+// OOP10.java
+// Main class 
 public class OOP10 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
