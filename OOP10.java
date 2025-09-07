@@ -13,6 +13,8 @@ import java.time.LocalTime;
 /* public */ class Airplane {
     // Create a private field
     private String flightNumber;
+    // Create a private field
+    private String destination;
 }
 
 
