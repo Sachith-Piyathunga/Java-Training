@@ -9,7 +9,10 @@
 // Import the java LocalTime class
 import java.time.LocalTime;
 
-
+// Definethe Airplana class
+/* public */ class Airplane {
+    
+}
 
 
 public class OOP10 {
