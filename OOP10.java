@@ -84,7 +84,10 @@ import java.time.LocalTime;
 
     // Method check the status of the flight
     public void checkStatus() {
-        
+        // Check if time is no delay
+        if (delayTime == 0) {
+            
+        }
     }
 }
 
