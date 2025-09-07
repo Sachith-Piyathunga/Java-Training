@@ -118,6 +118,8 @@ public class OOP10 {
     public static void main(String[] args) {
         // Creta the new airplane object
         Airplane flight1 = new Airplane("CDE345", "London", LocalTime.of(10, 30));
+        // Creta the new airplane object
+        Airplane flight2 = new Airplane("KUI765", "New York", LocalTime.of(14, 0));
 
 
 
@@ -139,6 +141,5 @@ public class OOP10 {
 
 
 
-        
     }
 }
