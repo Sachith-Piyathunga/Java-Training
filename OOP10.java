@@ -143,7 +143,8 @@ public class OOP10 {
 
         // Check the flight status of flight 1
         flight1.checkStatus();
-
+        // Check the flight status of flight 2
+        flight2.checkStatus();
 
 
 
