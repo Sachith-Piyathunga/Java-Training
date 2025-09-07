@@ -102,7 +102,11 @@ import java.time.LocalTime;
  * The above class represents an airplane with a flight number, destination, and 
  * scheduled departure time. It has getter and setter methods for these attributes. 
  * The class also two methods "delay()" and "checkStatus()" to delay the flight 
- * and check its status.
+ * and check its status. The "delay()" method takes an integer value representing 
+ * the number of minutes the flight will be delayed and updates the scheduled 
+ * departure time accordingly. By using “checkStatus()” method, you can determine 
+ * whether the flight has been delayed or is on time.
+ * 
  */
 
 public class OOP10 {
