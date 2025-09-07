@@ -141,7 +141,8 @@ public class OOP10 {
         // Print the current flight status after delays
         System.out.println("\nCurrent Flight Status:");
 
-
+        // Check the flight status of flight 1
+        flight1.checkStatus();
 
 
 
