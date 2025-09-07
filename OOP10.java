@@ -38,6 +38,11 @@ import java.time.LocalTime;
         return flightNumber;
     }
 
+    // Setter method for the flight number
+    public void setFlightNumber(String flightNumber) {
+        
+    }
+
 
 }
 
