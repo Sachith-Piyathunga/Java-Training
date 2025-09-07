@@ -96,6 +96,15 @@ import java.time.LocalTime;
 }
 
 
+/**
+ * Explanation
+ * 
+ * The above class represents an airplane with a flight number, destination, and 
+ * scheduled departure time. It has getter and setter methods for these attributes. 
+ * The class also two methods "delay()" and "checkStatus()" to delay the flight 
+ * and check its status.
+ */
+
 public class OOP10 {
     
 }
