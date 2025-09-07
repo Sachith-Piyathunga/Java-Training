@@ -15,6 +15,9 @@ import java.time.LocalTime;
     private String flightNumber;
     // Create a private field
     private String destination;
+    // Create a private field
+    private LocalTime scheduleDeparture;
+    
 }
 
 
