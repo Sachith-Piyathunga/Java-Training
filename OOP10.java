@@ -88,6 +88,9 @@ import java.time.LocalTime;
         if (delayTime == 0) {
             // Print the message
         System.out.println("Flight " + flightNumber + " is on time.");
+        } else {
+            // Print the message
+            System.out.println("Flight " + flightNumber + " is delayed by " + delayTime + " minutes.");
         }
     }
 }
