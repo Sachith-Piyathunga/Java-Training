@@ -21,8 +21,9 @@ import java.time.LocalTime;
     private int delayTime;
 
     // Constructor for the airplane class
-    public Airplane(String flightNumber, String destination, LocalTime scheduleDeparture, int delayTime) {
-        
+    public Airplane(String flightNumber, String destination, LocalTime scheduleDeparture) {
+        // Assign the flightnumber parameter
+        this.flightNumber = flightNumber;
     }
 
 
