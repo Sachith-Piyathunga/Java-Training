@@ -78,6 +78,8 @@ import java.time.LocalTime;
     public void delay(int minutes) {
         // Assign the delay time parameter
         this.delayTime = minutes;
+        // Update the scheduled departure time
+        this.scheduledDeparture = this.scheduledDeparture.plusMinutes(minutes);
     }
 
 }
