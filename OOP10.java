@@ -11,7 +11,8 @@ import java.time.LocalTime;
 
 // Definethe Airplana class
 /* public */ class Airplane {
-    
+    // Create a private field
+    private String flightNumber;
 }
 
 
