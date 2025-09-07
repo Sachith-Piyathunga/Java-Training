@@ -16,7 +16,7 @@ import java.time.LocalTime;
     // Create a private field
     private String destination;
     // Create a private field
-    private LocalTime scheduleDeparture;
+    private LocalTime scheduledDeparture;
     // Create a private field
     private int delayTime;
 
@@ -27,7 +27,7 @@ import java.time.LocalTime;
         // Assign the destination parameter
         this.destination = destination;
         // Assign the schedule departure parameter
-        this.scheduleDeparture = scheduleDeparture;
+        this.scheduledDeparture = scheduledDeparture;
         // Initialize the delay time 0
         this.delayTime = 0;
     }
@@ -54,6 +54,11 @@ import java.time.LocalTime;
     public void setDestination(String destination) {
         // Assign the destination parameter
         this.destination = destination;
+    }
+
+    // Getter mthod for the scheduled departure
+    public LocalTime getScheduledDeparture(LocalTime scheduledDeparture) {
+        
     }
 
 }
