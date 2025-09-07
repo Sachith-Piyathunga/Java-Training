@@ -82,6 +82,10 @@ import java.time.LocalTime;
         this.scheduledDeparture = this.scheduledDeparture.plusMinutes(minutes);
     }
 
+    // Method check the status of the flight
+    public void checkStatus() {
+        
+    }
 }
 
 
