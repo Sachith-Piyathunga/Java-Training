@@ -149,3 +149,17 @@ public class OOP10 {
         flight3.checkStatus();
     }
 }
+
+
+/**
+ * 
+ * Explanation
+ * 
+ * In the main() function, we create three "Airplane" objects and set flight numbers, 
+ * destinations and scheduled departure times. It then calls the "checkStatus()" 
+ * method to display the initial flight status of each flight. The program then 
+ * delays flight1 and flight2 by calling the "delay()" method on these objects, 
+ * and then calls the "checkStatus()" method again to display the updated flight 
+ * status of each flight.
+ * 
+ */
