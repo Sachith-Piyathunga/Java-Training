@@ -12,6 +12,11 @@
     private String name;
     // Create the private field
     private int quantity;
+
+    // Constructor for the product class
+    public Product(String name, int quantity) {
+        
+    }
 }
 
 
