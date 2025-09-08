@@ -138,5 +138,8 @@ public class OOP11 {
 
         // Print the message
         System.out.println("\nCheck low inventory:");
+
+        // Check and print product with low inventory
+        inventory.checkLowInventory();
     }
 }
