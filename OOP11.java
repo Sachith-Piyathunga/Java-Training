@@ -101,7 +101,17 @@ import java.util.ArrayList;
 }
 
 
-
+/**
+ * 
+ * Explanation
+ * 
+ * Here we create a class called "Inventory" with a private attribute "products", 
+ * which is an ArrayList of Product objects. We also create a constructor to 
+ * initialize this attribute as an empty list and methods to add and remove 
+ * products from the list. Additionally, we create a method called 
+ * "checkLowInventory()" to check for low inventory levels in the products list.
+ * 
+ */
 
 
 
