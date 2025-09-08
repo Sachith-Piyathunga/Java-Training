@@ -71,7 +71,8 @@ import java.util.ArrayList;
 
     // Constructor for the initialize the product field
     public Inventory() {
-        
+        // Create the new array list
+        products = new ArrayList<Product>();
     }
 }
 
