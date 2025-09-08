@@ -77,7 +77,8 @@ import java.util.ArrayList;
 
     // Method to add the product into product list
     public void addProduct(Product product) {
-        
+        // Add the product into product list
+        products.add(product);
     }
 }
 
