@@ -4,6 +4,10 @@
  */
 
 
+// Import the ArrayList class
+import java.util.ArrayList;
+
+
 // Product.java
 // Define the product class
 /* public */ class Product {
@@ -56,6 +60,7 @@
  * and getter and setter methods to access and modify them.
  * 
  */
+
 
 
 
