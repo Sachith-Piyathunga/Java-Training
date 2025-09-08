@@ -135,5 +135,8 @@ public class OOP11 {
         inventory.addProduct(product1);
         inventory.addProduct(product2);
         inventory.addProduct(product3);
+
+        // Print the message
+        System.out.println("\nCheck low inventory:");
     }
 }
