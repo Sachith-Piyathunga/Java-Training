@@ -10,6 +10,8 @@
 
     // Create the private field
     private String name;
+    // Create the private field
+    private int quantity;
 }
 
 
