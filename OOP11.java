@@ -93,7 +93,8 @@ import java.util.ArrayList;
         for (Product product : products) {
             // Check if the product quantity is less than or equal to 100
             if (product.getQuantity() <= 100) {
-                
+                // Print the message
+                System.out.println(product.getName() + " is running low on inventory. Current quantity: " + product.getQuantity());
             }
         }
     }
