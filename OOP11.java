@@ -86,6 +86,11 @@ import java.util.ArrayList;
         // Remove product from the list
         products.remove(product);
     }
+
+    // Method to check the low inventory products
+    public void checkLowInventory() {
+        
+    }
 }
 
 
