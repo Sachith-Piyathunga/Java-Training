@@ -120,7 +120,10 @@ public class OOP11 {
     // Define the main method 
     public static void main(String[] args) {
 
-        // Create a new object
+        // Create a new instance of the Inventory class
         Inventory inventory = new Inventory();
+
+        // Crete the new product object
+        Product product1 = new Product("Pen", 200);
     }
 }
