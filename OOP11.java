@@ -134,5 +134,6 @@ public class OOP11 {
         // Add products to the inventory
         inventory.addProduct(product1);
         inventory.addProduct(product2);
+        inventory.addProduct(product3);
     }
 }
