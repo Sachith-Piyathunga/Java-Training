@@ -80,6 +80,11 @@ import java.util.ArrayList;
         // Add the product into product list
         products.add(product);
     }
+
+    // Method to remove the product into product list
+    public void removeProduct(Product product) {
+        
+    }
 }
 
 
