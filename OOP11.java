@@ -7,7 +7,9 @@
 // Product.java
 // Define the product class
 /* public */ class Product {
-    
+
+    // Create the private field
+    private String name;
 }
 
 
