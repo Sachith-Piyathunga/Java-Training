@@ -47,6 +47,15 @@
 }
 
 
+/**
+ * 
+ * Explanation
+ * 
+ * In the above code, we create a class called "Product" with two private attributes, 
+ * "name" and "quantity". We also create a constructor to initialize these attributes 
+ * and getter and setter methods to access and modify them.
+ * 
+ */
 
 
 
