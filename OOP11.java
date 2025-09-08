@@ -155,3 +155,16 @@ public class OOP11 {
         inventory.checkLowInventory();
     }
 }
+
+
+/**
+ * 
+ * Explanation
+ * 
+ * In the "Main" class, we create an instance of the Inventory class and add three 
+ * Product objects to the list. We then call the "checkLowInventory()" method to 
+ * check for low inventory levels. Next, we remove one of the products from the 
+ * list and call the "checkLowInventory()" method again to see if there are any 
+ * other low inventory levels.
+ * 
+ */
