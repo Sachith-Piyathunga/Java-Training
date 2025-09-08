@@ -89,7 +89,10 @@ import java.util.ArrayList;
 
     // Method to check the low inventory products
     public void checkLowInventory() {
-        
+        // Iterate through the list of products
+        for (Product product : products) {
+            
+        }
     }
 }
 
