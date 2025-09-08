@@ -20,6 +20,11 @@
         // Assign the quantity parameter
         this.quantity = quantity;
     }
+
+    // Getter method for the name
+    public String getName() {
+        
+    }
 }
 
 
