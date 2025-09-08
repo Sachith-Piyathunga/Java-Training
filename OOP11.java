@@ -65,7 +65,9 @@ import java.util.ArrayList;
 // Inventory.java
 // Define the inventory class
 /* public */ class Inventory {
-    
+
+    // Create the private field to store the product list
+    private ArrayList<Product> products;
 }
 
 
