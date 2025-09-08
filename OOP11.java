@@ -35,7 +35,8 @@
 
     // Getter method for the quantity 
     public int getQuantity() {
-        
+        // Return the quantity
+        return quantity;
     }
 }
 
