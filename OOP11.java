@@ -68,6 +68,11 @@ import java.util.ArrayList;
 
     // Create the private field to store the product list
     private ArrayList<Product> products;
+
+    // Constructor for the initialize the product field
+    public Inventory() {
+        
+    }
 }
 
 
