@@ -74,6 +74,11 @@ import java.util.ArrayList;
         // Create the new array list
         products = new ArrayList<Product>();
     }
+
+    // Method to add the product into product list
+    public void addProduct(Product product) {
+        
+    }
 }
 
 
