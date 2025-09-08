@@ -150,5 +150,8 @@ public class OOP11 {
 
         // Print the message
         System.out.println("\nAgain check low inventory:");
+
+        // Check the print products with low inventory again
+        inventory.checkLowInventory();
     }
 }
