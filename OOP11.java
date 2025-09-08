@@ -141,5 +141,8 @@ public class OOP11 {
 
         // Check and print product with low inventory
         inventory.checkLowInventory();
+
+        // Print the message
+        System.out.println("\nRemove Tablet from the inventory!");
     }
 }
