@@ -125,5 +125,6 @@ public class OOP11 {
 
         // Crete the new product object
         Product product1 = new Product("Pen", 200);
+        Product product2 = new Product("Car", 75);
     }
 }
