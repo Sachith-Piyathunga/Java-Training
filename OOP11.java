@@ -38,6 +38,11 @@
         // Return the quantity
         return quantity;
     }
+
+    // Setter method for the quntity
+    public void setQuntity(int quntity) {
+        
+    }
 }
 
 
