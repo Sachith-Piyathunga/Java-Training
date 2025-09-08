@@ -120,5 +120,7 @@ public class OOP11 {
     // Define the main method 
     public static void main(String[] args) {
 
+        // Create a new object
+        Inventory inventory = new Inventory();
     }
 }
