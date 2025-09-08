@@ -123,12 +123,15 @@ public class OOP11 {
         // Create a new instance of the Inventory class
         Inventory inventory = new Inventory();
 
-        // Crete the new product object
+        // Create the new product object
         Product product1 = new Product("Pen", 200);
         Product product2 = new Product("Car", 75);
         Product product3 = new Product("Van", 80);
 
         // Print the message
         System.out.println("Add three products in inventory:");
+
+        // Add products to the inventory
+        inventory.addProduct(product1);
     }
 }
