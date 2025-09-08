@@ -15,7 +15,8 @@
 
     // Constructor for the product class
     public Product(String name, int quantity) {
-        
+        // Assign the name parameter
+        this.name = name;
     }
 }
 
