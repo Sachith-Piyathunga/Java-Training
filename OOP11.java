@@ -91,7 +91,10 @@ import java.util.ArrayList;
     public void checkLowInventory() {
         // Iterate through the list of products
         for (Product product : products) {
-            
+            // Check if the product quantity is less than or equal to 100
+            if (product.getQuantity() <= 100) {
+                
+            }
         }
     }
 }
