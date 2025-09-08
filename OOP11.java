@@ -17,6 +17,8 @@
     public Product(String name, int quantity) {
         // Assign the name parameter
         this.name = name;
+        // Assign the quantity parameter
+        this.quantity = quantity;
     }
 }
 
