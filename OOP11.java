@@ -127,5 +127,8 @@ public class OOP11 {
         Product product1 = new Product("Pen", 200);
         Product product2 = new Product("Car", 75);
         Product product3 = new Product("Van", 80);
+
+        // Print the message
+        System.out.println("Add three products in inventory:");
     }
 }
