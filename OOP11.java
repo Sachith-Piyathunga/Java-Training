@@ -32,6 +32,11 @@
         // Assign the name parameter
         this.name = name;
     }
+
+    // Getter method for the quantity 
+    public int getQuantity() {
+        
+    }
 }
 
 
