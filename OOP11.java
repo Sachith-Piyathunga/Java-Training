@@ -4,7 +4,11 @@
  */
 
 
-
+// Product.java
+// Define the product class
+/* public */ class Product {
+    
+}
 
 
 
