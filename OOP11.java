@@ -62,7 +62,11 @@ import java.util.ArrayList;
  */
 
 
-
+// Inventory.java
+// Define the inventory class
+/* public */ class Inventory {
+    
+}
 
 
 
