@@ -41,7 +41,8 @@
 
     // Setter method for the quntity
     public void setQuntity(int quntity) {
-        
+        // Assign the quantity parameter
+        this.quantity = quntity;
     }
 }
 
