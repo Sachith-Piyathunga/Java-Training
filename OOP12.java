@@ -91,7 +91,11 @@ import java.util.ArrayList;
  */
 
 
-
+// Student.java
+// Define the Student class
+/* public */ class Student {
+    
+}
 
 
 
