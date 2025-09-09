@@ -18,6 +18,11 @@ import java.util.ArrayList;
     private ArrayList<Teacher> teachers;
     // Create the private field
     private ArrayList<SchoolClass> classes;
+
+    // Constructor for the school class
+    public School() {
+
+    }
 }
 
 
