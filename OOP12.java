@@ -113,6 +113,11 @@ import java.util.ArrayList;
         // Return the name
         return name;
     }
+
+    // Setter method for the name
+    public void setName(String name) {
+        
+    }
 }
 
 
