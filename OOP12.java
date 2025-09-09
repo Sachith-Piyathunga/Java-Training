@@ -70,6 +70,11 @@ import java.util.ArrayList;
         // Return the list of teachers
         return teachers;
     }
+
+    // Method to get the list of clases
+    public ArrayList<SchoolClass> getClasses() {
+        
+    }
 }
 
 
