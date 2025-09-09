@@ -21,7 +21,8 @@ import java.util.ArrayList;
 
     // Constructor for the school class
     public School() {
-
+        // Create new array list
+        this.students = new ArrayList<Student>();
     }
 }
 
