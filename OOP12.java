@@ -97,6 +97,9 @@ import java.util.ArrayList;
 
     // Create the private field
     private String name;
+    // Create the private field
+    private int age;
+    
 }
 
 
