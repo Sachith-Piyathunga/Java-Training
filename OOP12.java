@@ -108,9 +108,10 @@ import java.util.ArrayList;
         this.age =age;
     }
 
-    // Getter methid for the name
+    // Getter method for the name
     public String getName() {
-        
+        // Return the name
+        return name;
     }
 }
 
