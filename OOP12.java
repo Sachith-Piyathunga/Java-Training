@@ -104,6 +104,8 @@ import java.util.ArrayList;
     public Student(String name, int age) {
         // Assign the parameter
         this.name = name;
+        // Assign the parameter
+        this.age =age;
     }
 }
 
