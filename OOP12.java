@@ -52,6 +52,11 @@ import java.util.ArrayList;
         // Remove teacher from the teachers list
         teachers.remove(teacher);
     }
+
+    // Method to add the clas to the classes list
+    public void addClass(SchoolClass schoolClass) {
+
+    }
 }
 
 
