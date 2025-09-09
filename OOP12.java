@@ -119,6 +119,11 @@ import java.util.ArrayList;
         // Assign the parameter
         this.name = name;
     }
+
+    // Getter method for the age
+    public int getAge() {
+        
+    }
 }
 
 
