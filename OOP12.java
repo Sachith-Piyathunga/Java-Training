@@ -116,7 +116,8 @@ import java.util.ArrayList;
 
     // Setter method for the name
     public void setName(String name) {
-        
+        // Assign the parameter
+        this.name = name;
     }
 }
 
