@@ -79,7 +79,16 @@ import java.util.ArrayList;
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * The above "School" class represents a school with students, teachers, and classes. 
+ * It has three ArrayList attributes to store Student, Teacher, and SchoolClass objects.
+ * 
+ * 
+ * 
+ * 
+ */
 
 
 
