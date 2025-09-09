@@ -102,7 +102,8 @@ import java.util.ArrayList;
 
     // Constructor for the Student class
     public Student(String name, int age) {
-
+        // Assign the parameter
+        this.name = name;
     }
 }
 
