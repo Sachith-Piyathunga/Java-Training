@@ -11,7 +11,9 @@ import java.util.ArrayList;
 // School.java
 // Define the school class
 /* public */ class School {
-    
+
+    // Create the private field
+    private ArrayList<Student> students;
 }
 
 
