@@ -84,9 +84,9 @@ import java.util.ArrayList;
  * 
  * The above "School" class represents a school with students, teachers, and classes. 
  * It has three ArrayList attributes to store Student, Teacher, and SchoolClass objects.
- * 
- * 
- * 
+ * The constructor initializes these ArrayLists as empty lists. It has methods to add 
+ * and remove students, teachers, and classes from their respective ArrayLists. It 
+ * also has getter methods to access ArrayLists of students, teachers, and classes.
  * 
  */
 
