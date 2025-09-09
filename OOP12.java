@@ -23,6 +23,9 @@ import java.util.ArrayList;
     public School() {
         // Create new array list
         this.students = new ArrayList<Student>();
+        // Create new array list
+        this.teachers = new ArrayList<Teacher>();
+        
     }
 }
 
