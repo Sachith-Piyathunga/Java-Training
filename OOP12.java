@@ -43,7 +43,8 @@ import java.util.ArrayList;
 
     // Method to add a teacher to teachers list
     public void addTeacher(Teacher teacher) {
-
+        // Add the teacher to the teachers list
+        teachers.add(teacher);
     }
 }
 
