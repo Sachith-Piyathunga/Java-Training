@@ -128,7 +128,8 @@ import java.util.ArrayList;
 
     // Setter method for the age
     public void setAge(int age) {
-        
+        // Assign the parameter
+        this.age = age;
     }
 }
 
