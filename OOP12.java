@@ -107,6 +107,11 @@ import java.util.ArrayList;
         // Assign the parameter
         this.age =age;
     }
+
+    // Getter methid for the name
+    public String getName() {
+        
+    }
 }
 
 
