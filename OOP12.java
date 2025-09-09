@@ -49,7 +49,8 @@ import java.util.ArrayList;
 
     // Method to remove a teacher from the teachers list
     public void removeTeacher(Teacher teacher) {
-        
+        // Remove teacher from the teachers list
+        teachers.remove(teacher);
     }
 }
 
