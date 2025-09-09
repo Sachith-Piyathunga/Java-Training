@@ -8,7 +8,11 @@
 // Import the java ArrayList class
 import java.util.ArrayList;
 
-
+// School.java
+// Define the school class
+/* public */ class School {
+    
+}
 
 
 
