@@ -99,7 +99,11 @@ import java.util.ArrayList;
     private String name;
     // Create the private field
     private int age;
-    
+
+    // Constructor for the Student class
+    public Student(String name, int age) {
+
+    }
 }
 
 
