@@ -67,7 +67,8 @@ import java.util.ArrayList;
 
     // Method to get the list of teachers
     public ArrayList<Teacher> getTeachers() {
-        
+        // Return the list of teachers
+        return teachers;
     }
 }
 
