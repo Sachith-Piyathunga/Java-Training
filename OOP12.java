@@ -134,7 +134,15 @@ import java.util.ArrayList;
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * The "Student" class represents a student with a name and an age. It has a 
+ * constructor that takes two arguments, name and age, and initializes the 
+ * corresponding attributes. It also has getter and setter methods to access and 
+ * modify name and age attributes.
+ * 
+ */
 
 
 
