@@ -40,6 +40,11 @@ import java.util.ArrayList;
         // Remove the student from student list
         students.remove(student);
     }
+
+    // Method to add a teacher to teachers list
+    public void addTeacher(Teacher teacher) {
+
+    }
 }
 
 
