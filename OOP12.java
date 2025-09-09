@@ -61,7 +61,8 @@ import java.util.ArrayList;
 
     // Method to get the list of students
     public ArrayList<Student> getStudents() {
-        
+        // Return the list of students
+        return students;
     }
 }
 
