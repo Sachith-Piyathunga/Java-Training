@@ -55,7 +55,8 @@ import java.util.ArrayList;
 
     // Method to add the clas to the classes list
     public void addClass(SchoolClass schoolClass) {
-
+        // Add class to the classes list
+        classes.add(schoolClass);
     }
 }
 
