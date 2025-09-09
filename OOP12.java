@@ -73,7 +73,8 @@ import java.util.ArrayList;
 
     // Method to get the list of clases
     public ArrayList<SchoolClass> getClasses() {
-        
+        // Return the list of classes
+        return classes;
     }
 }
 
