@@ -31,7 +31,8 @@ import java.util.ArrayList;
 
     // Method to add a student into students list
     public void adStudent(Student student) {
-        
+        // Add the student to the students list
+        students.add(student);
     }
 }
 
