@@ -27,6 +27,10 @@ import java.util.ArrayList;
         this.teachers = new ArrayList<Teacher>();
         // Create new array list
         this.classes = new ArrayList<SchoolClass>();
+    }
+
+    // Method to add a student into students list
+    public void adStudent(Student student) {
         
     }
 }
