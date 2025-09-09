@@ -58,6 +58,11 @@ import java.util.ArrayList;
         // Add class to the classes list
         classes.add(schoolClass);
     }
+
+    // Method to get the list of students
+    public ArrayList<Student> getStudents() {
+        
+    }
 }
 
 
