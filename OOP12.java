@@ -34,6 +34,11 @@ import java.util.ArrayList;
         // Add the student to the students list
         students.add(student);
     }
+
+    // Method to remove student from the student list
+    public void removeStudent(Student student) {
+        
+    }
 }
 
 
