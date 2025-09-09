@@ -64,6 +64,11 @@ import java.util.ArrayList;
         // Return the list of students
         return students;
     }
+
+    // Method to get the list of teachers
+    public ArrayList<Teacher> getTeachers() {
+        
+    }
 }
 
 
