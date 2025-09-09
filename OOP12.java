@@ -122,7 +122,8 @@ import java.util.ArrayList;
 
     // Getter method for the age
     public int getAge() {
-        
+        // Return the age
+        return age;
     }
 }
 
