@@ -14,6 +14,8 @@ import java.util.ArrayList;
 
     // Create the private field
     private ArrayList<Student> students;
+    // Create the private field
+    private ArrayList<Teacher> teachers;
 }
 
 
