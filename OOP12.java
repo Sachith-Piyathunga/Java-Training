@@ -94,7 +94,9 @@ import java.util.ArrayList;
 // Student.java
 // Define the Student class
 /* public */ class Student {
-    
+
+    // Create the private field
+    private String name;
 }
 
 
