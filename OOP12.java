@@ -275,6 +275,10 @@ import java.util.ArrayList;
  * constructor takes two arguments: className and teacher, and initializes these 
  * attributes.
  * 
+ * The class has getter and setter methods for className and teacher. It also has 
+ * methods addStudent and removeStudent to add and remove a student from the students 
+ * list. The getStudents method returns the list of students in the class.
+ * 
  */
 
 
