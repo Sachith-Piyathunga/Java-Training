@@ -213,7 +213,8 @@ import java.util.ArrayList;
 
     // Constructor for the schoolclass class
     public SchoolClass(String className, Teacher teacher) {
-        
+        // Assign the parameter
+        this.className = className;
     }
 }
 
