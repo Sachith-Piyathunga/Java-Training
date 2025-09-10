@@ -215,6 +215,8 @@ import java.util.ArrayList;
     public SchoolClass(String className, Teacher teacher) {
         // Assign the parameter
         this.className = className;
+        // Assign the parameter
+        this.teacher = teacher;
     }
 }
 
