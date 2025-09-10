@@ -176,7 +176,8 @@ import java.util.ArrayList;
 
     // Getter method for the subject
     public String getSubject() {
-        
+        // Return the subject
+        return subject;
     }
 }
 
