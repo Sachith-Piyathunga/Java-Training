@@ -158,6 +158,8 @@ import java.util.ArrayList;
     public Teacher(String name, String subject) {
         // Assign the parameter
         this.name = name;
+        // Assign the parameter
+        this.subject = subject;
     }
 }
 
