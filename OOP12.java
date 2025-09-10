@@ -164,7 +164,8 @@ import java.util.ArrayList;
 
     // Getter method for the name
     public String getName() {
-        
+        // Return the name
+        return name;
     }
 }
 
