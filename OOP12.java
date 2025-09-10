@@ -244,6 +244,11 @@ import java.util.ArrayList;
         // Assign the parameter
         this.teacher = teacher;
     }
+
+    // Getter method for the student field
+    public ArrayList<Student> getStudent() {
+        
+    }
 }
 
 
