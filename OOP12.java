@@ -253,7 +253,8 @@ import java.util.ArrayList;
 
     // Method to add the student to the students list
     public void addStudent(Student student) {
-        
+        // Add the student to the students list
+        students.add(student);
     }
 }
 
