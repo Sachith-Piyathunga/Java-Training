@@ -235,7 +235,8 @@ import java.util.ArrayList;
     
     // Getter method for the teacher
     public Teacher getTeacher() {
-        
+        // Return the teacher
+        return teacher;
     }
 }
 
