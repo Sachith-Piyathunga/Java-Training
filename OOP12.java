@@ -282,21 +282,11 @@ import java.util.ArrayList;
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP12.java
+// Main class
 public class OOP12 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
