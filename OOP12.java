@@ -208,6 +208,8 @@ import java.util.ArrayList;
     private String className;
     // Create the private field
     private Teacher teacher;
+    // Create the private field
+    private ArrayList<Student> students;
 }
 
 
