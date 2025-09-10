@@ -241,7 +241,8 @@ import java.util.ArrayList;
 
     // Setter method for the teacher
     public void setTeacher(Teacher teacher) {
-        
+        // Assign the parameter
+        this.teacher = teacher;
     }
 }
 
