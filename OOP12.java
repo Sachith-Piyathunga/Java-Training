@@ -151,6 +151,8 @@ import java.util.ArrayList;
 
     // Private field to store the name
     private String name;
+    // Private field to store the subject
+    private String subject;
 }
 
 
