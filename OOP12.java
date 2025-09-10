@@ -217,6 +217,8 @@ import java.util.ArrayList;
         this.className = className;
         // Assign the parameter
         this.teacher = teacher;
+        // Assign the parameter
+        this.students = new ArrayList<Student>();
     }
 }
 
