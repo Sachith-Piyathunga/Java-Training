@@ -226,6 +226,11 @@ import java.util.ArrayList;
         // Return the class name
         return className;
     }
+
+    // Setter method for the class name
+    public void setClassName(String className) {
+        
+    }
 }
 
 
