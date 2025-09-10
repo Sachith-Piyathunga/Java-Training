@@ -188,7 +188,16 @@ import java.util.ArrayList;
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * The Teacher class represents a teacher in a school. It has two private 
+ * attributes: name (teacher's name) and subject (Subject the teacher teaches). 
+ * The class has a constructor that takes two arguments, the teacher's name and 
+ * subject, and initializes the corresponding attributes. It also has getter and 
+ * setter methods to access and modify the name and subject attributes.
+ * 
+ */
 
 
 
