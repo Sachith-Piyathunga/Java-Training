@@ -179,6 +179,11 @@ import java.util.ArrayList;
         // Return the subject
         return subject;
     }
+
+    // Setter method for the subject
+    public void setSubject(String subject) {
+        
+    }
 }
 
 
