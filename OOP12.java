@@ -223,7 +223,8 @@ import java.util.ArrayList;
 
     // Getter method for the class name
     public String getClassName() {
-        
+        // Return the class name
+        return className;
     }
 }
 
