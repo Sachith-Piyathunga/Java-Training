@@ -220,6 +220,11 @@ import java.util.ArrayList;
         // Assign the parameter
         this.students = new ArrayList<Student>();
     }
+
+    // Getter method for the class name
+    public String getClassName() {
+        
+    }
 }
 
 
