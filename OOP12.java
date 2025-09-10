@@ -210,6 +210,11 @@ import java.util.ArrayList;
     private Teacher teacher;
     // Create the private field
     private ArrayList<Student> students;
+
+    // Constructor for the schoolclass class
+    public SchoolClass(String className, Teacher teacher) {
+        
+    }
 }
 
 
