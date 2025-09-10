@@ -145,6 +145,27 @@ import java.util.ArrayList;
  */
 
 
+// Teacher.java
+// Define the teacher class
+/* public */ class Teacher {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
