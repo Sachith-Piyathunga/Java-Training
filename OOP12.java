@@ -156,7 +156,8 @@ import java.util.ArrayList;
 
     // Costructor for the teacher class
     public Teacher(String name, String subject) {
-        
+        // Assign the parameter
+        this.name = name;
     }
 }
 
