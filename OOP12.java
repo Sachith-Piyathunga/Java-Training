@@ -200,7 +200,11 @@ import java.util.ArrayList;
  */
 
 
-
+// SchoolClass.java
+// Define the schoolclass class
+/* public */ class SchoolClass {
+    
+}
 
 
 
