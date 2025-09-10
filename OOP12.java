@@ -287,6 +287,7 @@ import java.util.ArrayList;
 public class OOP12 {
     // Define the main method
     public static void main(String[] args) {
-        
+        // Create the instance of the School class
+        School school = new School();
     }
 }
