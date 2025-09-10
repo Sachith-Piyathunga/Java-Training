@@ -250,6 +250,11 @@ import java.util.ArrayList;
         // Return the list of students
         return students;
     }
+
+    // Method to add the student to the students list
+    public void addStudent(Student student) {
+        
+    }
 }
 
 
