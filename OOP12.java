@@ -161,6 +161,11 @@ import java.util.ArrayList;
         // Assign the parameter
         this.subject = subject;
     }
+
+    // Getter method for the name
+    public String getName() {
+        
+    }
 }
 
 
