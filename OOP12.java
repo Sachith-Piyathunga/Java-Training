@@ -259,7 +259,8 @@ import java.util.ArrayList;
 
     // Method to remove the student from the student list
     public void removeStudent(Student student) {
-        
+        // Remove student from the list
+        students.remove(student);
     }
 }
 
