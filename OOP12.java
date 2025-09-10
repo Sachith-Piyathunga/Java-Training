@@ -247,7 +247,8 @@ import java.util.ArrayList;
 
     // Getter method for the student field
     public ArrayList<Student> getStudent() {
-        
+        // Return the list of students
+        return students;
     }
 }
 
