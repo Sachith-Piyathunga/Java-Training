@@ -182,7 +182,8 @@ import java.util.ArrayList;
 
     // Setter method for the subject
     public void setSubject(String subject) {
-        
+        // Assign the subject
+        this.subject = subject;
     }
 }
 
