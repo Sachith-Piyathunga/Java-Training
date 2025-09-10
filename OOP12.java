@@ -206,6 +206,8 @@ import java.util.ArrayList;
 
     // Create the private field
     private String className;
+    // Create the private field
+    private Teacher teacher;
 }
 
 
