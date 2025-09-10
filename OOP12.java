@@ -153,6 +153,11 @@ import java.util.ArrayList;
     private String name;
     // Private field to store the subject
     private String subject;
+
+    // Costructor for the teacher class
+    public Teacher(String name, String subject) {
+        
+    }
 }
 
 
