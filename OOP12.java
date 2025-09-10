@@ -229,7 +229,8 @@ import java.util.ArrayList;
 
     // Setter method for the class name
     public void setClassName(String className) {
-        
+        // Assign the parameter
+        this.className = className;
     }
 }
 
