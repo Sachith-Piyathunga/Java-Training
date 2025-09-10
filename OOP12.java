@@ -203,7 +203,9 @@ import java.util.ArrayList;
 // SchoolClass.java
 // Define the schoolclass class
 /* public */ class SchoolClass {
-    
+
+    // Create the private field
+    private String className;
 }
 
 
