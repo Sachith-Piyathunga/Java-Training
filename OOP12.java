@@ -238,6 +238,11 @@ import java.util.ArrayList;
         // Return the teacher
         return teacher;
     }
+
+    // Setter method for the teacher
+    public void setTeacher(Teacher teacher) {
+        
+    }
 }
 
 
