@@ -173,6 +173,11 @@ import java.util.ArrayList;
         // Assign the parameter
         this.name = name;
     }
+
+    // Getter method for the subject
+    public String getSubject() {
+        
+    }
 }
 
 
