@@ -265,6 +265,17 @@ import java.util.ArrayList;
 }
 
 
+/**
+ * Explanation
+ * 
+ * The SchoolClass class represents a class in a school. It has a private attribute 
+ * className to store the name of the class and another private attribute teacher of 
+ * type Teacher to store the teacher of the class. It also has a private attribute 
+ * students of type ArrayList to store the students enrolled in the class. The 
+ * constructor takes two arguments: className and teacher, and initializes these 
+ * attributes.
+ * 
+ */
 
 
 
