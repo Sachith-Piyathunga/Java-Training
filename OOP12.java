@@ -232,6 +232,11 @@ import java.util.ArrayList;
         // Assign the parameter
         this.className = className;
     }
+    
+    // Getter method for the teacher
+    public Teacher getTeacher() {
+        
+    }
 }
 
 
