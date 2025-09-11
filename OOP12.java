@@ -369,5 +369,10 @@ public class OOP12 {
         System.out.println("Teacher: " + scienceClass.getTeacher().getName());
         System.out.println("Number of students: " + scienceClass.getStudents().size());
         System.out.println();
+
+        // Remove the student, teacher and class from the school
+        school.removeStudent(student1);
+        school.removeTeacher(teacher2);
+        school.removeClass(mathClass);
     }
 }
