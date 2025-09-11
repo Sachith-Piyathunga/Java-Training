@@ -6,6 +6,8 @@
 // Import the java ArrayList class
 import java.util.ArrayList;
 
+// Import java random class
+import java.util.Random;
 
 
 
