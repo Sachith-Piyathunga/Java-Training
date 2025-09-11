@@ -312,7 +312,7 @@ public class OOP12 {
         school.addTeacher(teacher2);
         school.addTeacher(teacher3);
 
-        // Create the new schoolo class object
+        // Create the new school class object
         SchoolClass mathClass = new SchoolClass("Mathematics", teacher1);
 
         // Add students to the math class
@@ -320,5 +320,8 @@ public class OOP12 {
         mathClass.addStudent(student2);
         mathClass.addStudent(student3);
         mathClass.addStudent(student4);
+
+        SchoolClass englishClass = new SchoolClass("English", teacher2);
+        
     }
 }
