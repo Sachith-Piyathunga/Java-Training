@@ -102,6 +102,12 @@ import java.util.Random;
         // Assign the parameter
         this.title = title;
     }
+
+    // Getter method for the artist
+    public String getArtist() {
+        // Return the artist
+        return artist;
+    }
 }
 
 
