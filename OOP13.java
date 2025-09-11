@@ -90,6 +90,12 @@ import java.util.Random;
         this.title = title;
         this.artist = artist;
     }
+
+    // Getter method for the title
+    public String getTitle() {
+        // Return the title
+        return title;
+    }
 }
 
 
