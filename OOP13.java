@@ -36,7 +36,8 @@ import java.util.Random;
 
     // Method to get the all songs list
     public ArrayList<Song> getSongs() {
-        
+        // Return the songs
+        return songs;
     }
 }
 
