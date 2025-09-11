@@ -117,7 +117,17 @@ import java.util.Random;
 }
 
 
-
+/**
+ * 
+ * Explanation
+ * 
+ * The “Song” class represents a song in a music library. It has two private instance 
+ * variables, the title and the artist, and a constructor that takes these two 
+ * variables as parameters. The class also provides getters and setters for the 
+ * title and artist variables, allowing the client code to access and modify the 
+ * song information.
+ * 
+ */
 
 
 
