@@ -65,6 +65,16 @@ import java.util.Random;
 }
 
 
+/**
+ * Explantion
+ * 
+ * The above “MusicLibrary” class represents a library of songs. It uses an ArrayList 
+ * to store the songs, and provides methods to add and remove songs from the library. 
+ * It also has a method to get a list of all the songs in the library, and a method 
+ * to play a random song from the library.
+ * 
+ */
+
 
 
 
