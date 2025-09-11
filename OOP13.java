@@ -15,6 +15,11 @@ import java.util.Random;
 
     // Declare the private field
     private ArrayList<Song> songs;
+
+    // Constructor for the music library class 
+    public MusicLibrary() {
+
+    }
 }
 
 
