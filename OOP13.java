@@ -27,6 +27,11 @@ import java.util.Random;
         // Add the song to the list
         songs.add(song);
     }
+
+    // Method to remove a song from the library
+    public void removeSong(Song song) {
+        
+    }
 }
 
 
