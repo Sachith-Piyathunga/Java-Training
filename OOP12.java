@@ -374,5 +374,11 @@ public class OOP12 {
         school.removeStudent(student1);
         school.removeTeacher(teacher2);
         school.removeClass(mathClass);
+
+        // Print the updated school information
+        System.out.println("School information after removing one student, teacher and class:");
+        System.out.println("Number of students: " + school.getStudents().size());
+        System.out.println("Number of teachers: " + school.getTeachers().size());
+        System.out.println("Number of classes: " + school.getClasses().size());
     }
 }
