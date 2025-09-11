@@ -47,7 +47,10 @@ import java.util.Random;
 
         // Check if the library is empty
         if (size == 0) {
-        
+            // Print the message
+            System.out.println("No songs in the library.");
+            // Exit the method
+            return;
         }
     }
 
