@@ -24,7 +24,8 @@ import java.util.Random;
 
     // Method to add a song to the library
     public void addSong(Song song) {
-        
+        // Add the song to the list
+        songs.add(song);
     }
 }
 
