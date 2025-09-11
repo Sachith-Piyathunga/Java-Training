@@ -108,6 +108,12 @@ import java.util.Random;
         // Return the artist
         return artist;
     }
+
+    // Setter method for the artist
+    public void setArtist(String artist) {
+        // Assign the parameter
+        this.artist = artist;
+    }
 }
 
 
