@@ -19,7 +19,12 @@ import java.util.Random;
     // Constructor for the music library class 
     public MusicLibrary() {
         // Create a new array list to hold the song objects
-        song = new ArrayList<Song>();
+        songs = new ArrayList<Song>();
+    }
+
+    // Method to add a song to the library
+    public void addSong(Song song) {
+        
     }
 }
 
