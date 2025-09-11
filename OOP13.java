@@ -83,6 +83,11 @@ import java.util.Random;
     // Create the private field
     private String title;
     private String artist;
+
+    // Constructor for the song class
+    public Song(String title, String artist) {
+        
+    }
 }
 
 
