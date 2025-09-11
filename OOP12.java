@@ -306,5 +306,11 @@ public class OOP12 {
         Teacher teacher1 = new Teacher("Ms. Dhamayanthi", "Math");
         Teacher teacher2 = new Teacher("Mr. Kuruppu", "English");
         Teacher teacher3 = new Teacher("Mr. Dinesh", "Science");
+
+        // Add the teachers to the school
+        school.addTeacher(teacher1);
+        school.addTeacher(teacher2);
+        school.addTeacher(teacher3);
+
     }
 }
