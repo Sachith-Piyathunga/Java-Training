@@ -9,7 +9,11 @@ import java.util.ArrayList;
 // Import java random class
 import java.util.Random;
 
-
+// MusicLibrary.java
+// Define the MusicLibray class
+/* public */ class MusicLibrary {
+    
+}
 
 
 
