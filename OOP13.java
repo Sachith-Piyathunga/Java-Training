@@ -42,8 +42,16 @@ import java.util.Random;
 
     // Method to play random songs
     public void playRandomSong() {
+        // Get the number of songs
+        int size = songs.size();
+
+        // Check if the library is empty
+        if (size == 0) {
         
+        }
     }
+
+    
 }
 
 
