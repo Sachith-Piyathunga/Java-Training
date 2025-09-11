@@ -52,9 +52,10 @@ import java.util.Random;
             // Exit the method
             return;
         }
-    }
 
-    
+        // Create a new random object
+        Random rand = new Random();
+    }  
 }
 
 
