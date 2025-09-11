@@ -76,6 +76,11 @@ import java.util.Random;
  */
 
 
+// Song.java
+// Define the public lass Song
+/* public */ class Song {
+    
+}
 
 
 
