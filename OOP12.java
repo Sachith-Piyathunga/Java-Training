@@ -341,5 +341,12 @@ public class OOP12 {
         school.addClass(mathClass);
         school.addClass(englishClass);
         school.addClass(scienceClass);
+
+        // Print the genaral school information
+        System.out.println("School information:");
+        System.out.println("Number of students: " + school.getStudents().size());
+        System.out.println("Number of teachers: " + school.getTeachers().size());
+        System.out.println("Number of classes: " + school.getClasses().size());
+        System.out.println();
     }
 }
