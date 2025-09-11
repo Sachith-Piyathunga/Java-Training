@@ -30,7 +30,8 @@ import java.util.Random;
 
     // Method to remove a song from the library
     public void removeSong(Song song) {
-        
+        // Remove the song from the list
+        songs.remove(song);
     }
 }
 
