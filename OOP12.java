@@ -312,5 +312,7 @@ public class OOP12 {
         school.addTeacher(teacher2);
         school.addTeacher(teacher3);
 
+        // Create the new schoolo class object
+        SchoolClass mathClass = new SchoolClass("Mathematics", teacher1);
     }
 }
