@@ -295,5 +295,11 @@ public class OOP12 {
         Student student2 = new Student("Hiran", 23);
         Student student3 = new Student("Ravindu", 25);
         Student student4 = new Student("Pesandu", 26);
+
+        // Add the students to the school
+        school.adStudent(student1);
+        school.adStudent(student2);
+        school.adStudent(student3);
+        school.adStudent(student4);
     }
 }
