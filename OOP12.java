@@ -390,5 +390,6 @@ public class OOP12 {
  * The "Main" class is the program entry point. It creates objects of the "School", 
  * "Student", "Teacher", and "SchoolClass" classes to demonstrate the school system's 
  * functionality. It adds students, teachers, and classes to the school object 
- * using its respective methods.
+ * using its respective methods. It then retrieves and prints information about the 
+ * number of students, teachers, and classes in the school.
  */
