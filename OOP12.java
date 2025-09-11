@@ -301,5 +301,10 @@ public class OOP12 {
         school.adStudent(student2);
         school.adStudent(student3);
         school.adStudent(student4);
+
+        // Create new teacher objects
+        Teacher teacher1 = new Teacher("Ms. Dhamayanthi", "Math");
+        Teacher teacher2 = new Teacher("Mr. Kuruppu", "English");
+        Teacher teacher3 = new Teacher("Mr. Dinesh", "Science");
     }
 }
