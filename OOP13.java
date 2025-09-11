@@ -58,6 +58,9 @@ import java.util.Random;
 
         // Genarate a random index
         int index = rand.nextInt(size);
+
+        // Print the title and artist
+        System.out.println("Now playing: " + songs.get(index).getTitle() + " by " + songs.get(index).getArtist());
     }  
 }
 
