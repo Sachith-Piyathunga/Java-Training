@@ -12,7 +12,9 @@ import java.util.Random;
 // MusicLibrary.java
 // Define the MusicLibray class
 /* public */ class MusicLibrary {
-    
+
+    // Declare the private field
+    private ArrayList<Song> songs;
 }
 
 
