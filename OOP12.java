@@ -355,5 +355,12 @@ public class OOP12 {
         System.out.println("Teacher: " + mathClass.getTeacher().getName());
         System.out.println("Number of students: " + mathClass.getStudents().size());
         System.out.println();
+
+        // Print the english class information
+        System.out.println("English class information:");
+        System.out.println("Class name: " + englishClass.getClassName());
+        System.out.println("Teacher: " + englishClass.getTeacher().getName());
+        System.out.println("Number of students: " + englishClass.getStudents().size());
+        System.out.println();
     }
 }
