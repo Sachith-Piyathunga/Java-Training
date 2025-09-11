@@ -79,7 +79,10 @@ import java.util.Random;
 // Song.java
 // Define the public lass Song
 /* public */ class Song {
-    
+
+    // Create the private field
+    private String title;
+    private String artist;
 }
 
 
