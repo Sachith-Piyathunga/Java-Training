@@ -336,5 +336,10 @@ public class OOP12 {
         scienceClass.addStudent(student2);
         scienceClass.addStudent(student3);
         scienceClass.addStudent(student4);
+
+        // Add the classes to the school
+        school.addClass(mathClass);
+        school.addClass(englishClass);
+        school.addClass(scienceClass);
     }
 }
