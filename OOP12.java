@@ -391,5 +391,9 @@ public class OOP12 {
  * "Student", "Teacher", and "SchoolClass" classes to demonstrate the school system's 
  * functionality. It adds students, teachers, and classes to the school object 
  * using its respective methods. It then retrieves and prints information about the 
- * number of students, teachers, and classes in the school.
+ * number of students, teachers, and classes in the school. It also prints the details 
+ * of each class, including the name of the class, the teacher's name, and the number 
+ * of students in each class. Finally, it removes one student, one teacher, and one 
+ * class from the school and prints updated information about the school.
+ * 
  */
