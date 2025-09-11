@@ -96,6 +96,12 @@ import java.util.Random;
         // Return the title
         return title;
     }
+
+    // Setter method for the title
+    public void setTitle(String title) {
+        // Assign the parameter
+        this.title = title;
+    }
 }
 
 
