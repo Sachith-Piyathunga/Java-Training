@@ -55,6 +55,9 @@ import java.util.Random;
 
         // Create a new random object
         Random rand = new Random();
+
+        // Genarate a random index
+        int index = rand.nextInt(size);
     }  
 }
 
