@@ -289,5 +289,11 @@ public class OOP12 {
     public static void main(String[] args) {
         // Create the instance of the School class
         School school = new School();
+
+        // Create new student objects 
+        Student student1 = new Student("Kavindu", 22);
+        Student student2 = new Student("Hiran", 23);
+        Student student3 = new Student("Ravindu", 25);
+        Student student4 = new Student("Pesandu", 26);
     }
 }
