@@ -39,6 +39,11 @@ import java.util.Random;
         // Return the songs
         return songs;
     }
+
+    // Method to play random songs
+    public void playRandomSong() {
+        
+    }
 }
 
 
