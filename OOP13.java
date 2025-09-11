@@ -33,6 +33,11 @@ import java.util.Random;
         // Remove the song from the list
         songs.remove(song);
     }
+
+    // Method to get the all songs list
+    public ArrayList<Song> getSongs() {
+        
+    }
 }
 
 
