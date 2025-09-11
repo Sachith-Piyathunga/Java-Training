@@ -330,5 +330,11 @@ public class OOP12 {
         englishClass.addStudent(student4);
 
         SchoolClass scienceClass = new SchoolClass("Science", teacher3);
+
+        // Add students to the science class
+        scienceClass.addStudent(student1);
+        scienceClass.addStudent(student2);
+        scienceClass.addStudent(student3);
+        scienceClass.addStudent(student4);
     }
 }
