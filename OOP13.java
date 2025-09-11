@@ -86,7 +86,9 @@ import java.util.Random;
 
     // Constructor for the song class
     public Song(String title, String artist) {
-        
+        // Assign parameters
+        this.title = title;
+        this.artist = artist;
     }
 }
 
