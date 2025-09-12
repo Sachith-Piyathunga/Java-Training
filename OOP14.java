@@ -50,6 +50,11 @@ import java.util.ArrayList;
         // Return the director field
         return this.director;
     }
+
+    // Method to get the list of actors
+    public ArrayList<String> getActors() {
+        
+    }
 }
 
 
