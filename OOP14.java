@@ -29,7 +29,8 @@ import java.util.ArrayList;
 
     // Method to add a review to the movie
     public void addReview(Review review) {
-        
+        // Add the provided review to the review list
+        this.reviews.add(review);
     }
 }
 
