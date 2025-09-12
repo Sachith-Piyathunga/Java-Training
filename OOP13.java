@@ -157,6 +157,9 @@ public class OOP13 {
             System.out.println(song.getTitle() + " by " + song.getArtist());
         }
 
+        // Print the message indicating the random songs
+        System.out.println("\n**Playing random song**");
+
 
     }
 }
