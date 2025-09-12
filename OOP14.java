@@ -38,6 +38,11 @@ import java.util.ArrayList;
         // Return the list of reviews
         return this.reviews;
     }
+
+    // Getter method for get the title
+    public String getTitle() {
+        
+    }
 }
 
 
