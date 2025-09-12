@@ -87,6 +87,7 @@ class Review {
         // Assign the pararmeter
         this.reviewText = reviewText;
         this.reviewerName = reviewerName;
+        this.rating = rating;
     }
 }
 
