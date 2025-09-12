@@ -151,5 +151,12 @@ public class OOP13 {
     
         // Print all songs in the library
         System.out.println("All songs:");
+
+        // Iterarte through each song in the library
+        for (Song song : library.getSongs()) {
+            System.out.println(song.getTitle() + " by " + song.getArtist());
+        }
+
+
     }
 }
