@@ -163,5 +163,8 @@ public class OOP13 {
         // Play and print the randon song
         library.playRandomSong();
         System.out.println();
+        library.playRandomSong();
+        System.out.println();
+        library.playRandomSong();
     }
 }
