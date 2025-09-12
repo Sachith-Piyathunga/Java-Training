@@ -146,7 +146,7 @@ public class OOP13 {
         library.addSong(new Song("Imagine", "John Lennon"));
         library.addSong(new Song("All by Myself", "Eric Carmen"));
         library.addSong(new Song("What'd I Say", "Ray Charles"));
-    
+        library.addSong(new Song("Walking in Memphis", "Marc Cohn"));
     
     
     
