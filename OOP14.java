@@ -14,8 +14,13 @@ import java.util.ArrayList;
     // Create the private fields
     private String title;
     private String director;
-    private ArrayList<String> actor;
-    private ArrayList<Review> review;
+    private ArrayList<String> actors;
+    private ArrayList<Review> reviews;
+
+    // Constructor for the movie class
+    public Movie(String title, String director, ArrayList<String> actors) {
+        
+    }
 }
 
 
