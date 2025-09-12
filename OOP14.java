@@ -26,6 +26,11 @@ import java.util.ArrayList;
         this.actors = actors;
         this.reviews = reviews; 
     }
+
+    // Method to add a review to the movie
+    public void addReview(Review review) {
+        
+    }
 }
 
 
