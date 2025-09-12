@@ -10,7 +10,12 @@ import java.util.ArrayList;
 // Movie.java
 // Define the Movie class
 /* public */ class Movie {
-    
+
+    // Create the private fields
+    private String title;
+    private String director;
+    private ArrayList<String> actor;
+    private ArrayList<Review> review;
 }
 
 
