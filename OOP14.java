@@ -73,7 +73,11 @@ import java.util.ArrayList;
  */
 
 
-
+// Review.java
+// Define the Review class
+class Review {
+    
+}
 
 
 
