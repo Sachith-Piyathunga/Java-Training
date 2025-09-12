@@ -7,7 +7,11 @@
 // Import the java arraylist clas
 import java.util.ArrayList;
 
-
+// Movie.java
+// Define the Movie class
+/* public */ class Movie {
+    
+}
 
 
 
