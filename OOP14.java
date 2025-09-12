@@ -41,7 +41,8 @@ import java.util.ArrayList;
 
     // Getter method for get the title
     public String getTitle() {
-        
+        // Return the title
+        return this.title;
     }
 }
 
