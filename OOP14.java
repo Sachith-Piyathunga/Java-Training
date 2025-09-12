@@ -47,7 +47,8 @@ import java.util.ArrayList;
 
     // Getter method for get the direcctor
     public String getDirector() {
-        
+        // Return the director field
+        return this.director;
     }
 }
 
