@@ -53,7 +53,8 @@ import java.util.ArrayList;
 
     // Method to get the list of actors
     public ArrayList<String> getActors() {
-        
+        // Return the list of actors
+        return this.actors;
     }
 }
 
