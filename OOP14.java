@@ -110,7 +110,16 @@ class Review {
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * The Review class represents a movie review, with attributes such as the review 
+ * text, the reviewer's name, and the rating given to the movie. It has a constructor 
+ * that takes these attributes as parameters and sets them as instance variables. 
+ * The class also has three getter methods to retrieve review text, reviewer name, 
+ * and rating.
+ * 
+ */
 
 
 
