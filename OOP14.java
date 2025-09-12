@@ -35,7 +35,8 @@ import java.util.ArrayList;
 
     // Getter method for the list of the all reviews
     public ArrayList<Review> getReviews() {
-        
+        // Return the list of reviews
+        return this.reviews;
     }
 }
 
