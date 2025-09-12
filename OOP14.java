@@ -32,6 +32,11 @@ import java.util.ArrayList;
         // Add the provided review to the review list
         this.reviews.add(review);
     }
+
+    // Getter method for the list of the all reviews
+    public ArrayList<Review> getReviews() {
+        
+    }
 }
 
 
