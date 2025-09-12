@@ -92,7 +92,8 @@ class Review {
 
     // Getter method for the review test
     public String getReviewText() {
-        
+        // Return the review text
+        return reviewText;
     }
 }
 
