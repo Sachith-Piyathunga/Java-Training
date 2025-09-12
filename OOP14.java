@@ -65,7 +65,11 @@ import java.util.ArrayList;
  * The above Java class has instance variables for the movie's title, director, 
  * actors, and reviews. The class constructor takes in the movie's title, director, 
  * and actors as parameters, and initializes the instance variables. The class also 
- * has methods to add a review to the movie's reviews list.
+ * has methods to add a review to the movie's reviews list. It can retrieve the 
+ * reviews list, and the movie's title, director, and actors. The reviews list is 
+ * an ArrayList of Review objects, created outside of this class. These objects 
+ * are added to the reviews list using the addReview() method.
+ * 
  */
 
 
