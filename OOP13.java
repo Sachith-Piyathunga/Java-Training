@@ -137,5 +137,7 @@ public class OOP13 {
     // Define the main class
     public static void main(String[] args) {
 
+        // Create the new instance
+        MusicLibrary library = new MusicLibrary();
     }
 }
