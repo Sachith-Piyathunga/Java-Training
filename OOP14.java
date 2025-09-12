@@ -81,7 +81,11 @@ class Review {
     private String reviewText;
     private String reviewerName;
     private double rating;
-    
+
+    // Constructor for the review class
+    public Review(String reviewText, String reviewerName, double rating) {
+        
+    }
 }
 
 
