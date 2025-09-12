@@ -160,6 +160,8 @@ public class OOP13 {
         // Print the message indicating the random songs
         System.out.println("\n**Playing random song**");
 
-
+        // Play and print the randon song
+        library.playRandomSong();
+        System.out.println();
     }
 }
