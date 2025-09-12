@@ -19,7 +19,12 @@ import java.util.ArrayList;
 
     // Constructor for the movie class
     public Movie(String title, String director, ArrayList<String> actors) {
-        
+
+        // Assign the parameters
+        this.title = title;
+        this.director = director;
+        this.actors = actors;
+        this.reviews = reviews; 
     }
 }
 
