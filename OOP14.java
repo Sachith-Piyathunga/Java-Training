@@ -95,6 +95,11 @@ class Review {
         // Return the review text
         return reviewText;
     }
+
+    // Getter method for the reviewer name
+    public String getReviewerName() {
+
+    }
 }
 
 
