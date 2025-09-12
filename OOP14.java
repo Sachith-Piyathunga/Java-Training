@@ -104,7 +104,8 @@ class Review {
 
     // Getter method for the rating
     public double getRating() {
-        
+        // Return the rating
+        return rating;
     }
 }
 
