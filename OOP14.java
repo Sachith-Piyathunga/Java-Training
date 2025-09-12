@@ -76,6 +76,11 @@ import java.util.ArrayList;
 // Review.java
 // Define the Review class
 class Review {
+
+    // Create the private fields
+    private String reviewText;
+    private String reviewerName;
+    private double rating;
     
 }
 
