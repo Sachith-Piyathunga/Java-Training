@@ -84,7 +84,8 @@ class Review {
 
     // Constructor for the review class
     public Review(String reviewText, String reviewerName, double rating) {
-        
+        // Assign the pararmeter
+        this.reviewText = reviewText;
     }
 }
 
