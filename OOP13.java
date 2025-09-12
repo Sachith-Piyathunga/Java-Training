@@ -139,5 +139,8 @@ public class OOP13 {
 
         // Create the new instance
         MusicLibrary library = new MusicLibrary();
+
+        // Add the song in to the library
+        library.addSong(new Song("Midnight Train to Georgia", "Gladys Knight & the Pips"));
     }
 }
