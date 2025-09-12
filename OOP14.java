@@ -89,6 +89,11 @@ class Review {
         this.reviewerName = reviewerName;
         this.rating = rating;
     }
+
+    // Getter method for the review test
+    public String getReviewText() {
+        
+    }
 }
 
 
