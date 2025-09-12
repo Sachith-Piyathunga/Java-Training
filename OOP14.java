@@ -44,6 +44,11 @@ import java.util.ArrayList;
         // Return the title
         return this.title;
     }
+
+    // Getter method for get the direcctor
+    public String getDirector() {
+        
+    }
 }
 
 
