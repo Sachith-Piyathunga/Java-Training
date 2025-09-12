@@ -149,6 +149,7 @@ public class OOP13 {
         library.addSong(new Song("Walking in Memphis", "Marc Cohn"));
         library.addSong(new Song("In the Air Tonight", "Phil Collins"));
     
-    
+        // Print all songs in the library
+        System.out.println("All songs:");
     }
 }
