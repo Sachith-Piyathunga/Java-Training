@@ -101,6 +101,11 @@ class Review {
         // Return the reviewer name
         return reviewerName;
     }
+
+    // Getter method for the rating
+    public double getRating() {
+        
+    }
 }
 
 
