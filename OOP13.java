@@ -168,3 +168,13 @@ public class OOP13 {
         library.playRandomSong();
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * The Main class creates an instance of MusicLibrary and adds several Song objects 
+ * to it. It then retrieves and prints out the list of all songs in the library. 
+ * Finally, it calls the playRandomSong() method of the MusicLibrary object three 
+ * times to play a random song each time, printing out the details of the played song.
+ */
