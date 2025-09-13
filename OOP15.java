@@ -18,6 +18,10 @@ import java.util.ArrayList;
     private ArrayList ratings;
     private ArrayList itemCounts;
     
+    // Constructor for the Restaurant class
+    public Restaurant() {
+        
+    }
 }
 
 
