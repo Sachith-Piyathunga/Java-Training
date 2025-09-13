@@ -168,7 +168,7 @@ public class OOP14 {
         System.out.println("\nReviews for '" + movie2.getTitle() + "':");
 
         for (Review review : movie2.getReviews()) {
-            
+            System.out.println(review.getReviewText() + " by " + review.getReviewerName() + " - " + review.getRating());
         }
     }
 }
