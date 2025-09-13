@@ -187,4 +187,9 @@ public class OOP14 {
  * movie2 represents the movie "The Godfather" directed by Francis Ford Coppola and 
  * starring Marlon Brando, Al Pacino, and James Caan. It adds three reviews to its 
  * reviews ArrayList.
+ * 
+ * The Main class then displays all the reviews for movie1 and movie2 by iterating 
+ * over their reviews ArrayList and printing out the review text, reviewer name, 
+ * and rating.
+ * 
  */
