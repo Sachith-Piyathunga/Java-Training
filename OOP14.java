@@ -133,5 +133,15 @@ public class OOP14 {
         // Create the movie object
         Movie movie1 = new Movie("Titanic", "James Cameron",
             new ArrayList(Arrays.asList("Leonardo DiCaprio", "Kate Winslet")));
+
+        // Create the review object
+        Review review1 = new Review("Great movie!", "Irvine Rolf", 4.5);
+                
+
+
+
+
+
+        
     }
 }
