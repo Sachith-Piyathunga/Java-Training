@@ -41,7 +41,8 @@ import java.util.ArrayList;
 
     // Method to remove an item from the menu
     public void removeItem(String item) {
-
+        // Get the index of the item in the menu items list
+        int index = this.menuItems.indexOf(item);
     }
 }
 
