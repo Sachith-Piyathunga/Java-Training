@@ -47,6 +47,8 @@ import java.util.ArrayList;
         if (index >= 0) {
             // Remove item
             this.menuItems.remove(index);
+            // Remove the price
+            this.prices.remove(index);
             
         }
     }
