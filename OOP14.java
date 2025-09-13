@@ -129,6 +129,9 @@ class Review {
 public class OOP14 {
     // Define the main method
     public static void main(String[] args) {
-        
+
+        // Create the movie object
+        Movie movie1 = new Movie("Titanic", "James Cameron",
+            new ArrayList(Arrays.asList("Leonardo DiCaprio", "Kate Winslet")));
     }
 }
