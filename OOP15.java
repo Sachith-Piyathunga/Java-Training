@@ -45,6 +45,8 @@ import java.util.ArrayList;
         int index = this.menuItems.indexOf(item);
         // Check if the item exsists in the menu
         if (index >= 0) {
+            // Remove item
+            this.menuItems.remove(index);
             
         }
     }
