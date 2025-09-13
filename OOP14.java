@@ -183,4 +183,8 @@ public class OOP14 {
  * 
  * movie1 represents the movie "Titanic" directed by James Cameron and starring 
  * Leonardo DiCaprio and Kate Winslet. It adds four reviews to its reviews ArrayList.
+ * 
+ * movie2 represents the movie "The Godfather" directed by Francis Ford Coppola and 
+ * starring Marlon Brando, Al Pacino, and James Caan. It adds three reviews to its 
+ * reviews ArrayList.
  */
