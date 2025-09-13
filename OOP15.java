@@ -43,6 +43,10 @@ import java.util.ArrayList;
     public void removeItem(String item) {
         // Get the index of the item in the menu items list
         int index = this.menuItems.indexOf(item);
+        // Check if the item exsists in the menu
+        if (index >= 0) {
+            
+        }
     }
 }
 
