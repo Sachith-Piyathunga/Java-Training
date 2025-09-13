@@ -147,6 +147,9 @@ public class OOP14 {
         movie1.addReview(review3);
         movie1.addReview(review4);
 
+        // Create a movie object
+        Movie movie2 = new Movie("The Godfather", "Francis Ford Coppola",
+            new ArrayList(Arrays.asList("Marlon Brando", "Al Pacino", "James Caan")));
 
 
 
