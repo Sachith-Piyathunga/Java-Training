@@ -154,6 +154,10 @@ public class OOP14 {
         // Display all the reviews for Titanic
         System.out.println("\nRevies for " + movie1.getTitle() + " :");
 
+        for (Review review : movie1.getReviews()) {
+            
+        }
+
 
         
     }
