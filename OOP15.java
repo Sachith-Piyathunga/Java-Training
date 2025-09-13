@@ -22,7 +22,7 @@ import java.util.ArrayList;
     public Restaurant() {
         // Initialize the parameters in arraylist
         this.menuItems = menuItems;
-        
+        this.prices = prices;
     }
 }
 
