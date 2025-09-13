@@ -31,6 +31,8 @@ import java.util.ArrayList;
     public void addItem(String item, double price) {
         // Add the item to the menu items list
         this.menuItems.add(item);
+        // Add price to the prices list
+        this.prices.add(price);
     }
 }
 
