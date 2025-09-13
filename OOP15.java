@@ -27,7 +27,7 @@ import java.util.ArrayList;
         this.itemCounts = new ArrayList();
     }
 
-    // Mehtod to add the items to the menu
+    // Mehtod to add an items to the menu
     public void addItem(String item, double price) {
         // Add the item to the menu items list
         this.menuItems.add(item);
@@ -37,6 +37,11 @@ import java.util.ArrayList;
         this.ratings.add(0);
         // Initialize the item count
         this.itemCounts.add(0);
+    }
+
+    // Method to remove an item from the menu
+    public void removeItem(String item) {
+
     }
 }
 
