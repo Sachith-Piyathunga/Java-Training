@@ -11,6 +11,12 @@ import java.util.ArrayList;
 // Restaurant.java
 // Defeine the Restaurant class
 /* public */ class Restaurant {
+
+    // Declare the ArrayList
+    private ArrayList menuItems;
+    private ArrayList prices;
+    private ArrayList ratings;
+    private ArrayList itemCounts;
     
 }
 
