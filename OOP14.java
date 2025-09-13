@@ -164,6 +164,7 @@ public class OOP14 {
         movie2.addReview(review4);
         movie2.addReview(review5);
 
-        
+        // Display all the reviews for The Godfather
+        System.out.println("\nReviews for '" + movie2.getTitle() + "':");
     }
 }
