@@ -151,7 +151,8 @@ public class OOP14 {
         Movie movie2 = new Movie("The Godfather", "Francis Ford Coppola",
             new ArrayList(Arrays.asList("Marlon Brando", "Al Pacino", "James Caan")));
 
-
+        // Display all the reviews for Titanic
+        System.out.println("\nRevies for " + movie1.getTitle() + " :");
 
 
         
