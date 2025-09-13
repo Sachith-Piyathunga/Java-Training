@@ -26,6 +26,11 @@ import java.util.ArrayList;
         this.ratings = new ArrayList();
         this.itemCounts = new ArrayList();
     }
+
+    // Mehtod to add the items to the menu
+    public void addItem(String item, double price) {
+        
+    }
 }
 
 
