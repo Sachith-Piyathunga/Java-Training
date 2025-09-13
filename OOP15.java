@@ -49,7 +49,8 @@ import java.util.ArrayList;
             this.menuItems.remove(index);
             // Remove the price
             this.prices.remove(index);
-            
+            // Remove the rating
+            this.ratings.remove(index);
         }
     }
 }
