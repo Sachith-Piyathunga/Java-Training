@@ -137,6 +137,7 @@ public class OOP14 {
         // Create the review object
         Review review1 = new Review("Great movie!", "Irvine Rolf", 4.5);
         Review review2 = new Review("Highly recommended!", "Ashkii Karlheinz", 4.5);
+        Review review3 = new Review("A classic that never gets old.", "Nele Athol", 5.0);
                
 
 
