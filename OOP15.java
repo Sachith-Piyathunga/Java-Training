@@ -33,6 +33,8 @@ import java.util.ArrayList;
         this.menuItems.add(item);
         // Add price to the prices list
         this.prices.add(price);
+        // Initialize the rating for the item
+        this.ratings.add(0);
     }
 }
 
