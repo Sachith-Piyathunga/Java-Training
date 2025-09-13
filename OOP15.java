@@ -21,9 +21,10 @@ import java.util.ArrayList;
     // Constructor for the Restaurant class
     public Restaurant() {
         // Initialize the parameters in arraylist
-        this.menuItems = menuItems;
-        this.prices = prices;
-        this.ratings = ratings;
+        this.menuItems = new ArrayList();
+        this.prices = new ArrayList();
+        this.ratings = new ArrayList();
+        this.itemCounts = new ArrayList();
     }
 }
 
