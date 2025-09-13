@@ -180,4 +180,7 @@ public class OOP14 {
  * The Main class is the entry point for the program. It creates two Movie objects: 
  * movie1 and movie2. It also creates five Review objects: review1, review2, review3, 
  * review4, and review5.
+ * 
+ * movie1 represents the movie "Titanic" directed by James Cameron and starring 
+ * Leonardo DiCaprio and Kate Winslet. It adds four reviews to its reviews ArrayList.
  */
