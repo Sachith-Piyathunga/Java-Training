@@ -159,6 +159,10 @@ public class OOP14 {
             + review.getRating());
         }
 
+        // Add reviews to the movie2
+        movie2.addReview(review1);
+        movie2.addReview(review4);
+        movie2.addReview(review5);
 
         
     }
