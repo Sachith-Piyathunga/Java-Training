@@ -155,7 +155,8 @@ public class OOP14 {
         System.out.println("\nRevies for " + movie1.getTitle() + " :");
 
         for (Review review : movie1.getReviews()) {
-            
+            System.out.println(review.getReviewText() + " by " + review.getReviewerName() + " - "
+            + review.getRating());
         }
 
 
