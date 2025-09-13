@@ -35,6 +35,8 @@ import java.util.ArrayList;
         this.prices.add(price);
         // Initialize the rating for the item
         this.ratings.add(0);
+        // Initialize the item count
+        this.itemCounts.add(0);
     }
 }
 
