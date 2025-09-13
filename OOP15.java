@@ -23,6 +23,7 @@ import java.util.ArrayList;
         // Initialize the parameters in arraylist
         this.menuItems = menuItems;
         this.prices = prices;
+        this.ratings = ratings;
     }
 }
 
