@@ -29,7 +29,8 @@ import java.util.ArrayList;
 
     // Mehtod to add the items to the menu
     public void addItem(String item, double price) {
-        
+        // Add the item to the menu items list
+        this.menuItems.add(item);
     }
 }
 
