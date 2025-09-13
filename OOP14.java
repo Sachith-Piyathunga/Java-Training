@@ -139,6 +139,7 @@ public class OOP14 {
         Review review2 = new Review("Highly recommended!", "Ashkii Karlheinz", 4.5);
         Review review3 = new Review("A classic that never gets old.", "Nele Athol", 5.0);
         Review review4 = new Review("Great movie!", "Cipactli Anselma", 4.0);
+        Review review5 = new Review("Highly recommended!", "Martin Nadine", 4.0);
                
 
 
