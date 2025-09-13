@@ -6,6 +6,8 @@
 
 // Import the java arraylist clas
 import java.util.ArrayList;
+import java.util.Arrays;
+
 
 // Movie.java
 // Define the Movie class
