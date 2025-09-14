@@ -134,6 +134,7 @@ import java.util.ArrayList;
 public class OOP15 {
     // Define the main method
     public static void main(String[] args) {
-        
+        // Create the new restaurant object
+        Restaurant restaurant = new Restaurant();
     }
 }
