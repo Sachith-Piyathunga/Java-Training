@@ -170,5 +170,7 @@ public class OOP15 {
 
         // Print the message
         System.out.println("\nRemove 'Pizza' from the above menu.");
+        // Remove an item from the menu
+        restaurant.removeItem("Pizza");
     }
 }
