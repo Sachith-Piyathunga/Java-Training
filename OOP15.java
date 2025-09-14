@@ -93,7 +93,8 @@ import java.util.ArrayList;
     public void displayMenu() {
         // Loop through the menu items
         for (int i = 0; i < menuItems.size(); i++) {
-            
+            // Print the item
+            System.out.println(menuItems.get(i) + ": $" + prices.get(i));
         }
     }
 }
