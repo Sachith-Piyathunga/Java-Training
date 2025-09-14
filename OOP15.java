@@ -79,6 +79,8 @@ import java.util.ArrayList;
         if (index >= 0) {
             // Get the total rating of an item
             int totalRating = this.ratings.get(index);
+            // Get the item count 
+            int itemCount = this.itemCounts.get(index);
         }
     }
 }
