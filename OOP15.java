@@ -145,5 +145,8 @@ public class OOP15 {
         System.out.println("Menu: Item & Price");
         // Display the menu items
         restaurant.displayMenu();
+
+        // Add a rating
+        restaurant.addRating("Burger", 4);
     }
 }
