@@ -157,5 +157,7 @@ public class OOP15 {
         double averageRating = restaurant.getAverageRating("Burger");
         // Print the average rating
         System.out.println("\nAverage rating for Burger: " + averageRating);
+        // Get the average rating
+        averageRating = restaurant.getAverageRating("Pizza");
     }
 }
