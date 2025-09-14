@@ -174,5 +174,7 @@ public class OOP15 {
         restaurant.removeItem("Pizza");
         // Print the updated menu
         System.out.println("\nUpdated menu:");
+        // Display the updated menu
+        restaurant.displayMenu();
     }
 }
