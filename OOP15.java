@@ -70,6 +70,11 @@ import java.util.ArrayList;
             this.itemCounts.set(index, itemCounts + 1);
         }
     }
+
+    // Method to get the average rating of an item
+    public double getAverageRating(String item) {
+        
+    }
 }
 
 
