@@ -60,7 +60,8 @@ import java.util.ArrayList;
         int index = this.menuItems.indexOf(item);
         // Check the if item exsists in the menu
         if (index >= 0) {
-            
+            // Get the current rating
+            int currentRating = this.ratings.get(index);
         }
     }
 }
