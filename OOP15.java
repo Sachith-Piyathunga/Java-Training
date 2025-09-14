@@ -97,6 +97,11 @@ import java.util.ArrayList;
             System.out.println(menuItems.get(i) + ": $" + prices.get(i));
         }
     }
+
+    // Method to calculate the average rating
+    public double calculateAverageRating() {
+        
+    }
 }
 
 
