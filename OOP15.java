@@ -136,5 +136,7 @@ public class OOP15 {
     public static void main(String[] args) {
         // Create the new restaurant object
         Restaurant restaurant = new Restaurant();
+        // Add an item
+        restaurant.addItem("Burger", 8.99);
     }
 }
