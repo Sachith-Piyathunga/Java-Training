@@ -58,6 +58,10 @@ import java.util.ArrayList;
     public void addRating() {
         // Get the index of the item
         int index = this.menuItems.indexOf(item);
+        // Check the if item exsists in the menu
+        if (index >= 0) {
+            
+        }
     }
 }
 
