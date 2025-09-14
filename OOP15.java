@@ -66,6 +66,8 @@ import java.util.ArrayList;
             int totalCount = this.itemCounts.get(index);
             // Update the rarint of an item
             this.ratings.set(index, currentRating + ratings);
+            // Update the item count
+            this.itemCounts.set(index, itemCounts + 1);
         }
     }
 }
