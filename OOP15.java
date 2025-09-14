@@ -151,5 +151,6 @@ public class OOP15 {
         restaurant.addRating("Burger", 5);
         restaurant.addRating("Pizza", 3);
         restaurant.addRating("Pizza", 4);
+        restaurant.addRating("Salad", 2);
     }
 }
