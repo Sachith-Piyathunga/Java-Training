@@ -104,6 +104,10 @@ import java.util.ArrayList;
         double totalRating = 0;
         // Initialize number of rating
         int numRatings = 0;
+        // Loop through the rating
+        for (int i = 0; i <ratings.size(); i++) {
+            
+        }
     }
 }
 
