@@ -100,7 +100,8 @@ import java.util.ArrayList;
 
     // Method to calculate the average rating
     public double calculateAverageRating() {
-        
+        // Initialize total rating
+        double totalRating = 0;
     }
 }
 
