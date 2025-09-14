@@ -105,7 +105,7 @@ import java.util.ArrayList;
         // Initialize number of rating
         int numRatings = 0;
         // Loop through the rating
-        for (int i = 0; i <ratings.size(); i++) {
+        for (int i = 0; i < ratings.size(); i++) {
             // Add the rating to total rating
             totalRating += ratings.get(i);
             // increment numebr of rating
@@ -178,3 +178,13 @@ public class OOP15 {
         restaurant.displayMenu();
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * The Main class contains the main function that creates an object of the Restaurant 
+ * class and calls its methods to add, remove, and display menu items, as well as add 
+ * ratings and calculate average ratings for those items.
+ * 
+ */
