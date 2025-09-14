@@ -73,7 +73,8 @@ import java.util.ArrayList;
 
     // Method to get the average rating of an item
     public double getAverageRating(String item) {
-        
+        // Get the index of the item
+        int index = this.menuItems.indexOf(item);
     }
 }
 
