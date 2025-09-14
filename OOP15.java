@@ -143,5 +143,7 @@ public class OOP15 {
 
         // Print the menu header
         System.out.println("Menu: Item & Price");
+        // Display the menu items
+        restaurant.displayMenu();
     }
 }
