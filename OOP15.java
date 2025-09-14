@@ -106,7 +106,8 @@ import java.util.ArrayList;
         int numRatings = 0;
         // Loop through the rating
         for (int i = 0; i <ratings.size(); i++) {
-            
+            // Add the rating to total rating
+            totalRating += ratings.get(i);
         }
     }
 }
