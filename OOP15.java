@@ -88,6 +88,11 @@ import java.util.ArrayList;
             return 0.0;
         }
     }
+
+    // Method to display the menu
+    public void displayMenu() {
+        
+    }
 }
 
 
