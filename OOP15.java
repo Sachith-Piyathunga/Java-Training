@@ -161,5 +161,7 @@ public class OOP15 {
         averageRating = restaurant.getAverageRating("Pizza");
         // Print the average rating
         System.out.println("Average rating for Pizza: " + averageRating);
+        // Get the average rating
+        averageRating = restaurant.getAverageRating("Salad");
     }
 }
