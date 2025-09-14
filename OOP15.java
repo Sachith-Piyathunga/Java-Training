@@ -167,5 +167,8 @@ public class OOP15 {
         System.out.println("Average rating for Salad: " + averageRating);
         // Print the overall average rating for all items
         System.out.println("Average rating: " + restaurant.calculateAverageRating());
+
+        // Print the message
+        System.out.println("\nRemove 'Pizza' from the above menu.");
     }
 }
