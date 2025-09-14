@@ -91,7 +91,10 @@ import java.util.ArrayList;
 
     // Method to display the menu
     public void displayMenu() {
-        
+        // Loop through the menu items
+        for (int i = 0; i < menuItems.size(); i++) {
+            
+        }
     }
 }
 
