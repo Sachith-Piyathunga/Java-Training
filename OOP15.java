@@ -117,7 +117,16 @@ import java.util.ArrayList;
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * The above Java class defines a restaurant with menu items, prices, and ratings. 
+ * It has a constructor that initializes three ArrayLists for the menu items, prices, 
+ * and ratings. It also has methods to add and remove items from the menu and add 
+ * ratings for each item. The class also includes a method to calculate the average 
+ * rating for a given menu item. It also includes a method to display the current menu.
+ * 
+ */
 
 
 
