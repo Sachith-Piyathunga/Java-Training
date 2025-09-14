@@ -139,5 +139,6 @@ public class OOP15 {
         // Add an item
         restaurant.addItem("Burger", 8.99);
         restaurant.addItem("Pizza", 10.99);
+        restaurant.addItem("Salad", 6.00);
     }
 }
