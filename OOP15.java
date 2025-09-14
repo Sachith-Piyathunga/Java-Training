@@ -53,6 +53,11 @@ import java.util.ArrayList;
             this.ratings.remove(index);
         }
     }
+
+    // Method add a rating to an item
+    public void addRating() {
+        
+    }
 }
 
 
