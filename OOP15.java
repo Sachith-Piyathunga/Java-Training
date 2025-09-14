@@ -62,6 +62,8 @@ import java.util.ArrayList;
         if (index >= 0) {
             // Get the current rating
             int currentRating = this.ratings.get(index);
+            // Get the current item count
+            int totalCount = this.itemCounts.get(index);
         }
     }
 }
