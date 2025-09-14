@@ -108,9 +108,11 @@ import java.util.ArrayList;
         for (int i = 0; i <ratings.size(); i++) {
             // Add the rating to total rating
             totalRating += ratings.get(i);
-            // increment numer of rating
+            // increment numebr of rating
             numRatings++;
         }
+        // Calculate and return the average rating
+        return numRatings > 0 ? totalRating / numRatings : 0.0;
     }
 }
 
