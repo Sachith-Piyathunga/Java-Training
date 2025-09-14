@@ -56,7 +56,8 @@ import java.util.ArrayList;
 
     // Method add a rating to an item
     public void addRating() {
-        
+        // Get the index of the item
+        int index = this.menuItems.indexOf(item);
     }
 }
 
