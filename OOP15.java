@@ -102,6 +102,8 @@ import java.util.ArrayList;
     public double calculateAverageRating() {
         // Initialize total rating
         double totalRating = 0;
+        // Initialize number of rating
+        int numRatings = 0;
     }
 }
 
