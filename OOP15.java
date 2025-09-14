@@ -140,5 +140,8 @@ public class OOP15 {
         restaurant.addItem("Burger", 8.99);
         restaurant.addItem("Pizza", 10.99);
         restaurant.addItem("Salad", 6.00);
+
+        // Print the menu header
+        System.out.println("Menu: Item & Price");
     }
 }
