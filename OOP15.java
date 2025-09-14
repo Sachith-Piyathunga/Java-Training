@@ -83,6 +83,9 @@ import java.util.ArrayList;
             int itemCount = this.itemCounts.get(index);
             // Calculate and return the average rating
             return itemCount > 0 ? (double) totalRating / itemCount : 0.0;
+        } else {
+            // Return rating
+            return 0.0;
         }
     }
 }
