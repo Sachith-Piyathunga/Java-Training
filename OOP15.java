@@ -152,5 +152,8 @@ public class OOP15 {
         restaurant.addRating("Pizza", 3);
         restaurant.addRating("Pizza", 4);
         restaurant.addRating("Salad", 2);
+
+        // Get the average rating
+        double averageRating = restaurant.getAverageRating("Burger");
     }
 }
