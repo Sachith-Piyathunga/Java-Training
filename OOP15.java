@@ -75,6 +75,10 @@ import java.util.ArrayList;
     public double getAverageRating(String item) {
         // Get the index of the item
         int index = this.menuItems.indexOf(item);
+        // Check if the item is exsists
+        if (index >= 0) {
+            
+        }
     }
 }
 
