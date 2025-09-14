@@ -148,5 +148,6 @@ public class OOP15 {
 
         // Add a rating
         restaurant.addRating("Burger", 4);
+        restaurant.addRating("Burger", 5);
     }
 }
