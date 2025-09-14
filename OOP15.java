@@ -77,7 +77,8 @@ import java.util.ArrayList;
         int index = this.menuItems.indexOf(item);
         // Check if the item is exsists
         if (index >= 0) {
-            
+            // Get the total rating of an item
+            int totalRating = this.ratings.get(index);
         }
     }
 }
