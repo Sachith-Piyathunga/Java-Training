@@ -32,6 +32,11 @@ import java.util.Random;
         // Print the search details
         System.out.println("Searching for flights from " + origin + " to " + destination + " on " + date + " for " + numPassengers + " passengers.");
     }
+
+    // Method to search for hotels
+    public void searchHotels(String location, String checkIn, String checkOut, int numGuests) {
+        
+    }
 }
 
 
