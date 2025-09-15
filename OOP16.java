@@ -43,7 +43,8 @@ import java.util.Random;
     public void bookFlight(int flightNumber, String passengerName, String origin, String destination, String date, int numPassengers, double price) {
         // Create the new flight object
         Flight flight = new Flight(flightNumber, passengerName, origin, destination, date, numPassengers, price);
-
+        // Generate a confomation number
+        int confirmationNumber = generateConfirmationNumber();
     }
 }
 
