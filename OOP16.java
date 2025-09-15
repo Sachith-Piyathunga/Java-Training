@@ -84,7 +84,7 @@ import java.util.Random;
         for (Hotel hotel : this.hotels) {
             // Check if the confirmation number is maches
             if (hotel.getConfirmationNumber() == confirmationNumber) {
-                
+                this.hotels.remove(hotel);
             }
         }
     }
