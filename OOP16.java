@@ -49,6 +49,8 @@ import java.util.Random;
         flight.setConfirmationNumber(confirmationNumber);
         // Add the flight to the flights ArrayList
         this.flights.add(flight);
+        // Print the confimatioin number for the booked flight
+        System.out.println("Flight booked! Confirmation number: " + confirmationNumber);
     }
 }
 
