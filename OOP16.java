@@ -18,7 +18,11 @@ import java.util.Random;
     private ArrayList flights;
     // Declare an array list
     private ArrayList hotels;
-    
+
+    // Constructor for the travel app class
+    public TravelApp() {
+        
+    }
 }
 
 
