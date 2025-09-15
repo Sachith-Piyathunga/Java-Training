@@ -21,7 +21,8 @@ import java.util.Random;
 
     // Constructor for the travel app class
     public TravelApp() {
-        
+        // Initialize the flights array list
+        this.flights = new ArrayList();
     }
 }
 
