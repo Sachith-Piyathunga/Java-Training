@@ -38,6 +38,11 @@ import java.util.Random;
         // Print the search details
         System.out.println("Searching for hotels in " + location + " from " + checkIn + " to " + checkOut + " for " + numGuests + " guests.");
     }
+
+    // Method to book a flight
+    public void bookFlight(int flightNumber, String passengerName, String origin, String destination, String date, int numPassengers, double price) {
+        
+    }
 }
 
 
