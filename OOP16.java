@@ -93,7 +93,10 @@ import java.util.Random;
 
         // Print the message if no reservation is found
         System.out.println("No reservation found with confirmation number " + confirmationNumber + ".");
+    }
 
+    // Method to generate the random confirmation number
+    private int generateConfirmationNumber() {
         
     }
 }
