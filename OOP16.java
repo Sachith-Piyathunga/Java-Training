@@ -13,7 +13,9 @@ import java.util.Random;
 // TravelApp.java
 // Define the TravelApp class
 /* public */ class TravelApp {
-    
+
+    // Declare an array list
+    private ArrayList flights;
 }
 
 
