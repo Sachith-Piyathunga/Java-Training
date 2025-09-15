@@ -35,7 +35,8 @@ import java.util.Random;
 
     // Method to search for hotels
     public void searchHotels(String location, String checkIn, String checkOut, int numGuests) {
-        
+        // Print the search details
+        System.out.println("Searching for hotels in " + location + " from " + checkIn + " to " + checkOut + " for " + numGuests + " guests.");
     }
 }
 
