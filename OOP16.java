@@ -52,6 +52,11 @@ import java.util.Random;
         // Print the confimatioin number for the booked flight
         System.out.println("Flight booked! Confirmation number: " + confirmationNumber);
     }
+
+    // Method to book a hotel
+    public void bookHotel(int hotelId, String guestName, String location, String checkIn, String checkOut, int numGuests, double price) {
+        
+    }
 }
 
 
