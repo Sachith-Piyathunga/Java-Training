@@ -47,6 +47,8 @@ import java.util.Random;
         int confirmationNumber = generateConfirmationNumber();
         // Set the confomation number for the flight
         flight.setConfirmationNumber(confirmationNumber);
+        // Add the flight to the flights ArrayList
+        this.flights.add(flight);
     }
 }
 
