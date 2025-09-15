@@ -59,7 +59,8 @@ import java.util.Random;
         Hotel hotel = new Hotel(hotelId, guestName, location, checkIn, checkOut, numGuests, price);
         // Generate a confimation number
         int confirmationNumber = generateConfirmationNumber();
-        
+        // Set the confirmation number for the hotel
+        hotel.setConfirmationNumber(confirmationNumber);
     }
 }
 
