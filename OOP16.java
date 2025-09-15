@@ -90,6 +90,11 @@ import java.util.Random;
                 return;
             }
         }
+
+        // Print the message if no reservation is found
+        System.out.println("No reservation found with confirmation number " + confirmationNumber + ".");
+
+        
     }
 }
 
