@@ -74,6 +74,9 @@ import java.util.Random;
             // Check if the confirmation number is maches
             if (flight.getConfirmationNumber() == confirmationNumber) {
                 this.flights.remove(flight);
+                // Print the cancellation message
+                System.out.println("Flight reservation with confirmation number " + confirmationNumber + " cancelled.");
+                return;
             }
         }
     }
