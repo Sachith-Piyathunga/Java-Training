@@ -29,7 +29,8 @@ import java.util.Random;
 
     // Method to search for flights
     public void searchFlights(String origin, String destination, String date, int numPassengers) {
-        
+        // Print the search details
+        System.out.println("Searching for flights from " + origin + " to " + destination + " on " + date + " for " + numPassengers + " passengers.");
     }
 }
 
