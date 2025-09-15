@@ -26,6 +26,11 @@ import java.util.Random;
         // Initialize the hotels array list
         this.hotels = new ArrayList();
     }
+
+    // Method to search for flights
+    public void searchFlights(String origin, String destination, String date, int numPassengers) {
+        
+    }
 }
 
 
