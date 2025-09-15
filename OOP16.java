@@ -10,7 +10,11 @@ import java.util.ArrayList;
 // Import the Random class
 import java.util.Random;
 
-
+// TravelApp.java
+// Define the TravelApp class
+/* public */ class TravelApp {
+    
+}
 
 
 
