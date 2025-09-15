@@ -57,6 +57,8 @@ import java.util.Random;
     public void bookHotel(int hotelId, String guestName, String location, String checkIn, String checkOut, int numGuests, double price) {
         // Create the new hotel object
         Hotel hotel = new Hotel(hotelId, guestName, location, checkIn, checkOut, numGuests, price);
+        // Generate a confimation number
+        int confirmationNumber = generateConfirmationNumber();
         
     }
 }
