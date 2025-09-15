@@ -63,6 +63,8 @@ import java.util.Random;
         hotel.setConfirmationNumber(confirmationNumber);
         // Add the hotel to the hotels array list
         this.hotels.add(hotel);
+        // Print the confirmation number for the booked hotel
+        System.out.println("Flight booked! Confirmation number: " + confirmationNumber);
     }
 }
 
