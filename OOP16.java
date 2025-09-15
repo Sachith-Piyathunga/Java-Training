@@ -73,7 +73,7 @@ import java.util.Random;
         for (Flight flight : this.flights) {
             // Check if the confirmation number is maches
             if (flight.getConfirmationNumber() == confirmationNumber) {
-                
+                this.flights.remove(flight);
             }
         }
     }
