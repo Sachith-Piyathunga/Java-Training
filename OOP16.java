@@ -71,7 +71,10 @@ import java.util.Random;
     public void cancelReservation(int confirmationNumber) {
         // Loop through the flights array list
         for (Flight flight : this.flights) {
-            
+            // Check if the confirmation number is maches
+            if (flight.getConfirmationNumber() == confirmationNumber) {
+                
+            }
         }
     }
 }
