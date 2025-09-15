@@ -45,6 +45,8 @@ import java.util.Random;
         Flight flight = new Flight(flightNumber, passengerName, origin, destination, date, numPassengers, price);
         // Generate a confomation number
         int confirmationNumber = generateConfirmationNumber();
+        // Set the confomation number for the flight
+        flight.setConfirmationNumber(confirmationNumber);
     }
 }
 
