@@ -23,6 +23,8 @@ import java.util.Random;
     public TravelApp() {
         // Initialize the flights array list
         this.flights = new ArrayList();
+        // Initialize the hotels array list
+        this.hotels = new ArrayList();
     }
 }
 
