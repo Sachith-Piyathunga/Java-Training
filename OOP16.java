@@ -69,7 +69,10 @@ import java.util.Random;
 
     // Method to cancel a reservation
     public void cancelReservation(int confirmationNumber) {
-        
+        // Loop through the flights array list
+        for (Flight flight : this.flights) {
+            
+        }
     }
 }
 
