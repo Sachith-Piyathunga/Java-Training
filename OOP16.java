@@ -61,6 +61,8 @@ import java.util.Random;
         int confirmationNumber = generateConfirmationNumber();
         // Set the confirmation number for the hotel
         hotel.setConfirmationNumber(confirmationNumber);
+        // Add the hotel to the hotels array list
+        this.hotels.add(hotel);
     }
 }
 
