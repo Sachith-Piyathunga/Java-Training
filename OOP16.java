@@ -85,6 +85,9 @@ import java.util.Random;
             // Check if the confirmation number is maches
             if (hotel.getConfirmationNumber() == confirmationNumber) {
                 this.hotels.remove(hotel);
+                // Print the cancellation message
+                System.out.println("Hotel reservation with confirmation number " + confirmationNumber + " cancelled.");
+                return;
             }
         }
     }
