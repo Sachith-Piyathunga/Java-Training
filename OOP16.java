@@ -99,6 +99,8 @@ import java.util.Random;
     private int generateConfirmationNumber() {
         // Create the random object
         Random rand = new Random();
+        // Generate and return a random number
+        return rand.nextInt(900000) + 100000;
     }
 }
 
