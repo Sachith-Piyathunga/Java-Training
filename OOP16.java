@@ -82,7 +82,10 @@ import java.util.Random;
 
         // Loop through the hotels array list
         for (Hotel hotel : this.hotels) {
-            
+            // Check if the confirmation number is maches
+            if (hotel.getConfirmationNumber() == confirmationNumber) {
+                
+            }
         }
     }
 }
