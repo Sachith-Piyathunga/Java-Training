@@ -79,6 +79,11 @@ import java.util.Random;
                 return;
             }
         }
+
+        // Loop through the hotels array list
+        for (Hotel hotel : this.hotels) {
+            
+        }
     }
 }
 
