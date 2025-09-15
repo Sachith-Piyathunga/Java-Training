@@ -97,7 +97,8 @@ import java.util.Random;
 
     // Method to generate the random confirmation number
     private int generateConfirmationNumber() {
-        
+        // Create the random object
+        Random rand = new Random();
     }
 }
 
