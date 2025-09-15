@@ -16,6 +16,9 @@ import java.util.Random;
 
     // Declare an array list
     private ArrayList flights;
+    // Declare an array list
+    private ArrayList hotels;
+    
 }
 
 
