@@ -105,6 +105,18 @@ import java.util.Random;
 }
 
 
+/**
+ * Explanation
+ * 
+ * The above Java class is used for searching and booking flights and hotels, as well 
+ * as cancelling reservations. It contains methods to search for flights and hotels 
+ * based on specific criteria, book flights and hotels by creating new Flight and 
+ * Hotel objects, cancel reservations by confirmation number, and generate a random 
+ * confirmation number using the Random class in Java. It also contains private 
+ * instance variables to store ArrayLists of Flight and Hotel objects that 
+ * represent the current reservations.
+ * 
+ */
 
 
 
