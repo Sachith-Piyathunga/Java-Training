@@ -55,6 +55,8 @@ import java.util.Random;
 
     // Method to book a hotel
     public void bookHotel(int hotelId, String guestName, String location, String checkIn, String checkOut, int numGuests, double price) {
+        // Create the new hotel object
+        Hotel hotel = new Hotel(hotelId, guestName, location, checkIn, checkOut, numGuests, price);
         
     }
 }
