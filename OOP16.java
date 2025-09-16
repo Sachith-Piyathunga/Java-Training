@@ -237,6 +237,7 @@ import java.util.Random;
     private String checkIn;
     private String checkOut;
     private int numGuests;
+    private double price;
 } 
 
 
