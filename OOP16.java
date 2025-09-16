@@ -232,6 +232,8 @@ import java.util.Random;
     
     // Declare the variables
     private int hotelId;
+    private String name;
+    private String location;
 
 } 
 
