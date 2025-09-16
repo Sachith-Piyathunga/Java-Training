@@ -139,6 +139,11 @@ import java.util.Random;
     private double price;
     // Declare a variable
     private int confirmationNumber;
+
+    // Constructor for the flight class
+    public Flight(int flightNumber, String passengerName, String origin, String destination, String date, int numPassengers, double price) {
+        
+    }
 }
 
 
