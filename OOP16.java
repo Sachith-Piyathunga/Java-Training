@@ -314,6 +314,16 @@ import java.util.Random;
 } 
 
 
+/**
+ * Explanation
+ * 
+ * The above “Hotel” class represents a hotel, with an ID, a name, a location, a 
+ * check-in date, a check-out date, a number of guests, a price, and a confirmation 
+ * number. It contains a constructor that initializes these properties, as well as 
+ * getter and setter methods for each property. The confirmation number is randomly 
+ * generated and set through the setter method.
+ * 
+ */
 
 
 
