@@ -275,6 +275,12 @@ import java.util.Random;
         // Return the location
         return location;
     }
+
+    // Getter mnethod for the check in date
+    public String getCheckIn() {
+        // Return the check in date
+        return checkIn;
+    }
 } 
 
 
