@@ -214,7 +214,16 @@ import java.util.Random;
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * The above “Flight” class represents a flight. It has flight number, passenger name, 
+ * origin, destination, date, number of passengers, price, and confirmation number. 
+ * It has a constructor to create a Flight object and getters and setters to access 
+ * and modify the object's properties. The confirmation number is set after a flight 
+ * is booked to identify a reservation.
+ * 
+ */
 
 
 
