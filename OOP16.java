@@ -252,6 +252,8 @@ import java.util.Random;
         this.checkIn = checkIn;
         // Initialize the check out date
         this.checkOut = checkOut;
+        // Initialize the number of guest
+        this.numGuests = numGuests;
     }
 } 
 
