@@ -242,7 +242,8 @@ import java.util.Random;
 
     // Constructor for the Hotel class
     public Hotel(int hotelId, String name, String location, String checkIn, String checkOut, int numGuests, double price) {
-        
+        // Initialize the hotel Id
+        this.hotelId = hotelId;
     }
 } 
 
