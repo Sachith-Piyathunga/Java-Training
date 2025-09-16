@@ -150,6 +150,8 @@ import java.util.Random;
         this.origin = origin;
         // Initialize the destination
         this.destination = destination;
+        // Initialize the date
+        this.date = date;
     }
 }
 
