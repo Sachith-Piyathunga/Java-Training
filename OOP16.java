@@ -281,6 +281,12 @@ import java.util.Random;
         // Return the check in date
         return checkIn;
     }
+
+    // Getter method for the check out date
+    public String getCheckOut() {
+        // Retunr the check out date
+        return checkOut;
+    }
 } 
 
 
