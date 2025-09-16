@@ -257,6 +257,12 @@ import java.util.Random;
         // Initialize the price of the stay
         this.price = price;
     }
+
+    // Getter method for the hotel ID
+    public int getHotelId() {
+        // Return the Id
+        return hotelId;
+    }
 } 
 
 
