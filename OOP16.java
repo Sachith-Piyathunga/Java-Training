@@ -254,6 +254,8 @@ import java.util.Random;
         this.checkOut = checkOut;
         // Initialize the number of guest
         this.numGuests = numGuests;
+        // Initialize the price of the stay
+        this.price = price;
     }
 } 
 
