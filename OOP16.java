@@ -163,6 +163,12 @@ import java.util.Random;
         // Return the flight number
         return flightNumber;
     }
+
+    // Getter methd for the passenger name
+    public String getPassengerName() {
+        // Return the passenger name
+        return passengerName;
+    }
 }
 
 
