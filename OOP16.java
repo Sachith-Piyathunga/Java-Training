@@ -137,7 +137,8 @@ import java.util.Random;
     private int numPassengers;
     // Declare a variable
     private double price;
-    
+    // Declare a variable
+    private int confirmationNumber;
 }
 
 
