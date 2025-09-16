@@ -239,6 +239,11 @@ import java.util.Random;
     private int numGuests;
     private double price;
     private int confirmationNumber;
+
+    // Constructor for the Hotel class
+    public Hotel(int hotelId, String name, String location, String checkIn, String checkOut, int numGuests, double price) {
+        
+    }
 } 
 
 
