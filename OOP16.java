@@ -154,6 +154,8 @@ import java.util.Random;
         this.date = date;
         // Initialize the number od passengers
         this.numPassengers = numPassengers;
+        // Initialize the price
+        this.price = price;
     }
 }
 
