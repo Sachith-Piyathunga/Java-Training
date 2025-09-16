@@ -248,6 +248,8 @@ import java.util.Random;
         this.name = name;
         // Initialize the location of the hotel
         this.location = location;
+        // Initialize the check in date
+        this.checkIn = checkIn;
     }
 } 
 
