@@ -187,6 +187,12 @@ import java.util.Random;
         // Return the date
         return date;
     }
+
+    // Getter method for the nuber of passengers
+    public int getNumPassengers() {
+        // Return the number of passengers
+        return numPassengers;
+    }
 }
 
 
