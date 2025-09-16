@@ -131,6 +131,8 @@ import java.util.Random;
     private String origin;
     // Declare a variable
     private String destination;
+    // Declare a variable
+    private String date;
 }
 
 
