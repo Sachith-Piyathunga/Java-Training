@@ -246,6 +246,8 @@ import java.util.Random;
         this.hotelId = hotelId;
         // Initialize the guest name
         this.name = name;
+        // Initialize the location of the hotel
+        this.location = location;
     }
 } 
 
