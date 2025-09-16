@@ -226,6 +226,11 @@ import java.util.Random;
  */
 
 
+// Hotel.java
+// Define the Hotel class
+/* public */ class Hotel {
+    
+} 
 
 
 
