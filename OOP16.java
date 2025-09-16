@@ -287,6 +287,12 @@ import java.util.Random;
         // Retunr the check out date
         return checkOut;
     }
+
+    // Getter method for the price of the stay
+    public double getPrice() {
+        // Retunr the price
+        return price;
+    }
 } 
 
 
