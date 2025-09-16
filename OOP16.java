@@ -193,6 +193,12 @@ import java.util.Random;
         // Return the number of passengers
         return numPassengers;
     }
+
+    // Getter method for the price of the flight
+    public double getPrice() {
+        // Return the price
+        return price;
+    }
 }
 
 
