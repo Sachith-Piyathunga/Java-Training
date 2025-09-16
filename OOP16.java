@@ -142,7 +142,8 @@ import java.util.Random;
 
     // Constructor for the flight class
     public Flight(int flightNumber, String passengerName, String origin, String destination, String date, int numPassengers, double price) {
-        
+        // Initialize the flight number
+        this.flightNumber = flightNumber;
     }
 }
 
