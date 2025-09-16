@@ -144,6 +144,8 @@ import java.util.Random;
     public Flight(int flightNumber, String passengerName, String origin, String destination, String date, int numPassengers, double price) {
         // Initialize the flight number
         this.flightNumber = flightNumber;
+        // Initialize the passenger name
+        this.passengerName = passengerName;
     }
 }
 
