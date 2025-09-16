@@ -299,6 +299,12 @@ import java.util.Random;
         // Retun the number of guests
         return numGuests;
     }
+
+    // Getter method for the confirmation number
+    public int getConfirmationNumber() {
+        // Retun the confirmation number
+        return confirmationNumber;
+    }
 } 
 
 
