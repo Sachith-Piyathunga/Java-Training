@@ -157,6 +157,12 @@ import java.util.Random;
         // Initialize the price
         this.price = price;
     }
+
+    // Getter method for the flight number
+    public int getFlightNumber() {
+        // Return the flight number
+        return flightNumber;
+    }
 }
 
 
