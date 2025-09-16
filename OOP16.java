@@ -205,6 +205,12 @@ import java.util.Random;
         // Return the confirmation number
         return confirmationNumber;
     }
+
+    // Setter method for the confirmation number
+    public void setConfirmationNumber() {
+        // Assign the parameter
+        this.confirmationNumber = confirmationNumber;
+    }
 }
 
 
