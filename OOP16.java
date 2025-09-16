@@ -293,6 +293,12 @@ import java.util.Random;
         // Retunr the price
         return price;
     }
+
+    // Getter method for the number of guests
+    public int getNumGuests() {
+        // Retun the number of guests
+        return numGuests;
+    }
 } 
 
 
