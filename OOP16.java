@@ -236,6 +236,7 @@ import java.util.Random;
     private String location;
     private String checkIn;
     private String checkOut;
+    private int numGuests;
 } 
 
 
