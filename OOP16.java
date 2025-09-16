@@ -230,6 +230,9 @@ import java.util.Random;
 // Define the Hotel class
 /* public */ class Hotel {
     
+    // Declare the variables
+    private int hotelId;
+
 } 
 
 
