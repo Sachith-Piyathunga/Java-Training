@@ -244,6 +244,8 @@ import java.util.Random;
     public Hotel(int hotelId, String name, String location, String checkIn, String checkOut, int numGuests, double price) {
         // Initialize the hotel Id
         this.hotelId = hotelId;
+        // Initialize the guest name
+        this.name = name;
     }
 } 
 
