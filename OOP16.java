@@ -263,6 +263,12 @@ import java.util.Random;
         // Return the Id
         return hotelId;
     }
+
+    // Getter method for the guest name
+    public String getName() {
+        // Return the name
+        return name;
+    }
 } 
 
 
