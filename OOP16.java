@@ -169,6 +169,12 @@ import java.util.Random;
         // Return the passenger name
         return passengerName;
     }
+
+    // Getter method for the origin of the flight
+    public String getOrigin() {
+        // Return the origin
+        return origin;
+    }
 }
 
 
