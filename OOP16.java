@@ -146,6 +146,8 @@ import java.util.Random;
         this.flightNumber = flightNumber;
         // Initialize the passenger name
         this.passengerName = passengerName;
+        // Initialize the origin
+        this.origin = origin;
     }
 }
 
