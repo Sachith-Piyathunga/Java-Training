@@ -181,6 +181,12 @@ import java.util.Random;
         // Return the destination
         return destination;
     }
+
+    // Getter method for the date of the flight
+    public String getDate() {
+        // Return the date
+        return date;
+    }
 }
 
 
