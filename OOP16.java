@@ -135,6 +135,9 @@ import java.util.Random;
     private String date;
     // Declare a variable
     private int numPassengers;
+    // Declare a variable
+    private double price;
+    
 }
 
 
