@@ -119,7 +119,11 @@ import java.util.Random;
  */
 
 
+// Flight.java
+// Define the Flight class
+/* public */ class Flight {
 
+}
 
 
 
