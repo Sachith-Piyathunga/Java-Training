@@ -269,6 +269,12 @@ import java.util.Random;
         // Return the name
         return name;
     }
+
+    // Getter method for the location
+    public String getLocation() {
+        // Return the location
+        return location;
+    }
 } 
 
 
