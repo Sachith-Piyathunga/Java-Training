@@ -126,6 +126,8 @@ import java.util.Random;
     // Declare a variable
     private int flightNumber;
     // Declare a variable
+    private String passengerName;
+    // Declare a variable
     private String origin;
 }
 
