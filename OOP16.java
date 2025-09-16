@@ -133,6 +133,8 @@ import java.util.Random;
     private String destination;
     // Declare a variable
     private String date;
+    // Declare a variable
+    private int numPassengers;
 }
 
 
