@@ -175,6 +175,12 @@ import java.util.Random;
         // Return the origin
         return origin;
     }
+
+    // Getter method for the destination of the flight
+    public String getDestination() {
+        // Return the destination
+        return destination;
+    }
 }
 
 
