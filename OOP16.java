@@ -234,7 +234,8 @@ import java.util.Random;
     private int hotelId;
     private String name;
     private String location;
-
+    private String checkIn;
+    private String checkOut;
 } 
 
 
