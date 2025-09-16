@@ -148,6 +148,8 @@ import java.util.Random;
         this.passengerName = passengerName;
         // Initialize the origin
         this.origin = origin;
+        // Initialize the destination
+        this.destination = destination;
     }
 }
 
