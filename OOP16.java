@@ -250,6 +250,8 @@ import java.util.Random;
         this.location = location;
         // Initialize the check in date
         this.checkIn = checkIn;
+        // Initialize the check out date
+        this.checkOut = checkOut;
     }
 } 
 
