@@ -199,6 +199,12 @@ import java.util.Random;
         // Return the price
         return price;
     }
+
+    // Getter method for the confirmation number
+    public int getConfirmationNumber() {
+        // Return the confirmation number
+        return confirmationNumber;
+    }
 }
 
 
