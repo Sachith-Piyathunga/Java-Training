@@ -52,6 +52,11 @@
     public double checkBalance() {
         return balance;
     }
+
+    // Getter method for the accout balance
+    public String getAccountNumber() {
+        return accountNumber;
+    }
 }
 
 
