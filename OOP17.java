@@ -139,6 +139,8 @@ class SavingsAccount extends BankAccount {
  * 
  *      - Getter method for interest rate (getInterestRate): Returns the current interest rate.
  * 
+ *      - Setter method for interest rate (setInterestRate): Updates the interest rate 
+ *        if the provided rate is positive, ensuring it is a valid interest rate.
  * 
  */
 
