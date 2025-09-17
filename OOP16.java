@@ -365,5 +365,9 @@ public class OOP16 {
  * to search for hotels in London from August 1, 2022 to September 5, 2022 for 
  * two guests.
  * 
+ * Then, two flights and one hotel are booked using the “bookFlight()” and 
+ * “bookHotel()” methods respectively, with different arguments. Finally, a 
+ * reservation for one of the flights is cancelled using the “cancelReservation()” 
+ * method with the argument 12345670.
  * 
  */
