@@ -13,6 +13,9 @@
 
     // Declare the variable
     private String accountNumber;
+    // Declare the variable
+    private String accountHolderName;
+    
 }
 
 
