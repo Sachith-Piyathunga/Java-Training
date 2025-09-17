@@ -96,6 +96,11 @@ class SavingsAccount extends BankAccount {
         // Initialize the interest rate
         this.interestRate = interestRate;
     }
+
+    // Method to apply interest to the balance
+    public void applyInterest() {
+        
+    }
 }
 
 
