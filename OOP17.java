@@ -130,6 +130,9 @@ class SavingsAccount extends BankAccount {
  * attribute, interestRate, which represents the interest rate for the savings account. 
  * The class includes:
  * 
+ *      - Constructor: Initializes the SavingsAccount object with the account number, 
+ *        account holder's name, initial balance, and interest rate by calling the 
+ *        superclass (BankAccount) constructor for the common attributes.
  */
 
 
