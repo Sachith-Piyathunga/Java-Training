@@ -110,6 +110,13 @@ class SavingsAccount extends BankAccount {
     public double getInterestRate() {
         return interestRate;
     }
+
+    // Setter method for the interest rate
+    public void setInterestRate(double interestRate) {
+        if (interestRate > 0) {
+            this.interestRate = interestRate;
+        }
+    }
 }
 
 
