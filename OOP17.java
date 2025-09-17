@@ -30,7 +30,9 @@
 
     // Method to deposit money into the account
     public void deposit(double amount) {
-        
+        if (amount > 0) {
+            balance += amount;
+        }
     }
 }
 
