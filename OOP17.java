@@ -17,7 +17,11 @@
     private String accountHolderName;
     // Declare the variable
     private double balance;
-    
+
+    // Constructor for the Bank Account class
+    public BankAccount(String accountNumber, String accountHolderName, double balance) {
+        
+    }
 }
 
 
