@@ -24,6 +24,8 @@
         this.accountNumber = accountNumber;
         // Initialize the Account holder name
         this.accountHolderName = accountHolderName;
+        // Initialize the balance
+        this.balance = balance;
     }
 }
 
