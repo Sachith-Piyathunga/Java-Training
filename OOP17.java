@@ -20,7 +20,8 @@
 
     // Constructor for the Bank Account class
     public BankAccount(String accountNumber, String accountHolderName, double balance) {
-        
+        // Initialize the Account number
+        this.accountNumber = accountNumber;
     }
 }
 
