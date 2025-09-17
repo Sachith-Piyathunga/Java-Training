@@ -73,6 +73,8 @@
  * initialize these attributes when an object of this class is created. 
  * The class also provides methods to:
  * 
+ *      Deposit money (deposit): Adds a specified amount to the balance if the amount is positive.
+ * 
  */
 
 
