@@ -103,6 +103,12 @@ class SavingsAccount extends BankAccount {
         double interest = checkBalance() * interestRate / 100;
         // Add interest to the balance
         deposit(interest);
+        System.out.println("Interest applied: " + interest + ". New balance: " + checkBalance());
+    }
+
+    // Getter method for interest rate
+    public double getInterestRate() {
+        return interestRate;
     }
 }
 
