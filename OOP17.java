@@ -88,6 +88,11 @@ class SavingsAccount extends BankAccount {
 
     // Declare the variable
     private double interestRate;
+
+    // Constructor for the savings account
+    public SavingsAccount(String accountNumber, String accountHolderName, double initialBalance, double interestRate) {
+        
+    }
 }
 
 
