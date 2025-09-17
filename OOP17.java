@@ -136,6 +136,10 @@ class SavingsAccount extends BankAccount {
  * 
  *      - Method to apply interest (applyInterest): Calculates interest based on the 
  *        current balance and interest rate, then deposits interest into the account.
+ * 
+ *      - Getter method for interest rate (getInterestRate): Returns the current interest rate.
+ * 
+ * 
  */
 
 
