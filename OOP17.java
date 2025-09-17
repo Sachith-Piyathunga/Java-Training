@@ -33,6 +33,8 @@
         if (amount > 0) {
             balance += amount;
             System.out.println("Deposited: " + amount + ". New balance: " + balance);
+        } else {
+            System.out.println("Deposit amount muust be positive.");
         }
     }
 }
