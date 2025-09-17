@@ -11,7 +11,8 @@
 // Define the BankAccount class
 /* public */ class BankAccount {
 
-    
+    // Declare the variable
+    private String accountNumber;
 }
 
 
