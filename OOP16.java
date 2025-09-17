@@ -348,3 +348,15 @@ public class OOP16 {
         app.cancelReservation(12345670);
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * In the main() method of the above class, an instance of the “TravelApp” class is 
+ * created. Several methods of the “TravelApp” class are called to perform various 
+ * tasks related to travel. These tasks include searching for flights and hotels, 
+ * booking flights and hotels, and cancelling reservations.
+ * 
+ * 
+ */
