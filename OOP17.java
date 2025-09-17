@@ -37,6 +37,11 @@
             System.out.println("Deposit amount muust be positive.");
         }
     }
+
+    // Method to withdraw money from the account
+    public void withdraw(double amount) {
+        
+    }
 }
 
 
