@@ -15,6 +15,8 @@
     private String accountNumber;
     // Declare the variable
     private String accountHolderName;
+    // Declare the variable
+    private double balance;
     
 }
 
