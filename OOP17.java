@@ -27,6 +27,11 @@
         // Initialize the balance
         this.balance = balance;
     }
+
+    // Method to deposit money into the account
+    public void deposit(double amount) {
+        
+    }
 }
 
 
