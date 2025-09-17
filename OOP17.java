@@ -99,7 +99,10 @@ class SavingsAccount extends BankAccount {
 
     // Method to apply interest to the balance
     public void applyInterest() {
-        
+        // Calculate the interest
+        double interest = checkBalance() * interestRate / 100;
+        // Add interest to the balance
+        deposit(interest);
     }
 }
 
