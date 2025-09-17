@@ -57,6 +57,11 @@
     public String getAccountNumber() {
         return accountNumber;
     }
+
+    // Getter method for the account holder's name
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
 }
 
 
