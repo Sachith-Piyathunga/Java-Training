@@ -83,6 +83,10 @@
  */
 
 
+// Define the Savings Account class
+class SavingsAccount extends BankAccount {
+    
+}
 
 
 
