@@ -43,6 +43,8 @@
         if (amount > 0 && amount <= balance) {
             balance -= amount;
             System.out.println("Withdrew: " + amount + ". New balance: " + balance);
+        } else {
+            System.out.println("Insufficient balance or invalid amount.");
         }
     }
 }
