@@ -122,7 +122,15 @@ class SavingsAccount extends BankAccount {
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * The above Java code defines a SavingsAccount class that extends the BankAccount 
+ * class, inheriting its attributes and methods. The SavingsAccount class adds a new 
+ * attribute, interestRate, which represents the interest rate for the savings account. 
+ * The class includes:
+ * 
+ */
 
 
 
