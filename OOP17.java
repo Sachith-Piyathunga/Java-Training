@@ -77,6 +77,7 @@
  *      - Withdraw money (withdraw): Subtracts a specified amount from the balance if the amount is 
  *        positive and does not exceed the current balance.
  *      - Check balance (checkBalance): Returns the current balance.
+ *      - Get account number (getAccountNumber): Returns the account number.
  */
 
 
