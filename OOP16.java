@@ -326,21 +326,11 @@ import java.util.Random;
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP16.java
+// Main class 
 public class OOP16 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
