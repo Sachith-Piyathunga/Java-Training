@@ -333,6 +333,12 @@ public class OOP16 {
     public static void main(String[] args) {
         // Create the new travel onject
         TravelApp app = new TravelApp();
-        
+
+        // Search for flight
+        app.searchHotels("New York", "London", "2022-09-01", 1);
+
+
+
+
     }
 }
