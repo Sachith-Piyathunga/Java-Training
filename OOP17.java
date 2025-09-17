@@ -115,6 +115,8 @@ class SavingsAccount extends BankAccount {
     public void setInterestRate(double interestRate) {
         if (interestRate > 0) {
             this.interestRate = interestRate;
+        } else {
+            System.out.println("Interest rate must be positive.");
         }
     }
 }
