@@ -76,7 +76,7 @@
  *      - Deposit money (deposit): Adds a specified amount to the balance if the amount is positive.
  *      - Withdraw money (withdraw): Subtracts a specified amount from the balance if the amount is 
  *        positive and does not exceed the current balance.
- * 
+ *      - Check balance (checkBalance): Returns the current balance.
  */
 
 
