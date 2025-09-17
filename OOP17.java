@@ -78,6 +78,8 @@
  *        positive and does not exceed the current balance.
  *      - Check balance (checkBalance): Returns the current balance.
  *      - Get account number (getAccountNumber): Returns the account number.
+ *      - Get the account holder's name (getAccountHolderName): Returns the account holder's name.
+ * 
  */
 
 
