@@ -133,6 +133,9 @@ class SavingsAccount extends BankAccount {
  *      - Constructor: Initializes the SavingsAccount object with the account number, 
  *        account holder's name, initial balance, and interest rate by calling the 
  *        superclass (BankAccount) constructor for the common attributes.
+ * 
+ *      - Method to apply interest (applyInterest): Calculates interest based on the 
+ *        current balance and interest rate, then deposits interest into the account.
  */
 
 
