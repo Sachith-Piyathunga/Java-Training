@@ -85,7 +85,9 @@
 
 // Define the Savings Account class
 class SavingsAccount extends BankAccount {
-    
+
+    // Declare the variable
+    private double interestRate;
 }
 
 
