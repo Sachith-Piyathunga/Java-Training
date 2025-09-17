@@ -93,6 +93,8 @@ class SavingsAccount extends BankAccount {
     public SavingsAccount(String accountNumber, String accountHolderName, double initialBalance, double interestRate) {
         // Call the constructor of the super class
         super(accountNumber, accountHolderName, initialBalance);
+        // Initialize the interest rate
+        this.interestRate = interestRate;
     }
 }
 
