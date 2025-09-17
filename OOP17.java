@@ -47,6 +47,11 @@
             System.out.println("Insufficient balance or invalid amount.");
         }
     }
+
+    // Method to check the account balance
+    public double checkBalance() {
+        return balance;
+    }
 }
 
 
