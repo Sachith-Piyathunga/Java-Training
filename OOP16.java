@@ -331,6 +331,8 @@ import java.util.Random;
 public class OOP16 {
     // Define the main method
     public static void main(String[] args) {
+        // Create the new travel onject
+        TravelApp app = new TravelApp();
         
     }
 }
