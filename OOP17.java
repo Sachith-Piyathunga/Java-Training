@@ -65,6 +65,15 @@
 }
 
 
+/**
+ * Explanation
+ * 
+ * The above Java code defines a BankAccount class with three attributes: 
+ * accountNumber, accountHolderName, and balance. It includes a constructor to 
+ * initialize these attributes when an object of this class is created. 
+ * The class also provides methods to:
+ * 
+ */
 
 
 
