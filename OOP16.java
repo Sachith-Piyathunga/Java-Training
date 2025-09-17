@@ -336,7 +336,8 @@ public class OOP16 {
 
         // Search for flight
         app.searchHotels("New York", "London", "2022-09-01", 1);
-
+        // Search for hotels
+        app.searchHotels("London", "2022-08-01", "2022-09-05", 2);
 
 
 
