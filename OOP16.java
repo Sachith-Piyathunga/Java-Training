@@ -358,5 +358,12 @@ public class OOP16 {
  * tasks related to travel. These tasks include searching for flights and hotels, 
  * booking flights and hotels, and cancelling reservations.
  * 
+ * In particular, the “searchFlights()” method is called with the arguments 
+ * "New York", "London", "2022-09-01", and 1, to search for flights from New York 
+ * to London on September 1, 2022 for one passenger. Similarly, the “searchHotels()” 
+ * method is called with the arguments "London", "2022-08-01", "2022-09-05", and 2, 
+ * to search for hotels in London from August 1, 2022 to September 5, 2022 for 
+ * two guests.
+ * 
  * 
  */
