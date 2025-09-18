@@ -10,7 +10,9 @@
 // Vehicle.java
 // Define the Vehicle class
 /* public */ class Vehicle {
-    
+
+    // Declare the variable
+    private String make;
 }
 
 
