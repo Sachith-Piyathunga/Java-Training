@@ -170,3 +170,14 @@ public class OOP17 {
         System.out.println("Savings account balance: " + savings.checkBalance());
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * The above Java code defines a Main class with a main method to test the 
+ * BankAccount and SavingsAccount classes. The main method demonstrates the 
+ * creation and usage of these classes:
+ * 
+ * 
+ */
