@@ -153,6 +153,7 @@ public class OOP17 {
 
         // Create a Bank Account object
         BankAccount account = new BankAccount("123456789", "Henri Lionel", 1000.0);
-        
+        // Check balance
+        System.out.println("Current balance: " + account.checkBalance());
     }
 }
