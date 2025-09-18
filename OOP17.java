@@ -179,5 +179,7 @@ public class OOP17 {
  * BankAccount and SavingsAccount classes. The main method demonstrates the 
  * creation and usage of these classes:
  * 
- * 
+ *      - Create a BankAccount object: An instance of BankAccount is created with 
+ *        the account number "123456789", account holder's name "Henri Lionel", and 
+ *        an initial balance of 1000.0. The current balance is printed.
  */
