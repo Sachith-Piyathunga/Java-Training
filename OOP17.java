@@ -192,4 +192,8 @@ public class OOP17 {
  *      - Create a SavingsAccount object: An instance of SavingsAccount is created 
  *        with the account number "888888888", account holder's name "Amphitrite Jun", 
  *        an initial balance of 2000.0, and an interest rate of 5.0.
+ * 
+ *      - Apply interest: Interest is applied to the SavingsAccount, and the 
+ *        new balance is printed.
+ * 
  */
