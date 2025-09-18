@@ -17,6 +17,11 @@
     private String model;
     // Declare the variable
     private int year;
+
+    // Constructor for the Vehicle class
+    public Vehicle(String make, String model, int year) {
+
+    }
 }
 
 
