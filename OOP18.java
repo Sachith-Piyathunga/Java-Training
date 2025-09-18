@@ -32,6 +32,7 @@
     public void displayDetails() {
         // Print the details
         System.out.println("Vehicle Details:");
+        System.out.println("Make: " + make);
     }
 }
 
