@@ -64,6 +64,8 @@
  * and year of the vehicle. It includes:
  * 
  *      - Attributes: Private fields for make, model, and year.
+ * 
+ *      - Constructor: A constructor that initializes these attributes.
  */
 
 
