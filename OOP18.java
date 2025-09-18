@@ -22,6 +22,8 @@
     public Vehicle(String make, String model, int year) {
         // Initialize the make 
         this.make = make;
+        // Initialize the model
+        this.model = model;
     }
 }
 
