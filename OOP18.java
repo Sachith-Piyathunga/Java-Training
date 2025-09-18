@@ -42,6 +42,12 @@
         // Return the make
         return make;
     }
+
+    // Getter method for model
+    public String getModel() {
+        // Return the model
+        return model;
+    }
 }
 
 
