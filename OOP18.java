@@ -20,7 +20,8 @@
 
     // Constructor for the Vehicle class
     public Vehicle(String make, String model, int year) {
-
+        // Initialize the make 
+        this.make = make;
     }
 }
 
