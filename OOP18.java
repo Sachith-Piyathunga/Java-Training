@@ -15,6 +15,8 @@
     private String make;
     // Declare the variable
     private String model;
+    // Declare the variable
+    private int year;
 }
 
 
