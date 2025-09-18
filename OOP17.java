@@ -145,18 +145,11 @@ class SavingsAccount extends BankAccount {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP17.java
+// Main class
 public class OOP17 {
-    
+    // Define the main class
+    public static void main(String[] args) {
+        
+    }
 }
