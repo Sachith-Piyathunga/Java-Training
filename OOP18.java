@@ -13,6 +13,8 @@
 
     // Declare the variable
     private String make;
+    // Declare the variable
+    private String model;
 }
 
 
