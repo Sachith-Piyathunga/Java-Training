@@ -182,4 +182,6 @@ public class OOP17 {
  *      - Create a BankAccount object: An instance of BankAccount is created with 
  *        the account number "123456789", account holder's name "Henri Lionel", and 
  *        an initial balance of 1000.0. The current balance is printed.
+ * 
+ *      - Deposit money: 4000.0 is deposited into the BankAccount.
  */
