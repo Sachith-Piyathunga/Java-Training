@@ -150,6 +150,9 @@ class SavingsAccount extends BankAccount {
 public class OOP17 {
     // Define the main class
     public static void main(String[] args) {
+
+        // Create a Bank Account object
+        BankAccount account = new BankAccount("123456789", "Henri Lionel", 1000.0);
         
     }
 }
