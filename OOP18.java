@@ -27,6 +27,11 @@
         // Initialize the year
         this.year = year;
     }
+
+    // Model to display Vehicle details
+    public void displayDetails() {
+        
+    }
 }
 
 
