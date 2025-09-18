@@ -24,6 +24,8 @@
         this.make = make;
         // Initialize the model
         this.model = model;
+        // Initialize the year
+        this.year = year;
     }
 }
 
