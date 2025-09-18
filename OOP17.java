@@ -159,5 +159,7 @@ public class OOP17 {
         account.deposit(4000.0);
         // Withdraw money
         account.withdraw(3000.0);
+        // Check balance
+        System.out.println("Current balance: " + account.checkBalance());
     }
 }
