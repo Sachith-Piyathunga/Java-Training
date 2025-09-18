@@ -7,6 +7,11 @@
  */
 
 
+// Vehicle.java
+// Define the Vehicle class
+/* public */ class Vehicle {
+    
+}
 
 
 
