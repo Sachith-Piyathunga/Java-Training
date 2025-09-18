@@ -155,5 +155,7 @@ public class OOP17 {
         BankAccount account = new BankAccount("123456789", "Henri Lionel", 1000.0);
         // Check balance
         System.out.println("Current balance: " + account.checkBalance());
+        // Deposit money
+        account.deposit(4000.0);
     }
 }
