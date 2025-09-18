@@ -57,6 +57,14 @@
 }
 
 
+/**
+ * Explanation
+ * 
+ * The above Java code defines a Vehicle class with attributes for the make, model, 
+ * and year of the vehicle. It includes:
+ * 
+ */
+
 
 
 
