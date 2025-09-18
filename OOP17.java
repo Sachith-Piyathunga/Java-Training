@@ -184,4 +184,6 @@ public class OOP17 {
  *        an initial balance of 1000.0. The current balance is printed.
  * 
  *      - Deposit money: 4000.0 is deposited into the BankAccount.
+ * 
+ *      - Withdraw money: 3000.0 is withdrawn from the BankAccount.
  */
