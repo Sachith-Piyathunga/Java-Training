@@ -70,6 +70,8 @@
  *      - Getter methods: getMake(), getModel(), and getYear() methods return the 
  *        values of the make, model, and year attributes, respectively.
  * 
+ * This class provides a basic blueprint for a vehicle with methods to access and 
+ * display its details.
  */
 
 
