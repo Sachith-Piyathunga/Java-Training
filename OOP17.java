@@ -166,5 +166,7 @@ public class OOP17 {
         SavingsAccount savings = new SavingsAccount("888888888", "Amphitrite Jun", 2000.0, 5.0);
         // Apply interest
         savings.applyInterest();
+        // Check balance
+        System.out.println("Savings account balance: " + savings.checkBalance());
     }
 }
