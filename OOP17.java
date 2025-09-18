@@ -164,6 +164,7 @@ public class OOP17 {
 
         // Create a Savings Account object
         SavingsAccount savings = new SavingsAccount("888888888", "Amphitrite Jun", 2000.0, 5.0);
-        
+        // Apply interest
+        savings.applyInterest();
     }
 }
