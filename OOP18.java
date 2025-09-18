@@ -67,6 +67,8 @@
  *      - Constructor: A constructor that initializes these attributes.
  *      - Method to display details (displayDetails): Prints the vehicle's 
  *        make, model, and year.
+ *      - Getter methods: getMake(), getModel(), and getYear() methods return the 
+ *        values of the make, model, and year attributes, respectively.
  * 
  */
 
