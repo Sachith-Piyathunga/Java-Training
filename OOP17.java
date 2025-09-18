@@ -161,5 +161,9 @@ public class OOP17 {
         account.withdraw(3000.0);
         // Check balance
         System.out.println("Current balance: " + account.checkBalance());
+
+        // Create a Savings Account object
+        SavingsAccount savings = new SavingsAccount("888888888", "Amphitrite Jun", 2000.0, 5.0);
+        
     }
 }
