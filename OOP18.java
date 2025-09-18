@@ -36,6 +36,12 @@
         System.out.println("Model: " + model);
         System.out.println("Year: " + year);
     }
+
+    // Getter method for make
+    public String getMake() {
+        // Return the make
+        return make;
+    }
 }
 
 
