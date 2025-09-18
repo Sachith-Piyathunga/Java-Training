@@ -30,7 +30,8 @@
 
     // Model to display Vehicle details
     public void displayDetails() {
-        
+        // Print the details
+        System.out.println("Vehicle Details:");
     }
 }
 
