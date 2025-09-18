@@ -188,4 +188,8 @@ public class OOP17 {
  *      - Withdraw money: 3000.0 is withdrawn from the BankAccount.
  * 
  *      - Check balance: The current balance is printed again.
+ * 
+ *      - Create a SavingsAccount object: An instance of SavingsAccount is created 
+ *        with the account number "888888888", account holder's name "Amphitrite Jun", 
+ *        an initial balance of 2000.0, and an interest rate of 5.0.
  */
