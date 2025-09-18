@@ -48,6 +48,12 @@
         // Return the model
         return model;
     }
+
+    // Getter method for year
+    public int getYear() {
+        // Return the year
+        return year;
+    }
 }
 
 
