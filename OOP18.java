@@ -230,4 +230,8 @@ public class OOP18 {
  *      - Car Object Creation: An instance of the Car class is created with the make 
  *        "Suzuki", model "Swift", year 2015, and trunk size 15.1 cubic feet. The 
  *        displayDetails method is called to print the details of the car.
+ * 
+ *      - Truck Object Creation: An instance of the Truck class is created with the 
+ *        make "Ford", model "F-150", year 2016, and payload capacity 3.5 tons. The 
+ *        displayDetails method is called to print the details of the truck.
  */
