@@ -147,6 +147,12 @@ class Truck extends Vehicle {
         super(make, model, year);
         this.payloadCapacity = payloadCapacity;
     }
+
+    // Override the display details method
+    @Override
+    public void displayDetails() {
+        
+    }
 }
 
 
