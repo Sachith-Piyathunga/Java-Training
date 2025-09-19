@@ -140,7 +140,11 @@ class Truck extends Vehicle {
 
     // Attribute for the payload capacity
     private double payloadCapacity;
-    
+
+    // Constructor for the truck class
+    public Truck(String make, String model, int year, double payloadCapacity) {
+        
+    }
 }
 
 
