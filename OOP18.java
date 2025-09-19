@@ -161,6 +161,15 @@ class Truck extends Vehicle {
         // Return the payload capacity
         return payloadCapacity;
     }
+
+    // Setter method for the payload capacity
+    public void setPayloadCapacity(double payloadCapacity) {
+        if (payloadCapacity > 0) {
+            this.payloadCapacity = payloadCapacity;
+        } else {
+            System.out.println("Payload capacity must be positive.");
+        }
+    }
 }
 
 
