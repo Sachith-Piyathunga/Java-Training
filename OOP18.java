@@ -234,4 +234,8 @@ public class OOP18 {
  *      - Truck Object Creation: An instance of the Truck class is created with the 
  *        make "Ford", model "F-150", year 2016, and payload capacity 3.5 tons. The 
  *        displayDetails method is called to print the details of the truck.
+ * 
+ * This code tests the functionality of the Vehicle, Car, and Truck classes by creating 
+ * instances of each and displaying their details.
+ * 
  */
