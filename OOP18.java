@@ -78,7 +78,9 @@
 // Car.java
 // Define the Car subclass
 class Car extends Vehicle {
-    
+
+    // Attribute for trunck size for the car
+    private double trunckSize;
 }
 
 
