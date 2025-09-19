@@ -173,6 +173,14 @@ class Truck extends Vehicle {
 }
 
 
+/**
+ * Explanation
+ * 
+ * The above Java code defines a 'Truck' subclass that extends the Vehicle class, 
+ * adding an attribute specific to trucks:
+ * 
+ * 
+ */
 
 
 
