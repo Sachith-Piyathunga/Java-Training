@@ -88,6 +88,14 @@ class Car extends Vehicle {
         super(make, model, year);
         this.trunckSize = trunckSize;
     }
+
+    // Override the displaydetails method
+    @Override
+    public void displayDetails() {
+        // Call the super class method
+        super.displayDetails();
+        System.out.println("Trunck size: " + trunckSize + " cubic feet.");
+    }
 }
 
 
