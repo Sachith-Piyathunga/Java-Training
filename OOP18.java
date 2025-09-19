@@ -102,6 +102,15 @@ class Car extends Vehicle {
         // Return the trunck size
         return trunckSize;
     }
+
+    // Setter method for the trunck size
+    public void setTrunckSize(double trunckSize) {
+        if (trunckSize > 0) {
+            this.trunckSize = trunckSize;
+        } else {
+            System.out.println("Trunck size must be possitive.");
+        }
+    }
 }
 
 
