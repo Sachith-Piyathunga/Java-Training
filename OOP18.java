@@ -155,6 +155,12 @@ class Truck extends Vehicle {
         super.displayDetails();
         System.out.println("Payload capacity: " + payloadCapacity + " tons.");
     }
+
+    // Getter method for payload capacity
+    public double getPayloadCapacity() {
+        // Return the payload capacity
+        return payloadCapacity;
+    }
 }
 
 
