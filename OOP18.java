@@ -127,7 +127,8 @@ class Car extends Vehicle {
  *      - Method to display details (displayDetails): Overrides the displayDetails 
  *        method from the Vehicle class to include the trunk size. It first calls the 
  *        superclass method to display common vehicle details, then adds the trunk size.
-
+ *      - Getter and Setter methods: getTrunkSize() returns the trunk size, and setTrunkSize() 
+ *        updates the trunk size if the value is positive.
  */
 
 
