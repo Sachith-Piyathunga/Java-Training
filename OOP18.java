@@ -84,7 +84,9 @@ class Car extends Vehicle {
 
     // Constructor for the car class
     public Car(String make, String model, int year, double trunckSize) {
-        
+        // Call the constructor of the super class
+        super(make, model, year);
+        this.trunckSize = trunckSize;
     }
 }
 
