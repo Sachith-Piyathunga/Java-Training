@@ -96,6 +96,12 @@ class Car extends Vehicle {
         super.displayDetails();
         System.out.println("Trunck size: " + trunckSize + " cubic feet.");
     }
+
+    // Getter method for the trunck size
+    public double getTrunckSize() {
+        // Return the trunck size
+        return trunckSize;
+    }
 }
 
 
