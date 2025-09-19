@@ -179,6 +179,7 @@ class Truck extends Vehicle {
  * The above Java code defines a 'Truck' subclass that extends the Vehicle class, 
  * adding an attribute specific to trucks:
  * 
+ *      - Attribute: payloadCapacity to store the truck's payload capacity in tons.
  * 
  */
 
