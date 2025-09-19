@@ -207,6 +207,10 @@ class Truck extends Vehicle {
 public class OOP18 {
     // Define the main method
     public static void main(String[] args) {
-        
+
+        // Create the car object
+        Car car = new Car("HONDA", "CIVIC", 2025, 15.1);
+        // Display car details
+        car.displayDetails();
     }
 }
