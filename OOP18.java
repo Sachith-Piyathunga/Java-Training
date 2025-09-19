@@ -121,6 +121,9 @@ class Car extends Vehicle {
  * additional attribute and behavior specific to cars:
  * 
  *      - Attribute: trunkSize to store the size of the car's trunk in cubic feet.
+ *      - Constructor: Initializes the 'Car' object with make, model, year, and trunk 
+ *        size. It calls the constructor of the Vehicle superclass to initialize 
+ *        the common attributes.
  */
 
 
