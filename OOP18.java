@@ -137,6 +137,9 @@ class Car extends Vehicle {
 
 // Define the Truck subclass
 class Truck extends Vehicle {
+
+    // Attribute for the payload capacity
+    private double payloadCapacity;
     
 }
 
