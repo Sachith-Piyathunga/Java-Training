@@ -189,6 +189,9 @@ class Truck extends Vehicle {
  *        method from the Vehicle class to include the payload capacity. It first 
  *        calls the superclass method to display common vehicle details, then adds 
  *        the payload capacity.
+ * 
+ *      - Getter and Setter methods: getPayloadCapacity() returns the payload capacity, 
+ *        and setPayloadCapacity() updates the payload capacity if the value is positive.
  */
 
 
