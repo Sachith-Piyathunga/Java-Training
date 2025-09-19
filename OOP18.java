@@ -202,26 +202,11 @@ class Truck extends Vehicle {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP18.java
+// M ain class
 public class OOP18 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
