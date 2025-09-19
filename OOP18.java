@@ -75,6 +75,25 @@
  */
 
 
+// Car.java
+// Define the Car subclass
+class Car extends Vehicle {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
