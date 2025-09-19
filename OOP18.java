@@ -120,6 +120,7 @@ class Car extends Vehicle {
  * This Java code defines a 'Car' subclass that extends the Vehicle class, adding an 
  * additional attribute and behavior specific to cars:
  * 
+ *      - Attribute: trunkSize to store the size of the car's trunk in cubic feet.
  */
 
 
