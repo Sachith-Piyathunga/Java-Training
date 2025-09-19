@@ -114,6 +114,13 @@ class Car extends Vehicle {
 }
 
 
+/**
+ * Explanation
+ * 
+ * This Java code defines a 'Car' subclass that extends the Vehicle class, adding an 
+ * additional attribute and behavior specific to cars:
+ * 
+ */
 
 
 
