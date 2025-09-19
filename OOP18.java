@@ -184,6 +184,11 @@ class Truck extends Vehicle {
  *      - Constructor: Initializes the Truck object with make, model, year, and 
  *        payload capacity. It calls the constructor of the Vehicle superclass to 
  *        initialize the common attributes.
+ *  
+ *      - Method to display details (displayDetails): Overrides the displayDetails  
+ *        method from the Vehicle class to include the payload capacity. It first 
+ *        calls the superclass method to display common vehicle details, then adds 
+ *        the payload capacity.
  */
 
 
