@@ -120,12 +120,15 @@ class Car extends Vehicle {
  * additional attribute and behavior specific to cars:
  * 
  *      - Attribute: trunkSize to store the size of the car's trunk in cubic feet.
+ * 
  *      - Constructor: Initializes the 'Car' object with make, model, year, and trunk 
  *        size. It calls the constructor of the Vehicle superclass to initialize 
  *        the common attributes.
+ * 
  *      - Method to display details (displayDetails): Overrides the displayDetails 
  *        method from the Vehicle class to include the trunk size. It first calls the 
  *        superclass method to display common vehicle details, then adds the trunk size.
+ * 
  *      - Getter and Setter methods: getTrunkSize() returns the trunk size, and setTrunkSize() 
  *        updates the trunk size if the value is positive.
  * 
@@ -192,6 +195,10 @@ class Truck extends Vehicle {
  * 
  *      - Getter and Setter methods: getPayloadCapacity() returns the payload capacity, 
  *        and setPayloadCapacity() updates the payload capacity if the value is positive.
+ * 
+ * This subclass extends the Vehicle class by adding a specific feature for trucks and 
+ * overriding the method to display complete truck details.
+ * 
  */
 
 
