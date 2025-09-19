@@ -124,6 +124,10 @@ class Car extends Vehicle {
  *      - Constructor: Initializes the 'Car' object with make, model, year, and trunk 
  *        size. It calls the constructor of the Vehicle superclass to initialize 
  *        the common attributes.
+ *      - Method to display details (displayDetails): Overrides the displayDetails 
+ *        method from the Vehicle class to include the trunk size. It first calls the 
+ *        superclass method to display common vehicle details, then adds the trunk size.
+
  */
 
 
