@@ -227,5 +227,7 @@ public class OOP18 {
  * The above Java code defines a Main class with a main method used to test the 
  * Vehicle, Car, and Truck classes:
  * 
- * 
+ *      - Car Object Creation: An instance of the Car class is created with the make 
+ *        "Suzuki", model "Swift", year 2015, and trunk size 15.1 cubic feet. The 
+ *        displayDetails method is called to print the details of the car.
  */
