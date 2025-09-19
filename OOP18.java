@@ -151,7 +151,9 @@ class Truck extends Vehicle {
     // Override the display details method
     @Override
     public void displayDetails() {
-        
+        // Call the superclass method
+        super.displayDetails();
+        System.out.println("Payload capacity: " + payloadCapacity + " tons.");
     }
 }
 
