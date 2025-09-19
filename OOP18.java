@@ -75,7 +75,6 @@
  */
 
 
-// Car.java
 // Define the Car subclass
 class Car extends Vehicle {
 
@@ -136,7 +135,10 @@ class Car extends Vehicle {
  */
 
 
-
+// Define the Truck subclass
+class Truck extends Vehicle {
+    
+}
 
 
 
