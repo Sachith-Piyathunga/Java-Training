@@ -81,6 +81,11 @@ class Car extends Vehicle {
 
     // Attribute for trunck size for the car
     private double trunckSize;
+
+    // Constructor for the car class
+    public Car(String make, String model, int year, double trunckSize) {
+        
+    }
 }
 
 
