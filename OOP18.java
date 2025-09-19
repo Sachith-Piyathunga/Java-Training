@@ -181,6 +181,9 @@ class Truck extends Vehicle {
  * 
  *      - Attribute: payloadCapacity to store the truck's payload capacity in tons.
  * 
+ *      - Constructor: Initializes the Truck object with make, model, year, and 
+ *        payload capacity. It calls the constructor of the Vehicle superclass to 
+ *        initialize the common attributes.
  */
 
 
