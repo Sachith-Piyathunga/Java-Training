@@ -212,5 +212,10 @@ public class OOP18 {
         Car car = new Car("HONDA", "CIVIC", 2025, 15.1);
         // Display car details
         car.displayDetails();
+
+        // Create the truck object
+        Truck truck = new Truck("FORD", "F-150", 2016, 3.5);
+        // Display truck details
+        truck.displayDetails();
     }
 }
