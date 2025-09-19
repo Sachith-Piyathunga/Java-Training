@@ -143,7 +143,9 @@ class Truck extends Vehicle {
 
     // Constructor for the truck class
     public Truck(String make, String model, int year, double payloadCapacity) {
-        
+        // Call the constructor of the super class
+        super(make, model, year);
+        this.payloadCapacity = payloadCapacity;
     }
 }
 
