@@ -219,3 +219,13 @@ public class OOP18 {
         truck.displayDetails();
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * The above Java code defines a Main class with a main method used to test the 
+ * Vehicle, Car, and Truck classes:
+ * 
+ * 
+ */
