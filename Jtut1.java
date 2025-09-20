@@ -52,7 +52,11 @@
  * role: Object initialization
  * Name must be the same as class name
  * Must not have return type
- * 
+ * Every class should have at least one constructor
+ *      if dont compiler will genarate the default constructor
+ * Usually declared in public
+ * One class can have more than one constructor
+ *      it call constructor overloarding
  */
 
 
