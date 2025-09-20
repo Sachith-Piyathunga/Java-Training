@@ -46,6 +46,14 @@
     }
 }
 
+/**
+ * Constructors
+ * 
+ * role: Object initialization
+ * Name must be the same as class name
+ * Must not have return type
+ * 
+ */
 
 
 
