@@ -69,6 +69,14 @@
  * 
  */
 
+/* public */ class Date {
+    private int year, month, day;
+    
+    public Date() { // <--- default constructor
+
+    }
+}
+
 
 
 
