@@ -25,6 +25,13 @@
     }
 }
 
+// Declaring attribute
+/* public */ class Foo {
+    private int x;
+    private float f = 0.0;
+    private String name = "Anonymous";
+}
+
 
 
 
