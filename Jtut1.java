@@ -77,6 +77,10 @@
     }
 }
 
+/**
+ *      -- Objects
+ * Objecs are instances of classes
+ */
 
 
 
