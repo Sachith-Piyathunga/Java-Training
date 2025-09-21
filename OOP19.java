@@ -62,6 +62,11 @@ import java.util.List;
  * 
  * Customer Class:
  *      - The Customer class has attributes for customer name, email, and purchase history.
+ *      - The constructor initializes with the name, email, and an empty purchase history.
+ * 
+ * 
+ * 
+ * 
  */
 
 
