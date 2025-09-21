@@ -12,7 +12,10 @@ import java.util.List;
 
 // Define the Customer class
 /* public */ class Customer {
-    
+    // Cerate the atributes
+    private String name;
+    private String email;
+    private List<Double> purchaseHistory;
 }
 
 
