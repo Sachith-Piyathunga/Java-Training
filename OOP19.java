@@ -24,6 +24,11 @@ import java.util.List;
         this.email = email;
         this.purchaseHistory = new ArrayList<>();
     }
+
+    // Method to add the purchase
+    public void addPurchase(double amount) {
+        purchaseHistory.add(amount);
+    }
 }
 
 
