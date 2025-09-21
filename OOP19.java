@@ -20,7 +20,9 @@ import java.util.List;
     // Constructor for the customer class
     public Customer(String name, String email) {
         // Inititalize the parameters
-        
+        this.name = name;
+        this.email = email;
+        this.purchaseHistory = new ArrayList<>();
     }
 }
 
