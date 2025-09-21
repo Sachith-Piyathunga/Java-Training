@@ -39,6 +39,11 @@ import java.util.List;
         } 
         return total;
     }
+
+    // Getter method for the name
+    public String getName() {
+        return name;
+    }
 }
 
 
