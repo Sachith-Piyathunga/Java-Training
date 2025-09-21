@@ -10,7 +10,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
+// Define the Customer class
+/* public */ class Customer {
+    
+}
 
 
 
