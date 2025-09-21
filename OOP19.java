@@ -66,7 +66,7 @@ import java.util.List;
  *      - "addPurchase()" method adds a purchase amount to the purchase history.
  *      - "calculateTotalExpenditure()" method calculates the total amount 
  *        spent by summing up the purchase history.
- * 
+ *      - Getters provide access to the customer's name, email, and purchase history.
  * 
  */
 
