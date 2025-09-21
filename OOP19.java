@@ -29,6 +29,11 @@ import java.util.List;
     public void addPurchase(double amount) {
         purchaseHistory.add(amount);
     }
+
+    // Method to calculate the total expenditure
+    public double calculateTotalExpenditure() {
+        double total = 0;
+    }
 }
 
 
