@@ -16,6 +16,12 @@ import java.util.List;
     private String name;
     private String email;
     private List<Double> purchaseHistory;
+
+    // Constructor for the customer class
+    public Customer(String name, String email) {
+        // Inititalize the parameters
+        
+    }
 }
 
 
