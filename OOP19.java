@@ -57,6 +57,13 @@ import java.util.List;
 }
 
 
+/**
+ * Explanation
+ * 
+ * Customer Class:
+ *      - The Customer class has attributes for customer name, email, and purchase history.
+ */
+
 
 
 
