@@ -44,6 +44,11 @@ import java.util.List;
     public String getName() {
         return name;
     }
+
+    // Getter method for the email
+    public String getEmail() {
+        return email;
+    }
 }
 
 
