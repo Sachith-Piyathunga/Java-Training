@@ -64,7 +64,8 @@ import java.util.List;
  *      - The Customer class has attributes for customer name, email, and purchase history.
  *      - The constructor initializes with the name, email, and an empty purchase history.
  *      - "addPurchase()" method adds a purchase amount to the purchase history.
- * 
+ *      - "calculateTotalExpenditure()" method calculates the total amount 
+ *        spent by summing up the purchase history.
  * 
  * 
  */
