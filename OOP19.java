@@ -49,6 +49,11 @@ import java.util.List;
     public String getEmail() {
         return email;
     }
+
+    // Getter method for the purchase history
+    public List<Double> getPurchaseHistory() {
+        return purchaseHistory;
+    }
 }
 
 
