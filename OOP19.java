@@ -33,6 +33,11 @@ import java.util.List;
     // Method to calculate the total expenditure
     public double calculateTotalExpenditure() {
         double total = 0;
+        // Loop through the each purchase
+        for (double purchase : purchaseHistory) {
+            total += purchase;
+        } 
+        return total;
     }
 }
 
