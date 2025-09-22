@@ -123,6 +123,9 @@ class OnlineCourse extends Course {
 public class OOP20 {
     // Defiene the main method
     public static void main(String[] args) {
-        
+        // Create the Course object
+        Course course = new Course("Java Programming", "Dr. Timaios Pliny", 4);
+        course.displayCourseDetails();
+        System.out.println();
     }
 }
