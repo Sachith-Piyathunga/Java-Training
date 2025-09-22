@@ -83,6 +83,11 @@ class OnlineCourse extends Course {
         System.out.println("Platform: " + platform);
         System.out.println("Duration: " + duration + " hours");
     }
+
+    // Method to check if the course is eligible for a certificate
+    public boolean isEligibleForCertificate() {
+        return duration >= 10;
+    }
 }
 
 
