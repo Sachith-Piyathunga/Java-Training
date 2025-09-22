@@ -92,7 +92,9 @@ class LoyalCustomer extends Customer {
     // Override the add purchase method
     @Override
     public void addPurchase(double amount) {
-        
+        double discountAmount = applyDiscount(amount);
+        // Call the superclass method
+        super.addPurchase(discountAmount);
     }
 }
 
