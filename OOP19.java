@@ -128,6 +128,8 @@ class LoyalCustomer extends Customer {
 public class OOP19 {
     // Defiene the main method
     public static void main(String[] args) {
-        
+
+        // Create the customer object
+        Customer customer1 = new Customer("Sachintha", "boru@gmail.com");
     }
 }
