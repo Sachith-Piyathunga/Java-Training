@@ -93,6 +93,11 @@ class OnlineCourse extends Course {
     public String getPlatform() {
         return platform;
     }
+
+    // Getter method for duration
+    public int getDuration() {
+        return duration;
+    }
 }
 
 
