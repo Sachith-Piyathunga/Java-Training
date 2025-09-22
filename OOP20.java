@@ -118,25 +118,11 @@ class OnlineCourse extends Course {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP20.java
+// Main class
 public class OOP20 {
-    
+    // Defiene the main method
+    public static void main(String[] args) {
+        
+    }
 }
