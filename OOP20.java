@@ -88,6 +88,11 @@ class OnlineCourse extends Course {
     public boolean isEligibleForCertificate() {
         return duration >= 10;
     }
+
+    // Getter method for platform
+    public String getPlatform() {
+        return platform;
+    }
 }
 
 
