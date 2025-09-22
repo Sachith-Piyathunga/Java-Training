@@ -30,6 +30,11 @@
         System.out.println("Instructor: " + instructor);
         System.out.println("Credits: " + credits);
     }
+
+    // Getter method for name
+    public String getCourseName() {
+        return courseName;
+    }
 }
 
 
