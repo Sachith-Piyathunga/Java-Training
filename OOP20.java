@@ -60,7 +60,10 @@
  */
 
 
-
+// Define the Online course class
+class OnlineCourse extends Course {
+    
+}
 
 
 
