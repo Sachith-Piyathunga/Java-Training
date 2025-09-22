@@ -78,7 +78,10 @@ class OnlineCourse extends Course {
     // Override the display course details method
     @Override
     public void displayCourseDetails() {
-        
+        // Call the super class method
+        super.displayCourseDetails();
+        System.out.println("Platform: " + platform);
+        System.out.println("Duration: " + duration + " hours");
     }
 }
 
