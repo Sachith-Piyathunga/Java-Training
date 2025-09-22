@@ -153,4 +153,6 @@ public class OOP19 {
  * 
  * Main Class:
  *      - The Main class contains the main method to test the functionality.
+ *      - It creates instances of Customer and LoyalCustomer, adds purchases, 
+ *        and prints their total expenditure.
  */
