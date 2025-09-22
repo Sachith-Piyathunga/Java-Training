@@ -69,10 +69,16 @@ class OnlineCourse extends Course {
 
     // Constructor for the online course class
     public OnlineCourse(String courseName, String instructor, int credits, String platform, int duration) {
-        // Call the super class
+        // Call the super class constructor
         super(courseName, instructor, credits);
         this.platform = platform;
         this.duration = duration;
+    }
+
+    // Override the display course details method
+    @Override
+    public void displayCourseDetails() {
+        
     }
 }
 
