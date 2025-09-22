@@ -137,10 +137,11 @@ public class OOP19 {
         // Print customer details
         System.out.println("Total expenditure for " + customer1.getName() + ": " + customer1.calculateTotalExpenditure());
 
+        // Create the loyal customer object
+        LoyalCustomer loyalCustomer = new LoyalCustomer("Chamod", "boruemail@gmail.com", 10);
 
 
 
 
-        
     }
 }
