@@ -123,34 +123,11 @@ class LoyalCustomer extends Customer {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP19.java
+// Main class
 public class OOP19 {
-    
+    // Defiene the main method
+    public static void main(String[] args) {
+        
+    }
 }
