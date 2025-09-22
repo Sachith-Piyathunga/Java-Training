@@ -131,5 +131,8 @@ public class OOP19 {
 
         // Create the customer object
         Customer customer1 = new Customer("Sachintha", "boru@gmail.com");
+        // Create a regular customer
+        customer1.addPurchase(200);
+        customer1.addPurchase(300);
     }
 }
