@@ -101,6 +101,11 @@ class LoyalCustomer extends Customer {
     public double getDiscountRate() {
         return discountRate;
     }
+
+    // Setter method for the discount rate
+    public void setDiscountRate(double discountRate) {
+        this.discountRate = discountRate;
+    }
 }
 
 
