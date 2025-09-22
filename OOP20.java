@@ -17,7 +17,10 @@
 
     // Constructor for the Course class
     public Course(String courseName, String instructor, int credits) {
-        
+        // Assign the parameters
+        this.courseName = courseName;
+        this.instructor = instructor;
+        this.credits = credits;
     }
 }
 
