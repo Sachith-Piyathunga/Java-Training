@@ -62,7 +62,10 @@
 
 // Define the Online course class
 class OnlineCourse extends Course {
-    
+
+    // Create the atributes
+    private String platform;
+    private int duration;
 }
 
 
