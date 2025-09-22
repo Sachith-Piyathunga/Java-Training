@@ -101,7 +101,15 @@ class OnlineCourse extends Course {
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * OnlineCourse Class:
+ *      - Extends Course.
+ *      - Additional Attributes: platform and duration.
+ *      - Constructor: Initializes the attributes, calling the superclass 
+ *        constructor for the common attributes.
+ */
 
 
 
