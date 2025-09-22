@@ -79,7 +79,9 @@ class LoyalCustomer extends Customer {
 
     // Create the constructor
     public LoyalCustomer(String name, String email, double discountRate) {
-        
+        // Call the super class constructor
+        super(name, email);
+        this.discountRate = discountRate;
     }
 }
 
