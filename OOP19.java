@@ -88,6 +88,12 @@ class LoyalCustomer extends Customer {
     public double applyDiscount(double amount) {
         return amount - (amount * discountRate / 100);
     }
+
+    // Override the add purchase method
+    @Override
+    public void addPurchase(double amount) {
+        
+    }
 }
 
 
