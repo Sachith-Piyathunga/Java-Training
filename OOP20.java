@@ -109,6 +109,12 @@ class OnlineCourse extends Course {
  *      - Additional Attributes: platform and duration.
  *      - Constructor: Initializes the attributes, calling the superclass 
  *        constructor for the common attributes.
+ *      - displayCourseDetails(): Overridden to include additional details 
+ *        specific to online courses.
+ *      - isEligibleForCertificate(): Checks if the course duration is at least 
+ *        10 hours to be eligible for a certificate.
+ *      - Getters: Methods to get the values of the additional attributes.
+ * 
  */
 
 
