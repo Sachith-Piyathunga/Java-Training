@@ -117,7 +117,8 @@ class LoyalCustomer extends Customer {
  *      - The constructor initializes the LoyalCustomer with a discount rate, 
  *        in addition to the attributes inherited from Customer.
  *      - "applyDiscount()" method calculates the discounted amount.
- * 
+ *      - "addPurchase()" method overrides the superclass method to 
+ *        apply the discount before adding the purchase.
  *      - Getter and setter methods provide access to the discount rate.
  */
 
