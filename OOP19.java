@@ -76,6 +76,11 @@ class LoyalCustomer extends Customer {
 
     // Define the atribute
     private double discountRate;
+
+    // Create the constructor
+    public LoyalCustomer(String name, String email, double discountRate) {
+        
+    }
 }
 
 
