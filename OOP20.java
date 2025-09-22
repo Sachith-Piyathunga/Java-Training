@@ -127,5 +127,10 @@ public class OOP20 {
         Course course = new Course("Java Programming", "Dr. Timaios Pliny", 4);
         course.displayCourseDetails();
         System.out.println();
+
+        // Create an onlineCourse object
+        OnlineCourse onlineCourse = new OnlineCourse("Advanced Java", "Prof. Isacco Lyuba", 4, "Google", 10);
+        onlineCourse.displayCourseDetails();
+        System.out.println("Eligible for Certificate: " + onlineCourse.isEligibleForCertificate());
     }
 }
