@@ -7,7 +7,10 @@
  */
 
 
-
+// Define the Course class
+/* public */ class Course {
+    
+}
 
 
 
