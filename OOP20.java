@@ -48,6 +48,18 @@
 }
 
 
+/**
+ * Explanation
+ * 
+ * Course Class:
+ *      - Attributes: courseName, instructor, and credits.
+ *      - Constructor: Initializes the attributes.
+ *      - displayCourseDetails(): Prints the course details.
+ *      - Getters: Methods to get the values of the attributes.
+ * 
+ */
+
+
 
 
 
