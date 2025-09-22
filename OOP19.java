@@ -71,7 +71,10 @@ import java.util.List;
  */
 
 
-
+// Define the LoyalCustomer subclass
+class LoyalCustomer extends Customer {
+    
+}
 
 
 
