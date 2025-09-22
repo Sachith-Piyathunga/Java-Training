@@ -14,6 +14,11 @@
     private String courseName;
     private String instructor;
     private int credits;
+
+    // Constructor for the Course class
+    public Course(String courseName, String instructor, int credits) {
+        
+    }
 }
 
 
