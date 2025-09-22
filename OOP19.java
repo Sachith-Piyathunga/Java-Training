@@ -109,6 +109,12 @@ class LoyalCustomer extends Customer {
 }
 
 
+/**
+ * Explanation
+ * 
+ * LoyalCustomer Subclass:
+ *      - The LoyalCustomer class extends the Customer class and adds a discountRate attribute.
+ */
 
 
 
