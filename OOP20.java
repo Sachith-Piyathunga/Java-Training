@@ -35,6 +35,11 @@
     public String getCourseName() {
         return courseName;
     }
+
+    // Getter method for the instructor
+    public String getInstructor() {
+        return instructor;
+    }
 }
 
 
