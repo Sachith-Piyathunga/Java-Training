@@ -9,7 +9,11 @@
 
 // Define the Course class
 /* public */ class Course {
-    
+
+    // Create the atributes
+    private String courseName;
+    private String instructor;
+    private int credits;
 }
 
 
