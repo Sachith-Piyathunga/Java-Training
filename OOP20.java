@@ -66,6 +66,11 @@ class OnlineCourse extends Course {
     // Create the atributes
     private String platform;
     private int duration;
+
+    // Constructor for the online course class
+    public OnlineCourse(String courseName, String instructor, int credits, String platform, int duration) {
+        
+    }
 }
 
 
