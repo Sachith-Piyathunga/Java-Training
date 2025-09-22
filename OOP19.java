@@ -114,6 +114,8 @@ class LoyalCustomer extends Customer {
  * 
  * LoyalCustomer Subclass:
  *      - The LoyalCustomer class extends the Customer class and adds a discountRate attribute.
+ *      - The constructor initializes the LoyalCustomer with a discount rate, 
+ *        in addition to the attributes inherited from Customer.
  */
 
 
