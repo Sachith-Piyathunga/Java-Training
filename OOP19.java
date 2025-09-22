@@ -134,5 +134,13 @@ public class OOP19 {
         // Create a regular customer
         customer1.addPurchase(200);
         customer1.addPurchase(300);
+        // Print customer details
+        System.out.println("Total expenditure for " + customer1.getName() + ": " + customer1.calculateTotalExpenditure());
+
+
+
+
+
+        
     }
 }
