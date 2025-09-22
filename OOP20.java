@@ -22,6 +22,11 @@
         this.instructor = instructor;
         this.credits = credits;
     }
+
+    // Method to display the course details
+    public void displayCourseDetails() {
+        
+    }
 }
 
 
