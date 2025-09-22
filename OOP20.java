@@ -134,3 +134,13 @@ public class OOP20 {
         System.out.println("Eligible for Certificate: " + onlineCourse.isEligibleForCertificate());
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * Main Class:
+ *      - Creates instances of Course and OnlineCourse and demonstrates the usage 
+ *        of their methods.
+ * 
+ */
