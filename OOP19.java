@@ -96,6 +96,11 @@ class LoyalCustomer extends Customer {
         // Call the superclass method
         super.addPurchase(discountAmount);
     }
+
+    // Getter method for the discount rate
+    public double getDiscountRate() {
+        return discountRate;
+    }
 }
 
 
