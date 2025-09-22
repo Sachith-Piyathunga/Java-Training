@@ -25,7 +25,10 @@
 
     // Method to display the course details
     public void displayCourseDetails() {
-        
+        // Print the details
+        System.out.println("Course Name: " + courseName);
+        System.out.println("Instructor: " + instructor);
+        System.out.println("Credits: " + credits);
     }
 }
 
