@@ -83,6 +83,11 @@ class LoyalCustomer extends Customer {
         super(name, email);
         this.discountRate = discountRate;
     }
+
+    // Method to apply the discount
+    public double applyDiscount(double amount) {
+        return amount - (amount * discountRate / 100);
+    }
 }
 
 
