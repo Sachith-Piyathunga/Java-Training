@@ -142,6 +142,7 @@ public class OOP19 {
         // Create the loyal customer
         loyalCustomer.addPurchase(200);
         loyalCustomer.addPurchase(300);
-
+        // Print the loyal customer details
+        System.out.println("Total expenditure for " + loyalCustomer.getName() + " after discount: " + loyalCustomer.calculateTotalExpenditure());
     }
 }
