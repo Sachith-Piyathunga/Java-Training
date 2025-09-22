@@ -139,9 +139,9 @@ public class OOP19 {
 
         // Create the loyal customer object
         LoyalCustomer loyalCustomer = new LoyalCustomer("Chamod", "boruemail@gmail.com", 10);
-
-
-
+        // Create the loyal customer
+        loyalCustomer.addPurchase(200);
+        loyalCustomer.addPurchase(300);
 
     }
 }
