@@ -146,3 +146,11 @@ public class OOP19 {
         System.out.println("Total expenditure for " + loyalCustomer.getName() + " after discount: " + loyalCustomer.calculateTotalExpenditure());
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * Main Class:
+ *      - The Main class contains the main method to test the functionality.
+ */
