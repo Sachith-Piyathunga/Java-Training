@@ -40,6 +40,11 @@
     public String getInstructor() {
         return instructor;
     }
+
+    // Getter method for the credits
+    public int getCredits() {
+        return credits;
+    }
 }
 
 
