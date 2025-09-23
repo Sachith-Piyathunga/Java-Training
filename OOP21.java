@@ -77,6 +77,11 @@ class WashingMachine extends ElectronicsProduct {
 
     // Create the atribute
     private int warrantyPeriod;
+
+    // Constructor for the WashingMachine subclass
+    public WashingMachine(String productID, String name, double price, int warrantyPeriod) {
+        
+    }
 }
 
 
