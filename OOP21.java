@@ -114,6 +114,8 @@ class WashingMachine extends ElectronicsProduct {
  * WashingMachine Class:
  *      - Extends ElectronicsProduct.
  *      - Additional Attribute: warrantyPeriod.
+ *      - Constructor: Initializes the attributes, calling 
+ *        the superclass constructor for the common attributes.
  */
 
 
