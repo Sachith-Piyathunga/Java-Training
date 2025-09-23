@@ -48,6 +48,12 @@
         // Return the name
         return name;
     }
+
+    // Getter method for the price
+    public double getPrice() {
+        // Return the price
+        return price;
+    }
 }
 
 
