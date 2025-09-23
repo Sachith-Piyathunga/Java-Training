@@ -129,7 +129,8 @@ public class OOP21 {
 
         // Create an ElectronicsProduct object
         ElectronicsProduct product = new ElectronicsProduct("WM123", "Washing Machine", 1.00);
+        // Apply the discount
+        product.applyDiscount(10);
 
-        
     }
 }
