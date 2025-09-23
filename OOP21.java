@@ -108,6 +108,12 @@ class WashingMachine extends ElectronicsProduct {
 }
 
 
+/**
+ * Explanation
+ * 
+ * WashingMachine Class:
+ *      - Extends ElectronicsProduct.
+ */
 
 
 
