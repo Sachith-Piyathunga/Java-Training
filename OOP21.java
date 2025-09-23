@@ -126,6 +126,10 @@ class WashingMachine extends ElectronicsProduct {
 public class OOP21 {
     // Define the main method
     public static void main(String[] args) {
+
+        // Create an ElectronicsProduct object
+        ElectronicsProduct product = new ElectronicsProduct("WM123", "Washing Machine", 1.00);
+
         
     }
 }
