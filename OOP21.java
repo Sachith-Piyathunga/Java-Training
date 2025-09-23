@@ -134,5 +134,7 @@ public class OOP21 {
         // Display the final price with details
         System.out.println("Product ID: " + product.getProductId());
         System.out.println("Name: " + product.getName());
+        System.out.println("Price after discount: $" + product.getFinalPrice());
+        System.out.println();
     }
 }
