@@ -7,6 +7,7 @@
  */
 
 
+ // ElectronicsProduct.java
 // Define the ElectronicsProduct class
 /* public */ class ElectronicsProduct {
 
@@ -70,7 +71,11 @@
  */
 
 
-
+// WashingMachine.java
+// Define the WashingMachine subclass
+class WashingMachine extends ElectronicsProduct {
+    
+}
 
 
 
