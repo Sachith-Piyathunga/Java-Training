@@ -74,7 +74,9 @@
 // WashingMachine.java
 // Define the WashingMachine subclass
 class WashingMachine extends ElectronicsProduct {
-    
+
+    // Create the atribute
+    private int warrantyPeriod;
 }
 
 
