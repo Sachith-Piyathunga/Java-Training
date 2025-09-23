@@ -36,6 +36,12 @@
         // Return the price
         return price;
     }
+
+    // Getter method for the product ID
+    public String getProductId() {
+        // Return the product ID
+        return productID;
+    }
 }
 
 
