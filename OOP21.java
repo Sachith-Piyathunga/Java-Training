@@ -90,6 +90,12 @@ class WashingMachine extends ElectronicsProduct {
         // Add the addtional months
         warrantyPeriod += additionalMonths;
     }
+
+    // Getter method for the warranty period
+    public int getWarrantyPeriod() {
+        // Return the warranty period
+        return warrantyPeriod;
+    }
 }
 
 
