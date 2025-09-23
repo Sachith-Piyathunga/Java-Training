@@ -121,35 +121,11 @@ class WashingMachine extends ElectronicsProduct {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP21.java
+// Main class
 public class OOP21 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
