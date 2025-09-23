@@ -80,7 +80,9 @@ class WashingMachine extends ElectronicsProduct {
 
     // Constructor for the WashingMachine subclass
     public WashingMachine(String productID, String name, double price, int warrantyPeriod) {
-        
+        // Call the superclass constructor
+        super(productID, name, price);
+        this.warrantyPeriod = warrantyPeriod;
     }
 }
 
