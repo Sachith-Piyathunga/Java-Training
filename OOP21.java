@@ -113,6 +113,7 @@ class WashingMachine extends ElectronicsProduct {
  * 
  * WashingMachine Class:
  *      - Extends ElectronicsProduct.
+ *      - Additional Attribute: warrantyPeriod.
  */
 
 
