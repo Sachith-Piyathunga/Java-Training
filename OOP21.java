@@ -64,6 +64,8 @@
  *      - Attributes: productId, name, and price.
  *      - Constructor: Initializes the attributes.
  *      - applyDiscount(double discountPercentage): Applies a discount to the product price.
+ *      - getFinalPrice(): Returns the final price after the discount.
+ *      - Getters: Methods to get the values of the attributes.
  * 
  */
 
