@@ -136,5 +136,11 @@ public class OOP21 {
         System.out.println("Name: " + product.getName());
         System.out.println("Price after discount: $" + product.getFinalPrice());
         System.out.println();
+
+        // Create a washing machine object
+        WashingMachine washingMachine = new WashingMachine("W456", "Front Load Washing Machine", 800.00, 24);
+
+
+        
     }
 }
