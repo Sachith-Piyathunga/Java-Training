@@ -151,6 +151,7 @@ public class OOP21 {
 
         // Extend the warranty period
         washingMachine.extendWarranty(12);
-
+        // Display the details
+        System.out.println("Warranty period after extension: " + washingMachine.getWarrantyPeriod() + " months");
     }
 }
