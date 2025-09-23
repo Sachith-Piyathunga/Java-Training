@@ -96,6 +96,12 @@ class WashingMachine extends ElectronicsProduct {
         // Return the warranty period
         return warrantyPeriod;
     }
+
+    // Override the display method
+    @Override
+    public void applyDiscount(double discountPercentage) {
+        
+    }
 }
 
 
