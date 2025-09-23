@@ -155,3 +155,13 @@ public class OOP21 {
         System.out.println("Warranty period after extension: " + washingMachine.getWarrantyPeriod() + " months");
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * Main Class:
+ *      - Creates instances of ElectronicsProduct and WashingMachine and demonstrates 
+ *        the usage of their methods.
+ * 
+ */
