@@ -63,6 +63,8 @@
  * ElectronicsProduct Class:
  *      - Attributes: productId, name, and price.
  *      - Constructor: Initializes the attributes.
+ *      - applyDiscount(double discountPercentage): Applies a discount to the product price.
+ * 
  */
 
 
