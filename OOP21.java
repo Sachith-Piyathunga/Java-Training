@@ -7,6 +7,11 @@
  */
 
 
+// Define the ElectronicsProduct class
+/* public */ class ElectronicsProduct {
+    
+}
+
 
 
 
