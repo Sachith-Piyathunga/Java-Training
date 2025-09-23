@@ -102,6 +102,8 @@ class WashingMachine extends ElectronicsProduct {
     public void applyDiscount(double discountPercentage) {
         // Call the super class method
         super.applyDiscount(discountPercentage);
+        // Display a message
+        System.out.println("Discount applied to Washing Machine: " + getName());
     }
 }
 
