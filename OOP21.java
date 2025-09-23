@@ -42,6 +42,12 @@
         // Return the product ID
         return productID;
     }
+
+    // Getter method for the name
+    public String getName() {
+        // Return the name
+        return name;
+    }
 }
 
 
