@@ -27,6 +27,8 @@
     public void applyDiscount(double discountPercentage) {
         // Calculate the discount amount
         double discountAmount = price * discountPercentage / 100;
+        // Substract the discount amount
+        price -= discountAmount;
     }
 }
 
