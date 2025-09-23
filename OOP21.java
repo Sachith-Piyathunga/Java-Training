@@ -57,6 +57,12 @@
 }
 
 
+/**
+ * Explanation
+ * 
+ * ElectronicsProduct Class:
+ *      - Attributes: productId, name, and price.
+ */
 
 
 
