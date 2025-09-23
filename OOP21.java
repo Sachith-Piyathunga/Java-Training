@@ -87,7 +87,8 @@ class WashingMachine extends ElectronicsProduct {
 
     // Method to extends the warranty period
     public void extendWarranty(int additionalMonths) {
-        
+        // Add the addtional months
+        warrantyPeriod += additionalMonths;
     }
 }
 
