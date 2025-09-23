@@ -141,7 +141,8 @@ public class OOP21 {
         WashingMachine washingMachine = new WashingMachine("W456", "Front Load Washing Machine", 800.00, 24);
         // Apply the discount
         washingMachine.applyDiscount(15);
-
+        // Display the final price with details
+        System.out.println("Product ID: " + washingMachine.getProductId());
 
     }
 }
