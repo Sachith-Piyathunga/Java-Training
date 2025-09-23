@@ -17,7 +17,10 @@
 
     // Constructor for the ElectronicsProduct class
     public ElectronicsProduct(String productID, String name, double price) {
-        
+        // Assign the parameters
+        this.productID = productID;
+        this.name = name;
+        this.price = price;
     }
 }
 
