@@ -9,7 +9,11 @@
 
 // Define the ElectronicsProduct class
 /* public */ class ElectronicsProduct {
-    
+
+    // Create the atributes
+    private String productID;
+    private String name;
+    private double price;
 }
 
 
