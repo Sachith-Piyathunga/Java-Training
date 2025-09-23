@@ -62,6 +62,7 @@
  * 
  * ElectronicsProduct Class:
  *      - Attributes: productId, name, and price.
+ *      - Constructor: Initializes the attributes.
  */
 
 
