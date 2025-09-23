@@ -116,6 +116,8 @@ class WashingMachine extends ElectronicsProduct {
  *      - Additional Attribute: warrantyPeriod.
  *      - Constructor: Initializes the attributes, calling 
  *        the superclass constructor for the common attributes.
+ *      - extendWarranty(int additionalMonths): Extends the warranty period by the given
+ * 
  */
 
 
