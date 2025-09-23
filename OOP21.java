@@ -146,8 +146,10 @@ public class OOP21 {
         System.out.println("Name: " + washingMachine.getName());
         System.out.println("Price after discount: $" + washingMachine.getFinalPrice());
 
+        // Display the warranty period
+        System.out.println("Warranty period: " + washingMachine.getWarrantyPeriod() + " months");
 
 
-        
+
     }
 }
