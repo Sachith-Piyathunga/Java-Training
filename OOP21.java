@@ -143,6 +143,6 @@ public class OOP21 {
         washingMachine.applyDiscount(15);
         // Display the final price with details
         System.out.println("Product ID: " + washingMachine.getProductId());
-
+        System.out.println("Name: " + washingMachine.getName());
     }
 }
