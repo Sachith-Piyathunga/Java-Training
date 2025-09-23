@@ -139,8 +139,9 @@ public class OOP21 {
 
         // Create a washing machine object
         WashingMachine washingMachine = new WashingMachine("W456", "Front Load Washing Machine", 800.00, 24);
+        // Apply the discount
+        washingMachine.applyDiscount(15);
 
 
-        
     }
 }
