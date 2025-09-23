@@ -131,6 +131,8 @@ public class OOP21 {
         ElectronicsProduct product = new ElectronicsProduct("WM123", "Washing Machine", 1.00);
         // Apply the discount
         product.applyDiscount(10);
-
+        // Display the final price with details
+        System.out.println("Product ID: " + product.getProductId());
+        System.out.println("Name: " + product.getName());
     }
 }
