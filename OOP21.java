@@ -144,5 +144,10 @@ public class OOP21 {
         // Display the final price with details
         System.out.println("Product ID: " + washingMachine.getProductId());
         System.out.println("Name: " + washingMachine.getName());
+        System.out.println("Price after discount: $" + washingMachine.getFinalPrice());
+
+
+
+        
     }
 }
