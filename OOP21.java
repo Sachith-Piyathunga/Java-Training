@@ -100,7 +100,8 @@ class WashingMachine extends ElectronicsProduct {
     // Override the display method
     @Override
     public void applyDiscount(double discountPercentage) {
-        
+        // Call the super class method
+        super.applyDiscount(discountPercentage);
     }
 }
 
