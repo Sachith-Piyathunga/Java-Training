@@ -30,6 +30,12 @@
         // Substract the discount amount
         price -= discountAmount;
     }
+
+    // Method to calculate the final price
+    public double getFinalPrice() {
+        // Return the price
+        return price;
+    }
 }
 
 
