@@ -14,6 +14,11 @@
     private String productID;
     private String name;
     private double price;
+
+    // Constructor for the ElectronicsProduct class
+    public ElectronicsProduct(String productID, String name, double price) {
+        
+    }
 }
 
 
