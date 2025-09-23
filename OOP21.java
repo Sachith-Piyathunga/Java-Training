@@ -22,6 +22,11 @@
         this.name = name;
         this.price = price;
     }
+
+    // Method to apply the discount
+    public void applyDiscount(double discountPercentage) {
+        
+    }
 }
 
 
