@@ -91,7 +91,10 @@ class ResidentialBuilding extends Building {
  * The above Java code defines a "ResidentialBuilding class" that extends the Building 
  * class. It adds two additional attributes: numberOfApartments and rentPerApartment. 
  * The constructor initializes these attributes along with those inherited from 
- * Building.
+ * Building. The method calculateTotalRent() computes the total rent based on the 
+ * number of apartments and the rent per apartment. The displayInfo() method is 
+ * overridden to include details specific to residential buildings, in addition 
+ * to the information from the "Building class".
  * 
  */
 
