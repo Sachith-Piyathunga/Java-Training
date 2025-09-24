@@ -99,7 +99,11 @@ class ResidentialBuilding extends Building {
  */
 
 
-
+// CommercialBuilding.java
+// Defiene the CommercialBuilding subclass
+class CommercialBuilding extends Building {
+    
+}
 
 
 
