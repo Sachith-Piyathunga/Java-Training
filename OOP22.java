@@ -139,7 +139,10 @@ class CommercialBuilding extends Building {
  * The above Java code defines a "CommercialBuilding class" that extends the Building 
  * class. It adds two additional attributes: officeSpace (in square meters) and 
  * rentPerSquareMeter. The constructor initializes these attributes along with 
- * those inherited from Building. 
+ * those inherited from Building. The method calculateTotalRent() computes the total 
+ * rent based on the office space and rent per square meter. The displayInfo() 
+ * method is overridden to include details specific to commercial buildings, in 
+ * addition to the information from the Building class.
  * 
  */
 
