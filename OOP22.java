@@ -179,4 +179,7 @@ public class OOP22 {
  * 
  *      - Creates an instance of ResidentialBuilding with specified attributes.
  *      - Creates an instance of CommercialBuilding with specified attributes.
+ *      - Prints information about the residential building using the displayInfo() method.
+ *      - Prints information about the commercial building using the displayInfo() method.
+ * 
  */
