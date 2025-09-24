@@ -182,4 +182,7 @@ public class OOP22 {
  *      - Prints information about the residential building using the displayInfo() method.
  *      - Prints information about the commercial building using the displayInfo() method.
  * 
+ * The code demonstrates how to instantiate and utilize the "ResidentialBuilding" and 
+ * "CommercialBuilding" classes.
+ * 
  */
