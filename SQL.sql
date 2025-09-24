@@ -21,6 +21,7 @@ CREATE TABLE Orders_1NF (
     ProductName VARCHAR(100)
 );
 
+
 /* 
 Explanation:
 
@@ -38,5 +39,5 @@ Why use 1NF? :
 Real-World Application :
         - In an e-commerce system, storing each product in a separate row 
           simplifies order processing.
-          
+
  */
