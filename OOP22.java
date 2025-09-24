@@ -115,6 +115,11 @@ class CommercialBuilding extends Building {
         this.officeSpace = officeSpace;
         this.rentPerSquareMeter = rentPerSquareMeter;
     }
+
+    // Method to calculate total rent
+    public double calculateTotalRent() {
+        return officeSpace * rentPerSquareMeter;
+    }
 }
 
 
