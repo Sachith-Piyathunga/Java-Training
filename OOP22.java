@@ -39,7 +39,16 @@ class Building {
 }
 
 
-
+/**
+ * Explanation
+ * 
+ * The above Java code defines a "Building class" with three attributes: address, 
+ * numberOfFloors, and totalArea. It includes a constructor to initialize these 
+ * attributes and a method displayInfo() to print the building's information. 
+ * The import statements at the top are prepared for possible use of ArrayList 
+ * and List classes, although they are not utilized in the provided code segment.
+ * 
+ */
 
 
 
