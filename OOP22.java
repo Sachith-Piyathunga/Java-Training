@@ -111,6 +111,9 @@ class CommercialBuilding extends Building {
     public CommercialBuilding(String address, int numberOfFloors, double totalArea, double officeSpace, double rentPerSquareMeter) {
         // Call the super class constructor
         super(address, numberOfFloors, totalArea);
+        // Assign the parameters
+        this.officeSpace = officeSpace;
+        this.rentPerSquareMeter = rentPerSquareMeter;
     }
 }
 
