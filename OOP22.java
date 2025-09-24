@@ -120,6 +120,12 @@ class CommercialBuilding extends Building {
     public double calculateTotalRent() {
         return officeSpace * rentPerSquareMeter;
     }
+
+    // Override the display info method
+    @Override
+    public void displayInfo() {
+        
+    }
 }
 
 
