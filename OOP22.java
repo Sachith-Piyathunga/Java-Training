@@ -76,7 +76,11 @@ class ResidentialBuilding extends Building {
     // Override the displayInfo method
     @Override
     public void displayInfo() {
-        
+        // Print the information
+        super.displayInfo();
+        System.out.println("Number of Apartments: " + numberOfApartments);
+        System.out.println("Rent per Apartment: $" + rentPerApartment);
+        System.out.println("Total Resnt: $" + calculateTotalRent());
     }
 }
 
