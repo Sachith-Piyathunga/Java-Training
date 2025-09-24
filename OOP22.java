@@ -63,6 +63,9 @@ class ResidentialBuilding extends Building {
     public ResidentialBuilding (String address, int numberOfFloors, double totalArea, int numberOfApartments, double rentPerApartment) {
         // Call the super class constructor
         super(address, numberOfFloors, totalArea);
+        // Assign the parameters
+        this.numberOfApartments = numberOfApartments;
+        this.rentPerApartment = rentPerApartment;
     }
 }
 
