@@ -16,6 +16,10 @@ import java.util.List;
 // Defien the Building class
 class Building {
     
+    // Create the attributes
+    String address;
+    int numberOfFloors;
+    double totalArea;
 }
 
 
