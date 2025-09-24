@@ -31,7 +31,10 @@ class Building {
 
     // Method to display basic information
     public void displayInfo() {
-        
+        // Print the information
+        System.out.println("Address: " + address);
+        System.out.println("Number of Floors: " + numberOfFloors);
+        System.out.println("Total Area: " + totalArea + " sq meters");
     }
 }
 
