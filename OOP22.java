@@ -168,3 +168,13 @@ public class OOP22 {
         commercialBuilding.displayInfo();
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * The above Java code defines the Main class to test the "Building", 
+ * "ResidentialBuilding", and "CommercialBuilding" classes. In the main method, 
+ * it performs the following actions:
+ * 
+ */
