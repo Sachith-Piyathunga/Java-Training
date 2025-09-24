@@ -158,7 +158,8 @@ public class OOP22 {
         
         // Create an instance of CommercialBuilding
         CommercialBuilding commercialBuilding = new CommercialBuilding("100 PQR Business Avenue.", 15, 4500.0, 3000.0, 20.0);
-        
-        
+
+        // Display information about the residential building
+        System.out.println("Residential Building Info:");
     }
 }
