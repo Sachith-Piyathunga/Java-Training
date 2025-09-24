@@ -109,7 +109,8 @@ class CommercialBuilding extends Building {
 
     // Constructor for the CommercialBuilding subclass
     public CommercialBuilding(String address, int numberOfFloors, double totalArea, double officeSpace, double rentPerSquareMeter) {
-        
+        // Call the super class constructor
+        super(address, numberOfFloors, totalArea);
     }
 }
 
