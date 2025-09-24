@@ -20,6 +20,11 @@ class Building {
     String address;
     int numberOfFloors;
     double totalArea;
+
+    // Constructor for the Building class
+    public Building(String address, int numberOfFloors, double totalArea) {
+        
+    }
 }
 
 
