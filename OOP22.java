@@ -106,6 +106,11 @@ class CommercialBuilding extends Building {
     // Create the attributes
     double officeSpace;
     double rentPerSquareMeter;
+
+    // Constructor for the CommercialBuilding subclass
+    public CommercialBuilding(String address, int numberOfFloors, double totalArea, double officeSpace, double rentPerSquareMeter) {
+        
+    }
 }
 
 
