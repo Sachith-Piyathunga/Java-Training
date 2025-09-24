@@ -61,7 +61,8 @@ class ResidentialBuilding extends Building {
 
     // Constructor for the ResidentialBuilding subclass
     public ResidentialBuilding (String address, int numberOfFloors, double totalArea, int numberOfApartments, double rentPerApartment) {
-        
+        // Call the super class constructor
+        super(address, numberOfFloors, totalArea);
     }
 }
 
