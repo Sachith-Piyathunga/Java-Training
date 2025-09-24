@@ -67,6 +67,11 @@ class ResidentialBuilding extends Building {
         this.numberOfApartments = numberOfApartments;
         this.rentPerApartment = rentPerApartment;
     }
+
+    // Method to calculate total rent
+    public double calculateTotalRent() {
+        return numberOfApartments * rentPerApartment;
+    }
 }
 
 
