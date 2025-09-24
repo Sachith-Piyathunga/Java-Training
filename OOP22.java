@@ -51,7 +51,11 @@ class Building {
  */
 
 
-
+// ResidentialBuilding.java
+// Define the ResidentialBuilding subclass
+class ResidentialBuilding extends Building {
+    
+}
 
 
 
