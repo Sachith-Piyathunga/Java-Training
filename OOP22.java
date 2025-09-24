@@ -147,21 +147,11 @@ class CommercialBuilding extends Building {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP22.java
+// Main class
 public class OOP22 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
