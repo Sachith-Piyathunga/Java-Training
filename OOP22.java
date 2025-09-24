@@ -152,6 +152,10 @@ class CommercialBuilding extends Building {
 public class OOP22 {
     // Define the main method
     public static void main(String[] args) {
+
+        // Create an instance of ResidentialBuilding
+        ResidentialBuilding residentialBuilding = new ResidentialBuilding("99 ABC Street.", 10, 2500.0, 20, 1000.0);
+        
         
     }
 }
