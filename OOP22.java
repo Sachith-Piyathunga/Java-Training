@@ -102,7 +102,10 @@ class ResidentialBuilding extends Building {
 // CommercialBuilding.java
 // Defiene the CommercialBuilding subclass
 class CommercialBuilding extends Building {
-    
+
+    // Create the attributes
+    double officeSpace;
+    double rentPerSquareMeter;
 }
 
 
