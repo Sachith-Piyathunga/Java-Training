@@ -124,7 +124,11 @@ class CommercialBuilding extends Building {
     // Override the display info method
     @Override
     public void displayInfo() {
-        
+        // Display infomations
+        super.displayInfo();
+        System.out.println("Office Space: " + officeSpace + " sq meters");
+        System.out.println("Rent per Square Meter: $" + rentPerSquareMeter);
+        System.out.println("Total Rent: $" + calculateTotalRent());
     }
 }
 
