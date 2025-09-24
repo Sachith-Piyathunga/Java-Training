@@ -23,6 +23,14 @@ class Building {
 
     // Constructor for the Building class
     public Building(String address, int numberOfFloors, double totalArea) {
+        // Assign the parameters
+        this.address = address;
+        this.numberOfFloors = numberOfFloors;
+        this.totalArea = totalArea;
+    }
+
+    // Method to display basic information
+    public void displayInfo() {
         
     }
 }
