@@ -58,6 +58,11 @@ class ResidentialBuilding extends Building {
     // Create the atributes
     int numberOfApartments;
     double rentPerApartment;
+
+    // Constructor for the ResidentialBuilding subclass
+    public ResidentialBuilding (String address, int numberOfFloors, double totalArea, int numberOfApartments, double rentPerApartment) {
+        
+    }
 }
 
 
