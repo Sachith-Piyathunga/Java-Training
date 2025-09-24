@@ -72,6 +72,12 @@ class ResidentialBuilding extends Building {
     public double calculateTotalRent() {
         return numberOfApartments * rentPerApartment;
     }
+
+    // Override the displayInfo method
+    @Override
+    public void displayInfo() {
+        
+    }
 }
 
 
