@@ -161,5 +161,10 @@ public class OOP22 {
 
         // Display information about the residential building
         System.out.println("Residential Building Info:");
+        residentialBuilding.displayInfo();
+
+        // Display information about the commercial building
+        System.out.println("\nCommercial Building Info:");
+        commercialBuilding.displayInfo();
     }
 }
