@@ -177,4 +177,6 @@ public class OOP22 {
  * "ResidentialBuilding", and "CommercialBuilding" classes. In the main method, 
  * it performs the following actions:
  * 
+ *      - Creates an instance of ResidentialBuilding with specified attributes.
+ *      - Creates an instance of CommercialBuilding with specified attributes.
  */
