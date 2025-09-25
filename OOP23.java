@@ -19,6 +19,11 @@ class Event {
     String eventName;
     Date date;
     String location;
+
+    // Declare the constructor for the event class
+    public Event(String eventName, Date date, String location) {
+        
+    }
 }
 
 
