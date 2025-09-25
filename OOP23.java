@@ -22,7 +22,10 @@ class Event {
 
     // Declare the constructor for the event class
     public Event(String eventName, Date date, String location) {
-        
+        // Assign the parameters
+        this.eventName = eventName;
+        this.date = date;
+        this.location = location;
     }
 }
 
