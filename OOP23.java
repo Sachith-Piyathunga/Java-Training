@@ -66,6 +66,11 @@ class Seminar extends Event {
 
     // Create the attribute
     int numberOfSpeakers;
+
+    // Create the constructor for the Speaker class
+    public Seminar(String eventName, Date date, String location, int numberOfSpeakers) {
+        
+    }
 }
 
 
