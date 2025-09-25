@@ -51,6 +51,10 @@ class Event {
  *      - Attributes: Declares three attributes: eventName (String), date (Date), 
  *        and location (String).
  *      - Constructor: Initializes the eventName, date, and location attributes.
+ *      - displayDetails() method: Prints the event's name, date, and location.
+ *      - isConflict() method: Checks if the current event conflicts with another 
+ *        event by comparing their dates and locations.
+ * 
  */
 
 
