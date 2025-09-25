@@ -94,7 +94,8 @@ class Seminar extends Event {
  *        Seminar class.
  *      - Constructor: Initializes eventName, date, location (inherited from Event), 
  *        and numberOfSpeakers.
- * 
+ *      - Override displayDetails() method: Calls the displayDetails() method of 
+ *        the Event class and adds the number of speakers to the output.
  * 
  */
 
