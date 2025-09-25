@@ -134,6 +134,9 @@ class MusicalPerformance extends Event {
  *        the MusicalPerformance class.
  *      - Constructor: Initializes eventName, date, location (inherited from Event), 
  *        and performers.
+ *      - Override displayDetails() method: Calls the displayDetails() method of the 
+ *        Event class and adds the list of performers to the output, formatted as a 
+ *        comma-separated string using String.join().
  * 
  */
 
