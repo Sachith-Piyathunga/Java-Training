@@ -30,7 +30,10 @@ class Event {
 
     // Method to display the details
     public void displayDetails() {
-        
+        // Print the details
+        System.out.println("Event Name: " + eventName);
+        System.out.println("Date: " + date);
+        System.out.println("Location: " + location);
     }
 }
 
