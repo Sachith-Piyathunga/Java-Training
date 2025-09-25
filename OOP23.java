@@ -12,7 +12,10 @@
 // Import the java Date class
 import java.util.Date;
 
-
+// Define the Event class
+class Event {
+    
+}
 
 
 
