@@ -124,6 +124,15 @@ class MusicalPerformance extends Event {
 }
 
 
+/**
+ * Explanation
+ * 
+ *      - Import statements: Imports the 'List' and 'Date' classes from java.util.
+ *      - Class definition: Defines the MusicalPerformance class, which extends the 
+ *        Event class.
+ * 
+ * 
+ */
 
 
 
