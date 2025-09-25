@@ -113,6 +113,12 @@ class MusicalPerformance extends Event {
         super(eventName, date, location);
         this.performers = performers;
     }
+
+    // Override the display details method
+    @Override
+    public void displayDetails() {
+        
+    }
 }
 
 
