@@ -43,7 +43,12 @@ class Event {
 }
 
 
-
+/**
+ * Explanation
+ * 
+ *      - Import statement: Imports the Date class from java.util.
+ *      - Class definition: Defines the Event class.
+ */
 
 
 
