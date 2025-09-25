@@ -35,6 +35,11 @@ class Event {
         System.out.println("Date: " + date);
         System.out.println("Location: " + location);
     }
+
+    // Method to check the event details right
+    public boolean isConflict(Event otherEvent) {
+        return this.date.equals(otherEvent.date) && this.location.equals(otherEvent.location);
+    }
 }
 
 
