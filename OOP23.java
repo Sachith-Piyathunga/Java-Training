@@ -109,7 +109,9 @@ class MusicalPerformance extends Event {
 
     // Constructor for the MusicalPerformance subclass
     public MusicalPerformance(String eventName, Date date, String location, List performers) {
-
+        // Call the superclass constructor
+        super(eventName, date, location);
+        this.performers = performers;
     }
 }
 
