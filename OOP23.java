@@ -27,6 +27,11 @@ class Event {
         this.date = date;
         this.location = location;
     }
+
+    // Method to display the details
+    public void displayDetails() {
+        
+    }
 }
 
 
