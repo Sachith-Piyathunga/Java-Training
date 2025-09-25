@@ -85,6 +85,12 @@ class Seminar extends Event {
 }
 
 
+/**
+ * Explanation
+ * 
+ *      - Import statements: Imports the 'Date' and 'List' classes from java.util.
+ *      - Class definition: Defines the Seminar class, which extends the Event class.
+ */
 
 
 
