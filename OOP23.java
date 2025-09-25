@@ -63,7 +63,9 @@ class Event {
 // Seminar.java
 // Define the Seminar subclass
 class Seminar extends Event {
-    
+
+    // Create the attribute
+    int numberOfSpeakers;
 }
 
 
