@@ -74,6 +74,12 @@ class Seminar extends Event {
         super(eventName, date, location);
         this.numberOfSpeakers = numberOfSpeakers;
     }
+
+    // Override the display details method
+    @Override
+    public void displayDetails() {
+        
+    }
 }
 
 
