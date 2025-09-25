@@ -90,6 +90,12 @@ class Seminar extends Event {
  * 
  *      - Import statements: Imports the 'Date' and 'List' classes from java.util.
  *      - Class definition: Defines the Seminar class, which extends the Event class.
+ *      - Additional attribute: Declares 'numberOfSpeakers' (int) specific to the 
+ *        Seminar class.
+ *      - Constructor: Initializes eventName, date, location (inherited from Event), 
+ *        and numberOfSpeakers.
+ * 
+ * 
  */
 
 
