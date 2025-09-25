@@ -8,7 +8,9 @@
  */
 
 
-
+// Event.java
+// Import the java Date class
+import java.util.Date;
 
 
 
