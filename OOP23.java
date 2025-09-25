@@ -130,7 +130,10 @@ class MusicalPerformance extends Event {
  *      - Import statements: Imports the 'List' and 'Date' classes from java.util.
  *      - Class definition: Defines the MusicalPerformance class, which extends the 
  *        Event class.
- * 
+ *      - Additional attribute: Declares performers (List of Strings) specific to 
+ *        the MusicalPerformance class.
+ *      - Constructor: Initializes eventName, date, location (inherited from Event), 
+ *        and performers.
  * 
  */
 
