@@ -106,6 +106,11 @@ class MusicalPerformance extends Event {
 
     // Create the attribute
     List performers;
+
+    // Constructor for the MusicalPerformance subclass
+    public MusicalPerformance(String eventName, Date date, String location, List performers) {
+
+    }
 }
 
 
