@@ -9,8 +9,10 @@
 
 
 // Event.java
-// Import the java Date class
+// Import the nessary java class
 import java.util.Date;
+import java.util.List;
+
 
 // Define the Event class
 class Event {
@@ -58,23 +60,11 @@ class Event {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Seminar.java
+// Define the Seminar subclass
+class Seminar extends Event {
+    
+}
 
 
 
