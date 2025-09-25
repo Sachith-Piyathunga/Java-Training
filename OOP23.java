@@ -69,7 +69,10 @@ class Seminar extends Event {
 
     // Create the constructor for the Speaker class
     public Seminar(String eventName, Date date, String location, int numberOfSpeakers) {
-        
+
+        // Create the super class for the constructor
+        super(eventName, date, location);
+        this.numberOfSpeakers = numberOfSpeakers;
     }
 }
 
