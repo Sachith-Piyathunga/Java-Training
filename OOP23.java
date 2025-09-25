@@ -103,7 +103,9 @@ class Seminar extends Event {
 // MusicalPerformance.java
 // Define the MusicalPerformance subclass
 class MusicalPerformance extends Event {
-    
+
+    // Create the attribute
+    List performers;
 }
 
 
