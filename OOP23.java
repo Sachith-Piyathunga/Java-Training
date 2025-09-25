@@ -48,6 +48,9 @@ class Event {
  * 
  *      - Import statement: Imports the Date class from java.util.
  *      - Class definition: Defines the Event class.
+ *      - Attributes: Declares three attributes: eventName (String), date (Date), 
+ *        and location (String).
+ *      - Constructor: Initializes the eventName, date, and location attributes.
  */
 
 
