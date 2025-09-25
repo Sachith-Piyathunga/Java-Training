@@ -14,7 +14,11 @@ import java.util.Date;
 
 // Define the Event class
 class Event {
-    
+
+    // Create the atribute
+    String eventName;
+    Date date;
+    String location;
 }
 
 
