@@ -78,7 +78,9 @@ class Seminar extends Event {
     // Override the display details method
     @Override
     public void displayDetails() {
-        
+        // Call the super class method
+        super.displayDetails();
+        System.out.println("Number of Speakers: " + numberOfSpeakers);
     }
 }
 
