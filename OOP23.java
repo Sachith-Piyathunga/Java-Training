@@ -190,4 +190,7 @@ public class OOP23 {
  * main method: Contains the main logic for testing.
  *      - Import statements: Import the 'ArrayList', 'Date', and 'List' classes from 
  *        java.util.
+ *      - Create a date instance: Initializes a Date object for testing.
+ *      - Create an instance of Seminar: Instantiates a Seminar object with specific 
+ *        attributes.
  */
