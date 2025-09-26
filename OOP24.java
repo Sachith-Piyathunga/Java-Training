@@ -73,7 +73,9 @@ class Dog extends Pet {
 
     // Constructor for the Dog subclass
     public Dog(String name, int age, String favoriteToy) {
-        
+        // Call the  constructor for the superclass
+        super(name, favoriteToy, age);
+        this.favoriteToy = favoriteToy;
     }
 }
 
