@@ -161,9 +161,11 @@ public class OOP23 {
         performers.add("Band B");
         MusicalPerformance concert = new MusicalPerformance("Winter Fest", date, "Convention Center", performers);
 
+        // Display details of the seminar
+        System.out.println("Seminar Details:");
+        seminar.displayDetails();
 
 
-        
 
 
     }
