@@ -178,4 +178,9 @@ public class OOP24 {
  *      - Prints "Dog Details:" to the console.
  *      - Calls dog.displayDetails() to print the dog's details.
  *      - Calls dog.calculateHumanAge() to print the dog's age in human years.
+ * Display details of the bird:
+ *      - Prints "\nBird Details:" to the console.
+ *      - Calls bird.displayDetails() to print the bird's details.
+ *      - Calls bird.calculateHumanAge() to print the bird's age in human years.
+ * 
  */
