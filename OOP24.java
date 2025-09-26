@@ -149,6 +149,9 @@ public class OOP24 {
         // Create an instance of Dog
         Dog dog = new Dog("Bool", 5, "Pollella");
 
+        // Create an instace of Bird
+        Bird bird =  new Bird("Girawa", 32, .7);
         
+
     }
 }
