@@ -126,7 +126,15 @@ class Bird extends Pet {
 }
 
 
-
+/**
+ * Explanation
+ * 
+ *      - Class definition: Defines the Bird class, which extends the Pet class.
+ *      - Additional attribute: Declares wingSpan (double) specific to the Bird class.
+ * 
+ * 
+ * 
+ */
 
 
 
