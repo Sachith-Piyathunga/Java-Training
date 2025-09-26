@@ -10,7 +10,11 @@
 // Pet.java
 // Define the Pet class
 class Pet {
-    
+
+    // Create an attributes
+    String name;
+    String species;
+    int age;
 }
 
 
