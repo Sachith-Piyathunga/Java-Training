@@ -23,6 +23,11 @@ class Pet {
         this.species = species;
         this.age = age;
     }
+
+    // Method to display pet details
+    public void displayDetails() {
+        
+    }
 }
 
 
