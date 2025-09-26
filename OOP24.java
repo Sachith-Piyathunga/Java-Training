@@ -51,6 +51,10 @@ class Pet {
  *      - Class definition: Defines the Pet class.
  *      - Attributes: Declares three attributes: name (String), species (String), 
  *        and age (int).
+ *      - Constructor: Initializes the name, species, and age attributes with 
+ *        provided values.
+ *      - displayDetails() method: Prints the pet's name, species, and age to the 
+ *        console.
  */
 
 
