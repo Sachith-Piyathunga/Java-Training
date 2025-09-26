@@ -186,4 +186,8 @@ public class OOP23 {
  *        java.util.
  *      - Main class definition: Defines the Main class to test the Event, Seminar, 
  *        and 'MusicalPerformance' classes.
+ * 
+ * main method: Contains the main logic for testing.
+ *      - Import statements: Import the 'ArrayList', 'Date', and 'List' classes from 
+ *        java.util.
  */
