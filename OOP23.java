@@ -197,4 +197,7 @@ public class OOP23 {
  *  - Import statements: Import the 'ArrayList', 'Date', and 'List' classes from java.util.
  *      - Initializes a list of performers.
  *      - Instantiates a MusicalPerformance object with specific attributes.
+ *  - Display details of the seminar: Calls the 'displayDetails()' method on the seminar object.
+ *  - Display details of the musical performance: Calls the 'displayDetails()' method 
+ *      on the concert object.
  */
