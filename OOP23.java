@@ -10,6 +10,7 @@
 
 // Event.java
 // Import the nessary java class
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -141,16 +142,11 @@ class MusicalPerformance extends Event {
  */
 
 
-
-
-
-
-
-
-
-
-
-
+// OOP23.java
+// Main class
 public class OOP23 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
