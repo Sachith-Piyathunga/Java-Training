@@ -151,7 +151,10 @@ public class OOP24 {
 
         // Create an instace of Bird
         Bird bird =  new Bird("Girawa", 32, .7);
-        
 
+        // Display details of the dog
+        System.out.println("Dog Details:");
+        dog.displayDetails();
+        System.out.println("Dog's age in human years: " + dog.calculateHumanAge());
     }
 }
