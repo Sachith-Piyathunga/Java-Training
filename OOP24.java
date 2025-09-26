@@ -108,6 +108,11 @@ class Bird extends Pet {
 
     // Create the attribute
     double wingSpan;
+
+    // Constructor for the Bird class
+    public Bird(String name, int age, double wingSpan) {
+        
+    }
 }
 
 
