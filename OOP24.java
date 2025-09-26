@@ -15,6 +15,11 @@ class Pet {
     String name;
     String species;
     int age;
+
+    // Constructor for the pet class
+    public Pet(String name, String species, int age) {
+        
+    }
 }
 
 
