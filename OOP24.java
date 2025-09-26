@@ -70,7 +70,11 @@ class Dog extends Pet {
 
     // Create the attribute
     String favoriteToy;
-    
+
+    // Constructor for the Dog subclass
+    public Dog(String name, int age, String favoriteToy) {
+        
+    }
 }
 
 
