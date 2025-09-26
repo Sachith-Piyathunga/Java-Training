@@ -77,6 +77,12 @@ class Dog extends Pet {
         super(name, favoriteToy, age);
         this.favoriteToy = favoriteToy;
     }
+
+    // Override the display details method
+    @Override
+    public void displayDetails() {
+        
+    }
 }
 
 
