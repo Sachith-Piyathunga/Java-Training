@@ -146,6 +146,9 @@ class Bird extends Pet {
 public class OOP24 {
     // Define the main method
     public static void main(String[] args) {
+        // Create an instance of Dog
+        Dog dog = new Dog("Bool", 5, "Pollella");
+
         
     }
 }
