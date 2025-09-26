@@ -34,7 +34,13 @@ class Pet {
 
     // Method to calcualate the pet age
     public int calculateHumanAge() {
-        
+        // Add the condition
+        if (species.equals("Dog")) {
+            return age * 7;
+        } else {
+            // Assuming bird's age in human years is the same as actual age
+            return age;
+        }
     }
 }
 
