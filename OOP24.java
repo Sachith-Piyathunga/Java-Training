@@ -55,6 +55,12 @@ class Pet {
  *        provided values.
  *      - displayDetails() method: Prints the pet's name, species, and age to the 
  *        console.
+ *  - calculateHumanAge() method:
+ *      - Check if the species is "Dog".
+ *      - If true, returns the pet's age multiplied by 7 (dog's age in human years).
+ *      - Otherwise, returns the actual age (assuming birds' age in human years 
+ *        is the same as their actual age).
+ * 
  */
 
 
