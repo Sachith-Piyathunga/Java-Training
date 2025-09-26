@@ -147,6 +147,9 @@ class MusicalPerformance extends Event {
 public class OOP23 {
     // Define the main method
     public static void main(String[] args) {
-        
+
+        // Create the different dates to avoid conflict
+        // Create a date for testing
+        Date date = new Date();
     }
 }
