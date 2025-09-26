@@ -119,7 +119,9 @@ class Bird extends Pet {
     // Overide the displaydetails method
     @Override
     public void displayDetails() {
-        
+        // Call the super class method
+        super.displayDetails();
+        System.out.println("Wing Span: " + wingSpan + " meters");
     }
 }
 
