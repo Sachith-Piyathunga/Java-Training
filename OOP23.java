@@ -200,4 +200,8 @@ public class OOP23 {
  *  - Display details of the seminar: Calls the 'displayDetails()' method on the seminar object.
  *  - Display details of the musical performance: Calls the 'displayDetails()' method 
  *      on the concert object.
+ *      - Check for scheduling conflict: Uses the isConflict() method to determine if 
+ *        the seminar and concert are scheduled at the same time and location, and 
+ *        prints an appropriate message based on the result.
+ * 
  */
