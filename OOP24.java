@@ -141,22 +141,11 @@ class Bird extends Pet {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP24.java
+// Main class
 public class OOP24 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+        
+    }
 }
