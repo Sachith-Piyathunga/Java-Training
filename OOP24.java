@@ -131,7 +131,9 @@ class Bird extends Pet {
  * 
  *      - Class definition: Defines the Bird class, which extends the Pet class.
  *      - Additional attribute: Declares wingSpan (double) specific to the Bird class.
- * 
+ * Constructor:
+ *      - Initializes the name, age, and wingSpan attributes.
+ *      - Calls the superclass constructor with name, "Bird" (as species), and age.
  * 
  * 
  */
