@@ -163,3 +163,12 @@ public class OOP24 {
         System.out.println("Bird's age in human years: " + bird.calculateHumanAge());
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ *      - Class definition: Defines the Main class to test the Pet, Dog, 
+ *        and Bird classes.
+ *      - main method: Contains the main logic for testing.
+ */
