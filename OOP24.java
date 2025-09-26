@@ -134,7 +134,9 @@ class Bird extends Pet {
  * Constructor:
  *      - Initializes the name, age, and wingSpan attributes.
  *      - Calls the superclass constructor with name, "Bird" (as species), and age.
- * 
+ * Override displayDetails() method:
+ *      - Calls the displayDetails() method of the Pet class.
+ *      - Add a line to print the bird's wing span in meters.
  * 
  */
 
