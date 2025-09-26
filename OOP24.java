@@ -26,7 +26,10 @@ class Pet {
 
     // Method to display pet details
     public void displayDetails() {
-        
+        // Print pet details
+        System.out.println("Name: " + name);
+        System.out.println("Species: " + species);
+        System.out.println("Age: " + age + " years");
     }
 }
 
