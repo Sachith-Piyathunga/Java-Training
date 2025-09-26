@@ -151,5 +151,12 @@ public class OOP23 {
         // Create the different dates to avoid conflict
         // Create a date for testing
         Date date = new Date();
+
+        // Create an instance od seminar
+        Seminar seminar =  new Seminar("Space Conference", date, "Convention Center", 5);
+
+
+
+        
     }
 }
