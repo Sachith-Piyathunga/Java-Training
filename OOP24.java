@@ -18,7 +18,10 @@ class Pet {
 
     // Constructor for the pet class
     public Pet(String name, String species, int age) {
-        
+        // Assign the parameters
+        this.name = name;
+        this.species = species;
+        this.age = age;
     }
 }
 
