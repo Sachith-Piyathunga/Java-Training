@@ -168,7 +168,10 @@ public class OOP24 {
 /**
  * Explanation
  * 
- *      - Class definition: Defines the Main class to test the Pet, Dog, 
- *        and Bird classes.
- *      - main method: Contains the main logic for testing.
+ *  Class definition: Defines the Main class to test the Pet, Dog, and Bird classes.
+ * main method: Contains the main logic for testing.
+ *      - Create an instance of Dog: Instantiates a Dog object named "Cooper" 
+ *        with age 3 and favorite toy "Ball".
+ *      - Create an instance of Bird: Instantiates a Bird object named "Pelican" 
+ *        with age 2 and a wing span of 0.5 meters.
  */
