@@ -174,4 +174,8 @@ public class OOP24 {
  *        with age 3 and favorite toy "Ball".
  *      - Create an instance of Bird: Instantiates a Bird object named "Pelican" 
  *        with age 2 and a wing span of 0.5 meters.
+ * Display details of the dog:
+ *      - Prints "Dog Details:" to the console.
+ *      - Calls dog.displayDetails() to print the dog's details.
+ *      - Calls dog.calculateHumanAge() to print the dog's age in human years.
  */
