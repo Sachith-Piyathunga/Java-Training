@@ -177,3 +177,13 @@ public class OOP23 {
         }
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ *      - Import statements: Import the 'ArrayList', 'Date', and 'List' classes from 
+ *        java.util.
+ *      - Main class definition: Defines the Main class to test the Event, Seminar, 
+ *        and 'MusicalPerformance' classes.
+ */
