@@ -81,7 +81,9 @@ class Dog extends Pet {
     // Override the display details method
     @Override
     public void displayDetails() {
-        
+        // Call the super class method
+        super.displayDetails();
+        System.out.println("Favorite Toy: " + favoriteToy);
     }
 }
 
