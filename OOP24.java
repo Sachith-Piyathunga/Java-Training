@@ -105,7 +105,9 @@ class Dog extends Pet {
 // Bird.java
 // Define the Bord subclass
 class Bird extends Pet {
-    
+
+    // Create the attribute
+    double wingSpan;
 }
 
 
