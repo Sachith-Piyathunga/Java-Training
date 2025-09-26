@@ -169,6 +169,11 @@ public class OOP23 {
         System.out.println("\nMusical Perfoemance Details:");
         concert.displayDetails();
 
-
+        // Check for scheduling conflict
+        if (seminar.isConflict(concert)) {
+            System.out.println("\nConflict detected: Both events are scheduled at the same time and location.");
+        } else {
+            System.out.println("\nNo conflict: Events are scheduled at different times or locations.");
+        }
     }
 }
