@@ -95,8 +95,9 @@ class Dog extends Pet {
  *      - Additional attribute: Declares favoriteToy (String) specific to the Dog class.
  * Constructor:
  *      - Initializes the name, age, and favoriteToy attributes.
- * 
- * 
+ *  - Override displayDetails() method:
+ *      - Calls the displayDetails() method of the Pet class.
+ *      - Adds a line to print the dog's favorite toy.
  * 
  */
 
