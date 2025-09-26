@@ -31,6 +31,11 @@ class Pet {
         System.out.println("Species: " + species);
         System.out.println("Age: " + age + " years");
     }
+
+    // Method to calcualate the pet age
+    public int calculateHumanAge() {
+        
+    }
 }
 
 
