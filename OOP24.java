@@ -64,7 +64,11 @@ class Pet {
  */
 
 
-
+// Dog.java
+// Define the Dog subclass
+class Dog extends Pet {
+    
+}
 
 
 
