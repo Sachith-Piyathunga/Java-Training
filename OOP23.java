@@ -155,8 +155,16 @@ public class OOP23 {
         // Create an instance od seminar
         Seminar seminar =  new Seminar("Space Conference", date, "Convention Center", 5);
 
+        // Create an instance of MusicalPerformance
+        List performers = new ArrayList<>();
+        performers.add("Band A");
+        performers.add("Band B");
+        MusicalPerformance concert = new MusicalPerformance("Winter Fest", date, "Convention Center", performers);
+
 
 
         
+
+
     }
 }
