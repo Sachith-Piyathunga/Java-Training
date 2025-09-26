@@ -115,6 +115,12 @@ class Bird extends Pet {
         super(name, name, age);
         this.wingSpan = wingSpan;
     }
+
+    // Overide the displaydetails method
+    @Override
+    public void displayDetails() {
+        
+    }
 }
 
 
