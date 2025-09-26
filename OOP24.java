@@ -45,7 +45,13 @@ class Pet {
 }
 
 
-
+/**
+ * Explanation
+ * 
+ *      - Class definition: Defines the Pet class.
+ *      - Attributes: Declares three attributes: name (String), species (String), 
+ *        and age (int).
+ */
 
 
 
