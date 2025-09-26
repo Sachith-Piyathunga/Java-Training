@@ -156,5 +156,10 @@ public class OOP24 {
         System.out.println("Dog Details:");
         dog.displayDetails();
         System.out.println("Dog's age in human years: " + dog.calculateHumanAge());
+
+        // Display details of the bird
+        System.out.println("\nBird Deatils:");
+        bird.displayDetails();
+        System.out.println("Bird's age in human years: " + bird.calculateHumanAge());
     }
 }
