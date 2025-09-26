@@ -165,7 +165,9 @@ public class OOP23 {
         System.out.println("Seminar Details:");
         seminar.displayDetails();
 
-
+        // Display details of themusical perfoemance
+        System.out.println("\nMusical Perfoemance Details:");
+        concert.displayDetails();
 
 
     }
