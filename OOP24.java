@@ -111,7 +111,9 @@ class Bird extends Pet {
 
     // Constructor for the Bird class
     public Bird(String name, int age, double wingSpan) {
-        
+        // Call the constructor superclass
+        super(name, name, age);
+        this.wingSpan = wingSpan;
     }
 }
 
