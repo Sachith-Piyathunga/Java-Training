@@ -93,6 +93,11 @@ class Dog extends Pet {
  * 
  *      - Class definition: Defines the Dog class, which extends the Pet class.
  *      - Additional attribute: Declares favoriteToy (String) specific to the Dog class.
+ * Constructor:
+ *      - Initializes the name, age, and favoriteToy attributes.
+ * 
+ * 
+ * 
  */
 
 
