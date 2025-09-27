@@ -8,7 +8,11 @@ CREATE TABLE Employees (
     Salary DECIMAL(10, 2)
 );
 
-
+-- Eliminate transitive dependency by splitting into two tables.
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR(100)
+);
 
 
 
