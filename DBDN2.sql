@@ -34,6 +34,7 @@ Key Components :
 Why use 3NF? :
         - 3NF ensures that non-key attributes depend only on the primary key, reducing redundancy.
         - It prevents anomalies caused by updates or deletions.
-
+Real-World Application :
+        - In HR systems, separating department details avoids duplicating department names.
  */
 
