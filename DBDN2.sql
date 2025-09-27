@@ -31,5 +31,9 @@ Purpose of the Query :
 Key Components :
         - Departments: Stores department details independently.
         - Employees_3NF: Links employees to departments via a foreign key.
+Why use 3NF? :
+        - 3NF ensures that non-key attributes depend only on the primary key, reducing redundancy.
+        - It prevents anomalies caused by updates or deletions.
+
  */
 
