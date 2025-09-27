@@ -14,7 +14,12 @@ CREATE TABLE Departments (
     DepartmentName VARCHAR(100)
 );
 
-
+CREATE TABLE Employees_3NF (
+    EmployeeID INT PRIMARY KEY,
+    DepartmentID INT,
+    Salary DECIMAL(10, 2),
+    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
+);
 
 
 
