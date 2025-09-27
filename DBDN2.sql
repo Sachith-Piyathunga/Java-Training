@@ -22,5 +22,11 @@ CREATE TABLE Employees_3NF (
 );
 
 
+/* 
+Explanation
 
+Purpose of the Query :
+        - The goal is to eliminate transitive dependencies by separating dependent 
+          attributes into their own tables.
+ */
 
