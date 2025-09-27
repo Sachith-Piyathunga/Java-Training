@@ -28,5 +28,8 @@ Explanation
 Purpose of the Query :
         - The goal is to eliminate transitive dependencies by separating dependent 
           attributes into their own tables.
+Key Components :
+        - Departments: Stores department details independently.
+        - Employees_3NF: Links employees to departments via a foreign key.
  */
 
