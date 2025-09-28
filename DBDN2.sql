@@ -38,3 +38,11 @@ Real-World Application :
         - In HR systems, separating department details avoids duplicating department names.
  */
 
+
+/* 
+Notes:
+
+Transitive dependencies occur when a non-key attribute depends on another non-key attribute.
+Use normalization to simplify queries and improve data integrity.
+Important Considerations:
+Avoid over-normalization, which can complicate joins. */
