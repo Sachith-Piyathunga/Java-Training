@@ -34,6 +34,12 @@ Why use BCNF? :
     - It ensures that every determinant is a candidate key.
 Real-World Application :
     - In educational systems, separating instructor details avoids 
-      conflicts in course assignments
+      conflicts in course assignments.
+
+Notes:
+    - BCNF is stricter than 3NF and resolves anomalies not addressed by 3NF.
+    - Identify all candidate keys before applying BCNF.
+
+
  */
 
