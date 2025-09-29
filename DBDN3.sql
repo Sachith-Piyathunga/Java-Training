@@ -39,7 +39,8 @@ Real-World Application :
 Notes:
     - BCNF is stricter than 3NF and resolves anomalies not addressed by 3NF.
     - Identify all candidate keys before applying BCNF.
-
+Important Considerations:
+    - BCNF may require additional tables, increasing complexity.
 
  */
 
