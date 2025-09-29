@@ -21,5 +21,13 @@ CREATE TABLE Courses_BCNF (
     FOREIGN KEY (InstructorID) REFERENCES Instructors(InstructorID)
 );
 
+/* 
+Explanation
 
+Purpose of the Query :
+    The goal is to resolve overlapping candidate keys and achieve BCNF.
+
+
+
+ */
 
