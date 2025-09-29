@@ -25,8 +25,10 @@ CREATE TABLE Courses_BCNF (
 Explanation
 
 Purpose of the Query :
-    The goal is to resolve overlapping candidate keys and achieve BCNF.
-
+    - The goal is to resolve overlapping candidate keys and achieve BCNF.
+Key Components :
+    - Instructors: Stores instructor details independently.
+    - Courses_BCNF: Links courses to instructors via a foreign key
 
 
  */
