@@ -29,7 +29,9 @@ Purpose of the Query :
 Key Components :
     - Instructors: Stores instructor details independently.
     - Courses_BCNF: Links courses to instructors via a foreign key
-
+Why use BCNF? :
+    - BCNF eliminates anomalies caused by overlapping candidate keys.
+    - It ensures that every determinant is a candidate key.
 
  */
 
