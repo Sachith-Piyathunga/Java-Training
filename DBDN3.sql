@@ -7,3 +7,11 @@ CREATE TABLE Courses (
     InstructorName VARCHAR(100),
     PRIMARY KEY (CourseID, InstructorID)
 );
+
+-- Resolve overlapping candidate keys by splitting into two tables.
+CREATE TABLE Instructors (
+    InstructorID INT PRIMARY KEY,
+    InstructorName VARCHAR(100)
+);
+
+
