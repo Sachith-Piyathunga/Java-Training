@@ -32,6 +32,8 @@ Key Components :
 Why use BCNF? :
     - BCNF eliminates anomalies caused by overlapping candidate keys.
     - It ensures that every determinant is a candidate key.
-
+Real-World Application :
+    - In educational systems, separating instructor details avoids 
+      conflicts in course assignments
  */
 
