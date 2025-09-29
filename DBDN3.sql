@@ -1,0 +1,1 @@
+-- Write a SQL query to resolve overlapping candidate keys and achieve BCNF
