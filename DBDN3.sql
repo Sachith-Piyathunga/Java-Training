@@ -14,4 +14,12 @@ CREATE TABLE Instructors (
     InstructorName VARCHAR(100)
 );
 
+CREATE TABLE Courses_BCNF (
+    CourseID INT,
+    InstructorID INT,
+    PRIMARY KEY (CourseID, InstructorID),
+    FOREIGN KEY (InstructorID) REFERENCES Instructors(InstructorID)
+);
+
+
 
