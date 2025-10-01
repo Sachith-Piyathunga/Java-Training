@@ -7,7 +7,11 @@
  * 
  */
 
-
+// GymMembership.java
+// Define the GymMembership class
+/* public */ class GymMembership {
+    
+}
 
 
 
