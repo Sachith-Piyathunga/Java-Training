@@ -11,6 +11,10 @@
 // Define the GymMembership class
 /* public */ class GymMembership {
     
+    // Create attributes
+    String memberName;
+    String memberShipType;
+    int duration;
 }
 
 
