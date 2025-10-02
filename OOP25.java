@@ -15,6 +15,11 @@
     String memberName;
     String memberShipType;
     int duration;
+
+    // Constructor for the GymMembership class
+    public GymMembership(String memberName, String memberShipType, int duration) {
+        
+    }
 }
 
 
