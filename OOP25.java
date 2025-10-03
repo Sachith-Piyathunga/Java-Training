@@ -18,7 +18,10 @@
 
     // Constructor for the GymMembership class
     public GymMembership(String memberName, String memberShipType, int duration) {
-        
+        // Assign the parameters
+        this.memberName = memberName;
+        this.memberShipType = memberShipType;
+        this.duration = duration;
     }
 }
 
