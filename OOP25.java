@@ -119,6 +119,9 @@ class PremiumMembership extends GymMembership {
     public void displayDetails() {
         // Call the supercall method
         super.displayDetails();
+        // Display details
+        System.out.println("Personal Trainer Available: " + (personalTrainerAvailable ? "Yes" : "No"));
+        System.out.println("Spa Access: " + (spaAccess ? "Yes" : "No"))
     }
 } 
 
