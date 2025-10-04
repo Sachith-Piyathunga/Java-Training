@@ -189,7 +189,10 @@ public class OOP25 {
  *      - Instantiates a GymMembership object named basicMember.
  *      - Initializes with memberName as "Njeri Inka", membershipType as "Monthly", 
  *        and duration as 6 months.
- * 
+ *  - Create an instance of PremiumMembership:
+ *      - Instantiates a PremiumMembership object named premiumMember.
+ *      - Initializes with memberName as "Willy Diantha", membershipType as "Annual", 
+ *        duration as 12 months, personalTrainerAvailable as true, and spaAccess as true.
  * 
  * 
  * 
