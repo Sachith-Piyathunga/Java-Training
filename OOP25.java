@@ -102,6 +102,11 @@ class PremiumMembership extends GymMembership {
         // Call superclass method
         double baseFee = super.calculateFees();
         double additionalFee = 0.0;
+
+        // Additional fee per month for personal trainer
+        if (personalTrainerAvailable) {
+            additionalFee += 30.0 * duration;
+        }
     }
 } 
 
