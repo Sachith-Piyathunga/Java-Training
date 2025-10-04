@@ -184,6 +184,11 @@ public class OOP25 {
  *  - Class definition: Defines the Main class to test GymMembership and 
  *    PremiumMembership classes.
  * 
+ *  - main method: Entry point of the program.
+ *      - Create an instance of GymMembership:
+ *      - Instantiates a GymMembership object named basicMember.
+ *      - Initializes with memberName as "Njeri Inka", membershipType as "Monthly", 
+ *        and duration as 6 months.
  * 
  * 
  * 
