@@ -16,3 +16,9 @@ CREATE TABLE Courses (
     CourseID INT PRIMARY KEY,
     CourseName VARCHAR(100)
 );
+
+-- Table two
+CREATE TABLE Instructors (
+    InstructorID INT PRIMARY KEY,
+    InstructorName VARCHAR(100)
+);
