@@ -33,7 +33,10 @@
 
     // Method to chek the special offers
     public String checkSpecialOffers() {
-        
+        // Add the condition
+        if (memberShipType.equalsIgnoreCase("annual")) {
+            return "10% discount on annual membership.";
+        }
     }
 }
 
