@@ -153,20 +153,11 @@ class PremiumMembership extends GymMembership {
  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OOP25.java
+// Main class
 public class OOP25 {
-    
+    // Define the main method
+    public static void main(String[] args) {
+
+    }
 }
