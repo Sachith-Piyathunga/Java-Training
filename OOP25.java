@@ -53,6 +53,13 @@
 }
 
 
+/**
+ * Explanation
+ * 
+ *  - Class definition: Defines the GymMembership class.
+ *  - Attributes: Declares three attributes: memberName (String), membershipType 
+ *     (String), and duration (int, in months).
+*/
 
 
 
