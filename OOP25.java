@@ -86,6 +86,12 @@ class PremiumMembership extends GymMembership {
     // Create attributes
     boolean personalTrainerAvailable;
     boolean spaAccess;
+
+    // Constructor for PremiumMembership class
+    public PremiumMembership(String memberName, String membershipType, int duration, 
+    boolean personalTrainerAvailable, boolean spaAccess) {
+        
+    }
 } 
 
 
