@@ -41,5 +41,10 @@ Explanation
     - Key Components :
         - Courses and Instructors: Store course and instructor details independently.
         - StudentCourses: Links students to courses and instructors
+    - Why Resolve Anomalies? :
+        - Update anomalies occur when changes to one attribute require updates 
+        in multiple rows.
+        - Normalization ensures consistency and reduces maintenance effort.
+
 
  */
