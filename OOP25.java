@@ -30,6 +30,11 @@
         double baseFee = 50.0;
         return baseFee * duration;
     }
+
+    // Method to chek the special offers
+    public String checkSpecialOffers() {
+        
+    }
 }
 
 
