@@ -111,6 +111,13 @@ class PremiumMembership extends GymMembership {
         if (spaAccess) {
             additionalFee += 20.0 * duration;
         }
+        return baseFee + additionalFee;
+    }
+
+    // Override the display etails method
+    @Override
+    public void displayDetails() {
+        
     }
 } 
 
