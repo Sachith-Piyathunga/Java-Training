@@ -82,7 +82,10 @@
 // PremiumMembership.java
 // Define the PremiumMembership subclass
 class PremiumMembership extends GymMembership {
-    
+
+    // Create attributes
+    boolean personalTrainerAvailable;
+    boolean spaAccess;
 } 
 
 
