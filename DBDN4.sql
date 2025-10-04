@@ -1,0 +1,3 @@
+/* 
+Write a SQL query to identify and resolve update anomalies in a poorly designed table.
+ */
