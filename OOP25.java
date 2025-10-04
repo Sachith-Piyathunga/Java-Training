@@ -26,7 +26,9 @@
 
     // Method to calculate the membership fees
     public double calculateFees() {
-        
+        // Fees per month
+        double baseFee = 50.0;
+        return baseFee * duration;
     }
 }
 
