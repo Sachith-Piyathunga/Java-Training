@@ -145,6 +145,10 @@ class PremiumMembership extends GymMembership {
  *      - Adds additional fees if personalTrainerAvailable and spaAccess are true.
  *      - Returns the total fee, which includes the base fee and any additional fees.
  * 
+ *  - Override displayDetails() method:
+ *      - Calls the superclass method super.displayDetails() to display base details.
+ *      - Adds lines to print whether a personal trainer is available and whether 
+ *        spa access is available.
  * 
  */
 
