@@ -171,5 +171,8 @@ public class OOP25 {
         System.out.println("Basic Membership Details:");
         basicMember.displayDetails();
 
+        // Display details of the premium membership
+        System.out.println("\nPremium Membership Details:");
+        premiumMember.displayDetails();
     }
 }
