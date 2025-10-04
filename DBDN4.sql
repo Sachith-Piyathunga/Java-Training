@@ -7,5 +7,12 @@ CREATE TABLE Students (
     StudentID INT,
     CourseID INT,
     CourseName VARCHAR(100),
-    InstructorName VARCHAR(100),
+    InstructorName VARCHAR(100)
+);
+
+-- Resolve anomalies by normalizing into three tables
+-- Table one
+CREATE TABLE Courses (
+    CourseID INT PRIMARY KEY,
+    CourseName VARCHAR(100)
 );
