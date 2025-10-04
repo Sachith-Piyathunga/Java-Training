@@ -95,6 +95,12 @@ class PremiumMembership extends GymMembership {
         this.personalTrainerAvailable = personalTrainerAvailable;
         this.spaAccess = spaAccess;
     }
+
+    // Override the calculateFees method
+    @Override
+    public double calculateFees() {
+        
+    }
 } 
 
 
