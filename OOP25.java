@@ -176,3 +176,16 @@ public class OOP25 {
         premiumMember.displayDetails();
     }
 }
+
+
+/*
+ * Explanation
+ * 
+ *  - Class definition: Defines the Main class to test GymMembership and 
+ *    PremiumMembership classes.
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
