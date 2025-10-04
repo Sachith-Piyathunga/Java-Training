@@ -107,6 +107,10 @@ class PremiumMembership extends GymMembership {
         if (personalTrainerAvailable) {
             additionalFee += 30.0 * duration;
         }
+        // Additional fee per month for spa access
+        if (spaAccess) {
+            additionalFee += 20.0 * duration;
+        }
     }
 } 
 
