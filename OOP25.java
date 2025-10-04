@@ -196,6 +196,9 @@ public class OOP25 {
  *  - Display details of the basic membership:
  *      - Prints "Basic Membership Details:" to the console.
  *      - Calls basicMember.displayDetails() to print the details of the basic membership.
- * 
+ *  - Display details of the premium membership:
+ *      - Prints "\nPremium Membership Details:" to the console.
+ *      - Calls premiumMember.displayDetails() to print the details of the 
+ *        premium membership.
  * 
  */
