@@ -79,7 +79,11 @@
 */
 
 
-
+// PremiumMembership.java
+// Define the PremiumMembership subclass
+class PremiumMembership extends GymMembership {
+    
+} 
 
 
 
