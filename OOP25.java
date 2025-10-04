@@ -99,7 +99,9 @@ class PremiumMembership extends GymMembership {
     // Override the calculateFees method
     @Override
     public double calculateFees() {
-        
+        // Call superclass method
+        double baseFee = super.calculateFees();
+        double additionalFee = 0.0;
     }
 } 
 
