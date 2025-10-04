@@ -59,6 +59,15 @@
  *  - Class definition: Defines the GymMembership class.
  *  - Attributes: Declares three attributes: memberName (String), membershipType 
  *     (String), and duration (int, in months).
+ *  - Constructor: Initializes the memberName, membershipType, and duration 
+ *    attributes with provided values.
+ * 
+ *  - calculateFees() method:
+ *      - Sets a base fee of $50.0 per month.
+ *      - Returns the total fee by multiplying the base fee with the duration in months.
+ * 
+ * 
+ * 
 */
 
 
