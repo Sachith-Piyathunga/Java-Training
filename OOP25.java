@@ -36,6 +36,8 @@
         // Add the condition
         if (memberShipType.equalsIgnoreCase("annual")) {
             return "10% discount on annual membership.";
+        } else {
+            return "No special offers available.";
         }
     }
 }
