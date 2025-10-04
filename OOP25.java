@@ -40,6 +40,11 @@
             return "No special offers available.";
         }
     }
+
+    // Method to display the membership details
+    public void displayDetails() {
+        
+    }
 }
 
 
