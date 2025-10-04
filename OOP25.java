@@ -126,7 +126,18 @@ class PremiumMembership extends GymMembership {
 } 
 
 
-
+/**
+ * Explanation
+ * 
+ *  - Class definition: Defines the PremiumMembership class, which extends 
+ *    GymMembership.
+ *  - Additional attributes: Declares two attributes: personalTrainerAvailable 
+ *    (boolean) and spaAccess (boolean).
+ * 
+ * 
+ * 
+ * 
+ */
 
 
 
