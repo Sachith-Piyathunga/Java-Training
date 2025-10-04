@@ -23,6 +23,11 @@
         this.memberShipType = memberShipType;
         this.duration = duration;
     }
+
+    // Method to calculate the membership fees
+    public double calculateFees() {
+        
+    }
 }
 
 
