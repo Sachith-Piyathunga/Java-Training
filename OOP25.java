@@ -159,5 +159,11 @@ public class OOP25 {
     // Define the main method
     public static void main(String[] args) {
 
+        // Create the instance of GymMembership 
+        GymMembership basicMember = new GymMembership("Sachintha", "Monthly", 6);
+
+
+
+        
     }
 }
