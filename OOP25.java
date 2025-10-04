@@ -43,7 +43,12 @@
 
     // Method to display the membership details
     public void displayDetails() {
-        
+        // Print the details
+        System.out.println("Member Name: " + memberName);
+        System.out.println("Membership Type: " + memberShipType);
+        System.out.println("Duration: " + duration + " months");
+        System.out.println("Membership Fees: $" + calculateFees());
+        System.out.println("Special Offers: " + checkSpecialOffers());
     }
 }
 
