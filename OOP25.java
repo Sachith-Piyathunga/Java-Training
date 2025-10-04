@@ -117,7 +117,8 @@ class PremiumMembership extends GymMembership {
     // Override the display etails method
     @Override
     public void displayDetails() {
-        
+        // Call the supercall method
+        super.displayDetails();
     }
 } 
 
