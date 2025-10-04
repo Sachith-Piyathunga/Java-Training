@@ -38,6 +38,8 @@ Explanation
 
     - Purpose of the Query :
         - The goal is to identify update anomalies and resolve them through normalization.
-
+    - Key Components :
+        - Courses and Instructors: Store course and instructor details independently.
+        - StudentCourses: Links students to courses and instructors
 
  */
