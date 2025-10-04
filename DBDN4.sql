@@ -22,3 +22,13 @@ CREATE TABLE Instructors (
     InstructorID INT PRIMARY KEY,
     InstructorName VARCHAR(100)
 );
+
+-- Table three
+CREATE TABLE StudentCousrses (
+    StudentID INT,
+    CourseID INT,
+    InstructorID INT,
+    PRIMARY KEY (StudentID, CourseID),
+    FOREIGN KEY (CourseID) REFERENCES Courses(CourseID),
+    FOREIGN KEY (InstructorID) REFERENCES Instructors(InstructorID)
+);
