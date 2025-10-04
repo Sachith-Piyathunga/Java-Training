@@ -159,11 +159,15 @@ public class OOP25 {
     // Define the main method
     public static void main(String[] args) {
 
-        // Create the instance of GymMembership 
-        GymMembership basicMember = new GymMembership("Sachintha", "Monthly", 6);
+        // Create an instance of GymMembership 
+        GymMembership basicMember = new GymMembership("Sachintha", 
+        "Monthly", 6);
+
+        // Create an instance of PremiumMembership
+        PremiumMembership premiumMember = new PremiumMembership("Willy 
+        Diantha", "Annual", 12, true, true);
 
 
 
-        
     }
 }
