@@ -134,7 +134,11 @@ class PremiumMembership extends GymMembership {
  *  - Additional attributes: Declares two attributes: personalTrainerAvailable 
  *    (boolean) and spaAccess (boolean).
  * 
- * 
+ *  - Constructor:
+ *      - Calls the superclass (GymMembership) constructor to initialize memberName, 
+ *        membershipType, and duration.
+ *      - Initializes personalTrainerAvailable and spaAccess attributes with provided 
+ *        values.
  * 
  * 
  */
