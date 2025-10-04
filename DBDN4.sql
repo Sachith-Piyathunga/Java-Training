@@ -45,6 +45,8 @@ Explanation
         - Update anomalies occur when changes to one attribute require updates 
         in multiple rows.
         - Normalization ensures consistency and reduces maintenance effort.
-
+    - Real-World Application :
+        - In school databases, normalization avoids inconsistencies in course and 
+        instructor data.
 
  */
