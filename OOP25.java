@@ -66,6 +66,10 @@
  *      - Sets a base fee of $50.0 per month.
  *      - Returns the total fee by multiplying the base fee with the duration in months.
  * 
+ *  - checkSpecialOffers() method:
+ *      - Checks if the membership type is "annual".
+ *      - Returns a 10% discount message if the membership type is annual.
+ *      - Returns a message indicating no special offers for other membership types.
  * 
  * 
 */
