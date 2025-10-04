@@ -140,6 +140,11 @@ class PremiumMembership extends GymMembership {
  *      - Initializes personalTrainerAvailable and spaAccess attributes with provided 
  *        values.
  * 
+ *  - Override calculateFees() method:
+ *      - Calls the superclass method super.calculateFees() to get the base fee.
+ *      - Adds additional fees if personalTrainerAvailable and spaAccess are true.
+ *      - Returns the total fee, which includes the base fee and any additional fees.
+ * 
  * 
  */
 
