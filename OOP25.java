@@ -164,10 +164,12 @@ public class OOP25 {
         "Monthly", 6);
 
         // Create an instance of PremiumMembership
-        PremiumMembership premiumMember = new PremiumMembership("Willy 
-        Diantha", "Annual", 12, true, true);
+        PremiumMembership premiumMember = new PremiumMembership("Chamod", 
+        "Annual", 12, true, true);
 
-
+        // Display details of the basic membership
+        System.out.println("Basic Membership Details:");
+        basicMember.displayDetails();
 
     }
 }
