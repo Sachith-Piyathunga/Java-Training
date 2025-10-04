@@ -71,6 +71,10 @@
  *      - Returns a 10% discount message if the membership type is annual.
  *      - Returns a message indicating no special offers for other membership types.
  * 
+ *  - displayDetails() method:
+ *      - Prints the member's name, membership type, and duration.
+ *      - Calls calculateFees() to print the total membership fees.
+ *      - Calls checkSpecialOffers() to print any applicable special offers.
  * 
 */
 
