@@ -32,3 +32,12 @@ CREATE TABLE StudentCousrses (
     FOREIGN KEY (CourseID) REFERENCES Courses(CourseID),
     FOREIGN KEY (InstructorID) REFERENCES Instructors(InstructorID)
 );
+
+/* 
+Explanation
+
+    - Purpose of the Query :
+        - The goal is to identify update anomalies and resolve them through normalization.
+
+
+ */
