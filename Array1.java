@@ -40,7 +40,8 @@ public class Array1 {
         // Print the original string array
         System.out.println("Original string array : " + Arrays.toString(myArray2));
         
-
+        // Sort the string array in alphabetical order
+        Arrays.sort(myArray2);
 
 
     }
