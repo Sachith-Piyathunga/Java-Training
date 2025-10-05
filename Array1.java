@@ -29,15 +29,17 @@ public class Array1 {
         };
 
         // Print the original numeric array
-        System.out.println("Original numeric array : " + Arrays.toString(my_array1));
+        System.out.println("Original numeric array : " + Arrays.toString(myArray1));
         
         // Sort the numeric array in ascending order
         Arrays.sort(myArray1);
 
         // Print the sorted numeric array
-        System.out.println("Sorted numeric array : " + Arrays.toString(my_array1));
+        System.out.println("Sorted numeric array : " + Arrays.toString(myArray1));
         
-
+        // Print the original string array
+        System.out.println("Original string array : " + Arrays.toString(myArray2));
+        
 
 
 
