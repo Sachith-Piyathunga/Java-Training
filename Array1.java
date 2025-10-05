@@ -27,5 +27,12 @@ public class Array1 {
             "C Programming",
             "C++"
         };
+
+        // Print the original numeric array
+        System.out.println("Original numeric array : " + Arrays.toString(my_array1));
+        
+
+
+        
     }
 }
