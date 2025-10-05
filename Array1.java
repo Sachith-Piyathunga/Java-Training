@@ -31,8 +31,9 @@ public class Array1 {
         // Print the original numeric array
         System.out.println("Original numeric array : " + Arrays.toString(my_array1));
         
+        // Sort the numeric array in ascending order
+        Arrays.sort(myArray1);
 
 
-        
     }
 }
