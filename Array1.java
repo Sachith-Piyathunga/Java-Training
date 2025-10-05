@@ -34,6 +34,12 @@ public class Array1 {
         // Sort the numeric array in ascending order
         Arrays.sort(myArray1);
 
+        // Print the sorted numeric array
+        System.out.println("Sorted numeric array : " + Arrays.toString(my_array1));
+        
+
+
+
 
     }
 }
