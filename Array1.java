@@ -43,6 +43,7 @@ public class Array1 {
         // Sort the string array in alphabetical order
         Arrays.sort(myArray2);
 
-
+        // Print the sorted string array
+        System.out.println("Sorted string array : " + Arrays.toString(myArray2));
     }
 }
