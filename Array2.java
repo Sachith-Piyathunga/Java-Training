@@ -9,5 +9,12 @@ public class Array2 {
 
         // Declare the variable
         int sum = 0;
+
+        // Create the for loop
+        for (int i : myArray)
+            // Add each element to the sum
+            sum += i;
+        // Print the sum of array
+        System.out.println("The sum is " + sum);
     }
 }
