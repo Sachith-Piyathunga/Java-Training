@@ -11,8 +11,11 @@ public class Array3 {
         // Use nested loop
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
-                
+                // Print the elements
+                System.out.println("%2d ", a[i][j]);
             }
+            // Move the next line
+            System.out.println();
         }
     }
 }
