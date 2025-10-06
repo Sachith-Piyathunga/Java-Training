@@ -16,5 +16,11 @@ public class Array4 {
             // Add the current elemet of the sum
             sum = sum + numbers[i];
         }
+
+        // Crete the variable
+        double average = sum / numbers.length;
+
+        // Print the calculate average
+        System.out.println("Average value of the array elements is : " + average);
     }
 }
