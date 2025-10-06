@@ -7,6 +7,7 @@ public class Array2 {
         // Declare the integer array
         int myArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-
+        // Declare the variable
+        int sum = 0;
     }
 }
