@@ -21,4 +21,6 @@ public class test {
 public static String reverse(String in) {
     if (in == null)
     throw new IllegalArgumentException("Null is not valid input");
+
+    StringBuilder out = new StringBuilder();
 }
