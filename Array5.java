@@ -3,9 +3,9 @@
 
 // Define the Array5 class
 public class Array5 {
-    // Define the main method
-    public static void main(String[] args) {
 
+    // Define the method
+    public static boolean contains(int[] arr, int item) {
         // Iterate through the each eliment
         for (int n : arr) {
             // Add the condition
@@ -14,5 +14,13 @@ public class Array5 {
                 return true;
             }
         }
+        // If no match is found, return 'false'
+        return false;
+    }
+
+    // Define the main method
+    public static void main(String[] args) {
+
+        
     }
 }
