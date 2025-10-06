@@ -17,3 +17,7 @@ public class test {
         System.out.println(reverse(str));
     }
 }
+
+public static String reverse(String in) {
+    
+}
