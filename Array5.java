@@ -29,5 +29,8 @@ public class Array5 {
 
         // Check if the integer array 'my_array1' contains the item 2013
         System.out.println(contains(myArray, 2013));
+
+        // Check if the integer array 'my_array1' contains the item 2015
+        System.out.println(contains(myArray, 2015));
     }
 }
