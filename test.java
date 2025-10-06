@@ -23,4 +23,6 @@ public static String reverse(String in) {
     throw new IllegalArgumentException("Null is not valid input");
 
     StringBuilder out = new StringBuilder();
+
+    char[] chars = in.toCharArray();
 }
