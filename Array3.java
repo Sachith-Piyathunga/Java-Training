@@ -7,5 +7,12 @@ public class Array3 {
 
         // Declare the two dimentional aray
         int[][] a = new int[10][10];
+
+        // Use nested loop
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                
+            }
+        }
     }
 }
