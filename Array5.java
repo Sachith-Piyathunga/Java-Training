@@ -34,3 +34,22 @@ public class Array5 {
         System.out.println(contains(myArray, 2015));
     }
 }
+
+
+
+/**
+ * 
+ * Class and Method Setup
+
+public class Array5 {
+
+Declares a class named Array5.
+
+public static boolean contains(int[] arr, int item) {
+
+Defines a static method called contains that:
+
+Accepts an integer array arr and an integer item to search for.
+
+Returns true if the item is found, otherwise returns false.
+ */
