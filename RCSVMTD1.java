@@ -8,7 +8,10 @@ public class RCSVMTD1 {
 
     // Define the satatic method
     public static int calculateFactorial(int n) {
-        
+        // Add the base case
+        if (n == 0) {
+            return 1;
+        }
     }
 
     // Define the main method
