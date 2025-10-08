@@ -20,5 +20,7 @@ public class RCSVMTD2 {
     public static void main(String[] args) {
         int number = 7;
         int sum = calculateSum(number);
+
+        System.out.println("Sum of numbers from 1 to " + number + " is: " + sum);
     }
 }
