@@ -19,6 +19,8 @@ public class RCSVMTD1 {
 
     // Define the main method
     public static void main(String[] args) {
-
+        int number = 7;
+        int factorial = calculateFactorial(number);
+        
     }
 }
