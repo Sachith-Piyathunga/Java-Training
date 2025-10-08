@@ -33,4 +33,6 @@ public class RCSVMTD2 {
  * two cases:
  *      - Base case: If the input n is 0, it returns 0. This is the termination 
  *        condition for recursion.
+ *      - Recursive case: For any positive n, it adds n with the sum of the 
+ *        numbers from 1 to n-1. This step is repeated recursively until n reaches 0
  */
