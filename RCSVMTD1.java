@@ -25,5 +25,7 @@ public class RCSVMTD1 {
         System.out.println("Factorial of " + number + " is: " + factorial);
         number = 12;
         factorial = calculateFactorial(number);
+
+        System.out.println("\nFactorial of " + number + " is: " + factorial);
     }
 }
