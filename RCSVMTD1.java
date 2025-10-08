@@ -36,5 +36,7 @@ public class RCSVMTD1 {
  * 
  * First, I define a class "FactorialCalculator" that includes a recursive method 
  * calculateFactorial() to calculate the factorial of a given positive integer n.
- * 
+ * The calculateFactorial() method follows the recursive factorial definition. It has two cases:
+ *      - Base case: If n is 0, it returns 1. This is the termination condition for 
+ *        recursion.
  */
