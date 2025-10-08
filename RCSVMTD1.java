@@ -39,4 +39,7 @@ public class RCSVMTD1 {
  * The calculateFactorial() method follows the recursive factorial definition. It has two cases:
  *      - Base case: If n is 0, it returns 1. This is the termination condition for 
  *        recursion.
+ *      - Recursive case: For any positive n, it multiplies n with the factorial of 
+ *        n-1. This step is repeated recursively until n reaches 0.
+ * In the main() method, we demonstrate the calculateFactorial() method by calculating the factorial of 7 and 12.
  */
