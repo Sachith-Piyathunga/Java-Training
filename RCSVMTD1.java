@@ -12,6 +12,9 @@ public class RCSVMTD1 {
         if (n == 0) {
             return 1;
         }
+
+        // Add the recursive case
+        return n * calculateFactorial(n - 1);
     }
 
     // Define the main method
