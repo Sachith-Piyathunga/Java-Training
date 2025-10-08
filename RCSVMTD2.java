@@ -18,6 +18,7 @@ public class RCSVMTD2 {
 
     // Define the main method
     public static void main(String[] args) {
-
+        int number = 7;
+        int sum = calculateSum(number);
     }
 }
