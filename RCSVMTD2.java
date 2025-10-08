@@ -6,9 +6,13 @@
 // Main class
 public class RCSVMTD2 {
     
+    // Define the static method
+    public static int calculateSum(int n) {
+        
+    }
 
     // Define the main method
     public static void main(String[] args) {
-        
+
     }
 }
