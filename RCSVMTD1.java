@@ -5,8 +5,14 @@
 // RCSVMTD1.java
 // Main class
 public class RCSVMTD1 {
+
+    // Define the satatic method
+    public static int calculateFactorial(int n) {
+        
+    }
+
     // Define the main method
     public static void main(String[] args) {
-        
+
     }
 }
