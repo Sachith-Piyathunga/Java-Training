@@ -12,6 +12,8 @@ public class RCSVMTD2 {
         if (n == 0) {
             return 0;
         }
+        // Add the recursive case
+        return n + calculateSum(n - 1);
     }
 
     // Define the main method
