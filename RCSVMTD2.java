@@ -35,4 +35,7 @@ public class RCSVMTD2 {
  *        condition for recursion.
  *      - Recursive case: For any positive n, it adds n with the sum of the 
  *        numbers from 1 to n-1. This step is repeated recursively until n reaches 0
+ * In the main() method, we demonstrate the calculateSum() method by calculating the 
+ * sum of numbers from 1 to 7 and printing the result.
+ * 
  */
