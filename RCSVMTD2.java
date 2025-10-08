@@ -24,3 +24,13 @@ public class RCSVMTD2 {
         System.out.println("Sum of numbers from 1 to " + number + " is: " + sum);
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * The calculateSum() method follows the recursive definition of the sum. It has 
+ * two cases:
+ *      - Base case: If the input n is 0, it returns 0. This is the termination 
+ *        condition for recursion.
+ */
