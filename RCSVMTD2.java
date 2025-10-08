@@ -8,7 +8,10 @@ public class RCSVMTD2 {
     
     // Define the static method
     public static int calculateSum(int n) {
-        
+        // Add the base case
+        if (n == 0) {
+            return 0;
+        }
     }
 
     // Define the main method
