@@ -29,3 +29,12 @@ public class RCSVMTD1 {
         System.out.println("\nFactorial of " + number + " is: " + factorial);
     }
 }
+
+
+/**
+ * Explanation
+ * 
+ * First, I define a class "FactorialCalculator" that includes a recursive method 
+ * calculateFactorial() to calculate the factorial of a given positive integer n.
+ * 
+ */
