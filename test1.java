@@ -8,5 +8,8 @@ public class test1 {
     public static void main(String[] args) {
         // Get the input
         String input = "Hello";
+        // Add the condition
+        StringBuilder reversed = new StringBuilder(input).reverse();
+        System.out.println("Reversed: " + reversed);
     }
 }
