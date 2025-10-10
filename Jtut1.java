@@ -81,6 +81,7 @@
  *      -- Objects
  * Objecs are instances of classes
  * Allocated on the heap by using the new operator
+ * Constructor is invoked automaticaly on the new object
  * 
  */
 
