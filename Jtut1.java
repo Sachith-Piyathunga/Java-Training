@@ -85,6 +85,12 @@
  * 
  */
 
+// Eg: -
+Counter conter = new Counter();
+
+Date date1 =  new Date(2016, 9, 23);
+
+Person person = new Person("Sachintha", "Piyathunga");
 
 
 
