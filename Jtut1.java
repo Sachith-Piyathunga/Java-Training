@@ -101,6 +101,12 @@ Person person = new Person("Sachintha", "Piyathunga");
  */
 
 
+/**
+ *      -- Java Types
+ *  - Primitive 
+ *      * Logical - boolean
+ */
+
 
 
 
