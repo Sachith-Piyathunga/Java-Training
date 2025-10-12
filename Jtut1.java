@@ -106,6 +106,7 @@ Person person = new Person("Sachintha", "Piyathunga");
  *  - Primitive 
  *      * Logical - boolean
  *      * Textual - char
+ *      * Integral -  byte, sort, int , long
  */
 
 
