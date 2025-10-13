@@ -117,6 +117,10 @@ Person person = new Person("Sachintha", "Piyathunga");
  *  ● Literals: 
  *      − true
  *      − false
+ * 
+ * Examples: 
+ *      − boolean cont = true;
+ *      − boolean exists = false
  */
 
 
