@@ -111,7 +111,13 @@ Person person = new Person("Sachintha", "Piyathunga");
  * 
  */
 
-
+/**
+ *      -- Logical - boolean
+ * Characteristics: 
+ *  ● Literals: 
+ *      − true
+ *      − false
+ */
 
 
 
