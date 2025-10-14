@@ -124,6 +124,17 @@ Person person = new Person("Sachintha", "Piyathunga");
  */
 
 
+/**
+ *      -- Textual - char
+ * − Characteristics: ●
+ * ● Represents a 16-bit Unicode character 
+ * ● Literals are enclosed in single quotes (' ') 
+ * ● Examples: − 'a'
+ *      − '\t' - the letter a - the TAB character
+ *      − '\u0041' - a specific Unicode character ('A') represented by
+ *        4 hexadecimal digits
+ * 
+ */
 
 
 
