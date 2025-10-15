@@ -137,6 +137,18 @@ Person person = new Person("Sachintha", "Piyathunga");
  */
 
 
+/**
+ *      -- Integral – byte, short, int, and long
+ * 
+ * − Characteristics: 
+ *      ● Use three forms:  
+ *          − Decimal: 67 
+ *          − Octal: 0103 (1x8^2+0x8^1+3x8^0) 
+ *          − Hexadecimal: 0x43
+ * ● Default type of literal is int.
+ * ● Literals with the L or l suffix are of type long.
+ * 
+ */
 
 
 
