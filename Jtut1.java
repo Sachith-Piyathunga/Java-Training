@@ -151,6 +151,21 @@ Person person = new Person("Sachintha", "Piyathunga");
  */
 
 
+/**
+ *      -- Floating Point – float and double
+ * 
+ * − Characteristics: ●
+ *      Size: 
+ *          − float – 4 byte 
+ *          − double – 8 byte
+ * ● Decimal point 
+ *      − 9.65 (double, default type) 
+ *      − 9.65f or 9.65F (float) 
+ *      − 9.65D or 9.65d (double)
+ * ● Exponential notation
+ *      − 3.41E20 (double)
+ * 
+ */
 
 
 
