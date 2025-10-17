@@ -175,7 +175,9 @@ Person person = new Person("Sachintha", "Piyathunga");
  */
 
 class MyDate {
-    
+    private int day = 26;
+    private int month = 9;
+    private int year = 2016;
 }
 
 
