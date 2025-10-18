@@ -183,6 +183,12 @@ Person person = new Person("Sachintha", "Piyathunga");
 
  */
 
+ /**
+  * The this Reference ● Usage: − To resolve ambiguity between instance variables and parameters
+− To pass the current object as a parameter to
+another method
+  */
+
 
 
 
