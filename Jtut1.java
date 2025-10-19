@@ -196,6 +196,12 @@ public class MyDate {
     private int month = 9; 
     private int year = 2016;
     
+    public MyDate( int day, int month, int year) { 
+        this.day = day; 
+        this.month = month; 
+        this.year = year;
+    }
+
     
 }
 
