@@ -208,7 +208,11 @@ public class MyDate {
         this.year = date.year;
     }
 
-    
+    public MyDate creteNextDate(int moreDays) { 
+        MyDate newDate = new MyDate(this); 
+        //... add moreDays 
+        return newDate;
+    }
 }
 
 
