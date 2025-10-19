@@ -202,6 +202,12 @@ public class MyDate {
         this.year = year;
     }
 
+    public MyDate( MyDate date) { 
+        this.day = date.day; 
+        this.month = date.month; 
+        this.year = date.year;
+    }
+
     
 }
 
