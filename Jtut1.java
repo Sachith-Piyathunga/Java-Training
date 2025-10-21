@@ -227,6 +227,9 @@ public class PassTest {
         from = to;
     }
     
+    public void changeObjectDay(MyDate date, int day) { 
+        date.setDay( day );
+    }
 }
 
 
