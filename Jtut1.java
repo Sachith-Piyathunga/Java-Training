@@ -223,6 +223,10 @@ public class PassTest {
         ++value;
     }
     
+    public void changeReference(MyDate from, MyDate to) { 
+        from = to;
+    }
+    
 }
 
 
