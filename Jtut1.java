@@ -250,7 +250,14 @@ System.out.println( oneDate.getYear() );
 pt.changeObjectDay( oneDate, 12 );
 System.out.println( oneDate.getDay() );
 
-
+/**
+ * Output
+ * 
+ *      100
+ *      2016
+ *      12
+ * 
+ */
 
 
 
