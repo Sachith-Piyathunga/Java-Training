@@ -236,7 +236,19 @@ public class PassTest {
 // Parameter Passing / Pass-by-Value
 
 
+PassTest pt = new PassTest(); 
+int x = 100; 
+pt.changePrimitive( x ); 
+System.out.println( x );
 
+MyDate oneDate = new MyDate(3, 10, 2016); 
+MyDate anotherDate = new MyDate(3, 10, 2001);
+
+pt.changeReference( oneDate, anotherDate ); 
+System.out.println( oneDate.getYear() );
+
+pt.changeObjectDay( oneDate, 12 );
+System.out.println( oneDate.getDay() );
 
 
 
