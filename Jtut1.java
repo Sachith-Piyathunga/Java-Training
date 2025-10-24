@@ -266,9 +266,16 @@ System.out.println( oneDate.getDay() );
  *  ● Usage: 
  *      − To resolve ambiguity between instance variables and parameters
  *      − To pass the current object as a parameter to another method
+ * 
  */
 
+/* public */ class MyThis {
+    private int day = 56;
+    private int month = 03;
+    private int year = 2020;
 
+    
+}
 
 
 
