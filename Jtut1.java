@@ -265,6 +265,7 @@ System.out.println( oneDate.getDay() );
  * 
  *  ● Usage: 
  *      − To resolve ambiguity between instance variables and parameters
+ *      − To pass the current object as a parameter to another method
  */
 
 
