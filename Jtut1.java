@@ -280,7 +280,11 @@ System.out.println( oneDate.getDay() );
         this.year = year;
     }
 
-    
+    public MyThis (MyThis date) {
+        this.day = date.day;
+        this.month = date.month;
+        this.year = date.year;
+    }    
 }
 
 
