@@ -274,6 +274,12 @@ System.out.println( oneDate.getDay() );
     private int month = 03;
     private int year = 2020;
 
+    public MyThis(int day, int month, int year) {
+        this.day = day;
+        this.month = month;
+        this.year = year;
+    }
+
     
 }
 
