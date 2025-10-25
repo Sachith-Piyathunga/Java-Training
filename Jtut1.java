@@ -285,6 +285,10 @@ System.out.println( oneDate.getDay() );
         this.month = date.month;
         this.year = date.year;
     }    
+
+    public static void main(String[] args) {
+        
+    }
 }
 
 
