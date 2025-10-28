@@ -301,6 +301,10 @@ System.out.println( oneDate.getDay() );
  *      ○ SavingsAccount
  *  ● Methods
  *      ○ getAmount()
+ *  ● Variables 
+ *      ○ amount
+ *  ● Constants
+ *      ○ NUM_CLIENTS
  * 
  */
 
