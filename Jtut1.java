@@ -292,16 +292,10 @@ System.out.println( oneDate.getDay() );
 }
 
 
-// Nothing to commit today
-
-
-// Nothing to commit today
-// Nothing to commit today
-// Nothing to commit today
-// Nothing to commit today
-// Nothing to commit today
-// Nothing to commit today
-
+/**
+ *      -- Java Coding Conventions
+ * 
+ */
 
 
 
