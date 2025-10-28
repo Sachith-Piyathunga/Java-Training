@@ -295,6 +295,13 @@ System.out.println( oneDate.getDay() );
 /**
  *      -- Java Coding Conventions
  * 
+ *  ● Packages 
+ *      ○ ro.sapientia.ms
+ *  ● Classes 
+ *      ○ SavingsAccount
+ *  ● Methods
+ *      ○ getAmount()
+ * 
  */
 
 
