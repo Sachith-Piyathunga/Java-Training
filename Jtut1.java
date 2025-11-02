@@ -309,7 +309,11 @@ System.out.println( oneDate.getDay() );
  */
 
 
-// Nothig to comment today
+/**
+ *      -- Variables and Scope
+ * 
+ * 
+ */
 
 
 
