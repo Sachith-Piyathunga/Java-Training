@@ -312,6 +312,12 @@ System.out.println( oneDate.getDay() );
 /**
  *      -- Variables and Scope
  * 
+ *  ● Local variables are 
+ *      ● Defined inside a method 
+ *      ● Created when the method is executed and destroyed when the method is exited
+ * 
+ * 
+ * 
  * 
  */
 
